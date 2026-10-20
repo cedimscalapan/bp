@@ -1,0 +1,71 @@
+{
+  "mode": "Built-in imagegen, transparent sprites",
+  "note": "Illustrative game keepsakes based on destination scenery and shared provincial produce; not exclusive municipal emblems.",
+  "mapping": {
+    "calapan_city": "coconut",
+    "baco": "mountain",
+    "bansud": "banana",
+    "bongabong": "fish",
+    "bulalacao": "shell",
+    "gloria": "coconut",
+    "mansalay": "shell",
+    "naujan": "fish",
+    "pinamalayan": "pot",
+    "pola": "shell",
+    "puerto_galera": "shell",
+    "roxas": "coconut",
+    "san_teodoro": "fish",
+    "socorro": "fish",
+    "victoria": "fruit_basket"
+  },
+  "assets": [
+    {
+      "id": "fruit_basket",
+      "name": "Tropical fruit basket",
+      "prompt": "Create one isolated mobile game pickup sprite: small woven basket holding a pineapple, ripe mango, green coconut and red rambutan. Polished family-friendly 3D storybook style matching BuddyPort travel game, rounded readable silhouette, saturated natural colors, soft studio light, three-quarter view. Single centered object filling 75 percent of square canvas. Transparent background, no ground plane, no cast shadow outside object, no words, labels, borders, watermark, scenery or festival decoration. Readable at 50 pixels.",
+      "asset": "mindoro_item_fruit_basket.webp"
+    },
+    {
+      "id": "banana",
+      "name": "Bananas",
+      "prompt": "Create one isolated mobile game pickup sprite: compact bunch of three ripe golden yellow bananas with green stem. Polished family-friendly 3D storybook style matching BuddyPort travel game, rounded readable silhouette, saturated natural colors, soft studio light, three-quarter view. Single centered object filling 75 percent of square canvas. Transparent background, no ground plane, no cast shadow outside object, no words, labels, borders, watermark, scenery or festival decoration. Readable at 50 pixels.",
+      "asset": "mindoro_item_banana.webp"
+    },
+    {
+      "id": "coconut",
+      "name": "Coconut",
+      "prompt": "Create one isolated mobile game pickup sprite: one green coconut with a cut white top and one half coconut showing white flesh. Polished family-friendly 3D storybook style matching BuddyPort travel game, rounded readable silhouette, saturated natural colors, soft studio light, three-quarter view. Single centered object filling 75 percent of square canvas. Transparent background, no ground plane, no cast shadow outside object, no words, labels, borders, watermark, scenery or festival decoration. Readable at 50 pixels.",
+      "asset": "mindoro_item_coconut.webp"
+    },
+    {
+      "id": "shell",
+      "name": "Seashell",
+      "prompt": "Create one isolated mobile game pickup sprite: one beautiful cream and peach scallop seashell, no pearl. Polished family-friendly 3D storybook style matching BuddyPort travel game, rounded readable silhouette, saturated natural colors, soft studio light, three-quarter view. Single centered object filling 75 percent of square canvas. Transparent background, no ground plane, no cast shadow outside object, no words, labels, borders, watermark, scenery or festival decoration. Readable at 50 pixels.",
+      "asset": "mindoro_item_shell.webp"
+    },
+    {
+      "id": "fish",
+      "name": "Freshwater fish",
+      "prompt": "Create one isolated mobile game pickup sprite: one friendly stylized silver-blue freshwater fish with rounded fins, no face exaggeration. Polished family-friendly 3D storybook style matching BuddyPort travel game, rounded readable silhouette, saturated natural colors, soft studio light, three-quarter view. Single centered object filling 75 percent of square canvas. Transparent background, no ground plane, no cast shadow outside object, no words, labels, borders, watermark, scenery or festival decoration. Readable at 50 pixels.",
+      "asset": "mindoro_item_fish.webp"
+    },
+    {
+      "id": "mountain",
+      "name": "Mountain keepsake",
+      "prompt": "Create one isolated mobile game pickup sprite: small collectible miniature broad green forested mountain with layered ridge and pale rock scars, freestanding souvenir. Polished family-friendly 3D storybook style matching BuddyPort travel game, rounded readable silhouette, saturated natural colors, soft studio light, three-quarter view. Single centered object filling 75 percent of square canvas. Transparent background, no ground plane, no cast shadow outside object, no words, labels, borders, watermark, scenery or festival decoration. Readable at 50 pixels.",
+      "asset": "mindoro_item_mountain.webp"
+    },
+    {
+      "id": "pot",
+      "name": "Clay pot",
+      "prompt": "Create one isolated mobile game pickup sprite: one round warm brown earthenware cooking pot with open flared rim, no rainbow. Polished family-friendly 3D storybook style matching BuddyPort travel game, rounded readable silhouette, saturated natural colors, soft studio light, three-quarter view. Single centered object filling 75 percent of square canvas. Transparent background, no ground plane, no cast shadow outside object, no words, labels, borders, watermark, scenery or festival decoration. Readable at 50 pixels.",
+      "asset": "mindoro_item_pot.webp"
+    },
+    {
+      "id": "driftwood",
+      "name": "Driftwood obstacle",
+      "prompt": "Create one isolated mobile game pickup sprite: one weathered gray-brown driftwood log with two short broken branch stubs, clearly obstacle shaped. Polished family-friendly 3D storybook style matching BuddyPort travel game, rounded readable silhouette, saturated natural colors, soft studio light, three-quarter view. Single centered object filling 75 percent of square canvas. Transparent background, no ground plane, no cast shadow outside object, no words, labels, borders, watermark, scenery or festival decoration. Readable at 50 pixels.",
+      "asset": "mindoro_item_driftwood.webp"
+    }
+  ]
+}

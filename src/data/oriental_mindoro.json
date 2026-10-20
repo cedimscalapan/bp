@@ -8,8 +8,8 @@
       "name": "Calapan City",
       "group": "Oriental Mindoro",
       "image": "destination_oriental_mindoro_calapan_city.webp",
-      "signatureItemName": "Travel Keepsakes",
-      "signatureImage": "collectible_star.webp",
+      "signatureItemName": "Coconut",
+      "signatureImage": "mindoro_item_coconut.webp",
       "levels": [
         {
           "id": "oriental_mindoro_calapan_city_level_1",
@@ -140,8 +140,8 @@
       "name": "Baco",
       "group": "Oriental Mindoro",
       "image": "destination_oriental_mindoro_baco.webp",
-      "signatureItemName": "Travel Keepsakes",
-      "signatureImage": "collectible_star.webp",
+      "signatureItemName": "Mountain keepsake",
+      "signatureImage": "mindoro_item_mountain.webp",
       "levels": [
         {
           "id": "oriental_mindoro_baco_level_1",
@@ -270,8 +270,8 @@
       "name": "Bansud",
       "group": "Oriental Mindoro",
       "image": "destination_oriental_mindoro_bansud.webp",
-      "signatureItemName": "Travel Keepsakes",
-      "signatureImage": "collectible_star.webp",
+      "signatureItemName": "Bananas",
+      "signatureImage": "mindoro_item_banana.webp",
       "levels": [
         {
           "id": "oriental_mindoro_bansud_level_1",
@@ -400,8 +400,8 @@
       "name": "Bongabong",
       "group": "Oriental Mindoro",
       "image": "destination_oriental_mindoro_bongabong.webp",
-      "signatureItemName": "Travel Keepsakes",
-      "signatureImage": "collectible_star.webp",
+      "signatureItemName": "Freshwater fish",
+      "signatureImage": "mindoro_item_fish.webp",
       "levels": [
         {
           "id": "oriental_mindoro_bongabong_level_1",
@@ -530,8 +530,8 @@
       "name": "Bulalacao",
       "group": "Oriental Mindoro",
       "image": "destination_oriental_mindoro_bulalacao.webp",
-      "signatureItemName": "Travel Keepsakes",
-      "signatureImage": "collectible_star.webp",
+      "signatureItemName": "Seashell",
+      "signatureImage": "mindoro_item_shell.webp",
       "levels": [
         {
           "id": "oriental_mindoro_bulalacao_level_1",
@@ -660,8 +660,8 @@
       "name": "Gloria",
       "group": "Oriental Mindoro",
       "image": "destination_oriental_mindoro_gloria.webp",
-      "signatureItemName": "Travel Keepsakes",
-      "signatureImage": "collectible_star.webp",
+      "signatureItemName": "Coconut",
+      "signatureImage": "mindoro_item_coconut.webp",
       "levels": [
         {
           "id": "oriental_mindoro_gloria_level_1",
@@ -790,8 +790,8 @@
       "name": "Mansalay",
       "group": "Oriental Mindoro",
       "image": "destination_oriental_mindoro_mansalay.webp",
-      "signatureItemName": "Travel Keepsakes",
-      "signatureImage": "collectible_star.webp",
+      "signatureItemName": "Seashell",
+      "signatureImage": "mindoro_item_shell.webp",
       "levels": [
         {
           "id": "oriental_mindoro_mansalay_level_1",
@@ -920,8 +920,8 @@
       "name": "Naujan",
       "group": "Oriental Mindoro",
       "image": "destination_oriental_mindoro_naujan.webp",
-      "signatureItemName": "Travel Keepsakes",
-      "signatureImage": "collectible_star.webp",
+      "signatureItemName": "Freshwater fish",
+      "signatureImage": "mindoro_item_fish.webp",
       "levels": [
         {
           "id": "oriental_mindoro_naujan_level_1",
@@ -1050,8 +1050,8 @@
       "name": "Pinamalayan",
       "group": "Oriental Mindoro",
       "image": "destination_oriental_mindoro_pinamalayan.webp",
-      "signatureItemName": "Travel Keepsakes",
-      "signatureImage": "collectible_star.webp",
+      "signatureItemName": "Clay pot",
+      "signatureImage": "mindoro_item_pot.webp",
       "levels": [
         {
           "id": "oriental_mindoro_pinamalayan_level_1",
@@ -1180,8 +1180,8 @@
       "name": "Pola",
       "group": "Oriental Mindoro",
       "image": "destination_oriental_mindoro_pola.webp",
-      "signatureItemName": "Travel Keepsakes",
-      "signatureImage": "collectible_star.webp",
+      "signatureItemName": "Seashell",
+      "signatureImage": "mindoro_item_shell.webp",
       "levels": [
         {
           "id": "oriental_mindoro_pola_level_1",
@@ -1310,8 +1310,8 @@
       "name": "Puerto Galera",
       "group": "Oriental Mindoro",
       "image": "destination_oriental_mindoro_puerto_galera.webp",
-      "signatureItemName": "Travel Keepsakes",
-      "signatureImage": "collectible_star.webp",
+      "signatureItemName": "Seashell",
+      "signatureImage": "mindoro_item_shell.webp",
       "levels": [
         {
           "id": "oriental_mindoro_puerto_galera_level_1",
@@ -1442,8 +1442,8 @@
       "name": "Roxas",
       "group": "Oriental Mindoro",
       "image": "destination_oriental_mindoro_roxas.webp",
-      "signatureItemName": "Travel Keepsakes",
-      "signatureImage": "collectible_star.webp",
+      "signatureItemName": "Coconut",
+      "signatureImage": "mindoro_item_coconut.webp",
       "levels": [
         {
           "id": "oriental_mindoro_roxas_level_1",
@@ -1572,8 +1572,8 @@
       "name": "San Teodoro",
       "group": "Oriental Mindoro",
       "image": "destination_oriental_mindoro_san_teodoro.webp",
-      "signatureItemName": "Travel Keepsakes",
-      "signatureImage": "collectible_star.webp",
+      "signatureItemName": "Freshwater fish",
+      "signatureImage": "mindoro_item_fish.webp",
       "levels": [
         {
           "id": "oriental_mindoro_san_teodoro_level_1",
@@ -1702,8 +1702,8 @@
       "name": "Socorro",
       "group": "Oriental Mindoro",
       "image": "destination_oriental_mindoro_socorro.webp",
-      "signatureItemName": "Travel Keepsakes",
-      "signatureImage": "collectible_star.webp",
+      "signatureItemName": "Freshwater fish",
+      "signatureImage": "mindoro_item_fish.webp",
       "levels": [
         {
           "id": "oriental_mindoro_socorro_level_1",
@@ -1832,8 +1832,8 @@
       "name": "Victoria",
       "group": "Oriental Mindoro",
       "image": "destination_oriental_mindoro_victoria.webp",
-      "signatureItemName": "Travel Keepsakes",
-      "signatureImage": "collectible_star.webp",
+      "signatureItemName": "Tropical fruit basket",
+      "signatureImage": "mindoro_item_fruit_basket.webp",
       "levels": [
         {
           "id": "oriental_mindoro_victoria_level_1",
