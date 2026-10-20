@@ -22,3 +22,11 @@ Sulat → Conversion rules cites the Unicode Consortium chart and Richard Ishida
 The local Sulat converter mechanically renders Latin input with modern conventions: inherent a, shared i/e and u/o signs, standalone/consecutive vowels, ng and pamudpod for consonants without a following vowel. It preserves spaces, digits and ordinary punctuation and rejects unsupported characters rather than guessing substitutions. It does not translate a language or infer pronunciation; output cannot uniquely recover e/i or o/u. Input is capped at 40 characters so trace targets remain within existing backup bounds.
 
 Script tracing now includes vowel combinations and consonant endings. Starter words can be traced in script or Latin spelling. A Sulat result can be sent directly to tracing and saved as a drawing in existing local progress. Existing saved drawings and backups remain compatible. Library links require internet; bundled rules, glyphs, conversion and practice work offline.
+
+## Guided learning redesign (1.9.0)
+
+The learning home now starts with characters, then 70 Tagalog spelling exercises. Each word can be practiced one script character at a time or as a whole word. Base character lessons show vowel forms and pamudpod, with a recognition question nearby. Conversion and saved work are secondary destinations; source reading is expandable.
+
+Tracing opens full screen with a flexible drawing area, large guide, guide visibility toggle, undo, clear, save and save-and-next. New drawings store a square 600×600 logical space; existing 600×280 drawings are restored at their original dimensions. Both formats share the latest-12 local drawing limit and export/restore support.
+
+See LEARNING-UX-REVIEW.md for the critique, changes and validation.

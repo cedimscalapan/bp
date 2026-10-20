@@ -8,6 +8,15 @@ KaPamana is an Oriental Mindoro travel and heritage adventure built with Ionic R
 
 KaPamana includes introductions for all 15 Oriental Mindoro locations, 75 sourced post-run discoveries, themed keepsakes, visitor-care prompts and badges, optional recaps, and persistent heritage journals. See [implementation details](docs/HERITAGE-IMPLEMENTATION.md) and the original [culture plan](docs/CULTURE-INTEGRATION-PLAN.md). Existing package/save identifiers stay stable for upgrade compatibility.
 
+## Version 1.9.0
+
+- Guided learning home replaces six competing learning tabs.
+- Full-screen finger/stylus tracing, one script character at a time, vowel forms and recognition checks.
+- 70 Tagalog spelling exercises, with per-character and whole-word tracing. These are clearly separate from Hanunó’o language translations.
+- Older saved drawings still load; new square drawings keep their full drawing area.
+
+See the [learning UX review](docs/LEARNING-UX-REVIEW.md).
+
 ## Version 1.8.0
 
 - New KaPamana logo across the header, welcome, passport, launcher icons and splash.
@@ -45,7 +54,7 @@ npm run android:open
 
 Build from Android Studio, or run `gradlew.bat assembleDebug` in `android/`. The Android debug APK compiled successfully in GitHub Actions using JDK 21 / Android SDK 35. No physical-device test has been performed.
 
-Release package ID remains `com.tristanrosales.buddyport`. Debug APKs use `com.tristanrosales.buddyport.ionic` and display as **KaPamana**, so they install alongside the original app. Development version is `1.8.0`, version code 14. An upgrade over the original app requires its original signing key; do not uninstall an existing copy without preserving its progress. Existing Kotlin save migration is not implemented.
+Release package ID remains `com.tristanrosales.buddyport`. Debug APKs use `com.tristanrosales.buddyport.ionic` and display as **KaPamana**, so they install alongside the original app. Development version is `1.9.0`, version code 15. An upgrade over the original app requires its original signing key; do not uninstall an existing copy without preserving its progress. Existing Kotlin save migration is not implemented.
 
 ## Download an APK from GitHub
 

@@ -6,7 +6,8 @@ test('onboarding, shop, missions, runner, pause and persistence',async({page})=>
  await page.getByRole('button',{name:'Let’s explore'}).click();
  await expect(page.getByRole('heading',{name:'Welcome aboard, Avery.'})).toBeVisible();
  await page.getByRole('button',{name:'Claim 150 coins'}).click();
- await page.getByRole('button',{name:'Shop',exact:true}).click();
+ await page.getByRole('button',{name:'Companions',exact:true}).click();
+ await page.getByRole('button',{name:'Visit Buddy Shop',exact:true}).click();
  await expect(page.getByRole('heading',{name:'Pack a little possibility.'})).toBeVisible();
  await page.getByRole('button',{name:'Explore',exact:true}).click();
  await page.getByRole('button',{name:/01 \/ Oriental Mindoro/}).click();

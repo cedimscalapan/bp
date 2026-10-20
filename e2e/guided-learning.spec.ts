@@ -1,0 +1,37 @@
+import {test,expect} from '@playwright/test';
+
+test('guided script tracing and saved practice on a phone',async({page})=>{
+ await page.setViewportSize({width:390,height:844});
+ await page.goto('/');
+ await page.getByRole('button',{name:'Let’s explore'}).click();
+ await page.getByRole('button',{name:'Learn',exact:true}).click();
+ await page.getByRole('button',{name:/Learn one character/}).click();
+ await page.getByRole('button',{name:'Learn ka',exact:true}).click();
+ await page.getByRole('button',{name:'i / e',exact:true}).click();
+ await page.getByRole('button',{name:'Trace ki / ke →',exact:true}).click();
+ const svg=page.locator('.large-trace-board svg');
+ await expect(svg.locator('text')).toHaveText('ᜣᜲ');
+ const box=await svg.boundingBox();
+ expect(box!.height).toBeGreaterThan(350);
+ await page.mouse.move(box!.x+box!.width*.4,box!.y+box!.height*.45);
+ await page.mouse.down();
+ await page.mouse.move(box!.x+box!.width*.6,box!.y+box!.height*.6,{steps:8});
+ await page.mouse.up();
+ await expect(svg.locator('polyline')).toHaveCount(1);
+ await page.getByRole('button',{name:'Hide guide',exact:true}).click();
+ await expect(svg.locator('text')).toHaveCount(0);
+ await page.getByRole('button',{name:'Save',exact:true}).click();
+ await expect(page.getByRole('button',{name:'✓ Saved',exact:true})).toBeVisible();
+ await page.getByRole('button',{name:'Save & next →',exact:true}).click();
+ await expect(page.locator('.trace-fullscreen')).toHaveCount(0);
+ await page.reload();
+ await page.getByRole('button',{name:'Learn',exact:true}).click();
+ await page.getByRole('button',{name:/My saved practice/}).click();
+ await expect(page.locator('.saved-trace')).toHaveCount(1);
+ await page.getByRole('button',{name:'← Learning home',exact:true}).click();
+ await page.getByRole('button',{name:/Build a word, shape by shape/}).click();
+ await page.getByLabel('Find a word',{exact:true}).fill('tubig');
+ await page.getByRole('button',{name:'Trace letter by letter',exact:true}).click();
+ await expect(svg.locator('text')).toHaveText('ᜦᜳ');
+ await expect(page.getByRole('heading',{name:'Character 1 of 3',exact:true})).toBeVisible();
+});
