@@ -11,6 +11,7 @@ test('guided script tracing and saved practice on a phone',async({page})=>{
  await page.getByRole('button',{name:'Trace ki / ke →',exact:true}).click();
  const svg=page.locator('.large-trace-board svg');
  await expect(svg.locator('text')).toHaveText('ᜣᜲ');
+ await expect(svg).toBeVisible();
  const box=await svg.boundingBox();
  expect(box!.height).toBeGreaterThan(350);
  await page.mouse.move(box!.x+box!.width*.4,box!.y+box!.height*.45);

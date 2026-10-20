@@ -1,0 +1,23 @@
+import {test,expect} from '@playwright/test';
+test('goal sheet, boarding selection, frozen introduction and running HUD',async({page})=>{
+ await page.setViewportSize({width:390,height:844});await page.goto('/');
+ await page.getByRole('button',{name:'Let’s explore'}).click();
+ await page.getByRole('button',{name:/THE CURIOUS TRAVELER/}).click();
+ await expect(page.getByRole('heading',{name:'Finish 10 runs this week'})).toBeVisible();
+ await expect(page.getByRole('progressbar',{name:'Mission progress'})).toHaveAttribute('value','0');
+ await page.getByRole('button',{name:'Start →',exact:true}).click();
+ await page.locator('.destination-card').first().click();await page.locator('.level-row').first().click();
+ await expect(page.getByRole('heading',{name:'Choose Your Buddy'})).toBeVisible();
+ await page.locator('.departure-buddies button').filter({has:page.getByRole('heading',{name:'Dog',exact:true})}).click();
+ await page.getByRole('button',{name:'Continue →',exact:true}).click();
+ await expect(page.locator('.mission-dialogue')).toBeVisible();
+ await expect(page.locator('.hud-clock')).toHaveText('◷ 0.0s');
+ await page.waitForTimeout(300);await expect(page.locator('.hud-clock')).toHaveText('◷ 0.0s');
+ await expect(page.locator('.player img')).toHaveAttribute('alt','Dog');
+ await page.getByRole('button',{name:'Start adventure',exact:true}).click();
+ await expect(page.locator('.hud-clock')).not.toHaveText('◷ 0.0s');
+ await page.getByRole('button',{name:'Ⅱ Pause',exact:true}).click();
+ await expect(page.getByRole('heading',{name:'Adventure paused'})).toBeVisible();
+ await page.getByRole('button',{name:'Leave run',exact:true}).click();
+ await expect(page.getByRole('heading',{name:'Choose your adventure'})).toBeVisible();
+});
