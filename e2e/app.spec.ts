@@ -10,7 +10,7 @@ test('onboarding, shop, missions, runner, pause and persistence',async({page})=>
  await expect(page.getByRole('heading',{name:'Pack a little possibility.'})).toBeVisible();
  await page.getByRole('button',{name:'Explore',exact:true}).click();
  await page.getByRole('button',{name:/01 \/ Oriental Mindoro/}).click();
- await page.getByRole('button',{name:/1 Coin Trail/}).click();
+ await page.locator('.level-row').first().click();
  await page.getByRole('button',{name:'Start adventure',exact:true}).click();
  await page.keyboard.press('ArrowLeft');
  await page.getByRole('button',{name:'Ⅱ Pause'}).click();
@@ -19,10 +19,10 @@ test('onboarding, shop, missions, runner, pause and persistence',async({page})=>
  await page.getByRole('button',{name:'Ⅱ Pause'}).click();
  await page.getByRole('button',{name:'Leave run'}).click();
  await page.reload();
- await page.getByRole('button',{name:'Port',exact:true}).click();
+ await page.getByRole('button',{name:'Home',exact:true}).click();
  await expect(page.getByRole('heading',{name:'Welcome aboard, Avery.'})).toBeVisible();
  await expect(page.getByRole('button',{name:'Claim 150 coins'})).toHaveCount(0);
- await page.screenshot({path:'../buddyport-mobile.png',fullPage:true});
- await page.setViewportSize({width:1440,height:1000});await page.screenshot({path:'../buddyport-desktop.png',fullPage:true});
+ await page.screenshot({path:'../KaPamana-mobile.png',fullPage:true});
+ await page.setViewportSize({width:1440,height:1000});await page.screenshot({path:'../KaPamana-desktop.png',fullPage:true});
  expect(errors).toEqual([]);
 });

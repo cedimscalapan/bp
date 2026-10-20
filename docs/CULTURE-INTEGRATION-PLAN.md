@@ -1,6 +1,6 @@
 # KaPamana: culture in every adventure
 
-Status: proposed implementation plan, not yet added to gameplay. Festivals stay in a separate future collection.
+Status: original design plan. Introductions, discoveries, visitor-care prompts and badges, recaps and journals are implemented in version 1.7.0; see HERITAGE-IMPLEMENTATION.md for exact scope. Festivals stay in a separate future collection.
 
 ## Player experience
 

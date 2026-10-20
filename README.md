@@ -6,7 +6,7 @@ KaPamana is an Oriental Mindoro travel and heritage adventure built with Ionic R
 
 ## Culture integration
 
-The new KaPamana name, mountain/water/book branding, Android launcher icon and heritage passport are implemented. The culture learning layer is planned in [the culture integration plan](docs/CULTURE-INTEGRATION-PLAN.md); educational stories and quizzes are not yet shipped. Existing package/save identifiers stay stable for upgrade compatibility.
+KaPamana includes introductions for all 15 Oriental Mindoro locations, 75 sourced post-run discoveries, themed keepsakes, visitor-care prompts and badges, optional recaps, and persistent heritage journals. See [implementation details](docs/HERITAGE-IMPLEMENTATION.md) and the original [culture plan](docs/CULTURE-INTEGRATION-PLAN.md). Existing package/save identifiers stay stable for upgrade compatibility.
 
 ## Run
 
@@ -36,7 +36,7 @@ npm run android:open
 
 Build from Android Studio, or run `gradlew.bat assembleDebug` in `android/`. The Android debug APK compiled successfully in GitHub Actions using JDK 21 / Android SDK 35. No physical-device test has been performed.
 
-Release package ID remains `com.tristanrosales.buddyport`. Debug APKs use `com.tristanrosales.buddyport.ionic` and display as **KaPamana**, so they install alongside the original app. Development version is `1.6.0`, version code 12. An upgrade over the original app requires its original signing key; do not uninstall an existing copy without preserving its progress. Existing Kotlin save migration is not implemented.
+Release package ID remains `com.tristanrosales.buddyport`. Debug APKs use `com.tristanrosales.buddyport.ionic` and display as **KaPamana**, so they install alongside the original app. Development version is `1.7.0`, version code 13. An upgrade over the original app requires its original signing key; do not uninstall an existing copy without preserving its progress. Existing Kotlin save migration is not implemented.
 
 ## Download an APK from GitHub
 

@@ -4,14 +4,14 @@
     "name": "Calapan City",
     "group": "Oriental Mindoro",
     "image": "destination_oriental_mindoro_calapan_city.webp",
-    "signatureItemName": "Coconut",
-    "signatureImage": "mindoro_item_coconut.webp",
+    "signatureItemName": "Heritage museum ticket",
+    "signatureImage": "heritage_token_calapan_city.svg",
     "levels": [
       {
         "id": "oriental_mindoro_calapan_city_level_1",
         "destinationID": "oriental_mindoro_calapan_city",
         "number": 1,
-        "title": "Coin Trail",
+        "title": "Provincial center",
         "mission": {
           "type": "collectCoins",
           "target": 15,
@@ -34,7 +34,7 @@
         "id": "oriental_mindoro_calapan_city_level_2",
         "destinationID": "oriental_mindoro_calapan_city",
         "number": 2,
-        "title": "Keepsake Sprint",
+        "title": "Cityhood",
         "mission": {
           "type": "collectAndSurvive",
           "target": 5,
@@ -58,7 +58,7 @@
         "id": "oriental_mindoro_calapan_city_level_3",
         "destinationID": "oriental_mindoro_calapan_city",
         "number": 3,
-        "title": "Careful Explorer",
+        "title": "Museum discovery",
         "mission": {
           "type": "scoreWithDamageLimit",
           "target": 1500,
@@ -82,7 +82,7 @@
         "id": "oriental_mindoro_calapan_city_level_4",
         "destinationID": "oriental_mindoro_calapan_city",
         "number": 4,
-        "title": "Fast Coin Trail",
+        "title": "Silonay",
         "mission": {
           "type": "collectCoins",
           "target": 25,
@@ -105,7 +105,7 @@
         "id": "oriental_mindoro_calapan_city_level_5",
         "destinationID": "oriental_mindoro_calapan_city",
         "number": 5,
-        "title": "Final Challenge",
+        "title": "Harka Piloto",
         "mission": {
           "type": "troublemakerChallenge",
           "target": 4,
@@ -136,14 +136,14 @@
     "name": "Baco",
     "group": "Oriental Mindoro",
     "image": "destination_oriental_mindoro_baco.webp",
-    "signatureItemName": "Mountain keepsake",
-    "signatureImage": "mindoro_item_mountain.webp",
+    "signatureItemName": "Mountain postcard",
+    "signatureImage": "heritage_token_baco.svg",
     "levels": [
       {
         "id": "oriental_mindoro_baco_level_1",
         "destinationID": "oriental_mindoro_baco",
         "number": 1,
-        "title": "Coin Trail",
+        "title": "Mountain identity",
         "mission": {
           "type": "collectCoins",
           "target": 18,
@@ -166,7 +166,7 @@
         "id": "oriental_mindoro_baco_level_2",
         "destinationID": "oriental_mindoro_baco",
         "number": 2,
-        "title": "Keepsake Search",
+        "title": "Water landscapes",
         "mission": {
           "type": "collectSignatureItems",
           "target": 5,
@@ -189,7 +189,7 @@
         "id": "oriental_mindoro_baco_level_3",
         "destinationID": "oriental_mindoro_baco",
         "number": 3,
-        "title": "Scenic Endurance",
+        "title": "Distinct communities",
         "mission": {
           "type": "survive",
           "target": 37,
@@ -212,7 +212,7 @@
         "id": "oriental_mindoro_baco_level_4",
         "destinationID": "oriental_mindoro_baco",
         "number": 4,
-        "title": "Destination Dash",
+        "title": "One name account",
         "mission": {
           "type": "reachScore",
           "target": 1660,
@@ -235,7 +235,7 @@
         "id": "oriental_mindoro_baco_level_5",
         "destinationID": "oriental_mindoro_baco",
         "number": 5,
-        "title": "Final Challenge",
+        "title": "Another name account",
         "mission": {
           "type": "troublemakerChallenge",
           "target": 4,
@@ -266,14 +266,14 @@
     "name": "Bansud",
     "group": "Oriental Mindoro",
     "image": "destination_oriental_mindoro_bansud.webp",
-    "signatureItemName": "Bananas",
+    "signatureItemName": "Banana market crate",
     "signatureImage": "mindoro_item_banana.webp",
     "levels": [
       {
         "id": "oriental_mindoro_bansud_level_1",
         "destinationID": "oriental_mindoro_bansud",
         "number": 1,
-        "title": "Coin Trail",
+        "title": "Banana connection",
         "mission": {
           "type": "collectCoins",
           "target": 19,
@@ -296,7 +296,7 @@
         "id": "oriental_mindoro_bansud_level_2",
         "destinationID": "oriental_mindoro_bansud",
         "number": 2,
-        "title": "Keepsake Search",
+        "title": "Former territory",
         "mission": {
           "type": "collectSignatureItems",
           "target": 5,
@@ -319,7 +319,7 @@
         "id": "oriental_mindoro_bansud_level_3",
         "destinationID": "oriental_mindoro_bansud",
         "number": 3,
-        "title": "Scenic Endurance",
+        "title": "Delta name account",
         "mission": {
           "type": "survive",
           "target": 38,
@@ -342,7 +342,7 @@
         "id": "oriental_mindoro_bansud_level_4",
         "destinationID": "oriental_mindoro_bansud",
         "number": 4,
-        "title": "Destination Dash",
+        "title": "Public-space setting",
         "mission": {
           "type": "reachScore",
           "target": 1790,
@@ -365,7 +365,7 @@
         "id": "oriental_mindoro_bansud_level_5",
         "destinationID": "oriental_mindoro_bansud",
         "number": 5,
-        "title": "Final Challenge",
+        "title": "A constructed lagoon",
         "mission": {
           "type": "troublemakerChallenge",
           "target": 4,
@@ -396,14 +396,14 @@
     "name": "Bongabong",
     "group": "Oriental Mindoro",
     "image": "destination_oriental_mindoro_bongabong.webp",
-    "signatureItemName": "Freshwater fish",
-    "signatureImage": "mindoro_item_fish.webp",
+    "signatureItemName": "Coconut harvest parcel",
+    "signatureImage": "mindoro_item_coconut.webp",
     "levels": [
       {
         "id": "oriental_mindoro_bongabong_level_1",
         "destinationID": "oriental_mindoro_bongabong",
         "number": 1,
-        "title": "Coin Trail",
+        "title": "Kuta heritage",
         "mission": {
           "type": "collectCoins",
           "target": 20,
@@ -426,7 +426,7 @@
         "id": "oriental_mindoro_bongabong_level_2",
         "destinationID": "oriental_mindoro_bongabong",
         "number": 2,
-        "title": "Keepsake Search",
+        "title": "Two purposes",
         "mission": {
           "type": "collectSignatureItems",
           "target": 6,
@@ -449,7 +449,7 @@
         "id": "oriental_mindoro_bongabong_level_3",
         "destinationID": "oriental_mindoro_bongabong",
         "number": 3,
-        "title": "Scenic Endurance",
+        "title": "Coconut landscape",
         "mission": {
           "type": "survive",
           "target": 39,
@@ -472,7 +472,7 @@
         "id": "oriental_mindoro_bongabong_level_4",
         "destinationID": "oriental_mindoro_bongabong",
         "number": 4,
-        "title": "Destination Dash",
+        "title": "Farm discovery",
         "mission": {
           "type": "reachScore",
           "target": 1920,
@@ -495,7 +495,7 @@
         "id": "oriental_mindoro_bongabong_level_5",
         "destinationID": "oriental_mindoro_bongabong",
         "number": 5,
-        "title": "Final Challenge",
+        "title": "River crossing",
         "mission": {
           "type": "troublemakerChallenge",
           "target": 4,
@@ -526,14 +526,14 @@
     "name": "Bulalacao",
     "group": "Oriental Mindoro",
     "image": "destination_oriental_mindoro_bulalacao.webp",
-    "signatureItemName": "Seashell",
-    "signatureImage": "mindoro_item_shell.webp",
+    "signatureItemName": "Seaweed-noodle parcel",
+    "signatureImage": "heritage_token_bulalacao.svg",
     "levels": [
       {
         "id": "oriental_mindoro_bulalacao_level_1",
         "destinationID": "oriental_mindoro_bulalacao",
         "number": 1,
-        "title": "Coin Trail",
+        "title": "Island destinations",
         "mission": {
           "type": "collectCoins",
           "target": 21,
@@ -556,7 +556,7 @@
         "id": "oriental_mindoro_bulalacao_level_2",
         "destinationID": "oriental_mindoro_bulalacao",
         "number": 2,
-        "title": "Keepsake Search",
+        "title": "Another island stop",
         "mission": {
           "type": "collectSignatureItems",
           "target": 6,
@@ -579,7 +579,7 @@
         "id": "oriental_mindoro_bulalacao_level_3",
         "destinationID": "oriental_mindoro_bulalacao",
         "number": 3,
-        "title": "Scenic Endurance",
+        "title": "A working coast",
         "mission": {
           "type": "survive",
           "target": 40,
@@ -602,7 +602,7 @@
         "id": "oriental_mindoro_bulalacao_level_4",
         "destinationID": "oriental_mindoro_bulalacao",
         "number": 4,
-        "title": "Destination Dash",
+        "title": "A name legend",
         "mission": {
           "type": "reachScore",
           "target": 2050,
@@ -625,7 +625,7 @@
         "id": "oriental_mindoro_bulalacao_level_5",
         "destinationID": "oriental_mindoro_bulalacao",
         "number": 5,
-        "title": "Final Challenge",
+        "title": "Rocky coast",
         "mission": {
           "type": "troublemakerChallenge",
           "target": 5,
@@ -656,14 +656,14 @@
     "name": "Gloria",
     "group": "Oriental Mindoro",
     "image": "destination_oriental_mindoro_gloria.webp",
-    "signatureItemName": "Coconut",
-    "signatureImage": "mindoro_item_coconut.webp",
+    "signatureItemName": "Banana-chip parcel",
+    "signatureImage": "heritage_token_gloria.svg",
     "levels": [
       {
         "id": "oriental_mindoro_gloria_level_1",
         "destinationID": "oriental_mindoro_gloria",
         "number": 1,
-        "title": "Coin Trail",
+        "title": "Earlier connection",
         "mission": {
           "type": "collectCoins",
           "target": 22,
@@ -686,7 +686,7 @@
         "id": "oriental_mindoro_gloria_level_2",
         "destinationID": "oriental_mindoro_gloria",
         "number": 2,
-        "title": "Keepsake Search",
+        "title": "Tambong account",
         "mission": {
           "type": "collectSignatureItems",
           "target": 6,
@@ -709,7 +709,7 @@
         "id": "oriental_mindoro_gloria_level_3",
         "destinationID": "oriental_mindoro_gloria",
         "number": 3,
-        "title": "Scenic Endurance",
+        "title": "Maligaya",
         "mission": {
           "type": "survive",
           "target": 41,
@@ -732,7 +732,7 @@
         "id": "oriental_mindoro_gloria_level_4",
         "destinationID": "oriental_mindoro_gloria",
         "number": 4,
-        "title": "Destination Dash",
+        "title": "Town center",
         "mission": {
           "type": "reachScore",
           "target": 2180,
@@ -755,7 +755,7 @@
         "id": "oriental_mindoro_gloria_level_5",
         "destinationID": "oriental_mindoro_gloria",
         "number": 5,
-        "title": "Final Challenge",
+        "title": "Adding value",
         "mission": {
           "type": "troublemakerChallenge",
           "target": 5,
@@ -786,14 +786,14 @@
     "name": "Mansalay",
     "group": "Oriental Mindoro",
     "image": "destination_oriental_mindoro_mansalay.webp",
-    "signatureItemName": "Seashell",
-    "signatureImage": "mindoro_item_shell.webp",
+    "signatureItemName": "Literature discovery card",
+    "signatureImage": "heritage_token_mansalay.svg",
     "levels": [
       {
         "id": "oriental_mindoro_mansalay_level_1",
         "destinationID": "oriental_mindoro_mansalay",
         "number": 1,
-        "title": "Coin Trail",
+        "title": "Coastal place",
         "mission": {
           "type": "collectCoins",
           "target": 23,
@@ -816,7 +816,7 @@
         "id": "oriental_mindoro_mansalay_level_2",
         "destinationID": "oriental_mindoro_mansalay",
         "number": 2,
-        "title": "Keepsake Search",
+        "title": "Landscape details",
         "mission": {
           "type": "collectSignatureItems",
           "target": 6,
@@ -839,7 +839,7 @@
         "id": "oriental_mindoro_mansalay_level_3",
         "destinationID": "oriental_mindoro_mansalay",
         "number": 3,
-        "title": "Scenic Endurance",
+        "title": "A named culture bearer",
         "mission": {
           "type": "survive",
           "target": 42,
@@ -862,7 +862,7 @@
         "id": "oriental_mindoro_mansalay_level_4",
         "destinationID": "oriental_mindoro_mansalay",
         "number": 4,
-        "title": "Destination Dash",
+        "title": "Poetic form",
         "mission": {
           "type": "reachScore",
           "target": 2310,
@@ -885,7 +885,7 @@
         "id": "oriental_mindoro_mansalay_level_5",
         "destinationID": "oriental_mindoro_mansalay",
         "number": 5,
-        "title": "Final Challenge",
+        "title": "Everyday themes",
         "mission": {
           "type": "troublemakerChallenge",
           "target": 5,
@@ -916,14 +916,14 @@
     "name": "Naujan",
     "group": "Oriental Mindoro",
     "image": "destination_oriental_mindoro_naujan.webp",
-    "signatureItemName": "Freshwater fish",
-    "signatureImage": "mindoro_item_fish.webp",
+    "signatureItemName": "Fish observation card",
+    "signatureImage": "heritage_token_naujan.svg",
     "levels": [
       {
         "id": "oriental_mindoro_naujan_level_1",
         "destinationID": "oriental_mindoro_naujan",
         "number": 1,
-        "title": "Coin Trail",
+        "title": "International wetland",
         "mission": {
           "type": "collectCoins",
           "target": 24,
@@ -946,7 +946,7 @@
         "id": "oriental_mindoro_naujan_level_2",
         "destinationID": "oriental_mindoro_naujan",
         "number": 2,
-        "title": "Keepsake Search",
+        "title": "Shared landscape",
         "mission": {
           "type": "collectSignatureItems",
           "target": 7,
@@ -969,7 +969,7 @@
         "id": "oriental_mindoro_naujan_level_3",
         "destinationID": "oriental_mindoro_naujan",
         "number": 3,
-        "title": "Scenic Endurance",
+        "title": "Fishery knowledge",
         "mission": {
           "type": "survive",
           "target": 43,
@@ -992,7 +992,7 @@
         "id": "oriental_mindoro_naujan_level_4",
         "destinationID": "oriental_mindoro_naujan",
         "number": 4,
-        "title": "Destination Dash",
+        "title": "Bancuro heritage",
         "mission": {
           "type": "reachScore",
           "target": 2440,
@@ -1015,7 +1015,7 @@
         "id": "oriental_mindoro_naujan_level_5",
         "destinationID": "oriental_mindoro_naujan",
         "number": 5,
-        "title": "Final Challenge",
+        "title": "A name story",
         "mission": {
           "type": "troublemakerChallenge",
           "target": 5,
@@ -1046,14 +1046,14 @@
     "name": "Pinamalayan",
     "group": "Oriental Mindoro",
     "image": "destination_oriental_mindoro_pinamalayan.webp",
-    "signatureItemName": "Clay pot",
-    "signatureImage": "mindoro_item_pot.webp",
+    "signatureItemName": "Banana-chip parcel",
+    "signatureImage": "heritage_token_pinamalayan.svg",
     "levels": [
       {
         "id": "oriental_mindoro_pinamalayan_level_1",
         "destinationID": "oriental_mindoro_pinamalayan",
         "number": 1,
-        "title": "Coin Trail",
+        "title": "A planned center",
         "mission": {
           "type": "collectCoins",
           "target": 25,
@@ -1076,7 +1076,7 @@
         "id": "oriental_mindoro_pinamalayan_level_2",
         "destinationID": "oriental_mindoro_pinamalayan",
         "number": 2,
-        "title": "Keepsake Search",
+        "title": "Plaza and civic life",
         "mission": {
           "type": "collectSignatureItems",
           "target": 7,
@@ -1099,7 +1099,7 @@
         "id": "oriental_mindoro_pinamalayan_level_3",
         "destinationID": "oriental_mindoro_pinamalayan",
         "number": 3,
-        "title": "Scenic Endurance",
+        "title": "A remembered move",
         "mission": {
           "type": "survive",
           "target": 44,
@@ -1122,7 +1122,7 @@
         "id": "oriental_mindoro_pinamalayan_level_4",
         "destinationID": "oriental_mindoro_pinamalayan",
         "number": 4,
-        "title": "Destination Dash",
+        "title": "Food enterprise",
         "mission": {
           "type": "reachScore",
           "target": 2570,
@@ -1145,7 +1145,7 @@
         "id": "oriental_mindoro_pinamalayan_level_5",
         "destinationID": "oriental_mindoro_pinamalayan",
         "number": 5,
-        "title": "Final Challenge",
+        "title": "Rainbow story",
         "mission": {
           "type": "troublemakerChallenge",
           "target": 5,
@@ -1176,14 +1176,14 @@
     "name": "Pola",
     "group": "Oriental Mindoro",
     "image": "destination_oriental_mindoro_pola.webp",
-    "signatureItemName": "Seashell",
-    "signatureImage": "mindoro_item_shell.webp",
+    "signatureItemName": "Nipa-woven panel token",
+    "signatureImage": "heritage_token_pola.svg",
     "levels": [
       {
         "id": "oriental_mindoro_pola_level_1",
         "destinationID": "oriental_mindoro_pola",
         "number": 1,
-        "title": "Coin Trail",
+        "title": "Ancestral houses",
         "mission": {
           "type": "collectCoins",
           "target": 26,
@@ -1206,7 +1206,7 @@
         "id": "oriental_mindoro_pola_level_2",
         "destinationID": "oriental_mindoro_pola",
         "number": 2,
-        "title": "Keepsake Search",
+        "title": "River and town",
         "mission": {
           "type": "collectSignatureItems",
           "target": 7,
@@ -1229,7 +1229,7 @@
         "id": "oriental_mindoro_pola_level_3",
         "destinationID": "oriental_mindoro_pola",
         "number": 3,
-        "title": "Scenic Endurance",
+        "title": "Everyday livelihoods",
         "mission": {
           "type": "survive",
           "target": 45,
@@ -1252,7 +1252,7 @@
         "id": "oriental_mindoro_pola_level_4",
         "destinationID": "oriental_mindoro_pola",
         "number": 4,
-        "title": "Destination Dash",
+        "title": "Nipa craft",
         "mission": {
           "type": "reachScore",
           "target": 2700,
@@ -1275,7 +1275,7 @@
         "id": "oriental_mindoro_pola_level_5",
         "destinationID": "oriental_mindoro_pola",
         "number": 5,
-        "title": "Final Challenge",
+        "title": "Red-clay account",
         "mission": {
           "type": "troublemakerChallenge",
           "target": 6,
@@ -1306,14 +1306,14 @@
     "name": "Puerto Galera",
     "group": "Oriental Mindoro",
     "image": "destination_oriental_mindoro_puerto_galera.webp",
-    "signatureItemName": "Seashell",
-    "signatureImage": "mindoro_item_shell.webp",
+    "signatureItemName": "Nito basket token",
+    "signatureImage": "heritage_token_puerto_galera.svg",
     "levels": [
       {
         "id": "oriental_mindoro_puerto_galera_level_1",
         "destinationID": "oriental_mindoro_puerto_galera",
         "number": 1,
-        "title": "Coin Trail",
+        "title": "A biosphere landscape",
         "mission": {
           "type": "collectCoins",
           "target": 15,
@@ -1336,7 +1336,7 @@
         "id": "oriental_mindoro_puerto_galera_level_2",
         "destinationID": "oriental_mindoro_puerto_galera",
         "number": 2,
-        "title": "Keepsake Sprint",
+        "title": "Beyond the beach",
         "mission": {
           "type": "collectAndSurvive",
           "target": 5,
@@ -1360,7 +1360,7 @@
         "id": "oriental_mindoro_puerto_galera_level_3",
         "destinationID": "oriental_mindoro_puerto_galera",
         "number": 3,
-        "title": "Careful Explorer",
+        "title": "Living craft",
         "mission": {
           "type": "scoreWithDamageLimit",
           "target": 1500,
@@ -1384,7 +1384,7 @@
         "id": "oriental_mindoro_puerto_galera_level_4",
         "destinationID": "oriental_mindoro_puerto_galera",
         "number": 4,
-        "title": "Fast Coin Trail",
+        "title": "Learning across generations",
         "mission": {
           "type": "collectCoins",
           "target": 25,
@@ -1407,7 +1407,7 @@
         "id": "oriental_mindoro_puerto_galera_level_5",
         "destinationID": "oriental_mindoro_puerto_galera",
         "number": 5,
-        "title": "Final Challenge",
+        "title": "Sea and livelihood",
         "mission": {
           "type": "troublemakerChallenge",
           "target": 4,
@@ -1438,14 +1438,14 @@
     "name": "Roxas",
     "group": "Oriental Mindoro",
     "image": "destination_oriental_mindoro_roxas.webp",
-    "signatureItemName": "Coconut",
-    "signatureImage": "mindoro_item_coconut.webp",
+    "signatureItemName": "Port-route ticket",
+    "signatureImage": "heritage_token_roxas.svg",
     "levels": [
       {
         "id": "oriental_mindoro_roxas_level_1",
         "destinationID": "oriental_mindoro_roxas",
         "number": 1,
-        "title": "Coin Trail",
+        "title": "Port connection",
         "mission": {
           "type": "collectCoins",
           "target": 18,
@@ -1468,7 +1468,7 @@
         "id": "oriental_mindoro_roxas_level_2",
         "destinationID": "oriental_mindoro_roxas",
         "number": 2,
-        "title": "Keepsake Search",
+        "title": "Cave location",
         "mission": {
           "type": "collectSignatureItems",
           "target": 5,
@@ -1491,7 +1491,7 @@
         "id": "oriental_mindoro_roxas_level_3",
         "destinationID": "oriental_mindoro_roxas",
         "number": 3,
-        "title": "Scenic Endurance",
+        "title": "Agricultural visits",
         "mission": {
           "type": "survive",
           "target": 37,
@@ -1514,7 +1514,7 @@
         "id": "oriental_mindoro_roxas_level_4",
         "destinationID": "oriental_mindoro_roxas",
         "number": 4,
-        "title": "Destination Dash",
+        "title": "A cultural stop",
         "mission": {
           "type": "reachScore",
           "target": 1660,
@@ -1537,7 +1537,7 @@
         "id": "oriental_mindoro_roxas_level_5",
         "destinationID": "oriental_mindoro_roxas",
         "number": 5,
-        "title": "Final Challenge",
+        "title": "Earlier place name",
         "mission": {
           "type": "troublemakerChallenge",
           "target": 4,
@@ -1568,14 +1568,14 @@
     "name": "San Teodoro",
     "group": "Oriental Mindoro",
     "image": "destination_oriental_mindoro_san_teodoro.webp",
-    "signatureItemName": "Freshwater fish",
-    "signatureImage": "mindoro_item_fish.webp",
+    "signatureItemName": "Coconut-product parcel",
+    "signatureImage": "mindoro_item_coconut.webp",
     "levels": [
       {
         "id": "oriental_mindoro_san_teodoro_level_1",
         "destinationID": "oriental_mindoro_san_teodoro",
         "number": 1,
-        "title": "Coin Trail",
+        "title": "Earlier name",
         "mission": {
           "type": "collectCoins",
           "target": 19,
@@ -1598,7 +1598,7 @@
         "id": "oriental_mindoro_san_teodoro_level_2",
         "destinationID": "oriental_mindoro_san_teodoro",
         "number": 2,
-        "title": "Keepsake Search",
+        "title": "An earlier center",
         "mission": {
           "type": "collectSignatureItems",
           "target": 5,
@@ -1621,7 +1621,7 @@
         "id": "oriental_mindoro_san_teodoro_level_3",
         "destinationID": "oriental_mindoro_san_teodoro",
         "number": 3,
-        "title": "Scenic Endurance",
+        "title": "Coconut enterprise",
         "mission": {
           "type": "survive",
           "target": 38,
@@ -1644,7 +1644,7 @@
         "id": "oriental_mindoro_san_teodoro_level_4",
         "destinationID": "oriental_mindoro_san_teodoro",
         "number": 4,
-        "title": "Destination Dash",
+        "title": "Aras Falls",
         "mission": {
           "type": "reachScore",
           "target": 1790,
@@ -1667,7 +1667,7 @@
         "id": "oriental_mindoro_san_teodoro_level_5",
         "destinationID": "oriental_mindoro_san_teodoro",
         "number": 5,
-        "title": "Final Challenge",
+        "title": "Botolan Falls",
         "mission": {
           "type": "troublemakerChallenge",
           "target": 4,
@@ -1698,14 +1698,14 @@
     "name": "Socorro",
     "group": "Oriental Mindoro",
     "image": "destination_oriental_mindoro_socorro.webp",
-    "signatureItemName": "Freshwater fish",
-    "signatureImage": "mindoro_item_fish.webp",
+    "signatureItemName": "Calamansi harvest crate",
+    "signatureImage": "heritage_token_socorro.svg",
     "levels": [
       {
         "id": "oriental_mindoro_socorro_level_1",
         "destinationID": "oriental_mindoro_socorro",
         "number": 1,
-        "title": "Coin Trail",
+        "title": "Created from Pola",
         "mission": {
           "type": "collectCoins",
           "target": 20,
@@ -1728,7 +1728,7 @@
         "id": "oriental_mindoro_socorro_level_2",
         "destinationID": "oriental_mindoro_socorro",
         "number": 2,
-        "title": "Keepsake Search",
+        "title": "Creation date checked",
         "mission": {
           "type": "collectSignatureItems",
           "target": 6,
@@ -1751,7 +1751,7 @@
         "id": "oriental_mindoro_socorro_level_3",
         "destinationID": "oriental_mindoro_socorro",
         "number": 3,
-        "title": "Scenic Endurance",
+        "title": "Earlier settlement name",
         "mission": {
           "type": "survive",
           "target": 39,
@@ -1774,7 +1774,7 @@
         "id": "oriental_mindoro_socorro_level_4",
         "destinationID": "oriental_mindoro_socorro",
         "number": 4,
-        "title": "Destination Dash",
+        "title": "Agricultural variety",
         "mission": {
           "type": "reachScore",
           "target": 1920,
@@ -1797,7 +1797,7 @@
         "id": "oriental_mindoro_socorro_level_5",
         "destinationID": "oriental_mindoro_socorro",
         "number": 5,
-        "title": "Final Challenge",
+        "title": "Lake connection",
         "mission": {
           "type": "troublemakerChallenge",
           "target": 4,
@@ -1828,14 +1828,14 @@
     "name": "Victoria",
     "group": "Oriental Mindoro",
     "image": "destination_oriental_mindoro_victoria.webp",
-    "signatureItemName": "Tropical fruit basket",
+    "signatureItemName": "Rambutan and lanzones basket",
     "signatureImage": "mindoro_item_fruit_basket.webp",
     "levels": [
       {
         "id": "oriental_mindoro_victoria_level_1",
         "destinationID": "oriental_mindoro_victoria",
         "number": 1,
-        "title": "Coin Trail",
+        "title": "Fruit-basket identity",
         "mission": {
           "type": "collectCoins",
           "target": 21,
@@ -1858,7 +1858,7 @@
         "id": "oriental_mindoro_victoria_level_2",
         "destinationID": "oriental_mindoro_victoria",
         "number": 2,
-        "title": "Keepsake Search",
+        "title": "Rice matters too",
         "mission": {
           "type": "collectSignatureItems",
           "target": 6,
@@ -1881,7 +1881,7 @@
         "id": "oriental_mindoro_victoria_level_3",
         "destinationID": "oriental_mindoro_victoria",
         "number": 3,
-        "title": "Scenic Endurance",
+        "title": "Orchard variety",
         "mission": {
           "type": "survive",
           "target": 40,
@@ -1904,7 +1904,7 @@
         "id": "oriental_mindoro_victoria_level_4",
         "destinationID": "oriental_mindoro_victoria",
         "number": 4,
-        "title": "Destination Dash",
+        "title": "Processing livelihoods",
         "mission": {
           "type": "reachScore",
           "target": 2050,
@@ -1927,7 +1927,7 @@
         "id": "oriental_mindoro_victoria_level_5",
         "destinationID": "oriental_mindoro_victoria",
         "number": 5,
-        "title": "Final Challenge",
+        "title": "Agricultural learning",
         "mission": {
           "type": "troublemakerChallenge",
           "target": 5,
