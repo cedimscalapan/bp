@@ -1,0 +1,2622 @@
+{
+  "project": "KaPamana",
+  "title": "Oriental Mindoro adventure research content pack",
+  "version": "research-draft-1",
+  "researchedOn": "2026-10-20",
+  "scope": "Calapan City and all 14 municipalities; festivals excluded",
+  "status": "Web research draft for editorial and community review. Not imported into gameplay.",
+  "methodology": [
+    "Prioritize municipal/provincial government, UNESCO, cultural institutions, original laws, academic research and firsthand program reports.",
+    "Source IDs attach to individual claims. Web-documented means found in the cited source, not independently authenticated or locally approved.",
+    "Separate legends and oral accounts from historical assertions. Exclude known contradictions and promotional superlatives.",
+    "Collectibles and visitor challenges are original game proposals inferred from the sources, not documented customary practices or current site rules.",
+    "No poems, Indigenous script, recordings, photos or distinctive craft patterns are licensed by this research.",
+    "No current prices, hours, trail openings, ferry schedules or swimming-safety assurances are supplied."
+  ],
+  "sources": [
+    {
+      "id": "pg_unesco",
+      "publisher": "UNESCO",
+      "title": "Puerto Galera Biosphere Reserve",
+      "url": "https://www.unesco.org/en/mab/puerto-galera",
+      "type": "institutional",
+      "scope": "Biosphere designation, habitats and livelihoods.",
+      "accessedOn": "2026-10-20"
+    },
+    {
+      "id": "pg_ayala",
+      "publisher": "Ayala Foundation",
+      "title": "Puerto Galera community development",
+      "url": "https://ayalafoundation.org/programs/puerto-galera-oriental-mindoro/",
+      "type": "firsthand_program",
+      "scope": "Iraya-Mangyan nito weaving; program locations.",
+      "accessedOn": "2026-10-20"
+    },
+    {
+      "id": "pg_weaving",
+      "publisher": "Ayala Foundation",
+      "title": "Iraya-Mangyan cultural trips",
+      "url": "https://ayalafoundation.org/news/puerto-galera-home-to-iraya-mangyan-a-beautiful-destination-for-cultural-trips/",
+      "type": "firsthand_program",
+      "scope": "2023 account of Talipanan artisans, objects and transmission.",
+      "accessedOn": "2026-10-20"
+    },
+    {
+      "id": "greenfins",
+      "publisher": "Reef-World Foundation / Green Fins",
+      "title": "Guidelines to the Code of Conduct",
+      "url": "https://greenfins.net/material/gf_all_eng_cocguidelinesall_a4/",
+      "type": "conservation_guidance",
+      "scope": "General marine visitor guidance; not a local ordinance.",
+      "accessedOn": "2026-10-20"
+    },
+    {
+      "id": "enterprise",
+      "publisher": "Provincial Planning and Development Office",
+      "title": "Agriculture center and four MSME facilities",
+      "url": "https://ppdo.ormindoro.gov.ph/provincial-agriculture-center-4-msmes-facilities-inaugurated-in-oriental-mindoro/",
+      "type": "government_report",
+      "scope": "PARIC Victoria calamansi, MARBA Gloria banana chips, BARCO San Teodoro coconut products, Bulalacao cooperative seaweed noodles; historical project report.",
+      "accessedOn": "2026-10-20"
+    },
+    {
+      "id": "halcon",
+      "publisher": "Provincial tourism portal",
+      "title": "Mt. Halcon",
+      "url": "https://www.travelorientalmindoro.ph/place/mt-halcon",
+      "type": "tourism_listing",
+      "scope": "Baco location and mountain identity; do not reuse fee or ranking claims.",
+      "accessedOn": "2026-10-20"
+    },
+    {
+      "id": "baco_history",
+      "publisher": "Provincial tourism portal",
+      "title": "History of Baco",
+      "url": "https://www.travelorientalmindoro.ph/municipality/baco/history",
+      "type": "compiled_history",
+      "scope": "Place-name accounts, Iraya/Alangan presence, rivers; includes dated and conflicting statements.",
+      "accessedOn": "2026-10-20"
+    },
+    {
+      "id": "calapan",
+      "publisher": "Provincial tourism portal",
+      "title": "Calapan City destinations",
+      "url": "https://www.travelorientalmindoro.ph/municipality/calapan-city",
+      "type": "tourism_listing",
+      "scope": "Provincial capital/commercial center and museum listing; avoid rounded population.",
+      "accessedOn": "2026-10-20"
+    },
+    {
+      "id": "calapan_history",
+      "publisher": "Provincial tourism portal",
+      "title": "History of Calapan City",
+      "url": "https://www.travelorientalmindoro.ph/municipality/calapan-city/history",
+      "type": "compiled_history",
+      "scope": "Cityhood plebiscite 21 March 1998; earlier capital chronologies conflict with PPDO.",
+      "accessedOn": "2026-10-20"
+    },
+    {
+      "id": "calapan_mpa",
+      "publisher": "DENR",
+      "title": "Calapan sampling stations, March–April 2023",
+      "url": "https://denr.gov.ph/wp-content/uploads/2023/06/Annex_as_of_May_26_2023.pdf",
+      "type": "government_monitoring",
+      "scope": "Identifies Silonay mangrove area and Harka Piloto sanctuary; 2023 readings are not current water-safety advice.",
+      "accessedOn": "2026-10-20"
+    },
+    {
+      "id": "heritage_center",
+      "publisher": "Provincial Tourism Office",
+      "title": "Tourism Office services",
+      "url": "https://ormindoro.gov.ph/wp-content/uploads/2024/01/Provincial-Tourism-Office.pdf",
+      "type": "government_service_document",
+      "scope": "Heritage/cultural center educational service; naming should be reconfirmed locally.",
+      "accessedOn": "2026-10-20"
+    },
+    {
+      "id": "st_history",
+      "publisher": "Provincial tourism portal",
+      "title": "History of San Teodoro",
+      "url": "https://www.travelorientalmindoro.ph/municipality/san-teodoro/history",
+      "type": "compiled_history",
+      "scope": "Earlier name Subaan and Lumangbayan town-center account.",
+      "accessedOn": "2026-10-20"
+    },
+    {
+      "id": "st_places",
+      "publisher": "Provincial tourism portal",
+      "title": "San Teodoro destinations",
+      "url": "https://www.travelorientalmindoro.ph/municipality/san-teodoro",
+      "type": "tourism_listing",
+      "scope": "Aras Falls, Botolan Falls and Calabugao Ecopark listings.",
+      "accessedOn": "2026-10-20"
+    },
+    {
+      "id": "naujan_history",
+      "publisher": "Provincial tourism portal",
+      "title": "History of Naujan",
+      "url": "https://www.travelorientalmindoro.ph/municipality/naujan/history",
+      "type": "compiled_history",
+      "scope": "Bancuro church/fort account and name legend; exclude unsupported ancestry inference.",
+      "accessedOn": "2026-10-20"
+    },
+    {
+      "id": "ramsar_list",
+      "publisher": "Convention on Wetlands",
+      "title": "List of Wetlands of International Importance",
+      "url": "https://www.ramsar.org/sites/default/files/2023-08/sitelist.pdf",
+      "type": "international_registry",
+      "scope": "Naujan Lake National Park Ramsar designation 12 November 1999; do not confuse park and lake areas.",
+      "accessedOn": "2026-10-20"
+    },
+    {
+      "id": "lake_profile",
+      "publisher": "Mindoro Biodiversity Conservation Foundation",
+      "title": "Naujan Lake National Park profile",
+      "url": "https://www.mbcfi.org.ph/wp-content/uploads/2022/03/6_Naujan_Lake_National_Park_Profile.pdf",
+      "type": "conservation_research",
+      "scope": "Older profile: four municipalities and watershed/community context; demographic figures not current.",
+      "accessedOn": "2026-10-20"
+    },
+    {
+      "id": "lake_fisheries",
+      "publisher": "DA–NFRDI",
+      "title": "Lake Naujan fisheries stock assessment",
+      "url": "https://nfrdi.da.gov.ph/2026/10/13/nfrdi-assessment-provides-scientific-baseline-for-sustainable-management-of-lake-naujan-fisheries/",
+      "type": "government_research",
+      "scope": "13 October 2026 report on July 2025–June 2026 survey; monitoring and livelihoods.",
+      "accessedOn": "2026-10-20"
+    },
+    {
+      "id": "victoria_up",
+      "publisher": "University of the Philippines CIDS",
+      "title": "Food systems: Victoria case study",
+      "url": "https://cids.up.edu.ph/wp-content/uploads/2025/03/Policy-Coherence-of-Food-and-Nutrition-Security-Policies-across-Food-Systems-in-the-Philippines_The-Case-of-Victoria-Oriental-Mindoro-2.pdf",
+      "type": "academic_research",
+      "scope": "Rice and fruit crops; uses municipal agriculture office 2022 information.",
+      "accessedOn": "2026-10-20"
+    },
+    {
+      "id": "victoria_da",
+      "publisher": "DA MIMAROPA",
+      "title": "RIARC station profile",
+      "url": "https://mimaropa.da.gov.ph/index.php/about/station-profile/riarc",
+      "type": "government_profile",
+      "scope": "Alcate, Victoria agricultural research station and crop coverage.",
+      "accessedOn": "2026-10-20"
+    },
+    {
+      "id": "victoria_history",
+      "publisher": "Provincial tourism portal",
+      "title": "History of Victoria",
+      "url": "https://www.travelorientalmindoro.ph/municipality/victoria/history",
+      "type": "compiled_history",
+      "scope": "Borbocolon name account and local development history; dated colonial framing requires care.",
+      "accessedOn": "2026-10-20"
+    },
+    {
+      "id": "socorro_law",
+      "publisher": "Supreme Court E-Library",
+      "title": "Republic Act 3609",
+      "url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/25043",
+      "type": "primary_legal_record",
+      "scope": "Approved 22 June 1963; separation from Pola. Used as historical evidence, not legal advice.",
+      "accessedOn": "2026-10-20"
+    },
+    {
+      "id": "socorro_lgu",
+      "publisher": "Municipal Government of Socorro",
+      "title": "Town history",
+      "url": "https://www.socorromindoro.gov.ph/",
+      "type": "local_government",
+      "scope": "Catiningan, inauguration and agricultural setting.",
+      "accessedOn": "2026-10-20"
+    },
+    {
+      "id": "pola_history",
+      "publisher": "Provincial tourism portal",
+      "title": "History of Pola",
+      "url": "https://www.travelorientalmindoro.ph/municipality/pola/history",
+      "type": "compiled_history",
+      "scope": "River, farming/fishing/nipa weaving and red-clay place-name account.",
+      "accessedOn": "2026-10-20"
+    },
+    {
+      "id": "pola_houses",
+      "publisher": "Provincial tourism portal",
+      "title": "Pola Heritage Houses",
+      "url": "https://www.travelorientalmindoro.ph/place/pola-heritage-houses",
+      "type": "tourism_listing",
+      "scope": "Concentration of ancestral houses; not individual NHCP designations.",
+      "accessedOn": "2026-10-20"
+    },
+    {
+      "id": "pin_history",
+      "publisher": "Provincial tourism portal",
+      "title": "History of Pinamalayan",
+      "url": "https://www.travelorientalmindoro.ph/municipality/pinamalayan/history",
+      "type": "compiled_history",
+      "scope": "Rainbow origin narrative; treat as legend, not proven migration chronology.",
+      "accessedOn": "2026-10-20"
+    },
+    {
+      "id": "pin_lgu",
+      "publisher": "Municipal Government of Pinamalayan",
+      "title": "Municipal overview",
+      "url": "https://pinamalayan.gov.ph/",
+      "type": "local_government",
+      "scope": "Grid-pattern town planning and central plaza.",
+      "accessedOn": "2026-10-20"
+    },
+    {
+      "id": "pin_facts",
+      "publisher": "Municipal Government of Pinamalayan",
+      "title": "Quick facts",
+      "url": "https://www.pinamalayan.gov.ph/pages/quick-facts.html",
+      "type": "local_government",
+      "scope": "Banana chips and 1916 seat transfer; avoid promotional superlatives.",
+      "accessedOn": "2026-10-20"
+    },
+    {
+      "id": "gloria_history",
+      "publisher": "Provincial tourism portal",
+      "title": "History of Gloria",
+      "url": "https://www.travelorientalmindoro.ph/municipality/gloria/history",
+      "type": "compiled_history",
+      "scope": "Tambong, Maligaya and Pinamalayan connection.",
+      "accessedOn": "2026-10-20"
+    },
+    {
+      "id": "bansud_history",
+      "publisher": "Provincial tourism portal",
+      "title": "History of Bansud",
+      "url": "https://www.travelorientalmindoro.ph/municipality/bansud/history",
+      "type": "compiled_history",
+      "scope": "Former Bongabong territory, agriculture/fishing, basud oral account; exact foundation date not independently checked.",
+      "accessedOn": "2026-10-20"
+    },
+    {
+      "id": "bansud_agri",
+      "publisher": "PNVSCA",
+      "title": "Bansud local government profile",
+      "url": "https://pnvsca.gov.ph/?page_id=9099",
+      "type": "government_profile",
+      "scope": "Banana agricultural identity; old mayor listings not current.",
+      "accessedOn": "2026-10-20"
+    },
+    {
+      "id": "bansud_park",
+      "publisher": "Provincial tourism portal",
+      "title": "Bansud Municipal Park and Plaza",
+      "url": "https://www.travelorientalmindoro.ph/place/bansud-municipal-park-and-plaza",
+      "type": "tourism_listing",
+      "scope": "Poblacion park opposite municipal hall and artificial lagoon with tilapia.",
+      "accessedOn": "2026-10-20"
+    },
+    {
+      "id": "bong_lgu",
+      "publisher": "Municipal Government of Bongabong",
+      "title": "For tourists / visitors",
+      "url": "https://bongabong.gov.ph/services/visitors.html",
+      "type": "local_government",
+      "scope": "Kuta Shrine, Lisap Bridge, Tangisan Falls and Gabutero Farm; conflicting chronology omitted.",
+      "accessedOn": "2026-10-20"
+    },
+    {
+      "id": "bong_kuta",
+      "publisher": "Philippine Information Agency",
+      "title": "Kuta church ruins",
+      "url": "https://pia.gov.ph/news/kuta-church-ruins-stand-as-symbol-of-faith-resilience-in-mindoro-town/",
+      "type": "government_report",
+      "scope": "Approximate 1737 origin and church/defensive purpose.",
+      "accessedOn": "2026-10-20"
+    },
+    {
+      "id": "bong_history",
+      "publisher": "Provincial tourism portal",
+      "title": "History of Bongabong",
+      "url": "https://www.travelorientalmindoro.ph/municipality/bongabong/history",
+      "type": "compiled_history",
+      "scope": "Coconut plantations on coastal plains; etymology explicitly uncertain.",
+      "accessedOn": "2026-10-20"
+    },
+    {
+      "id": "roxas_history",
+      "publisher": "Provincial tourism portal",
+      "title": "History of Roxas",
+      "url": "https://www.travelorientalmindoro.ph/municipality/roxas/history",
+      "type": "compiled_history",
+      "scope": "Ticling/Paclasan and farming/trading narrative; distinguish account from archaeological evidence.",
+      "accessedOn": "2026-10-20"
+    },
+    {
+      "id": "roxas_places",
+      "publisher": "Provincial tourism portal",
+      "title": "Roxas destinations",
+      "url": "https://www.travelorientalmindoro.ph/municipality/roxas",
+      "type": "tourism_listing",
+      "scope": "Agritourism, Clarendon Cultural Center and San Rafael Cave listings.",
+      "accessedOn": "2026-10-20"
+    },
+    {
+      "id": "roxas_cave",
+      "publisher": "Provincial tourism portal",
+      "title": "San Rafael Cave",
+      "url": "https://www.travelorientalmindoro.ph/place/san-rafael-cave",
+      "type": "tourism_listing_conflicted",
+      "scope": "Cave location in Roxas; contradictory seven/ten chamber counts. No access or safety claims adopted.",
+      "accessedOn": "2026-10-20"
+    },
+    {
+      "id": "roxas_port",
+      "publisher": "DENR–EMB",
+      "title": "Approved project list",
+      "url": "https://eiais.emb.gov.ph/internal/public/Approved.aspx?Keyword=Mindor",
+      "type": "government_project_register",
+      "scope": "Roxas Port expansion identified in Barangay Dangay.",
+      "accessedOn": "2026-10-20"
+    },
+    {
+      "id": "mansalay_beach",
+      "publisher": "Provincial tourism portal",
+      "title": "Buktot Beach",
+      "url": "https://www.travelorientalmindoro.ph/place/buktot-beach",
+      "type": "tourism_listing",
+      "scope": "Beach in Manaul, Mansalay; do not adopt generic free-admission claims.",
+      "accessedOn": "2026-10-20"
+    },
+    {
+      "id": "ambahan_ncca",
+      "publisher": "National Commission for Culture and the Arts",
+      "title": "Ginaw Bilog and the Ambahan Tradition",
+      "url": "https://ncca.gov.ph/about-culture-and-arts/in-focus/ginaw-bilog-and-the-ambahan-tradition/",
+      "type": "cultural_institution",
+      "scope": "Ginaw Bilog and Hanunoo Mangyan ambahan of Mansalay.",
+      "accessedOn": "2026-10-20"
+    },
+    {
+      "id": "ambahan_form",
+      "publisher": "Mangyan Heritage Center website",
+      "title": "Ambahan and Childhood",
+      "url": "https://mangyan.org/content/ambahan-childhood",
+      "type": "heritage_organization",
+      "scope": "Seven-syllable poetic form and everyday-life themes; paraphrase only; no verses copied.",
+      "accessedOn": "2026-10-20"
+    },
+    {
+      "id": "mhc_groups",
+      "publisher": "Mangyan Heritage Center",
+      "title": "Mangyan groups",
+      "url": "https://mangyanheritage.odoo.com/mangyan-groups",
+      "type": "heritage_organization_search_excerpt",
+      "scope": "Search-index excerpt describes Surat Mangyan teaching in Mansalay and Bulalacao; direct retrieval failed. Needs direct confirmation.",
+      "accessedOn": "2026-10-20"
+    },
+    {
+      "id": "bulalacao_islands",
+      "publisher": "Provincial tourism portal",
+      "title": "Featured island destinations",
+      "url": "https://www.travelorientalmindoro.ph/",
+      "type": "tourism_listing",
+      "scope": "Aslom, Buyayao, Suguicay and Pocanil listings.",
+      "accessedOn": "2026-10-20"
+    },
+    {
+      "id": "bulalacao_history",
+      "publisher": "Provincial tourism portal",
+      "title": "History of Bulalacao",
+      "url": "https://www.travelorientalmindoro.ph/municipality/bulalacao/history",
+      "type": "compiled_history",
+      "scope": "Bird name-origin narrative explicitly labeled myth; ancient Mait identification remains hypothesis.",
+      "accessedOn": "2026-10-20"
+    },
+    {
+      "id": "marine_souvenirs",
+      "publisher": "Reef-World / Green Fins",
+      "title": "Marine tourism visitor tips",
+      "url": "https://greenfins.net/blog/top-tips-agents-operators/?cp=3",
+      "type": "conservation_guidance",
+      "scope": "Do not touch/chase marine life or take shell/coral souvenirs.",
+      "accessedOn": "2026-10-20"
+    },
+    {
+      "id": "ppdo_history",
+      "publisher": "PPDO Oriental Mindoro",
+      "title": "City and municipal histories",
+      "url": "https://ppdo.ormindoro.gov.ph/provincialdata/history-of-city-municipalities-in-oriental-mindoro/",
+      "type": "compiled_history_conflicted",
+      "scope": "Socorro crop listing; date conflicts and historic capital chronology recorded in issue log.",
+      "accessedOn": "2026-10-20"
+    },
+    {
+      "id": "tourism_offices",
+      "publisher": "Provincial tourism portal",
+      "title": "Tourism offices directory",
+      "url": "https://www.travelorientalmindoro.ph/directory/tourism-offices",
+      "type": "review_contacts",
+      "scope": "Office lookup for local review; verify contacts independently before use.",
+      "accessedOn": "2026-10-20"
+    }
+  ],
+  "profiles": [
+    {
+      "destinationID": "oriental_mindoro_puerto_galera",
+      "name": "Puerto Galera",
+      "reviewStatus": "web_researched_draft",
+      "publishInApp": false,
+      "introduction": {
+        "text": "Puerto Galera brings together coastal livelihoods, forest habitats and a long relationship with the sea. Its cultural story also includes the living nito-weaving tradition of Iraya-Mangyan artisans in Talipanan.",
+        "sourceIDs": [
+          "pg_unesco",
+          "pg_ayala"
+        ]
+      },
+      "collectibles": [
+        {
+          "name": "Nito basket token",
+          "basisSourceIDs": [
+            "pg_ayala"
+          ],
+          "status": "game_design_proposal_based_on_documented_topic",
+          "designNotes": "Proposed artisan-approved design; replace the generic shell pickup."
+        },
+        {
+          "name": "Boat postcard",
+          "basisSourceIDs": [
+            "pg_unesco"
+          ],
+          "status": "game_design_proposal_based_on_documented_topic",
+          "designNotes": "Symbolic livelihood token, not an antique or wildlife specimen."
+        }
+      ],
+      "discoveries": [
+        {
+          "id": "puerto_galera_discovery_1",
+          "suggestedMission": 1,
+          "title": "A biosphere landscape",
+          "text": "UNESCO records Puerto Galera as a biosphere reserve nominated in 1977.",
+          "sourceIDs": [
+            "pg_unesco"
+          ],
+          "evidenceStatus": "web_documented",
+          "localReview": "pending"
+        },
+        {
+          "id": "puerto_galera_discovery_2",
+          "suggestedMission": 2,
+          "title": "Beyond the beach",
+          "text": "The reserve includes forests, mangroves and coral reefs as well as coastal ecosystems.",
+          "sourceIDs": [
+            "pg_unesco"
+          ],
+          "evidenceStatus": "web_documented",
+          "localReview": "pending"
+        },
+        {
+          "id": "puerto_galera_discovery_3",
+          "suggestedMission": 3,
+          "title": "Living craft",
+          "text": "Iraya-Mangyan artisans in Talipanan make functional nito baskets, trays and other woven objects.",
+          "sourceIDs": [
+            "pg_weaving"
+          ],
+          "evidenceStatus": "web_documented",
+          "localReview": "pending"
+        },
+        {
+          "id": "puerto_galera_discovery_4",
+          "suggestedMission": 4,
+          "title": "Learning across generations",
+          "text": "Ayala Foundation's account describes artisans learning weaving from family members.",
+          "sourceIDs": [
+            "pg_weaving"
+          ],
+          "evidenceStatus": "web_documented",
+          "localReview": "pending"
+        },
+        {
+          "id": "puerto_galera_discovery_5",
+          "suggestedMission": 5,
+          "title": "Sea and livelihood",
+          "text": "UNESCO identifies fishing and subsistence farming as earlier income sources, alongside later tourism work.",
+          "sourceIDs": [
+            "pg_unesco"
+          ],
+          "evidenceStatus": "web_documented",
+          "localReview": "pending"
+        }
+      ],
+      "visitorChallenge": {
+        "status": "editorial_game_design_proposal",
+        "text": "Collect photo tokens while steering clear of coral and wildlife; never reward taking real shells.",
+        "contextSourceIDs": [
+          "pg_unesco",
+          "pg_ayala",
+          "greenfins",
+          "marine_souvenirs"
+        ],
+        "guidanceSourceIDs": [
+          "greenfins",
+          "marine_souvenirs"
+        ],
+        "note": "General conservation guidance adapted to a game; not asserted as a municipal ordinance."
+      },
+      "recap": {
+        "optional": true,
+        "question": "Which material is associated with the documented Iraya-Mangyan craft here?",
+        "options": [
+          "Nito",
+          "Coral",
+          "Plastic shells"
+        ],
+        "correctOptionIndex": 0,
+        "sourceIDs": [
+          "pg_ayala"
+        ],
+        "onIncorrect": "Explain the linked discovery and allow retry. Keep run rewards.",
+        "reward": "Optional journal reflection badge; never gate core travel progress."
+      },
+      "journal": {
+        "title": "Weaving and the sea",
+        "text": "A basket can represent skilled work, while a reef represents a living habitat. Discover both without turning wildlife or community traditions into things to take.",
+        "sourceIDs": [
+          "pg_unesco",
+          "pg_ayala",
+          "pg_weaving"
+        ],
+        "unlock": {
+          "type": "complete_destination_mission_5",
+          "quizRequired": false
+        },
+        "additionalSections": [
+          "Place introduction",
+          "Discovered facts",
+          "Collectible meanings",
+          "Visitor care",
+          "Sources and credits"
+        ],
+        "note": "Draft editorial synthesis; factual basis is in linked discovery records."
+      },
+      "cultureAndTraditions": {
+        "researchFinding": "Documented Iraya-Mangyan nito weaving; community review and artisan permission needed for design, narration and demonstration.",
+        "communityReviewRequired": true,
+        "permissionsObtained": false
+      },
+      "verificationGaps": [
+        "Confirm current community-led visit arrangements.",
+        "Commission an artisan-reviewed basket illustration; avoid copying a distinctive pattern without agreement."
+      ]
+    },
+    {
+      "destinationID": "oriental_mindoro_san_teodoro",
+      "name": "San Teodoro",
+      "reviewStatus": "web_researched_draft",
+      "publishInApp": false,
+      "introduction": {
+        "text": "San Teodoro combines waterfalls and other nature destinations with a history linked to Subaan. Coconut-based enterprise provides a documented connection between everyday work and the town's adventure theme.",
+        "sourceIDs": [
+          "st_places",
+          "st_history",
+          "enterprise"
+        ]
+      },
+      "collectibles": [
+        {
+          "name": "Coconut-product parcel",
+          "basisSourceIDs": [
+            "enterprise"
+          ],
+          "status": "game_design_proposal_based_on_documented_topic",
+          "designNotes": "Connect to processing and local enterprise; not a claim of exclusive origin."
+        },
+        {
+          "name": "Waterfall photo token",
+          "basisSourceIDs": [
+            "st_places"
+          ],
+          "status": "game_design_proposal_based_on_documented_topic",
+          "designNotes": "Observe the river landscape rather than collect live fish."
+        }
+      ],
+      "discoveries": [
+        {
+          "id": "san_teodoro_discovery_1",
+          "suggestedMission": 1,
+          "title": "Earlier name",
+          "text": "The provincial history identifies Subaan as San Teodoro's earlier name.",
+          "sourceIDs": [
+            "st_history"
+          ],
+          "evidenceStatus": "web_documented",
+          "localReview": "pending"
+        },
+        {
+          "id": "san_teodoro_discovery_2",
+          "suggestedMission": 2,
+          "title": "An earlier center",
+          "text": "The same history places the old town center in present-day Lumangbayan.",
+          "sourceIDs": [
+            "st_history"
+          ],
+          "evidenceStatus": "web_documented",
+          "localReview": "pending"
+        },
+        {
+          "id": "san_teodoro_discovery_3",
+          "suggestedMission": 3,
+          "title": "Coconut enterprise",
+          "text": "A provincial project report identifies a San Teodoro enterprise producing coconut-based goods.",
+          "sourceIDs": [
+            "enterprise"
+          ],
+          "evidenceStatus": "web_documented",
+          "localReview": "pending"
+        },
+        {
+          "id": "san_teodoro_discovery_4",
+          "suggestedMission": 4,
+          "title": "Aras Falls",
+          "text": "Aras Falls is listed among San Teodoro's freshwater attractions.",
+          "sourceIDs": [
+            "st_places"
+          ],
+          "evidenceStatus": "web_documented",
+          "localReview": "pending"
+        },
+        {
+          "id": "san_teodoro_discovery_5",
+          "suggestedMission": 5,
+          "title": "Botolan Falls",
+          "text": "Botolan Falls is another waterfall listed for San Teodoro.",
+          "sourceIDs": [
+            "st_places"
+          ],
+          "evidenceStatus": "web_documented",
+          "localReview": "pending"
+        }
+      ],
+      "visitorChallenge": {
+        "status": "editorial_game_design_proposal",
+        "text": "Guide a reusable bottle along an existing river path and keep packaging out of the stream.",
+        "contextSourceIDs": [
+          "st_places",
+          "st_history",
+          "enterprise"
+        ],
+        "guidanceSourceIDs": [],
+        "note": "Proposed respectful-behavior mechanic; not quoted local rules. Have site custodians review."
+      },
+      "recap": {
+        "optional": true,
+        "question": "Which earlier name appears in San Teodoro's documented town history?",
+        "options": [
+          "Subaan",
+          "Paclasan",
+          "Catiningan"
+        ],
+        "correctOptionIndex": 0,
+        "sourceIDs": [
+          "st_history"
+        ],
+        "onIncorrect": "Explain the linked discovery and allow retry. Keep run rewards.",
+        "reward": "Optional journal reflection badge; never gate core travel progress."
+      },
+      "journal": {
+        "title": "Water, work and place names",
+        "text": "This page joins the Subaan history with waterfall observation and coconut enterprise. A place can hold several identities beyond the scenery in a single photograph.",
+        "sourceIDs": [
+          "st_places",
+          "st_history",
+          "enterprise"
+        ],
+        "unlock": {
+          "type": "complete_destination_mission_5",
+          "quizRequired": false
+        },
+        "additionalSections": [
+          "Place introduction",
+          "Discovered facts",
+          "Collectible meanings",
+          "Visitor care",
+          "Sources and credits"
+        ],
+        "note": "Draft editorial synthesis; factual basis is in linked discovery records."
+      },
+      "cultureAndTraditions": {
+        "researchFinding": "Historical name and coconut-processing livelihood documented; no municipality-specific nonfestival ritual verified in this search.",
+        "communityReviewRequired": true,
+        "permissionsObtained": false
+      },
+      "verificationGaps": [
+        "Check local oral-history versions of the name change; avoid the uncertain three-Theodores explanation.",
+        "Ask producers which coconut products and processes may be illustrated."
+      ]
+    },
+    {
+      "destinationID": "oriental_mindoro_baco",
+      "name": "Baco",
+      "reviewStatus": "web_researched_draft",
+      "publishInApp": false,
+      "introduction": {
+        "text": "Baco is associated with Mount Halcon and river landscapes. Its histories also name Iraya and Alangan communities, reminding visitors that the mountain setting is a lived cultural landscape.",
+        "sourceIDs": [
+          "halcon",
+          "baco_history"
+        ]
+      },
+      "collectibles": [
+        {
+          "name": "Mountain postcard",
+          "basisSourceIDs": [
+            "halcon"
+          ],
+          "status": "game_design_proposal_based_on_documented_topic",
+          "designNotes": "Replace the generic steep souvenir with Halcon's reference-led broad ridge."
+        },
+        {
+          "name": "Paco fern illustration",
+          "basisSourceIDs": [
+            "baco_history"
+          ],
+          "status": "game_design_proposal_based_on_documented_topic",
+          "designNotes": "Optional story token only; name-origin account is oral, not proven etymology."
+        }
+      ],
+      "discoveries": [
+        {
+          "id": "baco_discovery_1",
+          "suggestedMission": 1,
+          "title": "Mountain identity",
+          "text": "The provincial tourism listing locates Mount Halcon in Baco.",
+          "sourceIDs": [
+            "halcon"
+          ],
+          "evidenceStatus": "web_documented",
+          "localReview": "pending"
+        },
+        {
+          "id": "baco_discovery_2",
+          "suggestedMission": 2,
+          "title": "Water landscapes",
+          "text": "Baco's history lists rivers, rapids and waterfalls among its landscape features.",
+          "sourceIDs": [
+            "baco_history"
+          ],
+          "evidenceStatus": "web_documented",
+          "localReview": "pending"
+        },
+        {
+          "id": "baco_discovery_3",
+          "suggestedMission": 3,
+          "title": "Distinct communities",
+          "text": "The history names Iraya and Alangan communities in Baco; these are not interchangeable identities.",
+          "sourceIDs": [
+            "baco_history"
+          ],
+          "evidenceStatus": "web_documented",
+          "localReview": "pending"
+        },
+        {
+          "id": "baco_discovery_4",
+          "suggestedMission": 4,
+          "title": "One name account",
+          "text": "One local account links Baco's name with paco, an edible fern.",
+          "sourceIDs": [
+            "baco_history"
+          ],
+          "evidenceStatus": "oral_account",
+          "localReview": "pending"
+        },
+        {
+          "id": "baco_discovery_5",
+          "suggestedMission": 5,
+          "title": "Another name account",
+          "text": "A different account connects the name with uneven, flood-affected roads.",
+          "sourceIDs": [
+            "baco_history"
+          ],
+          "evidenceStatus": "oral_account",
+          "localReview": "pending"
+        }
+      ],
+      "visitorChallenge": {
+        "status": "editorial_game_design_proposal",
+        "text": "Follow a marked route and earn observation tokens without picking plants or entering closed areas.",
+        "contextSourceIDs": [
+          "halcon",
+          "baco_history"
+        ],
+        "guidanceSourceIDs": [],
+        "note": "Proposed respectful-behavior mechanic; not quoted local rules. Have site custodians review."
+      },
+      "recap": {
+        "optional": true,
+        "question": "Which mountain is associated with Baco in the tourism listing?",
+        "options": [
+          "Mount Halcon",
+          "Mayon",
+          "Mount Apo"
+        ],
+        "correctOptionIndex": 0,
+        "sourceIDs": [
+          "halcon"
+        ],
+        "onIncorrect": "Explain the linked discovery and allow retry. Keep run rewards.",
+        "reward": "Optional journal reflection badge; never gate core travel progress."
+      },
+      "journal": {
+        "title": "A mountain and many voices",
+        "text": "The Halcon landscape and Baco's communities deserve careful listening. Keep alternative name stories labeled as accounts, and let community contributors explain their own heritage.",
+        "sourceIDs": [
+          "halcon",
+          "baco_history"
+        ],
+        "unlock": {
+          "type": "complete_destination_mission_5",
+          "quizRequired": false
+        },
+        "additionalSections": [
+          "Place introduction",
+          "Discovered facts",
+          "Collectible meanings",
+          "Visitor care",
+          "Sources and credits"
+        ],
+        "note": "Draft editorial synthesis; factual basis is in linked discovery records."
+      },
+      "cultureAndTraditions": {
+        "researchFinding": "Community presence and oral name accounts documented; specific living practices require named-community research and review.",
+        "communityReviewRequired": true,
+        "permissionsObtained": false
+      },
+      "verificationGaps": [
+        "Do not repeat conflicting national mountain rankings or generic free-entry claims.",
+        "Confirm access with local authorities; do not turn this game into a trail guide.",
+        "Do not assign Hanunuo motifs to Iraya or Alangan content."
+      ]
+    },
+    {
+      "destinationID": "oriental_mindoro_calapan_city",
+      "name": "Calapan City",
+      "reviewStatus": "web_researched_draft",
+      "publishInApp": false,
+      "introduction": {
+        "text": "Calapan City is Oriental Mindoro's capital and commercial center. Its heritage destinations and coastal conservation areas offer stories of city life, cultural learning and care for nearby habitats.",
+        "sourceIDs": [
+          "calapan",
+          "calapan_mpa"
+        ]
+      },
+      "collectibles": [
+        {
+          "name": "Heritage museum ticket",
+          "basisSourceIDs": [
+            "calapan"
+          ],
+          "status": "game_design_proposal_based_on_documented_topic",
+          "designNotes": "Fictional entry token; not a real admission ticket."
+        },
+        {
+          "name": "Mangrove observation badge",
+          "basisSourceIDs": [
+            "calapan_mpa"
+          ],
+          "status": "game_design_proposal_based_on_documented_topic",
+          "designNotes": "Observe plants; do not collect seedlings from the wild."
+        }
+      ],
+      "discoveries": [
+        {
+          "id": "calapan_city_discovery_1",
+          "suggestedMission": 1,
+          "title": "Provincial center",
+          "text": "Calapan is identified as the provincial capital and a commercial center.",
+          "sourceIDs": [
+            "calapan"
+          ],
+          "evidenceStatus": "web_documented",
+          "localReview": "pending"
+        },
+        {
+          "id": "calapan_city_discovery_2",
+          "suggestedMission": 2,
+          "title": "Cityhood",
+          "text": "Calapan's cityhood was ratified through a plebiscite on 21 March 1998.",
+          "sourceIDs": [
+            "calapan_history"
+          ],
+          "evidenceStatus": "web_documented",
+          "localReview": "pending"
+        },
+        {
+          "id": "calapan_city_discovery_3",
+          "suggestedMission": 3,
+          "title": "Museum discovery",
+          "text": "The provincial tourism directory lists the Oriental Mindoro Heritage Museum in Calapan.",
+          "sourceIDs": [
+            "calapan"
+          ],
+          "evidenceStatus": "web_documented",
+          "localReview": "pending"
+        },
+        {
+          "id": "calapan_city_discovery_4",
+          "suggestedMission": 4,
+          "title": "Silonay",
+          "text": "DENR's monitoring record identifies Silonay Mangrove Conservation Area among Calapan's coastal sites.",
+          "sourceIDs": [
+            "calapan_mpa"
+          ],
+          "evidenceStatus": "web_documented",
+          "localReview": "pending"
+        },
+        {
+          "id": "calapan_city_discovery_5",
+          "suggestedMission": 5,
+          "title": "Harka Piloto",
+          "text": "The same DENR record identifies Harka Piloto as a fish sanctuary.",
+          "sourceIDs": [
+            "calapan_mpa"
+          ],
+          "evidenceStatus": "web_documented",
+          "localReview": "pending"
+        }
+      ],
+      "visitorChallenge": {
+        "status": "editorial_game_design_proposal",
+        "text": "Collect observation badges from a virtual boardwalk while leaving mangroves and sanctuary wildlife undisturbed.",
+        "contextSourceIDs": [
+          "calapan",
+          "calapan_mpa"
+        ],
+        "guidanceSourceIDs": [],
+        "note": "Proposed respectful-behavior mechanic; not quoted local rules. Have site custodians review."
+      },
+      "recap": {
+        "optional": true,
+        "question": "Which city is the capital of Oriental Mindoro?",
+        "options": [
+          "Calapan City",
+          "Roxas",
+          "Pinamalayan"
+        ],
+        "correctOptionIndex": 0,
+        "sourceIDs": [
+          "calapan"
+        ],
+        "onIncorrect": "Explain the linked discovery and allow retry. Keep run rewards.",
+        "reward": "Optional journal reflection badge; never gate core travel progress."
+      },
+      "journal": {
+        "title": "The city beyond arrival",
+        "text": "A provincial center can also be a place to learn and conserve. Link the museum stop with coastal habitat observation rather than treating Calapan only as a gateway.",
+        "sourceIDs": [
+          "calapan",
+          "calapan_mpa",
+          "calapan_history"
+        ],
+        "unlock": {
+          "type": "complete_destination_mission_5",
+          "quizRequired": false
+        },
+        "additionalSections": [
+          "Place introduction",
+          "Discovered facts",
+          "Collectible meanings",
+          "Visitor care",
+          "Sources and credits"
+        ],
+        "note": "Draft editorial synthesis; factual basis is in linked discovery records."
+      },
+      "cultureAndTraditions": {
+        "researchFinding": "Built heritage and museum learning documented; cathedral chronology, parish practices and specific object stories need site-level review.",
+        "communityReviewRequired": true,
+        "permissionsObtained": false
+      },
+      "verificationGaps": [
+        "Confirm museum naming and the photographed cathedral's official identification with custodians.",
+        "Earlier capital-transfer dates conflict; exclude until resolved.",
+        "Historic 2023 water sampling does not establish present swimming safety."
+      ]
+    },
+    {
+      "destinationID": "oriental_mindoro_naujan",
+      "name": "Naujan",
+      "reviewStatus": "web_researched_draft",
+      "publishInApp": false,
+      "introduction": {
+        "text": "Naujan's adventure can connect wetland life with built heritage at Bancuro. Naujan Lake is part of a wider landscape shared by several municipalities, rather than the story of one town alone.",
+        "sourceIDs": [
+          "naujan_history",
+          "lake_profile"
+        ]
+      },
+      "collectibles": [
+        {
+          "name": "Fish observation card",
+          "basisSourceIDs": [
+            "lake_fisheries"
+          ],
+          "status": "game_design_proposal_based_on_documented_topic",
+          "designNotes": "Replace live-fish catching with identification; exact species require verified artwork."
+        },
+        {
+          "name": "Bancuro heritage sketch",
+          "basisSourceIDs": [
+            "naujan_history"
+          ],
+          "status": "game_design_proposal_based_on_documented_topic",
+          "designNotes": "A drawing token, never a stone removed from ruins."
+        }
+      ],
+      "discoveries": [
+        {
+          "id": "naujan_discovery_1",
+          "suggestedMission": 1,
+          "title": "International wetland",
+          "text": "Naujan Lake National Park entered the Ramsar list on 12 November 1999.",
+          "sourceIDs": [
+            "ramsar_list"
+          ],
+          "evidenceStatus": "web_documented",
+          "localReview": "pending"
+        },
+        {
+          "id": "naujan_discovery_2",
+          "suggestedMission": 2,
+          "title": "Shared landscape",
+          "text": "The lake park profile describes a landscape surrounded by Naujan, Pola, Socorro and Victoria.",
+          "sourceIDs": [
+            "lake_profile"
+          ],
+          "evidenceStatus": "web_documented",
+          "localReview": "pending"
+        },
+        {
+          "id": "naujan_discovery_3",
+          "suggestedMission": 3,
+          "title": "Fishery knowledge",
+          "text": "A 2025–2026 assessment studied Lake Naujan's fisheries to inform sustainable management.",
+          "sourceIDs": [
+            "lake_fisheries"
+          ],
+          "evidenceStatus": "web_documented",
+          "localReview": "pending"
+        },
+        {
+          "id": "naujan_discovery_4",
+          "suggestedMission": 4,
+          "title": "Bancuro heritage",
+          "text": "The town history describes Bancuro's stone church as a place of worship and refuge.",
+          "sourceIDs": [
+            "naujan_history"
+          ],
+          "evidenceStatus": "web_documented",
+          "localReview": "pending"
+        },
+        {
+          "id": "naujan_discovery_5",
+          "suggestedMission": 5,
+          "title": "A name story",
+          "text": "The tourism history presents a thirst-related origin of Naujan's name as a legend.",
+          "sourceIDs": [
+            "naujan_history"
+          ],
+          "evidenceStatus": "legend",
+          "localReview": "pending"
+        }
+      ],
+      "visitorChallenge": {
+        "status": "editorial_game_design_proposal",
+        "text": "Photograph virtual birds from a distance and keep litter out of the lake; no wildlife capture rewards.",
+        "contextSourceIDs": [
+          "naujan_history",
+          "lake_profile"
+        ],
+        "guidanceSourceIDs": [],
+        "note": "Proposed respectful-behavior mechanic; not quoted local rules. Have site custodians review."
+      },
+      "recap": {
+        "optional": true,
+        "question": "Naujan Lake National Park is recognized internationally as what?",
+        "options": [
+          "A Ramsar wetland",
+          "A desert reserve",
+          "A ski area"
+        ],
+        "correctOptionIndex": 0,
+        "sourceIDs": [
+          "ramsar_list"
+        ],
+        "onIncorrect": "Explain the linked discovery and allow retry. Keep run rewards.",
+        "reward": "Optional journal reflection badge; never gate core travel progress."
+      },
+      "journal": {
+        "title": "Water holds shared stories",
+        "text": "Lake research, surrounding communities and Bancuro's heritage belong to different parts of Naujan's story. Protecting water and respecting historic places can be learned together.",
+        "sourceIDs": [
+          "naujan_history",
+          "lake_profile",
+          "ramsar_list",
+          "lake_fisheries"
+        ],
+        "unlock": {
+          "type": "complete_destination_mission_5",
+          "quizRequired": false
+        },
+        "additionalSections": [
+          "Place introduction",
+          "Discovered facts",
+          "Collectible meanings",
+          "Visitor care",
+          "Sources and credits"
+        ],
+        "note": "Draft editorial synthesis; factual basis is in linked discovery records."
+      },
+      "cultureAndTraditions": {
+        "researchFinding": "Bancuro built-heritage account and a name legend documented; church interpretation and local language require further review.",
+        "communityReviewRequired": true,
+        "permissionsObtained": false
+      },
+      "verificationGaps": [
+        "Avoid claiming that ancient imported pottery proves the inhabitants were Chinese.",
+        "Separate the lake surface, park boundary and Ramsar boundary; their area figures differ.",
+        "No fish species is yet approved for a municipality-specific sprite."
+      ]
+    },
+    {
+      "destinationID": "oriental_mindoro_victoria",
+      "name": "Victoria",
+      "reviewStatus": "web_researched_draft",
+      "publishInApp": false,
+      "introduction": {
+        "text": "Victoria's farm landscapes connect rice with a variety of fruits. Research describes the town as Oriental Mindoro's fruit basket, providing a stronger basis for collectible choices than the monument alone.",
+        "sourceIDs": [
+          "victoria_up"
+        ]
+      },
+      "collectibles": [
+        {
+          "name": "Rambutan and lanzones basket",
+          "basisSourceIDs": [
+            "victoria_up"
+          ],
+          "status": "game_design_proposal_based_on_documented_topic",
+          "designNotes": "Replace unrelated fruit mix with documented crops."
+        },
+        {
+          "name": "Calamansi juice parcel",
+          "basisSourceIDs": [
+            "enterprise"
+          ],
+          "status": "game_design_proposal_based_on_documented_topic",
+          "designNotes": "Connect farming to value-added local processing."
+        }
+      ],
+      "discoveries": [
+        {
+          "id": "victoria_discovery_1",
+          "suggestedMission": 1,
+          "title": "Fruit-basket identity",
+          "text": "A UP food-systems study describes Victoria as Oriental Mindoro's fruit basket.",
+          "sourceIDs": [
+            "victoria_up"
+          ],
+          "evidenceStatus": "web_documented",
+          "localReview": "pending"
+        },
+        {
+          "id": "victoria_discovery_2",
+          "suggestedMission": 2,
+          "title": "Rice matters too",
+          "text": "The same study emphasizes rice alongside the town's fruit production.",
+          "sourceIDs": [
+            "victoria_up"
+          ],
+          "evidenceStatus": "web_documented",
+          "localReview": "pending"
+        },
+        {
+          "id": "victoria_discovery_3",
+          "suggestedMission": 3,
+          "title": "Orchard variety",
+          "text": "Its documented crops include calamansi, bananas, lanzones, mangosteen and rambutan.",
+          "sourceIDs": [
+            "victoria_up"
+          ],
+          "evidenceStatus": "web_documented",
+          "localReview": "pending"
+        },
+        {
+          "id": "victoria_discovery_4",
+          "suggestedMission": 4,
+          "title": "Processing livelihoods",
+          "text": "A provincial report describes a Victoria enterprise processing calamansi into juice and concentrate.",
+          "sourceIDs": [
+            "enterprise"
+          ],
+          "evidenceStatus": "web_documented",
+          "localReview": "pending"
+        },
+        {
+          "id": "victoria_discovery_5",
+          "suggestedMission": 5,
+          "title": "Agricultural learning",
+          "text": "DA's station profile places an agricultural research station in Alcate, Victoria.",
+          "sourceIDs": [
+            "victoria_da"
+          ],
+          "evidenceStatus": "web_documented",
+          "localReview": "pending"
+        }
+      ],
+      "visitorChallenge": {
+        "status": "editorial_game_design_proposal",
+        "text": "Sort ripe-fruit tokens into market baskets and a processing route to reduce simulated harvest waste.",
+        "contextSourceIDs": [
+          "victoria_up"
+        ],
+        "guidanceSourceIDs": [],
+        "note": "Proposed respectful-behavior mechanic; not quoted local rules. Have site custodians review."
+      },
+      "recap": {
+        "optional": true,
+        "question": "Which combination better reflects Victoria's documented farming identity?",
+        "options": [
+          "Rice and varied fruits",
+          "Only coconuts",
+          "Only marine products"
+        ],
+        "correctOptionIndex": 0,
+        "sourceIDs": [
+          "victoria_up"
+        ],
+        "onIncorrect": "Explain the linked discovery and allow retry. Keep run rewards.",
+        "reward": "Optional journal reflection badge; never gate core travel progress."
+      },
+      "journal": {
+        "title": "From harvest to livelihood",
+        "text": "Victoria's story can move from field and orchard to market and processing. The collectible basket represents farm work and variety, not a claim that every fruit grows only here.",
+        "sourceIDs": [
+          "victoria_up",
+          "enterprise",
+          "victoria_da"
+        ],
+        "unlock": {
+          "type": "complete_destination_mission_5",
+          "quizRequired": false
+        },
+        "additionalSections": [
+          "Place introduction",
+          "Discovered facts",
+          "Collectible meanings",
+          "Visitor care",
+          "Sources and credits"
+        ],
+        "note": "Draft editorial synthesis; factual basis is in linked discovery records."
+      },
+      "cultureAndTraditions": {
+        "researchFinding": "Agricultural livelihood and processing documented; family food traditions need producer or household interviews.",
+        "communityReviewRequired": true,
+        "permissionsObtained": false
+      },
+      "verificationGaps": [
+        "Review fruit shapes and varieties with local growers.",
+        "Do not use the monument to claim that every pictured fruit is a major local crop.",
+        "Keep statistics tied to their study year."
+      ]
+    },
+    {
+      "destinationID": "oriental_mindoro_socorro",
+      "name": "Socorro",
+      "reviewStatus": "web_researched_draft",
+      "publishInApp": false,
+      "introduction": {
+        "text": "Socorro is an agricultural municipality connected to the southern side of Naujan Lake. Its local identity combines farming, freshwater livelihoods and a documented history of separation from Pola.",
+        "sourceIDs": [
+          "socorro_lgu",
+          "ppdo_history",
+          "socorro_law"
+        ]
+      },
+      "collectibles": [
+        {
+          "name": "Calamansi harvest crate",
+          "basisSourceIDs": [
+            "ppdo_history"
+          ],
+          "status": "game_design_proposal_based_on_documented_topic",
+          "designNotes": "Documented crop; replace a generic live-fish pickup if the mission focuses on farming."
+        },
+        {
+          "name": "Lake observation badge",
+          "basisSourceIDs": [
+            "lake_profile"
+          ],
+          "status": "game_design_proposal_based_on_documented_topic",
+          "designNotes": "A shared-wetland token, not a private municipal emblem."
+        }
+      ],
+      "discoveries": [
+        {
+          "id": "socorro_discovery_1",
+          "suggestedMission": 1,
+          "title": "Created from Pola",
+          "text": "Republic Act 3609 separated Socorro's territory from Pola.",
+          "sourceIDs": [
+            "socorro_law"
+          ],
+          "evidenceStatus": "web_documented",
+          "localReview": "pending"
+        },
+        {
+          "id": "socorro_discovery_2",
+          "suggestedMission": 2,
+          "title": "Creation date checked",
+          "text": "The original law was approved on 22 June 1963.",
+          "sourceIDs": [
+            "socorro_law"
+          ],
+          "evidenceStatus": "web_documented",
+          "localReview": "pending"
+        },
+        {
+          "id": "socorro_discovery_3",
+          "suggestedMission": 3,
+          "title": "Earlier settlement name",
+          "text": "The municipal website links the town's history to Catiningan.",
+          "sourceIDs": [
+            "socorro_lgu"
+          ],
+          "evidenceStatus": "web_documented",
+          "localReview": "pending"
+        },
+        {
+          "id": "socorro_discovery_4",
+          "suggestedMission": 4,
+          "title": "Agricultural variety",
+          "text": "PPDO's municipal history lists calamansi, rambutan, coffee and bananas among Socorro's crops.",
+          "sourceIDs": [
+            "ppdo_history"
+          ],
+          "evidenceStatus": "web_documented",
+          "localReview": "pending"
+        },
+        {
+          "id": "socorro_discovery_5",
+          "suggestedMission": 5,
+          "title": "Lake connection",
+          "text": "The conservation profile includes Socorro among the four municipalities surrounding Naujan Lake National Park.",
+          "sourceIDs": [
+            "lake_profile"
+          ],
+          "evidenceStatus": "web_documented",
+          "localReview": "pending"
+        }
+      ],
+      "visitorChallenge": {
+        "status": "editorial_game_design_proposal",
+        "text": "Route crop tokens to market while keeping agricultural waste out of the virtual lake.",
+        "contextSourceIDs": [
+          "socorro_lgu",
+          "ppdo_history",
+          "socorro_law"
+        ],
+        "guidanceSourceIDs": [],
+        "note": "Proposed respectful-behavior mechanic; not quoted local rules. Have site custodians review."
+      },
+      "recap": {
+        "optional": true,
+        "question": "Socorro was separated from which municipality?",
+        "options": [
+          "Pola",
+          "Mansalay",
+          "Puerto Galera"
+        ],
+        "correctOptionIndex": 0,
+        "sourceIDs": [
+          "socorro_law"
+        ],
+        "onIncorrect": "Explain the linked discovery and allow retry. Keep run rewards.",
+        "reward": "Optional journal reflection badge; never gate core travel progress."
+      },
+      "journal": {
+        "title": "Farm and freshwater crossroads",
+        "text": "Socorro's fields and lake connection create a story about livelihoods linked by water. Its foundation date comes from the original law, not a conflicting historical summary.",
+        "sourceIDs": [
+          "socorro_lgu",
+          "ppdo_history",
+          "socorro_law",
+          "lake_profile"
+        ],
+        "unlock": {
+          "type": "complete_destination_mission_5",
+          "quizRequired": false
+        },
+        "additionalSections": [
+          "Place introduction",
+          "Discovered facts",
+          "Collectible meanings",
+          "Visitor care",
+          "Sources and credits"
+        ],
+        "note": "Draft editorial synthesis; factual basis is in linked discovery records."
+      },
+      "cultureAndTraditions": {
+        "researchFinding": "Local history and livelihood topics documented; no unique nonfestival tradition was established by the consulted sources.",
+        "communityReviewRequired": true,
+        "permissionsObtained": false
+      },
+      "verificationGaps": [
+        "PPDO says 1962 in one account; RA 3609 and the LGU confirm 1963.",
+        "Confirm the boardwalk reference's exact site name before naming the game background.",
+        "Collect local farm and fishing narratives without presenting all residents as one culture."
+      ]
+    },
+    {
+      "destinationID": "oriental_mindoro_pola",
+      "name": "Pola",
+      "reviewStatus": "web_researched_draft",
+      "publishInApp": false,
+      "introduction": {
+        "text": "Pola connects an estuary and coastal setting with a concentration of ancestral houses. Its recorded livelihoods include farming, fishing and nipa weaving, offering both built-heritage and everyday-work stories.",
+        "sourceIDs": [
+          "pola_history",
+          "pola_houses"
+        ]
+      },
+      "collectibles": [
+        {
+          "name": "Nipa-woven panel token",
+          "basisSourceIDs": [
+            "pola_history"
+          ],
+          "status": "game_design_proposal_based_on_documented_topic",
+          "designNotes": "Design requires a local maker's review; represent work, not harvesting wild plants."
+        },
+        {
+          "name": "Heritage-window postcard",
+          "basisSourceIDs": [
+            "pola_houses"
+          ],
+          "status": "game_design_proposal_based_on_documented_topic",
+          "designNotes": "Original illustration, not a removable architectural fragment."
+        }
+      ],
+      "discoveries": [
+        {
+          "id": "pola_discovery_1",
+          "suggestedMission": 1,
+          "title": "Ancestral houses",
+          "text": "The tourism portal describes Pola's concentration of preserved ancestral houses.",
+          "sourceIDs": [
+            "pola_houses"
+          ],
+          "evidenceStatus": "web_documented",
+          "localReview": "pending"
+        },
+        {
+          "id": "pola_discovery_2",
+          "suggestedMission": 2,
+          "title": "River and town",
+          "text": "The town history places the poblacion at the Casiligan River's estuary.",
+          "sourceIDs": [
+            "pola_history"
+          ],
+          "evidenceStatus": "web_documented",
+          "localReview": "pending"
+        },
+        {
+          "id": "pola_discovery_3",
+          "suggestedMission": 3,
+          "title": "Everyday livelihoods",
+          "text": "Its historical account identifies agriculture and fishing among local livelihoods.",
+          "sourceIDs": [
+            "pola_history"
+          ],
+          "evidenceStatus": "web_documented",
+          "localReview": "pending"
+        },
+        {
+          "id": "pola_discovery_4",
+          "suggestedMission": 4,
+          "title": "Nipa craft",
+          "text": "The same account explicitly mentions nipa weaving.",
+          "sourceIDs": [
+            "pola_history"
+          ],
+          "evidenceStatus": "web_documented",
+          "localReview": "pending"
+        },
+        {
+          "id": "pola_discovery_5",
+          "suggestedMission": 5,
+          "title": "Red-clay account",
+          "text": "The history links Pola's name with reddish clay and the word pula.",
+          "sourceIDs": [
+            "pola_history"
+          ],
+          "evidenceStatus": "local_etymology_account",
+          "localReview": "pending"
+        }
+      ],
+      "visitorChallenge": {
+        "status": "editorial_game_design_proposal",
+        "text": "Follow a heritage-viewing route, asking permission before entering homes or photographing residents.",
+        "contextSourceIDs": [
+          "pola_history",
+          "pola_houses"
+        ],
+        "guidanceSourceIDs": [],
+        "note": "Proposed respectful-behavior mechanic; not quoted local rules. Have site custodians review."
+      },
+      "recap": {
+        "optional": true,
+        "question": "Which weaving material is specifically mentioned in Pola's town history?",
+        "options": [
+          "Nipa",
+          "Glass fibre",
+          "Coral"
+        ],
+        "correctOptionIndex": 0,
+        "sourceIDs": [
+          "pola_history"
+        ],
+        "onIncorrect": "Explain the linked discovery and allow retry. Keep run rewards.",
+        "reward": "Optional journal reflection badge; never gate core travel progress."
+      },
+      "journal": {
+        "title": "Houses and hands at work",
+        "text": "Pola's heritage includes lived-in buildings and practical craft. A respectful visitor observes architecture without treating homes or residents as exhibits.",
+        "sourceIDs": [
+          "pola_history",
+          "pola_houses"
+        ],
+        "unlock": {
+          "type": "complete_destination_mission_5",
+          "quizRequired": false
+        },
+        "additionalSections": [
+          "Place introduction",
+          "Discovered facts",
+          "Collectible meanings",
+          "Visitor care",
+          "Sources and credits"
+        ],
+        "note": "Draft editorial synthesis; factual basis is in linked discovery records."
+      },
+      "cultureAndTraditions": {
+        "researchFinding": "Nipa weaving is explicitly sourced, but present-day practice, techniques and practitioner names remain unverified.",
+        "communityReviewRequired": true,
+        "permissionsObtained": false
+      },
+      "verificationGaps": [
+        "Tourism use of 'heritage house' does not establish individual NHCP designation.",
+        "Arrange maker review before illustrating tools or a weaving sequence.",
+        "Do not promise unrestricted access to privately owned houses."
+      ]
+    },
+    {
+      "destinationID": "oriental_mindoro_pinamalayan",
+      "name": "Pinamalayan",
+      "reviewStatus": "web_researched_draft",
+      "publishInApp": false,
+      "introduction": {
+        "text": "Pinamalayan's identity includes its planned town center, local food enterprise and a rainbow origin story. The rainbow should introduce a local legend, while town planning provides a separate historical discovery.",
+        "sourceIDs": [
+          "pin_lgu",
+          "pin_history",
+          "pin_facts"
+        ]
+      },
+      "collectibles": [
+        {
+          "name": "Banana-chip parcel",
+          "basisSourceIDs": [
+            "pin_facts"
+          ],
+          "status": "game_design_proposal_based_on_documented_topic",
+          "designNotes": "Documented food-product link; current clay pot remains a landmark souvenir, not proof of pottery craft."
+        },
+        {
+          "name": "Rainbow postcard",
+          "basisSourceIDs": [
+            "pin_history"
+          ],
+          "status": "game_design_proposal_based_on_documented_topic",
+          "designNotes": "Story token labeled as legend."
+        }
+      ],
+      "discoveries": [
+        {
+          "id": "pinamalayan_discovery_1",
+          "suggestedMission": 1,
+          "title": "A planned center",
+          "text": "The municipal website describes a grid-pattern layout in Pinamalayan's poblacion.",
+          "sourceIDs": [
+            "pin_lgu"
+          ],
+          "evidenceStatus": "web_documented",
+          "localReview": "pending"
+        },
+        {
+          "id": "pinamalayan_discovery_2",
+          "suggestedMission": 2,
+          "title": "Plaza and civic life",
+          "text": "The same account connects the planned town center with a plaza beside the municipal building.",
+          "sourceIDs": [
+            "pin_lgu"
+          ],
+          "evidenceStatus": "web_documented",
+          "localReview": "pending"
+        },
+        {
+          "id": "pinamalayan_discovery_3",
+          "suggestedMission": 3,
+          "title": "A remembered move",
+          "text": "The municipal quick-facts page dates the town-seat transfer from Lumambayan to 1916.",
+          "sourceIDs": [
+            "pin_facts"
+          ],
+          "evidenceStatus": "web_documented",
+          "localReview": "pending"
+        },
+        {
+          "id": "pinamalayan_discovery_4",
+          "suggestedMission": 4,
+          "title": "Food enterprise",
+          "text": "The municipal quick-facts page identifies packaged banana chips as a visitor-associated local delicacy.",
+          "sourceIDs": [
+            "pin_facts"
+          ],
+          "evidenceStatus": "web_documented",
+          "localReview": "pending"
+        },
+        {
+          "id": "pinamalayan_discovery_5",
+          "suggestedMission": 5,
+          "title": "Rainbow story",
+          "text": "The provincial history tells of travelers guided toward land by a rainbow.",
+          "sourceIDs": [
+            "pin_history"
+          ],
+          "evidenceStatus": "legend",
+          "localReview": "pending"
+        }
+      ],
+      "visitorChallenge": {
+        "status": "editorial_game_design_proposal",
+        "text": "Follow a virtual plaza route and choose local-product tokens without climbing or damaging the monument.",
+        "contextSourceIDs": [
+          "pin_lgu",
+          "pin_history",
+          "pin_facts"
+        ],
+        "guidanceSourceIDs": [],
+        "note": "Proposed respectful-behavior mechanic; not quoted local rules. Have site custodians review."
+      },
+      "recap": {
+        "optional": true,
+        "question": "Which feature is documented in Pinamalayan's town-center planning?",
+        "options": [
+          "A grid of roads",
+          "An ice canal",
+          "A desert caravan route"
+        ],
+        "correctOptionIndex": 0,
+        "sourceIDs": [
+          "pin_lgu"
+        ],
+        "onIncorrect": "Explain the linked discovery and allow retry. Keep run rewards.",
+        "reward": "Optional journal reflection badge; never gate core travel progress."
+      },
+      "journal": {
+        "title": "A rainbow and a planned town",
+        "text": "Keep the origin story in the legend section. Town planning and food enterprise supply separate discoveries grounded in municipal descriptions.",
+        "sourceIDs": [
+          "pin_lgu",
+          "pin_history",
+          "pin_facts"
+        ],
+        "unlock": {
+          "type": "complete_destination_mission_5",
+          "quizRequired": false
+        },
+        "additionalSections": [
+          "Place introduction",
+          "Discovered facts",
+          "Collectible meanings",
+          "Visitor care",
+          "Sources and credits"
+        ],
+        "note": "Draft editorial synthesis; factual basis is in linked discovery records."
+      },
+      "cultureAndTraditions": {
+        "researchFinding": "Origin legend, civic landscape and food enterprise documented; no pottery tradition confirmed.",
+        "communityReviewRequired": true,
+        "permissionsObtained": false
+      },
+      "verificationGaps": [
+        "Confirm the pot monument's interpretation with the municipality before explaining its symbolism.",
+        "Recheck the quick-facts page with dated planning records before final publication.",
+        "Do not present a pot-of-gold detail as sourced by the consulted rainbow account."
+      ]
+    },
+    {
+      "destinationID": "oriental_mindoro_gloria",
+      "name": "Gloria",
+      "reviewStatus": "web_researched_draft",
+      "publishInApp": false,
+      "introduction": {
+        "text": "Gloria's history connects Tambong and Maligaya with its former place within Pinamalayan. A documented banana-chip enterprise adds a livelihood story that can complement the coastal scenery chosen for the app.",
+        "sourceIDs": [
+          "gloria_history",
+          "enterprise"
+        ]
+      },
+      "collectibles": [
+        {
+          "name": "Banana-chip parcel",
+          "basisSourceIDs": [
+            "enterprise"
+          ],
+          "status": "game_design_proposal_based_on_documented_topic",
+          "designNotes": "Stronger documented link than the currently shared coconut sprite."
+        },
+        {
+          "name": "Town-history postcard",
+          "basisSourceIDs": [
+            "gloria_history"
+          ],
+          "status": "game_design_proposal_based_on_documented_topic",
+          "designNotes": "Show place names without inventing a municipal emblem."
+        }
+      ],
+      "discoveries": [
+        {
+          "id": "gloria_discovery_1",
+          "suggestedMission": 1,
+          "title": "Earlier connection",
+          "text": "Gloria's municipal history records that its territory was once part of Pinamalayan.",
+          "sourceIDs": [
+            "gloria_history"
+          ],
+          "evidenceStatus": "web_documented",
+          "localReview": "pending"
+        },
+        {
+          "id": "gloria_discovery_2",
+          "suggestedMission": 2,
+          "title": "Tambong account",
+          "text": "The same history describes migrant families settling in Tambong around 1915.",
+          "sourceIDs": [
+            "gloria_history"
+          ],
+          "evidenceStatus": "web_documented",
+          "localReview": "pending"
+        },
+        {
+          "id": "gloria_discovery_3",
+          "suggestedMission": 3,
+          "title": "Maligaya",
+          "text": "The history explains Maligaya's name through a local account of happiness over agricultural harvests.",
+          "sourceIDs": [
+            "gloria_history"
+          ],
+          "evidenceStatus": "local_history_account",
+          "localReview": "pending"
+        },
+        {
+          "id": "gloria_discovery_4",
+          "suggestedMission": 4,
+          "title": "Town center",
+          "text": "Maligaya became the poblacion and seat of municipal government, according to that account.",
+          "sourceIDs": [
+            "gloria_history"
+          ],
+          "evidenceStatus": "web_documented",
+          "localReview": "pending"
+        },
+        {
+          "id": "gloria_discovery_5",
+          "suggestedMission": 5,
+          "title": "Adding value",
+          "text": "The provincial enterprise report identifies MARBA in Gloria as a banana-chip producer.",
+          "sourceIDs": [
+            "enterprise"
+          ],
+          "evidenceStatus": "web_documented",
+          "localReview": "pending"
+        }
+      ],
+      "visitorChallenge": {
+        "status": "editorial_game_design_proposal",
+        "text": "Move fruit tokens from harvest to processing and keep wrappers off the virtual beach.",
+        "contextSourceIDs": [
+          "gloria_history",
+          "enterprise"
+        ],
+        "guidanceSourceIDs": [],
+        "note": "Proposed respectful-behavior mechanic; not quoted local rules. Have site custodians review."
+      },
+      "recap": {
+        "optional": true,
+        "question": "Which documented processed product connects Gloria to the enterprise report?",
+        "options": [
+          "Banana chips",
+          "Snow cones",
+          "Coral jewelry"
+        ],
+        "correctOptionIndex": 0,
+        "sourceIDs": [
+          "enterprise"
+        ],
+        "onIncorrect": "Explain the linked discovery and allow retry. Keep run rewards.",
+        "reward": "Optional journal reflection badge; never gate core travel progress."
+      },
+      "journal": {
+        "title": "Harvests become stories",
+        "text": "Place names and product-making connect Gloria's town history with everyday work. The beach image is one setting, not the municipality's entire identity.",
+        "sourceIDs": [
+          "gloria_history",
+          "enterprise"
+        ],
+        "unlock": {
+          "type": "complete_destination_mission_5",
+          "quizRequired": false
+        },
+        "additionalSections": [
+          "Place introduction",
+          "Discovered facts",
+          "Collectible meanings",
+          "Visitor care",
+          "Sources and credits"
+        ],
+        "note": "Draft editorial synthesis; factual basis is in linked discovery records."
+      },
+      "cultureAndTraditions": {
+        "researchFinding": "Agricultural enterprise and local place-name account documented; a distinct nonfestival cultural practice still needs local research.",
+        "communityReviewRequired": true,
+        "permissionsObtained": false
+      },
+      "verificationGaps": [
+        "Migration accounts must not imply that the land was uninhabited before migrants arrived.",
+        "Ask producers about ingredients, packaging and permission for representation.",
+        "The precise beach reference remains unnamed; do not invent a site label."
+      ]
+    },
+    {
+      "destinationID": "oriental_mindoro_bansud",
+      "name": "Bansud",
+      "reviewStatus": "web_researched_draft",
+      "publishInApp": false,
+      "introduction": {
+        "text": "Bansud's documented identity includes agriculture and bananas, alongside river-related local history. Its public park provides another setting for learning about shared spaces and freshwater observation.",
+        "sourceIDs": [
+          "bansud_agri",
+          "bansud_history",
+          "bansud_park"
+        ]
+      },
+      "collectibles": [
+        {
+          "name": "Banana market crate",
+          "basisSourceIDs": [
+            "bansud_agri"
+          ],
+          "status": "game_design_proposal_based_on_documented_topic",
+          "designNotes": "Keep the banana theme without claiming an exclusive crop or an unverified variety."
+        },
+        {
+          "name": "Park observation badge",
+          "basisSourceIDs": [
+            "bansud_park"
+          ],
+          "status": "game_design_proposal_based_on_documented_topic",
+          "designNotes": "Observation token; not a live-fish capture objective."
+        }
+      ],
+      "discoveries": [
+        {
+          "id": "bansud_discovery_1",
+          "suggestedMission": 1,
+          "title": "Banana connection",
+          "text": "A government local profile emphasizes Bansud's banana and agricultural products.",
+          "sourceIDs": [
+            "bansud_agri"
+          ],
+          "evidenceStatus": "web_documented",
+          "localReview": "pending"
+        },
+        {
+          "id": "bansud_discovery_2",
+          "suggestedMission": 2,
+          "title": "Former territory",
+          "text": "The provincial history records Bansud as formerly part of Bongabong.",
+          "sourceIDs": [
+            "bansud_history"
+          ],
+          "evidenceStatus": "web_documented",
+          "localReview": "pending"
+        },
+        {
+          "id": "bansud_discovery_3",
+          "suggestedMission": 3,
+          "title": "Delta name account",
+          "text": "The same history labels a basud or delta explanation of the name as oral tradition.",
+          "sourceIDs": [
+            "bansud_history"
+          ],
+          "evidenceStatus": "oral_tradition",
+          "localReview": "pending"
+        },
+        {
+          "id": "bansud_discovery_4",
+          "suggestedMission": 4,
+          "title": "Public-space setting",
+          "text": "Bansud Municipal Park and Plaza is listed in Poblacion, opposite the municipal hall.",
+          "sourceIDs": [
+            "bansud_park"
+          ],
+          "evidenceStatus": "web_documented",
+          "localReview": "pending"
+        },
+        {
+          "id": "bansud_discovery_5",
+          "suggestedMission": 5,
+          "title": "A constructed lagoon",
+          "text": "The park listing describes an artificial lagoon with tilapia-related recreational activity.",
+          "sourceIDs": [
+            "bansud_park"
+          ],
+          "evidenceStatus": "web_documented",
+          "localReview": "pending"
+        }
+      ],
+      "visitorChallenge": {
+        "status": "editorial_game_design_proposal",
+        "text": "Complete a clean-plaza route and place simulated packaging in the right bins.",
+        "contextSourceIDs": [
+          "bansud_agri",
+          "bansud_history",
+          "bansud_park"
+        ],
+        "guidanceSourceIDs": [],
+        "note": "Proposed respectful-behavior mechanic; not quoted local rules. Have site custodians review."
+      },
+      "recap": {
+        "optional": true,
+        "question": "Which product has a documented connection with Bansud's agricultural identity?",
+        "options": [
+          "Bananas",
+          "Alpine cheese",
+          "Maple syrup"
+        ],
+        "correctOptionIndex": 0,
+        "sourceIDs": [
+          "bansud_agri"
+        ],
+        "onIncorrect": "Explain the linked discovery and allow retry. Keep run rewards.",
+        "reward": "Optional journal reflection badge; never gate core travel progress."
+      },
+      "journal": {
+        "title": "Fields, river names and public space",
+        "text": "Banana livelihoods, a river-delta name account and the public park offer different entry points. Preserve the distinction between a documented product and oral history.",
+        "sourceIDs": [
+          "bansud_agri",
+          "bansud_history",
+          "bansud_park"
+        ],
+        "unlock": {
+          "type": "complete_destination_mission_5",
+          "quizRequired": false
+        },
+        "additionalSections": [
+          "Place introduction",
+          "Discovered facts",
+          "Collectible meanings",
+          "Visitor care",
+          "Sources and credits"
+        ],
+        "note": "Draft editorial synthesis; factual basis is in linked discovery records."
+      },
+      "cultureAndTraditions": {
+        "researchFinding": "Banana livelihood documented; basud account is oral tradition, with the specific language and community attribution still unresolved.",
+        "communityReviewRequired": true,
+        "permissionsObtained": false
+      },
+      "verificationGaps": [
+        "Do not translate 'basud' into a specific Mangyan language without confirmation.",
+        "Do not teach the tourism page's precise founding date until checked against RA 2514.",
+        "Do not portray banana commerce as exclusive to Bansud."
+      ]
+    },
+    {
+      "destinationID": "oriental_mindoro_bongabong",
+      "name": "Bongabong",
+      "reviewStatus": "web_researched_draft",
+      "publishInApp": false,
+      "introduction": {
+        "text": "Bongabong's river and farm landscapes sit alongside Kuta church ruins, a built-heritage site. Its adventure can connect agricultural work, landscape observation and care for surviving historic structures.",
+        "sourceIDs": [
+          "bong_lgu",
+          "bong_kuta",
+          "bong_history"
+        ]
+      },
+      "collectibles": [
+        {
+          "name": "Coconut harvest parcel",
+          "basisSourceIDs": [
+            "bong_history"
+          ],
+          "status": "game_design_proposal_based_on_documented_topic",
+          "designNotes": "Documented coastal-plain crop; replace generic fish if teaching farm livelihood."
+        },
+        {
+          "name": "Kuta sketch token",
+          "basisSourceIDs": [
+            "bong_kuta"
+          ],
+          "status": "game_design_proposal_based_on_documented_topic",
+          "designNotes": "A souvenir drawing, never a collectible stone or religious object."
+        }
+      ],
+      "discoveries": [
+        {
+          "id": "bongabong_discovery_1",
+          "suggestedMission": 1,
+          "title": "Kuta heritage",
+          "text": "A PIA account identifies Kuta as an eighteenth-century church and defensive structure.",
+          "sourceIDs": [
+            "bong_kuta"
+          ],
+          "evidenceStatus": "web_documented",
+          "localReview": "pending"
+        },
+        {
+          "id": "bongabong_discovery_2",
+          "suggestedMission": 2,
+          "title": "Two purposes",
+          "text": "Kuta served worship and protection, according to that historical account.",
+          "sourceIDs": [
+            "bong_kuta"
+          ],
+          "evidenceStatus": "web_documented",
+          "localReview": "pending"
+        },
+        {
+          "id": "bongabong_discovery_3",
+          "suggestedMission": 3,
+          "title": "Coconut landscape",
+          "text": "The provincial history describes coconut plantations on Bongabong's coastal plains.",
+          "sourceIDs": [
+            "bong_history"
+          ],
+          "evidenceStatus": "web_documented",
+          "localReview": "pending"
+        },
+        {
+          "id": "bongabong_discovery_4",
+          "suggestedMission": 4,
+          "title": "Farm discovery",
+          "text": "The municipal visitor page lists Gabutero Organic Farm among local destinations.",
+          "sourceIDs": [
+            "bong_lgu"
+          ],
+          "evidenceStatus": "web_documented",
+          "localReview": "pending"
+        },
+        {
+          "id": "bongabong_discovery_5",
+          "suggestedMission": 5,
+          "title": "River crossing",
+          "text": "Lisap Bridge appears in the municipality's own visitor destination list.",
+          "sourceIDs": [
+            "bong_lgu"
+          ],
+          "evidenceStatus": "web_documented",
+          "localReview": "pending"
+        }
+      ],
+      "visitorChallenge": {
+        "status": "editorial_game_design_proposal",
+        "text": "Earn drawing tokens while keeping away from fragile ruin walls and leaving historic materials in place.",
+        "contextSourceIDs": [
+          "bong_lgu",
+          "bong_kuta",
+          "bong_history"
+        ],
+        "guidanceSourceIDs": [],
+        "note": "Proposed respectful-behavior mechanic; not quoted local rules. Have site custodians review."
+      },
+      "recap": {
+        "optional": true,
+        "question": "What two functions are associated with Kuta?",
+        "options": [
+          "Worship and defense",
+          "Airport and stadium",
+          "Mine and factory"
+        ],
+        "correctOptionIndex": 0,
+        "sourceIDs": [
+          "bong_kuta"
+        ],
+        "onIncorrect": "Explain the linked discovery and allow retry. Keep run rewards.",
+        "reward": "Optional journal reflection badge; never gate core travel progress."
+      },
+      "journal": {
+        "title": "A landscape with surviving walls",
+        "text": "Kuta offers a way to discuss built heritage without collecting its materials. Farm and river discoveries keep Bongabong's story connected to living places.",
+        "sourceIDs": [
+          "bong_lgu",
+          "bong_kuta",
+          "bong_history"
+        ],
+        "unlock": {
+          "type": "complete_destination_mission_5",
+          "quizRequired": false
+        },
+        "additionalSections": [
+          "Place introduction",
+          "Discovered facts",
+          "Collectible meanings",
+          "Visitor care",
+          "Sources and credits"
+        ],
+        "note": "Draft editorial synthesis; factual basis is in linked discovery records."
+      },
+      "cultureAndTraditions": {
+        "researchFinding": "Built heritage and farm livelihoods documented; community-specific traditions need separate research and contributor review.",
+        "communityReviewRequired": true,
+        "permissionsObtained": false
+      },
+      "verificationGaps": [
+        "Sources disagree on Kuta's century; prefer the eighteenth-century PIA account and seek NHCP confirmation.",
+        "Municipal and portal histories also conflict on some political dates; omit them.",
+        "Buhid and Bangon stories must be attributed to the correct contributors, not blended."
+      ]
+    },
+    {
+      "destinationID": "oriental_mindoro_roxas",
+      "name": "Roxas",
+      "reviewStatus": "web_researched_draft",
+      "publishInApp": false,
+      "introduction": {
+        "text": "Roxas combines agricultural and cultural destinations with a port connection at Dangay. San Rafael Cave adds a geological setting, but educational content should avoid the conflicting details in its tourism description.",
+        "sourceIDs": [
+          "roxas_places",
+          "roxas_port",
+          "roxas_cave"
+        ]
+      },
+      "collectibles": [
+        {
+          "name": "Port-route ticket",
+          "basisSourceIDs": [
+            "roxas_port"
+          ],
+          "status": "game_design_proposal_based_on_documented_topic",
+          "designNotes": "Fictional travel token, not a real ferry schedule or ticket."
+        },
+        {
+          "name": "Cave photo token",
+          "basisSourceIDs": [
+            "roxas_cave"
+          ],
+          "status": "game_design_proposal_based_on_documented_topic",
+          "designNotes": "Do not reward removing cave formations."
+        }
+      ],
+      "discoveries": [
+        {
+          "id": "roxas_discovery_1",
+          "suggestedMission": 1,
+          "title": "Port connection",
+          "text": "DENR's project register locates a Roxas Port expansion project in Barangay Dangay.",
+          "sourceIDs": [
+            "roxas_port"
+          ],
+          "evidenceStatus": "web_documented",
+          "localReview": "pending"
+        },
+        {
+          "id": "roxas_discovery_2",
+          "suggestedMission": 2,
+          "title": "Cave location",
+          "text": "The provincial tourism portal lists San Rafael Cave in Roxas.",
+          "sourceIDs": [
+            "roxas_cave"
+          ],
+          "evidenceStatus": "web_documented",
+          "localReview": "pending"
+        },
+        {
+          "id": "roxas_discovery_3",
+          "suggestedMission": 3,
+          "title": "Agricultural visits",
+          "text": "Roxas's tourism directory includes farm and agritourism destinations.",
+          "sourceIDs": [
+            "roxas_places"
+          ],
+          "evidenceStatus": "web_documented",
+          "localReview": "pending"
+        },
+        {
+          "id": "roxas_discovery_4",
+          "suggestedMission": 4,
+          "title": "A cultural stop",
+          "text": "Clarendon Cultural Center is listed as a cultural destination in Roxas.",
+          "sourceIDs": [
+            "roxas_places"
+          ],
+          "evidenceStatus": "web_documented",
+          "localReview": "pending"
+        },
+        {
+          "id": "roxas_discovery_5",
+          "suggestedMission": 5,
+          "title": "Earlier place name",
+          "text": "The compiled town history connects Roxas's development with Paclasan.",
+          "sourceIDs": [
+            "roxas_history"
+          ],
+          "evidenceStatus": "web_documented",
+          "localReview": "pending"
+        }
+      ],
+      "visitorChallenge": {
+        "status": "editorial_game_design_proposal",
+        "text": "Take virtual cave photographs without touching formations, leaving marks or collecting rocks.",
+        "contextSourceIDs": [
+          "roxas_places",
+          "roxas_port",
+          "roxas_cave"
+        ],
+        "guidanceSourceIDs": [],
+        "note": "Proposed respectful-behavior mechanic; not quoted local rules. Have site custodians review."
+      },
+      "recap": {
+        "optional": true,
+        "question": "Which cave is listed as a Roxas destination?",
+        "options": [
+          "San Rafael Cave",
+          "Sumaguing Cave",
+          "Callao Cave"
+        ],
+        "correctOptionIndex": 0,
+        "sourceIDs": [
+          "roxas_cave"
+        ],
+        "onIncorrect": "Explain the linked discovery and allow retry. Keep run rewards.",
+        "reward": "Optional journal reflection badge; never gate core travel progress."
+      },
+      "journal": {
+        "title": "Routes, farms and a cave",
+        "text": "Roxas can be explored through transport, cultivation and geological observation. A cave photograph carries a memory without removing part of the place.",
+        "sourceIDs": [
+          "roxas_places",
+          "roxas_port",
+          "roxas_cave",
+          "roxas_history"
+        ],
+        "unlock": {
+          "type": "complete_destination_mission_5",
+          "quizRequired": false
+        },
+        "additionalSections": [
+          "Place introduction",
+          "Discovered facts",
+          "Collectible meanings",
+          "Visitor care",
+          "Sources and credits"
+        ],
+        "note": "Draft editorial synthesis; factual basis is in linked discovery records."
+      },
+      "cultureAndTraditions": {
+        "researchFinding": "Historical place-name account and cultural venue documented; the center's exhibits and local traditions need direct review.",
+        "communityReviewRequired": true,
+        "permissionsObtained": false
+      },
+      "verificationGaps": [
+        "San Rafael listing says both seven and ten chambers; do not publish either count.",
+        "Do not repeat unverified claims of tourism safety, opening or free admission.",
+        "The user's cave photo is visual reference only; its exact photo location remains unconfirmed."
+      ]
+    },
+    {
+      "destinationID": "oriental_mindoro_mansalay",
+      "name": "Mansalay",
+      "reviewStatus": "web_researched_draft",
+      "publishInApp": false,
+      "introduction": {
+        "text": "Mansalay brings a coastal landscape into conversation with Hanunoo Mangyan literary heritage. NCCA connects the poet Ginaw Bilog with Mansalay and the ambahan tradition, offering a specific cultural starting point.",
+        "sourceIDs": [
+          "mansalay_beach",
+          "ambahan_ncca"
+        ]
+      },
+      "collectibles": [
+        {
+          "name": "Literature discovery card",
+          "basisSourceIDs": [
+            "ambahan_ncca"
+          ],
+          "status": "game_design_proposal_based_on_documented_topic",
+          "designNotes": "A journal unlock rather than a sacred object or copied poem."
+        },
+        {
+          "name": "Beach observation postcard",
+          "basisSourceIDs": [
+            "mansalay_beach"
+          ],
+          "status": "game_design_proposal_based_on_documented_topic",
+          "designNotes": "Replace shell-taking with a drawn memory."
+        }
+      ],
+      "discoveries": [
+        {
+          "id": "mansalay_discovery_1",
+          "suggestedMission": 1,
+          "title": "Coastal place",
+          "text": "The tourism portal locates Buktot Beach in Manaul, Mansalay.",
+          "sourceIDs": [
+            "mansalay_beach"
+          ],
+          "evidenceStatus": "web_documented",
+          "localReview": "pending"
+        },
+        {
+          "id": "mansalay_discovery_2",
+          "suggestedMission": 2,
+          "title": "Landscape details",
+          "text": "Its listing describes pale sand and rock formations at Buktot Beach.",
+          "sourceIDs": [
+            "mansalay_beach"
+          ],
+          "evidenceStatus": "web_documented",
+          "localReview": "pending"
+        },
+        {
+          "id": "mansalay_discovery_3",
+          "suggestedMission": 3,
+          "title": "A named culture bearer",
+          "text": "NCCA associates Ginaw Bilog with the Hanunoo Mangyan ambahan tradition of Mansalay.",
+          "sourceIDs": [
+            "ambahan_ncca"
+          ],
+          "evidenceStatus": "web_documented",
+          "localReview": "pending"
+        },
+        {
+          "id": "mansalay_discovery_4",
+          "suggestedMission": 4,
+          "title": "Poetic form",
+          "text": "The heritage-center account describes ambahan lines as having seven syllables.",
+          "sourceIDs": [
+            "ambahan_form"
+          ],
+          "evidenceStatus": "web_documented",
+          "localReview": "pending"
+        },
+        {
+          "id": "mansalay_discovery_5",
+          "suggestedMission": 5,
+          "title": "Everyday themes",
+          "text": "That account explains ambahan's connection to daily life and human relationships.",
+          "sourceIDs": [
+            "ambahan_form"
+          ],
+          "evidenceStatus": "web_documented",
+          "localReview": "pending"
+        }
+      ],
+      "visitorChallenge": {
+        "status": "editorial_game_design_proposal",
+        "text": "Unlock a listening card through respectful observation; ask before recording or photographing people.",
+        "contextSourceIDs": [
+          "mansalay_beach",
+          "ambahan_ncca"
+        ],
+        "guidanceSourceIDs": [],
+        "note": "Proposed respectful-behavior mechanic; not quoted local rules. Have site custodians review."
+      },
+      "recap": {
+        "optional": true,
+        "question": "Which literary tradition is linked to Ginaw Bilog in the NCCA source?",
+        "options": [
+          "Ambahan",
+          "Haiku",
+          "Limerick"
+        ],
+        "correctOptionIndex": 0,
+        "sourceIDs": [
+          "ambahan_ncca"
+        ],
+        "onIncorrect": "Explain the linked discovery and allow retry. Keep run rewards.",
+        "reward": "Optional journal reflection badge; never gate core travel progress."
+      },
+      "journal": {
+        "title": "Words are living heritage",
+        "text": "A beach can be observed through a photograph; a poetic tradition requires listening to its bearers. Learn about ambahan without inventing verses, scripts or community voices.",
+        "sourceIDs": [
+          "mansalay_beach",
+          "ambahan_ncca",
+          "ambahan_form"
+        ],
+        "unlock": {
+          "type": "complete_destination_mission_5",
+          "quizRequired": false
+        },
+        "additionalSections": [
+          "Place introduction",
+          "Discovered facts",
+          "Collectible meanings",
+          "Visitor care",
+          "Sources and credits"
+        ],
+        "note": "Draft editorial synthesis; factual basis is in linked discovery records."
+      },
+      "cultureAndTraditions": {
+        "researchFinding": "Ambahan association strongly documented; no actual verse, translation, recording or motif is cleared for use.",
+        "communityReviewRequired": true,
+        "permissionsObtained": false
+      },
+      "verificationGaps": [
+        "Commission community-led review and agree on credits and reuse before including audio or text.",
+        "Do not treat Hanunoo, Buhid and other communities as a single tradition.",
+        "Do not use sacred or funerary objects as falling pickups."
+      ]
+    },
+    {
+      "destinationID": "oriental_mindoro_bulalacao",
+      "name": "Bulalacao",
+      "reviewStatus": "web_researched_draft",
+      "publishInApp": false,
+      "introduction": {
+        "text": "Bulalacao's island settings can be paired with a documented seaweed-processing livelihood. Its name also has a recorded bird legend, which should appear as storytelling rather than as an established historical explanation.",
+        "sourceIDs": [
+          "bulalacao_islands",
+          "enterprise",
+          "bulalacao_history"
+        ]
+      },
+      "collectibles": [
+        {
+          "name": "Seaweed-noodle parcel",
+          "basisSourceIDs": [
+            "enterprise"
+          ],
+          "status": "game_design_proposal_based_on_documented_topic",
+          "designNotes": "Stronger local-life link than taking shells from a sandbar."
+        },
+        {
+          "name": "Island photo badge",
+          "basisSourceIDs": [
+            "bulalacao_islands"
+          ],
+          "status": "game_design_proposal_based_on_documented_topic",
+          "designNotes": "Symbolic reward that leaves wildlife and sand in place."
+        }
+      ],
+      "discoveries": [
+        {
+          "id": "bulalacao_discovery_1",
+          "suggestedMission": 1,
+          "title": "Island destinations",
+          "text": "The provincial portal lists Aslom and Suguicay among Bulalacao's island destinations.",
+          "sourceIDs": [
+            "bulalacao_islands"
+          ],
+          "evidenceStatus": "web_documented",
+          "localReview": "pending"
+        },
+        {
+          "id": "bulalacao_discovery_2",
+          "suggestedMission": 2,
+          "title": "Another island stop",
+          "text": "Buyayao is also listed as a Bulalacao island destination.",
+          "sourceIDs": [
+            "bulalacao_islands"
+          ],
+          "evidenceStatus": "web_documented",
+          "localReview": "pending"
+        },
+        {
+          "id": "bulalacao_discovery_3",
+          "suggestedMission": 3,
+          "title": "A working coast",
+          "text": "The provincial enterprise report identifies a Bulalacao cooperative producing seaweed or kelp noodles.",
+          "sourceIDs": [
+            "enterprise"
+          ],
+          "evidenceStatus": "web_documented",
+          "localReview": "pending"
+        },
+        {
+          "id": "bulalacao_discovery_4",
+          "suggestedMission": 4,
+          "title": "A name legend",
+          "text": "The compiled town history explicitly describes a bird story as a myth about Bulalacao's name.",
+          "sourceIDs": [
+            "bulalacao_history"
+          ],
+          "evidenceStatus": "legend",
+          "localReview": "pending"
+        },
+        {
+          "id": "bulalacao_discovery_5",
+          "suggestedMission": 5,
+          "title": "Rocky coast",
+          "text": "Pocanil Rock Formation is listed among Bulalacao's coastal destinations.",
+          "sourceIDs": [
+            "bulalacao_islands"
+          ],
+          "evidenceStatus": "web_documented",
+          "localReview": "pending"
+        }
+      ],
+      "visitorChallenge": {
+        "status": "editorial_game_design_proposal",
+        "text": "Collect photo badges rather than shells, and keep boat-route litter out of the sea.",
+        "contextSourceIDs": [
+          "bulalacao_islands",
+          "enterprise",
+          "bulalacao_history",
+          "marine_souvenirs"
+        ],
+        "guidanceSourceIDs": [
+          "marine_souvenirs"
+        ],
+        "note": "General conservation guidance adapted to a game; not asserted as a municipal ordinance."
+      },
+      "recap": {
+        "optional": true,
+        "question": "Which product is linked to Bulalacao in the provincial enterprise report?",
+        "options": [
+          "Seaweed noodles",
+          "Snow boots",
+          "Coral necklaces"
+        ],
+        "correctOptionIndex": 0,
+        "sourceIDs": [
+          "enterprise"
+        ],
+        "onIncorrect": "Explain the linked discovery and allow retry. Keep run rewards.",
+        "reward": "Optional journal reflection badge; never gate core travel progress."
+      },
+      "journal": {
+        "title": "Islands and everyday work",
+        "text": "An island visit can lead to learning about livelihoods as well as scenery. Keep the name legend separate from confirmed facts, and leave natural souvenirs in their habitats.",
+        "sourceIDs": [
+          "bulalacao_islands",
+          "enterprise",
+          "bulalacao_history"
+        ],
+        "unlock": {
+          "type": "complete_destination_mission_5",
+          "quizRequired": false
+        },
+        "additionalSections": [
+          "Place introduction",
+          "Discovered facts",
+          "Collectible meanings",
+          "Visitor care",
+          "Sources and credits"
+        ],
+        "note": "Draft editorial synthesis; factual basis is in linked discovery records."
+      },
+      "cultureAndTraditions": {
+        "researchFinding": "Bird origin legend documented; community-specific language, craft and school material still need direct local confirmation.",
+        "communityReviewRequired": true,
+        "permissionsObtained": false
+      },
+      "verificationGaps": [
+        "The old-town Mait identification is a hypothesis, not settled proof of a tenth-century settlement.",
+        "Confirm current product terminology and cooperative attribution.",
+        "Identify the exact sandbar photograph before assigning its site name.",
+        "Direct heritage-center retrieval failed; do not publish its school-teaching claim without direct confirmation."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "checkedOn": "2026-10-20",
+  "locations": 15,
+  "introductions": 15,
+  "collectibleProposals": 30,
+  "discoveryCards": 75,
+  "recaps": 15,
+  "journalDrafts": 15,
+  "visitorChallenges": 15,
+  "sourceRecords": 47,
+  "sourcesLinkedToContent": 43,
+  "allSourceIDsResolve": true,
+  "allDestinationIDsMatchApp": true,
+  "appCatalogModified": false,
+  "localReview": "pending; no automatic publish"
+}
