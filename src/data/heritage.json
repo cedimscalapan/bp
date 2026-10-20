@@ -281,6 +281,138 @@
       "publisher": "Provincial tourism portal",
       "title": "Tourism offices directory",
       "url": "https://www.travelorientalmindoro.ph/directory/tourism-offices"
+    },
+    {
+      "id": "act3498",
+      "publisher": "Philippine Legislature / Lawphil",
+      "title": "Act No. 3498 (1928)",
+      "url": "https://lawphil.net/statutes/acts/act1928/act_3498_1928.html"
+    },
+    {
+      "id": "soils",
+      "publisher": "Bureau of Soils and Water Management",
+      "title": "Soil survey of Mindoro",
+      "url": "https://www.bswm.da.gov.ph/wp-content/uploads/Mindoro.pdf"
+    },
+    {
+      "id": "rivercare",
+      "publisher": "Philippine News Agency",
+      "title": "Bamboo planting for flood mitigation",
+      "url": "https://www.pna.gov.ph/articles/1194942"
+    },
+    {
+      "id": "iraya_craft",
+      "publisher": "Provincial Planning and Development Office",
+      "title": "Facts and Figures 2017: Mangyan communities",
+      "url": "https://ppdo.ormindoro.gov.ph/wp-content/uploads/2019/10/Facts_and_Figures_2017.pdf"
+    },
+    {
+      "id": "gloria_craft",
+      "publisher": "Philippine Information Agency",
+      "title": "DTI bamboo handicraft skills training",
+      "url": "https://mirror.pia.gov.ph/news/2022/07/23/tagalog-news-skills-training-sa-bamboo-handicrafts-isinagawa-ng-dti"
+    },
+    {
+      "id": "calapan_food",
+      "publisher": "City Government of Calapan",
+      "title": "Local food and delicacies",
+      "url": "https://beta.cityofcalapan.gov.ph/2025/09/30/kalap-kulinarya-a-taste-of-calapan/"
+    },
+    {
+      "id": "farm_report",
+      "publisher": "Provincial Planning and Development Office",
+      "title": "2019 annual accomplishment report: farmer organizations",
+      "url": "https://ppdo.ormindoro.gov.ph/wp-content/uploads/2022/10/PGOM-AAR-2019.pdf"
+    },
+    {
+      "id": "psa_puerto_galera",
+      "publisher": "Philippine Statistics Authority",
+      "title": "Puerto Galera barangay count (31 July 2025)",
+      "url": "https://psa.gov.ph/classification/psgc/barangays/1705211000"
+    },
+    {
+      "id": "psa_san_teodoro",
+      "publisher": "Philippine Statistics Authority",
+      "title": "San Teodoro barangay count (31 July 2025)",
+      "url": "https://psa.gov.ph/classification/psgc/barangays/1705213000"
+    },
+    {
+      "id": "psa_baco",
+      "publisher": "Philippine Statistics Authority",
+      "title": "Baco barangay count (31 July 2025)",
+      "url": "https://psa.gov.ph/classification/psgc/barangays/1705201000"
+    },
+    {
+      "id": "psa_calapan_city",
+      "publisher": "Philippine Statistics Authority",
+      "title": "Calapan City barangay count (31 July 2025)",
+      "url": "https://psa.gov.ph/classification/psgc/barangays/1705205000"
+    },
+    {
+      "id": "psa_naujan",
+      "publisher": "Philippine Statistics Authority",
+      "title": "Naujan barangay count (31 July 2025)",
+      "url": "https://psa.gov.ph/classification/psgc/barangays/1705208000"
+    },
+    {
+      "id": "psa_victoria",
+      "publisher": "Philippine Statistics Authority",
+      "title": "Victoria barangay count (31 July 2025)",
+      "url": "https://psa.gov.ph/classification/psgc/barangays/1705215000"
+    },
+    {
+      "id": "psa_socorro",
+      "publisher": "Philippine Statistics Authority",
+      "title": "Socorro barangay count (31 July 2025)",
+      "url": "https://psa.gov.ph/classification/psgc/barangays/1705214000"
+    },
+    {
+      "id": "psa_pola",
+      "publisher": "Philippine Statistics Authority",
+      "title": "Pola barangay count (31 July 2025)",
+      "url": "https://psa.gov.ph/classification/psgc/barangays/1705210000"
+    },
+    {
+      "id": "psa_pinamalayan",
+      "publisher": "Philippine Statistics Authority",
+      "title": "Pinamalayan barangay count (31 July 2025)",
+      "url": "https://psa.gov.ph/classification/psgc/barangays/1705209000"
+    },
+    {
+      "id": "psa_gloria",
+      "publisher": "Philippine Statistics Authority",
+      "title": "Gloria barangay count (31 July 2025)",
+      "url": "https://psa.gov.ph/classification/psgc/barangays/1705206000"
+    },
+    {
+      "id": "psa_bansud",
+      "publisher": "Philippine Statistics Authority",
+      "title": "Bansud barangay count (31 July 2025)",
+      "url": "https://psa.gov.ph/classification/psgc/barangays/1705202000"
+    },
+    {
+      "id": "psa_bongabong",
+      "publisher": "Philippine Statistics Authority",
+      "title": "Bongabong barangay count (31 July 2025)",
+      "url": "https://psa.gov.ph/classification/psgc/barangays/1705203000"
+    },
+    {
+      "id": "psa_roxas",
+      "publisher": "Philippine Statistics Authority",
+      "title": "Roxas barangay count (31 July 2025)",
+      "url": "https://psa.gov.ph/classification/psgc/barangays/1705212000"
+    },
+    {
+      "id": "psa_mansalay",
+      "publisher": "Philippine Statistics Authority",
+      "title": "Mansalay barangay count (31 July 2025)",
+      "url": "https://psa.gov.ph/classification/psgc/barangays/1705207000"
+    },
+    {
+      "id": "psa_bulalacao",
+      "publisher": "Philippine Statistics Authority",
+      "title": "Bulalacao barangay count (31 July 2025)",
+      "url": "https://psa.gov.ph/classification/psgc/barangays/1705204000"
     }
   ],
   "profiles": [
@@ -288,95 +420,91 @@
       "destinationID": "oriental_mindoro_puerto_galera",
       "name": "Puerto Galera",
       "introduction": {
-        "text": "Puerto Galera brings together coastal livelihoods, forest habitats and a long relationship with the sea. Its cultural story also includes the living nito-weaving tradition of Iraya-Mangyan artisans in Talipanan.",
+        "text": "Meet Puerto Galera through its history, 13 barangays, everyday work, living traditions and environment.",
         "sourceIDs": [
-          "pg_unesco",
-          "pg_ayala"
+          "psa_puerto_galera",
+          "pg_unesco"
         ]
       },
       "collectibles": [
         {
           "name": "Nito basket token",
           "basisSourceIDs": [
-            "pg_ayala"
+            "pg_unesco",
+            "pg_weaving"
           ],
-          "status": "game_design_proposal_based_on_documented_topic",
-          "designNotes": "Proposed artisan-approved design; replace the generic shell pickup."
-        },
-        {
-          "name": "Boat postcard",
-          "basisSourceIDs": [
-            "pg_unesco"
-          ],
-          "status": "game_design_proposal_based_on_documented_topic",
-          "designNotes": "Symbolic livelihood token, not an antique or wildlife specimen."
+          "status": "illustrated_livelihood_token",
+          "designNotes": "Symbolic everyday-life collectible; no objects removed from nature or community heritage."
         }
       ],
       "discoveries": [
         {
           "id": "puerto_galera_discovery_1",
           "suggestedMission": 1,
-          "title": "A biosphere landscape",
-          "text": "UNESCO records Puerto Galera as a biosphere reserve nominated in 1977.",
+          "title": "History",
+          "text": "Puerto Galera was nominated as a UNESCO biosphere reserve in 1977, a milestone in the history of its relationship with the surrounding landscape.",
           "sourceIDs": [
             "pg_unesco"
           ],
           "evidenceStatus": "web_documented",
-          "localReview": "pending"
+          "localReview": "pending",
+          "category": "history"
         },
         {
           "id": "puerto_galera_discovery_2",
           "suggestedMission": 2,
-          "title": "Beyond the beach",
-          "text": "The reserve includes forests, mangroves and coral reefs as well as coastal ecosystems.",
+          "title": "Barangay count",
+          "text": "Puerto Galera has 13 barangays in the PSA table dated 31 July 2025. Barangays are the local communities that make up the municipality or city.",
           "sourceIDs": [
-            "pg_unesco"
+            "psa_puerto_galera"
           ],
           "evidenceStatus": "web_documented",
-          "localReview": "pending"
+          "localReview": "pending",
+          "category": "barangays"
         },
         {
           "id": "puerto_galera_discovery_3",
           "suggestedMission": 3,
-          "title": "Living craft",
-          "text": "Iraya-Mangyan artisans in Talipanan make functional nito baskets, trays and other woven objects.",
+          "title": "Ways of living",
+          "text": "Fishing, subsistence farming and basket-making connect household work with the sea and land.",
           "sourceIDs": [
+            "pg_unesco",
             "pg_weaving"
           ],
           "evidenceStatus": "web_documented",
-          "localReview": "pending"
+          "localReview": "pending",
+          "category": "livelihoods"
         },
         {
           "id": "puerto_galera_discovery_4",
           "suggestedMission": 4,
-          "title": "Learning across generations",
-          "text": "Ayala Foundation's account describes artisans learning weaving from family members.",
+          "title": "Traditions",
+          "text": "Iraya-Mangyan artisans pass nito-weaving skills through families, making baskets, trays and other useful objects. This tradition belongs to its community of makers.",
           "sourceIDs": [
             "pg_weaving"
           ],
           "evidenceStatus": "web_documented",
-          "localReview": "pending"
+          "localReview": "pending",
+          "category": "traditions"
         },
         {
           "id": "puerto_galera_discovery_5",
           "suggestedMission": 5,
-          "title": "Sea and livelihood",
-          "text": "UNESCO identifies fishing and subsistence farming as earlier income sources, alongside later tourism work.",
+          "title": "Environment",
+          "text": "Forests, mangroves and coral reefs are connected habitats. Keeping land and water healthy supports people as well as wildlife.",
           "sourceIDs": [
             "pg_unesco"
           ],
           "evidenceStatus": "web_documented",
-          "localReview": "pending"
+          "localReview": "pending",
+          "category": "environment"
         }
       ],
       "visitorChallenge": {
         "status": "applied_visitor_care_prompt",
-        "text": "Enjoy reefs without touching coral or chasing wildlife. Leave shells in their habitat and support locally made alternatives.",
+        "text": "Keep shared spaces and waterways free of litter. Ask permission before recording people or sharing their community knowledge.",
         "contextSourceIDs": [
-          "pg_unesco",
-          "pg_ayala",
-          "greenfins",
-          "marine_souvenirs"
+          "pg_unesco"
         ],
         "guidanceSourceIDs": [
           "greenfins",
@@ -386,25 +514,25 @@
       },
       "recap": {
         "optional": true,
-        "question": "Which material is associated with the documented Iraya-Mangyan craft here?",
+        "question": "How many barangays does Puerto Galera have in the cited PSA table?",
         "options": [
-          "Nito",
-          "Coral",
-          "Plastic shells"
+          "13",
+          "16",
+          "11"
         ],
         "correctOptionIndex": 0,
         "sourceIDs": [
-          "pg_ayala"
+          "psa_puerto_galera"
         ],
         "onIncorrect": "Explain the linked discovery and allow retry. Keep run rewards.",
         "reward": "Optional journal reflection badge; never gate core travel progress."
       },
       "journal": {
-        "title": "Weaving and the sea",
-        "text": "A basket can represent skilled work, while a reef represents a living habitat. Discover both without turning wildlife or community traditions into things to take.",
+        "title": "Puerto Galera: community and identity",
+        "text": "Puerto Galera was nominated as a UNESCO biosphere reserve in 1977, a milestone in the history of its relationship with the surrounding landscape. Puerto Galera has 13 barangays in the PSA table dated 31 July 2025. Barangays are the local communities that make up the municipality or city. Fishing, subsistence farming and basket-making connect household work with the sea and land. Iraya-Mangyan artisans pass nito-weaving skills through families, making baskets, trays and other useful objects. This tradition belongs to its community of makers. Forests, mangroves and coral reefs are connected habitats. Keeping land and water healthy supports people as well as wildlife.",
         "sourceIDs": [
           "pg_unesco",
-          "pg_ayala",
+          "psa_puerto_galera",
           "pg_weaving"
         ],
         "unlock": {
@@ -412,26 +540,28 @@
           "quizRequired": false
         },
         "additionalSections": [
-          "Place introduction",
-          "Discovered facts",
-          "Collectible meanings",
-          "Visitor care",
-          "Sources and credits"
+          "History",
+          "Barangay count",
+          "Ways of living",
+          "Traditions",
+          "Environment"
         ],
         "note": "Draft editorial synthesis; factual basis is in linked discovery records."
       },
       "pickupName": "Nito basket token",
-      "pickupImage": "heritage_token_puerto_galera.svg"
+      "pickupImage": "heritage_token_puerto_galera.svg",
+      "barangayCount": 13,
+      "barangayCountAsOf": "31 July 2025"
     },
     {
       "destinationID": "oriental_mindoro_san_teodoro",
       "name": "San Teodoro",
       "introduction": {
-        "text": "San Teodoro combines waterfalls and other nature destinations with a history linked to Subaan. Coconut-based enterprise provides a documented connection between everyday work and the town's adventure theme.",
+        "text": "Meet San Teodoro through its history, 8 barangays, everyday work, living traditions and environment.",
         "sourceIDs": [
-          "st_places",
+          "psa_san_teodoro",
           "st_history",
-          "enterprise"
+          "act3498"
         ]
       },
       "collectibles": [
@@ -440,348 +570,349 @@
           "basisSourceIDs": [
             "enterprise"
           ],
-          "status": "game_design_proposal_based_on_documented_topic",
-          "designNotes": "Connect to processing and local enterprise; not a claim of exclusive origin."
-        },
-        {
-          "name": "Waterfall photo token",
-          "basisSourceIDs": [
-            "st_places"
-          ],
-          "status": "game_design_proposal_based_on_documented_topic",
-          "designNotes": "Observe the river landscape rather than collect live fish."
+          "status": "illustrated_livelihood_token",
+          "designNotes": "Symbolic everyday-life collectible; no objects removed from nature or community heritage."
         }
       ],
       "discoveries": [
         {
           "id": "san_teodoro_discovery_1",
           "suggestedMission": 1,
-          "title": "Earlier name",
-          "text": "The provincial history identifies Subaan as San Teodoro's earlier name.",
+          "title": "History",
+          "text": "The provincial history records Subaan as an earlier name. Act 3498 reestablished San Teodoro separately from Baco, effective 1 January 1929.",
           "sourceIDs": [
-            "st_history"
+            "st_history",
+            "act3498"
           ],
           "evidenceStatus": "web_documented",
-          "localReview": "pending"
+          "localReview": "pending",
+          "category": "history"
         },
         {
           "id": "san_teodoro_discovery_2",
           "suggestedMission": 2,
-          "title": "An earlier center",
-          "text": "The same history places the old town center in present-day Lumangbayan.",
+          "title": "Barangay count",
+          "text": "San Teodoro has 8 barangays in the PSA table dated 31 July 2025. Barangays are the local communities that make up the municipality or city.",
           "sourceIDs": [
-            "st_history"
+            "psa_san_teodoro"
           ],
           "evidenceStatus": "web_documented",
-          "localReview": "pending"
+          "localReview": "pending",
+          "category": "barangays"
         },
         {
           "id": "san_teodoro_discovery_3",
           "suggestedMission": 3,
-          "title": "Coconut enterprise",
-          "text": "A provincial project report identifies a San Teodoro enterprise producing coconut-based goods.",
+          "title": "Ways of living",
+          "text": "Coconut processing is one documented local enterprise, turning farm produce into goods for sale.",
           "sourceIDs": [
             "enterprise"
           ],
           "evidenceStatus": "web_documented",
-          "localReview": "pending"
+          "localReview": "pending",
+          "category": "livelihoods"
         },
         {
           "id": "san_teodoro_discovery_4",
           "suggestedMission": 4,
-          "title": "Aras Falls",
-          "text": "Aras Falls is listed among San Teodoro's freshwater attractions.",
+          "title": "Traditions",
+          "text": "Provincial records include Iraya communities in San Teodoro and describe nito weaving among Iraya crafts. Community makers carry their own skills and identities.",
           "sourceIDs": [
-            "st_places"
+            "iraya_craft"
           ],
           "evidenceStatus": "web_documented",
-          "localReview": "pending"
+          "localReview": "pending",
+          "category": "traditions"
         },
         {
           "id": "san_teodoro_discovery_5",
           "suggestedMission": 5,
-          "title": "Botolan Falls",
-          "text": "Botolan Falls is another waterfall listed for San Teodoro.",
+          "title": "Environment",
+          "text": "Rivers and forested land form part of the town landscape. Water flowing downstream links upland care with community life.",
           "sourceIDs": [
-            "st_places"
+            "st_history"
           ],
           "evidenceStatus": "web_documented",
-          "localReview": "pending"
+          "localReview": "pending",
+          "category": "environment"
         }
       ],
       "visitorChallenge": {
         "status": "applied_visitor_care_prompt",
-        "text": "Bring a refillable bottle and carry packaging away from streams. Follow the guidance of local site caretakers.",
+        "text": "Keep shared spaces and waterways free of litter. Ask permission before recording people or sharing their community knowledge.",
         "contextSourceIDs": [
-          "st_places",
-          "st_history",
-          "enterprise"
+          "st_history"
         ],
         "guidanceSourceIDs": [],
         "note": "Proposed respectful-behavior mechanic; not quoted local rules. Have site custodians review."
       },
       "recap": {
         "optional": true,
-        "question": "Which earlier name appears in San Teodoro's documented town history?",
+        "question": "How many barangays does San Teodoro have in the cited PSA table?",
         "options": [
-          "Subaan",
-          "Paclasan",
-          "Catiningan"
+          "8",
+          "11",
+          "6"
         ],
         "correctOptionIndex": 0,
         "sourceIDs": [
-          "st_history"
+          "psa_san_teodoro"
         ],
         "onIncorrect": "Explain the linked discovery and allow retry. Keep run rewards.",
         "reward": "Optional journal reflection badge; never gate core travel progress."
       },
       "journal": {
-        "title": "Water, work and place names",
-        "text": "This page joins the Subaan history with waterfall observation and coconut enterprise. A place can hold several identities beyond the scenery in a single photograph.",
+        "title": "San Teodoro: community and identity",
+        "text": "The provincial history records Subaan as an earlier name. Act 3498 reestablished San Teodoro separately from Baco, effective 1 January 1929. San Teodoro has 8 barangays in the PSA table dated 31 July 2025. Barangays are the local communities that make up the municipality or city. Coconut processing is one documented local enterprise, turning farm produce into goods for sale. Provincial records include Iraya communities in San Teodoro and describe nito weaving among Iraya crafts. Community makers carry their own skills and identities. Rivers and forested land form part of the town landscape. Water flowing downstream links upland care with community life.",
         "sourceIDs": [
-          "st_places",
           "st_history",
-          "enterprise"
+          "act3498",
+          "psa_san_teodoro",
+          "enterprise",
+          "iraya_craft"
         ],
         "unlock": {
           "type": "complete_destination_mission_5",
           "quizRequired": false
         },
         "additionalSections": [
-          "Place introduction",
-          "Discovered facts",
-          "Collectible meanings",
-          "Visitor care",
-          "Sources and credits"
+          "History",
+          "Barangay count",
+          "Ways of living",
+          "Traditions",
+          "Environment"
         ],
         "note": "Draft editorial synthesis; factual basis is in linked discovery records."
       },
       "pickupName": "Coconut-product parcel",
-      "pickupImage": "mindoro_item_coconut.webp"
+      "pickupImage": "mindoro_item_coconut.webp",
+      "barangayCount": 8,
+      "barangayCountAsOf": "31 July 2025"
     },
     {
       "destinationID": "oriental_mindoro_baco",
       "name": "Baco",
       "introduction": {
-        "text": "Baco is associated with Mount Halcon and river landscapes. Its histories also name Iraya and Alangan communities, reminding visitors that the mountain setting is a lived cultural landscape.",
+        "text": "Meet Baco through its history, 27 barangays, everyday work, living traditions and environment.",
         "sourceIDs": [
-          "halcon",
-          "baco_history"
+          "psa_baco",
+          "act3498"
         ]
       },
       "collectibles": [
         {
-          "name": "Mountain postcard",
+          "name": "Calamansi harvest crate",
           "basisSourceIDs": [
-            "halcon"
+            "farm_report"
           ],
-          "status": "game_design_proposal_based_on_documented_topic",
-          "designNotes": "Replace the generic steep souvenir with Halcon's reference-led broad ridge."
-        },
-        {
-          "name": "Paco fern illustration",
-          "basisSourceIDs": [
-            "baco_history"
-          ],
-          "status": "game_design_proposal_based_on_documented_topic",
-          "designNotes": "Optional story token only; name-origin account is oral, not proven etymology."
+          "status": "illustrated_livelihood_token",
+          "designNotes": "Symbolic everyday-life collectible; no objects removed from nature or community heritage."
         }
       ],
       "discoveries": [
         {
           "id": "baco_discovery_1",
           "suggestedMission": 1,
-          "title": "Mountain identity",
-          "text": "The provincial tourism listing locates Mount Halcon in Baco.",
+          "title": "History",
+          "text": "Act 3498 reestablished Baco and San Teodoro as separate municipal districts, effective 1 January 1929.",
           "sourceIDs": [
-            "halcon"
+            "act3498"
           ],
           "evidenceStatus": "web_documented",
-          "localReview": "pending"
+          "localReview": "pending",
+          "category": "history"
         },
         {
           "id": "baco_discovery_2",
           "suggestedMission": 2,
-          "title": "Water landscapes",
-          "text": "Baco's history lists rivers, rapids and waterfalls among its landscape features.",
+          "title": "Barangay count",
+          "text": "Baco has 27 barangays in the PSA table dated 31 July 2025. Barangays are the local communities that make up the municipality or city.",
           "sourceIDs": [
-            "baco_history"
+            "psa_baco"
           ],
           "evidenceStatus": "web_documented",
-          "localReview": "pending"
+          "localReview": "pending",
+          "category": "barangays"
         },
         {
           "id": "baco_discovery_3",
           "suggestedMission": 3,
-          "title": "Distinct communities",
-          "text": "The history names Iraya and Alangan communities in Baco; these are not interchangeable identities.",
+          "title": "Ways of living",
+          "text": "Farmer organizations in Baco participated in calamansi planting support documented in the provincial 2019 report.",
           "sourceIDs": [
-            "baco_history"
+            "farm_report"
           ],
           "evidenceStatus": "web_documented",
-          "localReview": "pending"
+          "localReview": "pending",
+          "category": "livelihoods"
         },
         {
           "id": "baco_discovery_4",
           "suggestedMission": 4,
-          "title": "One name account",
-          "text": "One local account links Baco's name with paco, an edible fern.",
+          "title": "Traditions",
+          "text": "One local place-name account connects Baco with paco, an edible fern. Other accounts also exist; this is an oral account, not a settled origin.",
           "sourceIDs": [
             "baco_history"
           ],
           "evidenceStatus": "oral_account",
-          "localReview": "pending"
+          "localReview": "pending",
+          "category": "traditions"
         },
         {
           "id": "baco_discovery_5",
           "suggestedMission": 5,
-          "title": "Another name account",
-          "text": "A different account connects the name with uneven, flood-affected roads.",
+          "title": "Environment",
+          "text": "Baco has rivers and upland landscapes. Riverbank planting has been used in provincial flood-mitigation efforts that include Baco.",
           "sourceIDs": [
-            "baco_history"
+            "baco_history",
+            "rivercare"
           ],
-          "evidenceStatus": "oral_account",
-          "localReview": "pending"
+          "evidenceStatus": "web_documented",
+          "localReview": "pending",
+          "category": "environment"
         }
       ],
       "visitorChallenge": {
         "status": "applied_visitor_care_prompt",
-        "text": "Use permitted paths, respect closures and leave wild plants where they grow. Listen to local guides and community hosts.",
+        "text": "Keep shared spaces and waterways free of litter. Ask permission before recording people or sharing their community knowledge.",
         "contextSourceIDs": [
-          "halcon",
-          "baco_history"
+          "baco_history",
+          "rivercare"
         ],
         "guidanceSourceIDs": [],
         "note": "Proposed respectful-behavior mechanic; not quoted local rules. Have site custodians review."
       },
       "recap": {
         "optional": true,
-        "question": "Which mountain is associated with Baco in the tourism listing?",
+        "question": "How many barangays does Baco have in the cited PSA table?",
         "options": [
-          "Mount Halcon",
-          "Mayon",
-          "Mount Apo"
+          "27",
+          "30",
+          "25"
         ],
         "correctOptionIndex": 0,
         "sourceIDs": [
-          "halcon"
+          "psa_baco"
         ],
         "onIncorrect": "Explain the linked discovery and allow retry. Keep run rewards.",
         "reward": "Optional journal reflection badge; never gate core travel progress."
       },
       "journal": {
-        "title": "A mountain and many voices",
-        "text": "The Halcon landscape and Baco's communities deserve careful listening. Keep alternative name stories labeled as accounts, and let community contributors explain their own heritage.",
+        "title": "Baco: community and identity",
+        "text": "Act 3498 reestablished Baco and San Teodoro as separate municipal districts, effective 1 January 1929. Baco has 27 barangays in the PSA table dated 31 July 2025. Barangays are the local communities that make up the municipality or city. Farmer organizations in Baco participated in calamansi planting support documented in the provincial 2019 report. One local place-name account connects Baco with paco, an edible fern. Other accounts also exist; this is an oral account, not a settled origin. Baco has rivers and upland landscapes. Riverbank planting has been used in provincial flood-mitigation efforts that include Baco.",
         "sourceIDs": [
-          "halcon",
-          "baco_history"
+          "act3498",
+          "psa_baco",
+          "farm_report",
+          "baco_history",
+          "rivercare"
         ],
         "unlock": {
           "type": "complete_destination_mission_5",
           "quizRequired": false
         },
         "additionalSections": [
-          "Place introduction",
-          "Discovered facts",
-          "Collectible meanings",
-          "Visitor care",
-          "Sources and credits"
+          "History",
+          "Barangay count",
+          "Ways of living",
+          "Traditions",
+          "Environment"
         ],
         "note": "Draft editorial synthesis; factual basis is in linked discovery records."
       },
-      "pickupName": "Mountain postcard",
-      "pickupImage": "heritage_token_baco.svg"
+      "pickupName": "Calamansi harvest crate",
+      "pickupImage": "heritage_token_socorro.svg",
+      "barangayCount": 27,
+      "barangayCountAsOf": "31 July 2025"
     },
     {
       "destinationID": "oriental_mindoro_calapan_city",
       "name": "Calapan City",
       "introduction": {
-        "text": "Calapan City is Oriental Mindoro's capital and commercial center. Its heritage destinations and coastal conservation areas offer stories of city life, cultural learning and care for nearby habitats.",
+        "text": "Meet Calapan City through its history, 62 barangays, everyday work, living traditions and environment.",
         "sourceIDs": [
-          "calapan",
-          "calapan_mpa"
+          "psa_calapan_city",
+          "calapan_history"
         ]
       },
       "collectibles": [
         {
-          "name": "Heritage museum ticket",
+          "name": "Calamansi harvest crate",
           "basisSourceIDs": [
-            "calapan"
+            "calapan",
+            "farm_report"
           ],
-          "status": "game_design_proposal_based_on_documented_topic",
-          "designNotes": "Fictional entry token; not a real admission ticket."
-        },
-        {
-          "name": "Mangrove observation badge",
-          "basisSourceIDs": [
-            "calapan_mpa"
-          ],
-          "status": "game_design_proposal_based_on_documented_topic",
-          "designNotes": "Observe plants; do not collect seedlings from the wild."
+          "status": "illustrated_livelihood_token",
+          "designNotes": "Symbolic everyday-life collectible; no objects removed from nature or community heritage."
         }
       ],
       "discoveries": [
         {
           "id": "calapan_city_discovery_1",
           "suggestedMission": 1,
-          "title": "Provincial center",
-          "text": "Calapan is identified as the provincial capital and a commercial center.",
-          "sourceIDs": [
-            "calapan"
-          ],
-          "evidenceStatus": "web_documented",
-          "localReview": "pending"
-        },
-        {
-          "id": "calapan_city_discovery_2",
-          "suggestedMission": 2,
-          "title": "Cityhood",
-          "text": "Calapan's cityhood was ratified through a plebiscite on 21 March 1998.",
+          "title": "History",
+          "text": "Calapan became a city following the plebiscite of 21 March 1998. It is Oriental Mindoro's provincial capital.",
           "sourceIDs": [
             "calapan_history"
           ],
           "evidenceStatus": "web_documented",
-          "localReview": "pending"
+          "localReview": "pending",
+          "category": "history"
+        },
+        {
+          "id": "calapan_city_discovery_2",
+          "suggestedMission": 2,
+          "title": "Barangay count",
+          "text": "Calapan City has 62 barangays in the PSA table dated 31 July 2025. Barangays are the local communities that make up the municipality or city.",
+          "sourceIDs": [
+            "psa_calapan_city"
+          ],
+          "evidenceStatus": "web_documented",
+          "localReview": "pending",
+          "category": "barangays"
         },
         {
           "id": "calapan_city_discovery_3",
           "suggestedMission": 3,
-          "title": "Museum discovery",
-          "text": "The provincial tourism directory lists the Oriental Mindoro Heritage Museum in Calapan.",
+          "title": "Ways of living",
+          "text": "Commerce and farming both form part of city life. Provincial records document support for Calapan farmer organizations growing calamansi.",
           "sourceIDs": [
-            "calapan"
+            "calapan",
+            "farm_report"
           ],
           "evidenceStatus": "web_documented",
-          "localReview": "pending"
+          "localReview": "pending",
+          "category": "livelihoods"
         },
         {
           "id": "calapan_city_discovery_4",
           "suggestedMission": 4,
-          "title": "Silonay",
-          "text": "DENR's monitoring record identifies Silonay Mangrove Conservation Area among Calapan's coastal sites.",
+          "title": "Traditions",
+          "text": "Local food-making and sharing are part of Calapan's cultural life. The city government highlights local delicacies as expressions of community identity.",
           "sourceIDs": [
-            "calapan_mpa"
+            "calapan_food"
           ],
           "evidenceStatus": "web_documented",
-          "localReview": "pending"
+          "localReview": "pending",
+          "category": "traditions"
         },
         {
           "id": "calapan_city_discovery_5",
           "suggestedMission": 5,
-          "title": "Harka Piloto",
-          "text": "The same DENR record identifies Harka Piloto as a fish sanctuary.",
+          "title": "Environment",
+          "text": "Coastal mangroves and fish habitats are part of Calapan's environment. Healthy coastal water supports living ecosystems.",
           "sourceIDs": [
             "calapan_mpa"
           ],
           "evidenceStatus": "web_documented",
-          "localReview": "pending"
+          "localReview": "pending",
+          "category": "environment"
         }
       ],
       "visitorChallenge": {
         "status": "applied_visitor_care_prompt",
-        "text": "Observe mangroves and sanctuary wildlife without disturbing them. Keep boardwalks and coastal spaces free of litter.",
+        "text": "Keep shared spaces and waterways free of litter. Ask permission before recording people or sharing their community knowledge.",
         "contextSourceIDs": [
-          "calapan",
           "calapan_mpa"
         ],
         "guidanceSourceIDs": [],
@@ -789,51 +920,56 @@
       },
       "recap": {
         "optional": true,
-        "question": "Which city is the capital of Oriental Mindoro?",
+        "question": "How many barangays does Calapan City have in the cited PSA table?",
         "options": [
-          "Calapan City",
-          "Roxas",
-          "Pinamalayan"
+          "62",
+          "65",
+          "60"
         ],
         "correctOptionIndex": 0,
         "sourceIDs": [
-          "calapan"
+          "psa_calapan_city"
         ],
         "onIncorrect": "Explain the linked discovery and allow retry. Keep run rewards.",
         "reward": "Optional journal reflection badge; never gate core travel progress."
       },
       "journal": {
-        "title": "The city beyond arrival",
-        "text": "A provincial center can also be a place to learn and conserve. Link the museum stop with coastal habitat observation rather than treating Calapan only as a gateway.",
+        "title": "Calapan City: community and identity",
+        "text": "Calapan became a city following the plebiscite of 21 March 1998. It is Oriental Mindoro's provincial capital. Calapan City has 62 barangays in the PSA table dated 31 July 2025. Barangays are the local communities that make up the municipality or city. Commerce and farming both form part of city life. Provincial records document support for Calapan farmer organizations growing calamansi. Local food-making and sharing are part of Calapan's cultural life. The city government highlights local delicacies as expressions of community identity. Coastal mangroves and fish habitats are part of Calapan's environment. Healthy coastal water supports living ecosystems.",
         "sourceIDs": [
+          "calapan_history",
+          "psa_calapan_city",
           "calapan",
-          "calapan_mpa",
-          "calapan_history"
+          "farm_report",
+          "calapan_food",
+          "calapan_mpa"
         ],
         "unlock": {
           "type": "complete_destination_mission_5",
           "quizRequired": false
         },
         "additionalSections": [
-          "Place introduction",
-          "Discovered facts",
-          "Collectible meanings",
-          "Visitor care",
-          "Sources and credits"
+          "History",
+          "Barangay count",
+          "Ways of living",
+          "Traditions",
+          "Environment"
         ],
         "note": "Draft editorial synthesis; factual basis is in linked discovery records."
       },
-      "pickupName": "Heritage museum ticket",
-      "pickupImage": "heritage_token_calapan_city.svg"
+      "pickupName": "Calamansi harvest crate",
+      "pickupImage": "heritage_token_socorro.svg",
+      "barangayCount": 62,
+      "barangayCountAsOf": "31 July 2025"
     },
     {
       "destinationID": "oriental_mindoro_naujan",
       "name": "Naujan",
       "introduction": {
-        "text": "Naujan's adventure can connect wetland life with built heritage at Bancuro. Naujan Lake is part of a wider landscape shared by several municipalities, rather than the story of one town alone.",
+        "text": "Meet Naujan through its history, 70 barangays, everyday work, living traditions and environment.",
         "sourceIDs": [
-          "naujan_history",
-          "lake_profile"
+          "psa_naujan",
+          "naujan_history"
         ]
       },
       "collectibles": [
@@ -842,80 +978,76 @@
           "basisSourceIDs": [
             "lake_fisheries"
           ],
-          "status": "game_design_proposal_based_on_documented_topic",
-          "designNotes": "Replace live-fish catching with identification; exact species require verified artwork."
-        },
-        {
-          "name": "Bancuro heritage sketch",
-          "basisSourceIDs": [
-            "naujan_history"
-          ],
-          "status": "game_design_proposal_based_on_documented_topic",
-          "designNotes": "A drawing token, never a stone removed from ruins."
+          "status": "illustrated_livelihood_token",
+          "designNotes": "Symbolic everyday-life collectible; no objects removed from nature or community heritage."
         }
       ],
       "discoveries": [
         {
           "id": "naujan_discovery_1",
           "suggestedMission": 1,
-          "title": "International wetland",
-          "text": "Naujan Lake National Park entered the Ramsar list on 12 November 1999.",
+          "title": "History",
+          "text": "A local legend connects Naujan's name with thirst. It is an origin story recorded in the town history, rather than a confirmed account of how the name began.",
           "sourceIDs": [
-            "ramsar_list"
+            "naujan_history"
           ],
-          "evidenceStatus": "web_documented",
-          "localReview": "pending"
+          "evidenceStatus": "oral_account",
+          "localReview": "pending",
+          "category": "history"
         },
         {
           "id": "naujan_discovery_2",
           "suggestedMission": 2,
-          "title": "Shared landscape",
-          "text": "The lake park profile describes a landscape surrounded by Naujan, Pola, Socorro and Victoria.",
+          "title": "Barangay count",
+          "text": "Naujan has 70 barangays in the PSA table dated 31 July 2025. Barangays are the local communities that make up the municipality or city.",
           "sourceIDs": [
-            "lake_profile"
+            "psa_naujan"
           ],
           "evidenceStatus": "web_documented",
-          "localReview": "pending"
+          "localReview": "pending",
+          "category": "barangays"
         },
         {
           "id": "naujan_discovery_3",
           "suggestedMission": 3,
-          "title": "Fishery knowledge",
-          "text": "A 2025â€“2026 assessment studied Lake Naujan's fisheries to inform sustainable management.",
+          "title": "Ways of living",
+          "text": "Freshwater fisheries support livelihoods around Naujan Lake; scientific assessments help guide sustainable management.",
           "sourceIDs": [
             "lake_fisheries"
           ],
           "evidenceStatus": "web_documented",
-          "localReview": "pending"
+          "localReview": "pending",
+          "category": "livelihoods"
         },
         {
           "id": "naujan_discovery_4",
           "suggestedMission": 4,
-          "title": "Bancuro heritage",
-          "text": "The town history describes Bancuro's stone church as a place of worship and refuge.",
+          "title": "Traditions",
+          "text": "The provincial history records religious life and places of worship in Naujan's past. Such accounts describe parts of local community life, without representing every resident's beliefs.",
           "sourceIDs": [
             "naujan_history"
           ],
           "evidenceStatus": "web_documented",
-          "localReview": "pending"
+          "localReview": "pending",
+          "category": "traditions"
         },
         {
           "id": "naujan_discovery_5",
           "suggestedMission": 5,
-          "title": "A name story",
-          "text": "The tourism history presents a thirst-related origin of Naujan's name as a legend.",
+          "title": "Environment",
+          "text": "Naujan shares a lake ecosystem with Pola, Socorro and Victoria. Freshwater habitats connect communities across municipal boundaries.",
           "sourceIDs": [
-            "naujan_history"
+            "lake_profile"
           ],
-          "evidenceStatus": "legend",
-          "localReview": "pending"
+          "evidenceStatus": "web_documented",
+          "localReview": "pending",
+          "category": "environment"
         }
       ],
       "visitorChallenge": {
         "status": "applied_visitor_care_prompt",
-        "text": "Observe birds from a distance and keep litter out of the lake. Enjoy historic places without removing stones or objects.",
+        "text": "Keep shared spaces and waterways free of litter. Ask permission before recording people or sharing their community knowledge.",
         "contextSourceIDs": [
-          "naujan_history",
           "lake_profile"
         ],
         "guidanceSourceIDs": [],
@@ -923,51 +1055,54 @@
       },
       "recap": {
         "optional": true,
-        "question": "Naujan Lake National Park is recognized internationally as what?",
+        "question": "How many barangays does Naujan have in the cited PSA table?",
         "options": [
-          "A Ramsar wetland",
-          "A desert reserve",
-          "A ski area"
+          "70",
+          "73",
+          "68"
         ],
         "correctOptionIndex": 0,
         "sourceIDs": [
-          "ramsar_list"
+          "psa_naujan"
         ],
         "onIncorrect": "Explain the linked discovery and allow retry. Keep run rewards.",
         "reward": "Optional journal reflection badge; never gate core travel progress."
       },
       "journal": {
-        "title": "Water holds shared stories",
-        "text": "Lake research, surrounding communities and Bancuro's heritage belong to different parts of Naujan's story. Protecting water and respecting historic places can be learned together.",
+        "title": "Naujan: community and identity",
+        "text": "A local legend connects Naujan's name with thirst. It is an origin story recorded in the town history, rather than a confirmed account of how the name began. Naujan has 70 barangays in the PSA table dated 31 July 2025. Barangays are the local communities that make up the municipality or city. Freshwater fisheries support livelihoods around Naujan Lake; scientific assessments help guide sustainable management. The provincial history records religious life and places of worship in Naujan's past. Such accounts describe parts of local community life, without representing every resident's beliefs. Naujan shares a lake ecosystem with Pola, Socorro and Victoria. Freshwater habitats connect communities across municipal boundaries.",
         "sourceIDs": [
           "naujan_history",
-          "lake_profile",
-          "ramsar_list",
-          "lake_fisheries"
+          "psa_naujan",
+          "lake_fisheries",
+          "lake_profile"
         ],
         "unlock": {
           "type": "complete_destination_mission_5",
           "quizRequired": false
         },
         "additionalSections": [
-          "Place introduction",
-          "Discovered facts",
-          "Collectible meanings",
-          "Visitor care",
-          "Sources and credits"
+          "History",
+          "Barangay count",
+          "Ways of living",
+          "Traditions",
+          "Environment"
         ],
         "note": "Draft editorial synthesis; factual basis is in linked discovery records."
       },
       "pickupName": "Fish observation card",
-      "pickupImage": "heritage_token_naujan.svg"
+      "pickupImage": "heritage_token_naujan.svg",
+      "barangayCount": 70,
+      "barangayCountAsOf": "31 July 2025"
     },
     {
       "destinationID": "oriental_mindoro_victoria",
       "name": "Victoria",
       "introduction": {
-        "text": "Victoria combines rice fields with varied fruit harvests. Explore its fruit-basket identity, discover crops such as rambutan and lanzones, and follow the connection between farming, processing and everyday livelihoods.",
+        "text": "Meet Victoria through its history, 32 barangays, everyday work, living traditions and environment.",
         "sourceIDs": [
-          "victoria_up"
+          "psa_victoria",
+          "victoria_history"
         ]
       },
       "collectibles": [
@@ -976,131 +1111,132 @@
           "basisSourceIDs": [
             "victoria_up"
           ],
-          "status": "game_design_proposal_based_on_documented_topic",
-          "designNotes": "Replace unrelated fruit mix with documented crops."
-        },
-        {
-          "name": "Calamansi juice parcel",
-          "basisSourceIDs": [
-            "enterprise"
-          ],
-          "status": "game_design_proposal_based_on_documented_topic",
-          "designNotes": "Connect farming to value-added local processing."
+          "status": "illustrated_livelihood_token",
+          "designNotes": "Symbolic everyday-life collectible; no objects removed from nature or community heritage."
         }
       ],
       "discoveries": [
         {
           "id": "victoria_discovery_1",
           "suggestedMission": 1,
-          "title": "Fruit-basket identity",
-          "text": "A UP food-systems study describes Victoria as Oriental Mindoro's fruit basket.",
+          "title": "History",
+          "text": "Victoria was formed from territory previously belonging to Naujan in 1953, according to the compiled municipal history.",
           "sourceIDs": [
-            "victoria_up"
+            "victoria_history"
           ],
           "evidenceStatus": "web_documented",
-          "localReview": "pending"
+          "localReview": "pending",
+          "category": "history"
         },
         {
           "id": "victoria_discovery_2",
           "suggestedMission": 2,
-          "title": "Rice matters too",
-          "text": "The same study emphasizes rice alongside the town's fruit production.",
+          "title": "Barangay count",
+          "text": "Victoria has 32 barangays in the PSA table dated 31 July 2025. Barangays are the local communities that make up the municipality or city.",
           "sourceIDs": [
-            "victoria_up"
+            "psa_victoria"
           ],
           "evidenceStatus": "web_documented",
-          "localReview": "pending"
+          "localReview": "pending",
+          "category": "barangays"
         },
         {
           "id": "victoria_discovery_3",
           "suggestedMission": 3,
-          "title": "Orchard variety",
-          "text": "Its documented crops include calamansi, bananas, lanzones, mangosteen and rambutan.",
+          "title": "Ways of living",
+          "text": "Rice and varied fruits support farm livelihoods. Documented crops include calamansi, bananas, lanzones, mangosteen and rambutan.",
           "sourceIDs": [
             "victoria_up"
           ],
           "evidenceStatus": "web_documented",
-          "localReview": "pending"
+          "localReview": "pending",
+          "category": "livelihoods"
         },
         {
           "id": "victoria_discovery_4",
           "suggestedMission": 4,
-          "title": "Processing livelihoods",
-          "text": "A provincial report describes a Victoria enterprise processing calamansi into juice and concentrate.",
+          "title": "Traditions",
+          "text": "A local account connects the earlier name Borbocolon with gushing water. Place-name stories preserve community memory, even when they are not established historical facts.",
           "sourceIDs": [
-            "enterprise"
+            "victoria_history"
           ],
-          "evidenceStatus": "web_documented",
-          "localReview": "pending"
+          "evidenceStatus": "oral_account",
+          "localReview": "pending",
+          "category": "traditions"
         },
         {
           "id": "victoria_discovery_5",
           "suggestedMission": 5,
-          "title": "Agricultural learning",
-          "text": "DA's station profile places an agricultural research station in Alcate, Victoria.",
+          "title": "Environment",
+          "text": "Fields, orchards and the shared lake landscape connect Victoria's food production with soil and water.",
           "sourceIDs": [
-            "victoria_da"
+            "victoria_up",
+            "lake_profile"
           ],
           "evidenceStatus": "web_documented",
-          "localReview": "pending"
+          "localReview": "pending",
+          "category": "environment"
         }
       ],
       "visitorChallenge": {
         "status": "applied_visitor_care_prompt",
-        "text": "Value the work behind every harvest. Choose produce thoughtfully, avoid food waste and keep market spaces clean.",
+        "text": "Keep shared spaces and waterways free of litter. Ask permission before recording people or sharing their community knowledge.",
         "contextSourceIDs": [
-          "victoria_up"
+          "victoria_up",
+          "lake_profile"
         ],
         "guidanceSourceIDs": [],
         "note": "Proposed respectful-behavior mechanic; not quoted local rules. Have site custodians review."
       },
       "recap": {
         "optional": true,
-        "question": "Which combination better reflects Victoria's documented farming identity?",
+        "question": "How many barangays does Victoria have in the cited PSA table?",
         "options": [
-          "Rice and varied fruits",
-          "Only coconuts",
-          "Only marine products"
+          "32",
+          "35",
+          "30"
         ],
         "correctOptionIndex": 0,
         "sourceIDs": [
-          "victoria_up"
+          "psa_victoria"
         ],
         "onIncorrect": "Explain the linked discovery and allow retry. Keep run rewards.",
         "reward": "Optional journal reflection badge; never gate core travel progress."
       },
       "journal": {
-        "title": "From harvest to livelihood",
-        "text": "Victoria's story can move from field and orchard to market and processing. The collectible basket represents farm work and variety, not a claim that every fruit grows only here.",
+        "title": "Victoria: community and identity",
+        "text": "Victoria was formed from territory previously belonging to Naujan in 1953, according to the compiled municipal history. Victoria has 32 barangays in the PSA table dated 31 July 2025. Barangays are the local communities that make up the municipality or city. Rice and varied fruits support farm livelihoods. Documented crops include calamansi, bananas, lanzones, mangosteen and rambutan. A local account connects the earlier name Borbocolon with gushing water. Place-name stories preserve community memory, even when they are not established historical facts. Fields, orchards and the shared lake landscape connect Victoria's food production with soil and water.",
         "sourceIDs": [
+          "victoria_history",
+          "psa_victoria",
           "victoria_up",
-          "enterprise",
-          "victoria_da"
+          "lake_profile"
         ],
         "unlock": {
           "type": "complete_destination_mission_5",
           "quizRequired": false
         },
         "additionalSections": [
-          "Place introduction",
-          "Discovered facts",
-          "Collectible meanings",
-          "Visitor care",
-          "Sources and credits"
+          "History",
+          "Barangay count",
+          "Ways of living",
+          "Traditions",
+          "Environment"
         ],
         "note": "Draft editorial synthesis; factual basis is in linked discovery records."
       },
       "pickupName": "Rambutan and lanzones basket",
-      "pickupImage": "mindoro_item_fruit_basket.webp"
+      "pickupImage": "mindoro_item_fruit_basket.webp",
+      "barangayCount": 32,
+      "barangayCountAsOf": "31 July 2025"
     },
     {
       "destinationID": "oriental_mindoro_socorro",
       "name": "Socorro",
       "introduction": {
-        "text": "Socorro is an agricultural municipality connected to the southern side of Naujan Lake. Its local identity combines farming, freshwater livelihoods and a documented history of separation from Pola.",
+        "text": "Meet Socorro through its history, 26 barangays, everyday work, living traditions and environment.",
         "sourceIDs": [
-          "socorro_lgu",
-          "ppdo_history",
+          "psa_socorro",
           "socorro_law"
         ]
       },
@@ -1110,108 +1246,104 @@
           "basisSourceIDs": [
             "ppdo_history"
           ],
-          "status": "game_design_proposal_based_on_documented_topic",
-          "designNotes": "Documented crop; replace a generic live-fish pickup if the mission focuses on farming."
-        },
-        {
-          "name": "Lake observation badge",
-          "basisSourceIDs": [
-            "lake_profile"
-          ],
-          "status": "game_design_proposal_based_on_documented_topic",
-          "designNotes": "A shared-wetland token, not a private municipal emblem."
+          "status": "illustrated_livelihood_token",
+          "designNotes": "Symbolic everyday-life collectible; no objects removed from nature or community heritage."
         }
       ],
       "discoveries": [
         {
           "id": "socorro_discovery_1",
           "suggestedMission": 1,
-          "title": "Created from Pola",
-          "text": "Republic Act 3609 separated Socorro's territory from Pola.",
+          "title": "History",
+          "text": "Republic Act 3609, approved on 22 June 1963, created Socorro from territory formerly belonging to Pola.",
           "sourceIDs": [
             "socorro_law"
           ],
           "evidenceStatus": "web_documented",
-          "localReview": "pending"
+          "localReview": "pending",
+          "category": "history"
         },
         {
           "id": "socorro_discovery_2",
           "suggestedMission": 2,
-          "title": "Creation date checked",
-          "text": "The original law was approved on 22 June 1963.",
+          "title": "Barangay count",
+          "text": "Socorro has 26 barangays in the PSA table dated 31 July 2025. Barangays are the local communities that make up the municipality or city.",
           "sourceIDs": [
-            "socorro_law"
+            "psa_socorro"
           ],
           "evidenceStatus": "web_documented",
-          "localReview": "pending"
+          "localReview": "pending",
+          "category": "barangays"
         },
         {
           "id": "socorro_discovery_3",
           "suggestedMission": 3,
-          "title": "Earlier settlement name",
-          "text": "The municipal website links the town's history to Catiningan.",
-          "sourceIDs": [
-            "socorro_lgu"
-          ],
-          "evidenceStatus": "web_documented",
-          "localReview": "pending"
-        },
-        {
-          "id": "socorro_discovery_4",
-          "suggestedMission": 4,
-          "title": "Agricultural variety",
-          "text": "PPDO's municipal history lists calamansi, rambutan, coffee and bananas among Socorro's crops.",
+          "title": "Ways of living",
+          "text": "Calamansi, rambutan, coffee and bananas are among the crops described in the provincial municipal history.",
           "sourceIDs": [
             "ppdo_history"
           ],
           "evidenceStatus": "web_documented",
-          "localReview": "pending"
+          "localReview": "pending",
+          "category": "livelihoods"
+        },
+        {
+          "id": "socorro_discovery_4",
+          "suggestedMission": 4,
+          "title": "Traditions",
+          "text": "The municipal account links the earlier settlement with Catiningan and explains the name Socorro through a local naming story. Treat such accounts as remembered community narratives.",
+          "sourceIDs": [
+            "socorro_lgu"
+          ],
+          "evidenceStatus": "oral_account",
+          "localReview": "pending",
+          "category": "traditions"
         },
         {
           "id": "socorro_discovery_5",
           "suggestedMission": 5,
-          "title": "Lake connection",
-          "text": "The conservation profile includes Socorro among the four municipalities surrounding Naujan Lake National Park.",
+          "title": "Environment",
+          "text": "Socorro is one of the four municipalities surrounding the shared Naujan Lake landscape. Water stewardship connects neighboring communities.",
           "sourceIDs": [
             "lake_profile"
           ],
           "evidenceStatus": "web_documented",
-          "localReview": "pending"
+          "localReview": "pending",
+          "category": "environment"
         }
       ],
       "visitorChallenge": {
         "status": "applied_visitor_care_prompt",
-        "text": "Care for the water connecting farms and the lake. Keep packaging and other waste out of waterways.",
+        "text": "Keep shared spaces and waterways free of litter. Ask permission before recording people or sharing their community knowledge.",
         "contextSourceIDs": [
-          "socorro_lgu",
-          "ppdo_history",
-          "socorro_law"
+          "lake_profile"
         ],
         "guidanceSourceIDs": [],
         "note": "Proposed respectful-behavior mechanic; not quoted local rules. Have site custodians review."
       },
       "recap": {
         "optional": true,
-        "question": "Socorro was separated from which municipality?",
+        "question": "How many barangays does Socorro have in the cited PSA table?",
         "options": [
-          "Pola",
-          "Mansalay",
-          "Puerto Galera"
+          "26",
+          "29",
+          "24"
         ],
         "correctOptionIndex": 0,
         "sourceIDs": [
-          "socorro_law"
+          "psa_socorro"
         ],
         "onIncorrect": "Explain the linked discovery and allow retry. Keep run rewards.",
         "reward": "Optional journal reflection badge; never gate core travel progress."
       },
       "journal": {
-        "title": "Farm and freshwater crossroads",
-        "text": "Socorro's fields and lake connection create a story about livelihoods linked by water. Its foundation date comes from the original law, not a conflicting historical summary.",
+        "title": "Socorro: community and identity",
+        "text": "Republic Act 3609, approved on 22 June 1963, created Socorro from territory formerly belonging to Pola. Socorro has 26 barangays in the PSA table dated 31 July 2025. Barangays are the local communities that make up the municipality or city. Calamansi, rambutan, coffee and bananas are among the crops described in the provincial municipal history. The municipal account links the earlier settlement with Catiningan and explains the name Socorro through a local naming story. Treat such accounts as remembered community narratives. Socorro is one of the four municipalities surrounding the shared Naujan Lake landscape. Water stewardship connects neighboring communities.",
         "sourceIDs": [
-          "socorro_lgu",
-          "ppdo_history",
           "socorro_law",
+          "psa_socorro",
+          "ppdo_history",
+          "socorro_lgu",
           "lake_profile"
         ],
         "unlock": {
@@ -1219,25 +1351,27 @@
           "quizRequired": false
         },
         "additionalSections": [
-          "Place introduction",
-          "Discovered facts",
-          "Collectible meanings",
-          "Visitor care",
-          "Sources and credits"
+          "History",
+          "Barangay count",
+          "Ways of living",
+          "Traditions",
+          "Environment"
         ],
         "note": "Draft editorial synthesis; factual basis is in linked discovery records."
       },
       "pickupName": "Calamansi harvest crate",
-      "pickupImage": "heritage_token_socorro.svg"
+      "pickupImage": "heritage_token_socorro.svg",
+      "barangayCount": 26,
+      "barangayCountAsOf": "31 July 2025"
     },
     {
       "destinationID": "oriental_mindoro_pola",
       "name": "Pola",
       "introduction": {
-        "text": "Pola connects an estuary and coastal setting with a concentration of ancestral houses. Its recorded livelihoods include farming, fishing and nipa weaving, offering both built-heritage and everyday-work stories.",
+        "text": "Meet Pola through its history, 23 barangays, everyday work, living traditions and environment.",
         "sourceIDs": [
-          "pola_history",
-          "pola_houses"
+          "psa_pola",
+          "pola_history"
         ]
       },
       "collectibles": [
@@ -1246,132 +1380,133 @@
           "basisSourceIDs": [
             "pola_history"
           ],
-          "status": "game_design_proposal_based_on_documented_topic",
-          "designNotes": "Design requires a local maker's review; represent work, not harvesting wild plants."
-        },
-        {
-          "name": "Heritage-window postcard",
-          "basisSourceIDs": [
-            "pola_houses"
-          ],
-          "status": "game_design_proposal_based_on_documented_topic",
-          "designNotes": "Original illustration, not a removable architectural fragment."
+          "status": "illustrated_livelihood_token",
+          "designNotes": "Symbolic everyday-life collectible; no objects removed from nature or community heritage."
         }
       ],
       "discoveries": [
         {
           "id": "pola_discovery_1",
           "suggestedMission": 1,
-          "title": "Ancestral houses",
-          "text": "The tourism portal describes Pola's concentration of preserved ancestral houses.",
+          "title": "History",
+          "text": "Pola's historical account places the town center at a river estuary, showing the long connection between settlement and water.",
           "sourceIDs": [
-            "pola_houses"
+            "pola_history"
           ],
           "evidenceStatus": "web_documented",
-          "localReview": "pending"
+          "localReview": "pending",
+          "category": "history"
         },
         {
           "id": "pola_discovery_2",
           "suggestedMission": 2,
-          "title": "River and town",
-          "text": "The town history places the poblacion at the Casiligan River's estuary.",
+          "title": "Barangay count",
+          "text": "Pola has 23 barangays in the PSA table dated 31 July 2025. Barangays are the local communities that make up the municipality or city.",
           "sourceIDs": [
-            "pola_history"
+            "psa_pola"
           ],
           "evidenceStatus": "web_documented",
-          "localReview": "pending"
+          "localReview": "pending",
+          "category": "barangays"
         },
         {
           "id": "pola_discovery_3",
           "suggestedMission": 3,
-          "title": "Everyday livelihoods",
-          "text": "Its historical account identifies agriculture and fishing among local livelihoods.",
+          "title": "Ways of living",
+          "text": "Agriculture and fishing are documented livelihoods in Pola, linking daily work to farms, rivers and coastal water.",
           "sourceIDs": [
             "pola_history"
           ],
           "evidenceStatus": "web_documented",
-          "localReview": "pending"
+          "localReview": "pending",
+          "category": "livelihoods"
         },
         {
           "id": "pola_discovery_4",
           "suggestedMission": 4,
-          "title": "Nipa craft",
-          "text": "The same account explicitly mentions nipa weaving.",
+          "title": "Traditions",
+          "text": "Nipa weaving is among the local practices recorded in Pola's history. Useful woven materials connect craft knowledge with everyday needs.",
           "sourceIDs": [
             "pola_history"
           ],
           "evidenceStatus": "web_documented",
-          "localReview": "pending"
+          "localReview": "pending",
+          "category": "traditions"
         },
         {
           "id": "pola_discovery_5",
           "suggestedMission": 5,
-          "title": "Red-clay account",
-          "text": "The history links Pola's name with reddish clay and the word pula.",
+          "title": "Environment",
+          "text": "A river estuary connects freshwater and coastal water. Pola also shares the wider Naujan Lake landscape with neighboring municipalities.",
           "sourceIDs": [
-            "pola_history"
+            "pola_history",
+            "lake_profile"
           ],
-          "evidenceStatus": "local_etymology_account",
-          "localReview": "pending"
+          "evidenceStatus": "web_documented",
+          "localReview": "pending",
+          "category": "environment"
         }
       ],
       "visitorChallenge": {
         "status": "applied_visitor_care_prompt",
-        "text": "Remember that heritage houses may be lived-in homes. Ask before entering or photographing residents.",
+        "text": "Keep shared spaces and waterways free of litter. Ask permission before recording people or sharing their community knowledge.",
         "contextSourceIDs": [
           "pola_history",
-          "pola_houses"
+          "lake_profile"
         ],
         "guidanceSourceIDs": [],
         "note": "Proposed respectful-behavior mechanic; not quoted local rules. Have site custodians review."
       },
       "recap": {
         "optional": true,
-        "question": "Which weaving material is specifically mentioned in Pola's town history?",
+        "question": "How many barangays does Pola have in the cited PSA table?",
         "options": [
-          "Nipa",
-          "Glass fibre",
-          "Coral"
+          "23",
+          "26",
+          "21"
         ],
         "correctOptionIndex": 0,
         "sourceIDs": [
-          "pola_history"
+          "psa_pola"
         ],
         "onIncorrect": "Explain the linked discovery and allow retry. Keep run rewards.",
         "reward": "Optional journal reflection badge; never gate core travel progress."
       },
       "journal": {
-        "title": "Houses and hands at work",
-        "text": "Pola's heritage includes lived-in buildings and practical craft. A respectful visitor observes architecture without treating homes or residents as exhibits.",
+        "title": "Pola: community and identity",
+        "text": "Pola's historical account places the town center at a river estuary, showing the long connection between settlement and water. Pola has 23 barangays in the PSA table dated 31 July 2025. Barangays are the local communities that make up the municipality or city. Agriculture and fishing are documented livelihoods in Pola, linking daily work to farms, rivers and coastal water. Nipa weaving is among the local practices recorded in Pola's history. Useful woven materials connect craft knowledge with everyday needs. A river estuary connects freshwater and coastal water. Pola also shares the wider Naujan Lake landscape with neighboring municipalities.",
         "sourceIDs": [
           "pola_history",
-          "pola_houses"
+          "psa_pola",
+          "lake_profile"
         ],
         "unlock": {
           "type": "complete_destination_mission_5",
           "quizRequired": false
         },
         "additionalSections": [
-          "Place introduction",
-          "Discovered facts",
-          "Collectible meanings",
-          "Visitor care",
-          "Sources and credits"
+          "History",
+          "Barangay count",
+          "Ways of living",
+          "Traditions",
+          "Environment"
         ],
         "note": "Draft editorial synthesis; factual basis is in linked discovery records."
       },
       "pickupName": "Nipa-woven panel token",
-      "pickupImage": "heritage_token_pola.svg"
+      "pickupImage": "heritage_token_pola.svg",
+      "barangayCount": 23,
+      "barangayCountAsOf": "31 July 2025"
     },
     {
       "destinationID": "oriental_mindoro_pinamalayan",
       "name": "Pinamalayan",
       "introduction": {
-        "text": "Pinamalayan brings together a planned town center, local food enterprise and a rainbow origin legend. Explore its grid of streets, discover its food products and hear the story remembered in its rainbow identity.",
+        "text": "Meet Pinamalayan through its history, 37 barangays, everyday work, living traditions and environment.",
         "sourceIDs": [
-          "pin_lgu",
-          "pin_history",
-          "pin_facts"
+          "psa_pinamalayan",
+          "pin_facts",
+          "pin_lgu"
         ]
       },
       "collectibles": [
@@ -1380,133 +1515,136 @@
           "basisSourceIDs": [
             "pin_facts"
           ],
-          "status": "game_design_proposal_based_on_documented_topic",
-          "designNotes": "Documented food-product link; current clay pot remains a landmark souvenir, not proof of pottery craft."
-        },
-        {
-          "name": "Rainbow postcard",
-          "basisSourceIDs": [
-            "pin_history"
-          ],
-          "status": "game_design_proposal_based_on_documented_topic",
-          "designNotes": "Story token labeled as legend."
+          "status": "illustrated_livelihood_token",
+          "designNotes": "Symbolic everyday-life collectible; no objects removed from nature or community heritage."
         }
       ],
       "discoveries": [
         {
           "id": "pinamalayan_discovery_1",
           "suggestedMission": 1,
-          "title": "A planned center",
-          "text": "The municipal website describes a grid-pattern layout in Pinamalayan's poblacion.",
+          "title": "History",
+          "text": "The municipal quick-facts account dates the transfer of the town seat from its earlier location to 1916. Its planned center follows a grid layout.",
           "sourceIDs": [
+            "pin_facts",
             "pin_lgu"
           ],
           "evidenceStatus": "web_documented",
-          "localReview": "pending"
+          "localReview": "pending",
+          "category": "history"
         },
         {
           "id": "pinamalayan_discovery_2",
           "suggestedMission": 2,
-          "title": "Plaza and civic life",
-          "text": "The same account connects the planned town center with a plaza beside the municipal building.",
+          "title": "Barangay count",
+          "text": "Pinamalayan has 37 barangays in the PSA table dated 31 July 2025. Barangays are the local communities that make up the municipality or city.",
           "sourceIDs": [
-            "pin_lgu"
+            "psa_pinamalayan"
           ],
           "evidenceStatus": "web_documented",
-          "localReview": "pending"
+          "localReview": "pending",
+          "category": "barangays"
         },
         {
           "id": "pinamalayan_discovery_3",
           "suggestedMission": 3,
-          "title": "A remembered move",
-          "text": "The municipal quick-facts page dates the town-seat transfer from Lumambayan to 1916.",
+          "title": "Ways of living",
+          "text": "Banana-chip making is a documented local food enterprise, adding value to agricultural produce.",
           "sourceIDs": [
             "pin_facts"
           ],
           "evidenceStatus": "web_documented",
-          "localReview": "pending"
+          "localReview": "pending",
+          "category": "livelihoods"
         },
         {
           "id": "pinamalayan_discovery_4",
           "suggestedMission": 4,
-          "title": "Food enterprise",
-          "text": "The municipal quick-facts page identifies packaged banana chips as a visitor-associated local delicacy.",
+          "title": "Traditions",
+          "text": "A recorded origin legend tells of travelers guided toward land by a rainbow. It is a community story, not proof of the town's historical founding.",
           "sourceIDs": [
-            "pin_facts"
+            "pin_history"
           ],
-          "evidenceStatus": "web_documented",
-          "localReview": "pending"
+          "evidenceStatus": "oral_account",
+          "localReview": "pending",
+          "category": "traditions"
         },
         {
           "id": "pinamalayan_discovery_5",
           "suggestedMission": 5,
-          "title": "Rainbow story",
-          "text": "The provincial history tells of travelers guided toward land by a rainbow.",
+          "title": "Environment",
+          "text": "Cultivated soils support farm life. Pinamalayan has also been included in riverbank planting efforts for flood mitigation.",
           "sourceIDs": [
-            "pin_history"
+            "soils",
+            "rivercare"
           ],
-          "evidenceStatus": "legend",
-          "localReview": "pending"
+          "evidenceStatus": "web_documented",
+          "localReview": "pending",
+          "category": "environment"
         }
       ],
       "visitorChallenge": {
         "status": "applied_visitor_care_prompt",
-        "text": "Enjoy the plaza and local products while caring for shared spaces. Leave monuments free of climbing damage and marks.",
+        "text": "Keep shared spaces and waterways free of litter. Ask permission before recording people or sharing their community knowledge.",
         "contextSourceIDs": [
-          "pin_lgu",
-          "pin_history",
-          "pin_facts"
+          "soils",
+          "rivercare"
         ],
         "guidanceSourceIDs": [],
         "note": "Proposed respectful-behavior mechanic; not quoted local rules. Have site custodians review."
       },
       "recap": {
         "optional": true,
-        "question": "Which feature is documented in Pinamalayan's town-center planning?",
+        "question": "How many barangays does Pinamalayan have in the cited PSA table?",
         "options": [
-          "A grid of roads",
-          "An ice canal",
-          "A desert caravan route"
+          "37",
+          "40",
+          "35"
         ],
         "correctOptionIndex": 0,
         "sourceIDs": [
-          "pin_lgu"
+          "psa_pinamalayan"
         ],
         "onIncorrect": "Explain the linked discovery and allow retry. Keep run rewards.",
         "reward": "Optional journal reflection badge; never gate core travel progress."
       },
       "journal": {
-        "title": "A rainbow and a planned town",
-        "text": "Keep the origin story in the legend section. Town planning and food enterprise supply separate discoveries grounded in municipal descriptions.",
+        "title": "Pinamalayan: community and identity",
+        "text": "The municipal quick-facts account dates the transfer of the town seat from its earlier location to 1916. Its planned center follows a grid layout. Pinamalayan has 37 barangays in the PSA table dated 31 July 2025. Barangays are the local communities that make up the municipality or city. Banana-chip making is a documented local food enterprise, adding value to agricultural produce. A recorded origin legend tells of travelers guided toward land by a rainbow. It is a community story, not proof of the town's historical founding. Cultivated soils support farm life. Pinamalayan has also been included in riverbank planting efforts for flood mitigation.",
         "sourceIDs": [
+          "pin_facts",
           "pin_lgu",
+          "psa_pinamalayan",
           "pin_history",
-          "pin_facts"
+          "soils",
+          "rivercare"
         ],
         "unlock": {
           "type": "complete_destination_mission_5",
           "quizRequired": false
         },
         "additionalSections": [
-          "Place introduction",
-          "Discovered facts",
-          "Collectible meanings",
-          "Visitor care",
-          "Sources and credits"
+          "History",
+          "Barangay count",
+          "Ways of living",
+          "Traditions",
+          "Environment"
         ],
         "note": "Draft editorial synthesis; factual basis is in linked discovery records."
       },
       "pickupName": "Banana-chip parcel",
-      "pickupImage": "heritage_token_pinamalayan.svg"
+      "pickupImage": "heritage_token_pinamalayan.svg",
+      "barangayCount": 37,
+      "barangayCountAsOf": "31 July 2025"
     },
     {
       "destinationID": "oriental_mindoro_gloria",
       "name": "Gloria",
       "introduction": {
-        "text": "Gloria's history connects Tambong and Maligaya with its former place within Pinamalayan. A documented banana-chip enterprise adds a livelihood story that can complement the coastal scenery chosen for the app.",
+        "text": "Meet Gloria through its history, 27 barangays, everyday work, living traditions and environment.",
         "sourceIDs": [
-          "gloria_history",
-          "enterprise"
+          "psa_gloria",
+          "gloria_history"
         ]
       },
       "collectibles": [
@@ -1515,132 +1653,135 @@
           "basisSourceIDs": [
             "enterprise"
           ],
-          "status": "game_design_proposal_based_on_documented_topic",
-          "designNotes": "Stronger documented link than the currently shared coconut sprite."
-        },
-        {
-          "name": "Town-history postcard",
-          "basisSourceIDs": [
-            "gloria_history"
-          ],
-          "status": "game_design_proposal_based_on_documented_topic",
-          "designNotes": "Show place names without inventing a municipal emblem."
+          "status": "illustrated_livelihood_token",
+          "designNotes": "Symbolic everyday-life collectible; no objects removed from nature or community heritage."
         }
       ],
       "discoveries": [
         {
           "id": "gloria_discovery_1",
           "suggestedMission": 1,
-          "title": "Earlier connection",
-          "text": "Gloria's municipal history records that its territory was once part of Pinamalayan.",
+          "title": "History",
+          "text": "Gloria's municipal history records that its territory was once part of Pinamalayan and describes settlement around Tambong in the early twentieth century.",
           "sourceIDs": [
             "gloria_history"
           ],
           "evidenceStatus": "web_documented",
-          "localReview": "pending"
+          "localReview": "pending",
+          "category": "history"
         },
         {
           "id": "gloria_discovery_2",
           "suggestedMission": 2,
-          "title": "Tambong account",
-          "text": "The same history describes migrant families settling in Tambong around 1915.",
+          "title": "Barangay count",
+          "text": "Gloria has 27 barangays in the PSA table dated 31 July 2025. Barangays are the local communities that make up the municipality or city.",
           "sourceIDs": [
-            "gloria_history"
+            "psa_gloria"
           ],
           "evidenceStatus": "web_documented",
-          "localReview": "pending"
+          "localReview": "pending",
+          "category": "barangays"
         },
         {
           "id": "gloria_discovery_3",
           "suggestedMission": 3,
-          "title": "Maligaya",
-          "text": "The history explains Maligaya's name through a local account of happiness over agricultural harvests.",
-          "sourceIDs": [
-            "gloria_history"
-          ],
-          "evidenceStatus": "local_history_account",
-          "localReview": "pending"
-        },
-        {
-          "id": "gloria_discovery_4",
-          "suggestedMission": 4,
-          "title": "Town center",
-          "text": "Maligaya became the poblacion and seat of municipal government, according to that account.",
-          "sourceIDs": [
-            "gloria_history"
-          ],
-          "evidenceStatus": "web_documented",
-          "localReview": "pending"
-        },
-        {
-          "id": "gloria_discovery_5",
-          "suggestedMission": 5,
-          "title": "Adding value",
-          "text": "The provincial enterprise report identifies MARBA in Gloria as a banana-chip producer.",
+          "title": "Ways of living",
+          "text": "Banana-chip processing is one documented enterprise in Gloria, connecting cultivation with food-making and trade.",
           "sourceIDs": [
             "enterprise"
           ],
           "evidenceStatus": "web_documented",
-          "localReview": "pending"
+          "localReview": "pending",
+          "category": "livelihoods"
+        },
+        {
+          "id": "gloria_discovery_4",
+          "suggestedMission": 4,
+          "title": "Traditions",
+          "text": "Bamboo handicraft skills are shared through local training supported by DTI. Contemporary craft learning is part of living culture; it need not be described as an ancient ritual.",
+          "sourceIDs": [
+            "gloria_craft"
+          ],
+          "evidenceStatus": "web_documented",
+          "localReview": "pending",
+          "category": "traditions"
+        },
+        {
+          "id": "gloria_discovery_5",
+          "suggestedMission": 5,
+          "title": "Environment",
+          "text": "Agricultural soils and riverbanks support local life. Gloria has participated in bamboo planting for flood mitigation.",
+          "sourceIDs": [
+            "soils",
+            "rivercare"
+          ],
+          "evidenceStatus": "web_documented",
+          "localReview": "pending",
+          "category": "environment"
         }
       ],
       "visitorChallenge": {
         "status": "applied_visitor_care_prompt",
-        "text": "Support local food makers and avoid wasting produce. Keep food wrappers out of coastal and community spaces.",
+        "text": "Keep shared spaces and waterways free of litter. Ask permission before recording people or sharing their community knowledge.",
         "contextSourceIDs": [
-          "gloria_history",
-          "enterprise"
+          "soils",
+          "rivercare"
         ],
         "guidanceSourceIDs": [],
         "note": "Proposed respectful-behavior mechanic; not quoted local rules. Have site custodians review."
       },
       "recap": {
         "optional": true,
-        "question": "Which documented processed product connects Gloria to the enterprise report?",
+        "question": "How many barangays does Gloria have in the cited PSA table?",
         "options": [
-          "Banana chips",
-          "Snow cones",
-          "Coral jewelry"
+          "27",
+          "30",
+          "25"
         ],
         "correctOptionIndex": 0,
         "sourceIDs": [
-          "enterprise"
+          "psa_gloria"
         ],
         "onIncorrect": "Explain the linked discovery and allow retry. Keep run rewards.",
         "reward": "Optional journal reflection badge; never gate core travel progress."
       },
       "journal": {
-        "title": "Harvests become stories",
-        "text": "Place names and product-making connect Gloria's town history with everyday work. The beach image is one setting, not the municipality's entire identity.",
+        "title": "Gloria: community and identity",
+        "text": "Gloria's municipal history records that its territory was once part of Pinamalayan and describes settlement around Tambong in the early twentieth century. Gloria has 27 barangays in the PSA table dated 31 July 2025. Barangays are the local communities that make up the municipality or city. Banana-chip processing is one documented enterprise in Gloria, connecting cultivation with food-making and trade. Bamboo handicraft skills are shared through local training supported by DTI. Contemporary craft learning is part of living culture; it need not be described as an ancient ritual. Agricultural soils and riverbanks support local life. Gloria has participated in bamboo planting for flood mitigation.",
         "sourceIDs": [
           "gloria_history",
-          "enterprise"
+          "psa_gloria",
+          "enterprise",
+          "gloria_craft",
+          "soils",
+          "rivercare"
         ],
         "unlock": {
           "type": "complete_destination_mission_5",
           "quizRequired": false
         },
         "additionalSections": [
-          "Place introduction",
-          "Discovered facts",
-          "Collectible meanings",
-          "Visitor care",
-          "Sources and credits"
+          "History",
+          "Barangay count",
+          "Ways of living",
+          "Traditions",
+          "Environment"
         ],
         "note": "Draft editorial synthesis; factual basis is in linked discovery records."
       },
       "pickupName": "Banana-chip parcel",
-      "pickupImage": "heritage_token_gloria.svg"
+      "pickupImage": "heritage_token_gloria.svg",
+      "barangayCount": 27,
+      "barangayCountAsOf": "31 July 2025"
     },
     {
       "destinationID": "oriental_mindoro_bansud",
       "name": "Bansud",
       "introduction": {
-        "text": "Bansud's documented identity includes agriculture and bananas, alongside river-related local history. Its public park provides another setting for learning about shared spaces and freshwater observation.",
+        "text": "Meet Bansud through its history, 13 barangays, everyday work, living traditions and environment.",
         "sourceIDs": [
-          "bansud_agri",
-          "bansud_history",
-          "bansud_park"
+          "psa_bansud",
+          "bansud_history"
         ]
       },
       "collectibles": [
@@ -1649,133 +1790,130 @@
           "basisSourceIDs": [
             "bansud_agri"
           ],
-          "status": "game_design_proposal_based_on_documented_topic",
-          "designNotes": "Keep the banana theme without claiming an exclusive crop or an unverified variety."
-        },
-        {
-          "name": "Park observation badge",
-          "basisSourceIDs": [
-            "bansud_park"
-          ],
-          "status": "game_design_proposal_based_on_documented_topic",
-          "designNotes": "Observation token; not a live-fish capture objective."
+          "status": "illustrated_livelihood_token",
+          "designNotes": "Symbolic everyday-life collectible; no objects removed from nature or community heritage."
         }
       ],
       "discoveries": [
         {
           "id": "bansud_discovery_1",
           "suggestedMission": 1,
-          "title": "Banana connection",
-          "text": "A government local profile emphasizes Bansud's banana and agricultural products.",
+          "title": "History",
+          "text": "The compiled municipal history records Bansud as formerly part of Bongabong.",
           "sourceIDs": [
-            "bansud_agri"
+            "bansud_history"
           ],
           "evidenceStatus": "web_documented",
-          "localReview": "pending"
+          "localReview": "pending",
+          "category": "history"
         },
         {
           "id": "bansud_discovery_2",
           "suggestedMission": 2,
-          "title": "Former territory",
-          "text": "The provincial history records Bansud as formerly part of Bongabong.",
+          "title": "Barangay count",
+          "text": "Bansud has 13 barangays in the PSA table dated 31 July 2025. Barangays are the local communities that make up the municipality or city.",
           "sourceIDs": [
-            "bansud_history"
+            "psa_bansud"
           ],
           "evidenceStatus": "web_documented",
-          "localReview": "pending"
+          "localReview": "pending",
+          "category": "barangays"
         },
         {
           "id": "bansud_discovery_3",
           "suggestedMission": 3,
-          "title": "Delta name account",
-          "text": "The same history labels a basud or delta explanation of the name as oral tradition.",
+          "title": "Ways of living",
+          "text": "Bananas and other agricultural products form part of Bansud's documented economic identity.",
           "sourceIDs": [
-            "bansud_history"
+            "bansud_agri"
           ],
-          "evidenceStatus": "oral_tradition",
-          "localReview": "pending"
+          "evidenceStatus": "web_documented",
+          "localReview": "pending",
+          "category": "livelihoods"
         },
         {
           "id": "bansud_discovery_4",
           "suggestedMission": 4,
-          "title": "Public-space setting",
-          "text": "Bansud Municipal Park and Plaza is listed in Poblacion, opposite the municipal hall.",
+          "title": "Traditions",
+          "text": "An oral tradition connects the name Bansud with basud, or delta. Keep this explanation labeled as a local account.",
           "sourceIDs": [
-            "bansud_park"
+            "bansud_history"
           ],
-          "evidenceStatus": "web_documented",
-          "localReview": "pending"
+          "evidenceStatus": "oral_account",
+          "localReview": "pending",
+          "category": "traditions"
         },
         {
           "id": "bansud_discovery_5",
           "suggestedMission": 5,
-          "title": "A constructed lagoon",
-          "text": "The park listing describes an artificial lagoon with tilapia-related recreational activity.",
+          "title": "Environment",
+          "text": "Riverbank vegetation helps protect waterways and nearby land. Bansud has been included in bamboo planting efforts for flood mitigation.",
           "sourceIDs": [
-            "bansud_park"
+            "rivercare"
           ],
           "evidenceStatus": "web_documented",
-          "localReview": "pending"
+          "localReview": "pending",
+          "category": "environment"
         }
       ],
       "visitorChallenge": {
         "status": "applied_visitor_care_prompt",
-        "text": "Keep public parks and markets clean. Put packaging in suitable bins and leave shared spaces ready for the next visitor.",
+        "text": "Keep shared spaces and waterways free of litter. Ask permission before recording people or sharing their community knowledge.",
         "contextSourceIDs": [
-          "bansud_agri",
-          "bansud_history",
-          "bansud_park"
+          "rivercare"
         ],
         "guidanceSourceIDs": [],
         "note": "Proposed respectful-behavior mechanic; not quoted local rules. Have site custodians review."
       },
       "recap": {
         "optional": true,
-        "question": "Which product has a documented connection with Bansud's agricultural identity?",
+        "question": "How many barangays does Bansud have in the cited PSA table?",
         "options": [
-          "Bananas",
-          "Alpine cheese",
-          "Maple syrup"
+          "13",
+          "16",
+          "11"
         ],
         "correctOptionIndex": 0,
         "sourceIDs": [
-          "bansud_agri"
+          "psa_bansud"
         ],
         "onIncorrect": "Explain the linked discovery and allow retry. Keep run rewards.",
         "reward": "Optional journal reflection badge; never gate core travel progress."
       },
       "journal": {
-        "title": "Fields, river names and public space",
-        "text": "Banana livelihoods, a river-delta name account and the public park offer different entry points. Preserve the distinction between a documented product and oral history.",
+        "title": "Bansud: community and identity",
+        "text": "The compiled municipal history records Bansud as formerly part of Bongabong. Bansud has 13 barangays in the PSA table dated 31 July 2025. Barangays are the local communities that make up the municipality or city. Bananas and other agricultural products form part of Bansud's documented economic identity. An oral tradition connects the name Bansud with basud, or delta. Keep this explanation labeled as a local account. Riverbank vegetation helps protect waterways and nearby land. Bansud has been included in bamboo planting efforts for flood mitigation.",
         "sourceIDs": [
-          "bansud_agri",
           "bansud_history",
-          "bansud_park"
+          "psa_bansud",
+          "bansud_agri",
+          "rivercare"
         ],
         "unlock": {
           "type": "complete_destination_mission_5",
           "quizRequired": false
         },
         "additionalSections": [
-          "Place introduction",
-          "Discovered facts",
-          "Collectible meanings",
-          "Visitor care",
-          "Sources and credits"
+          "History",
+          "Barangay count",
+          "Ways of living",
+          "Traditions",
+          "Environment"
         ],
         "note": "Draft editorial synthesis; factual basis is in linked discovery records."
       },
       "pickupName": "Banana market crate",
-      "pickupImage": "mindoro_item_banana.webp"
+      "pickupImage": "mindoro_item_banana.webp",
+      "barangayCount": 13,
+      "barangayCountAsOf": "31 July 2025"
     },
     {
       "destinationID": "oriental_mindoro_bongabong",
       "name": "Bongabong",
       "introduction": {
-        "text": "Bongabong's river and farm landscapes sit alongside Kuta church ruins, a built-heritage site. Its adventure can connect agricultural work, landscape observation and care for surviving historic structures.",
+        "text": "Meet Bongabong through its history, 36 barangays, everyday work, living traditions and environment.",
         "sourceIDs": [
-          "bong_lgu",
-          "bong_kuta",
+          "psa_bongabong",
           "bong_history"
         ]
       },
@@ -1785,405 +1923,401 @@
           "basisSourceIDs": [
             "bong_history"
           ],
-          "status": "game_design_proposal_based_on_documented_topic",
-          "designNotes": "Documented coastal-plain crop; replace generic fish if teaching farm livelihood."
-        },
-        {
-          "name": "Kuta sketch token",
-          "basisSourceIDs": [
-            "bong_kuta"
-          ],
-          "status": "game_design_proposal_based_on_documented_topic",
-          "designNotes": "A souvenir drawing, never a collectible stone or religious object."
+          "status": "illustrated_livelihood_token",
+          "designNotes": "Symbolic everyday-life collectible; no objects removed from nature or community heritage."
         }
       ],
       "discoveries": [
         {
           "id": "bongabong_discovery_1",
           "suggestedMission": 1,
-          "title": "Kuta heritage",
-          "text": "A PIA account identifies Kuta as an eighteenth-century church and defensive structure.",
-          "sourceIDs": [
-            "bong_kuta"
-          ],
-          "evidenceStatus": "web_documented",
-          "localReview": "pending"
-        },
-        {
-          "id": "bongabong_discovery_2",
-          "suggestedMission": 2,
-          "title": "Two purposes",
-          "text": "Kuta served worship and protection, according to that historical account.",
-          "sourceIDs": [
-            "bong_kuta"
-          ],
-          "evidenceStatus": "web_documented",
-          "localReview": "pending"
-        },
-        {
-          "id": "bongabong_discovery_3",
-          "suggestedMission": 3,
-          "title": "Coconut landscape",
-          "text": "The provincial history describes coconut plantations on Bongabong's coastal plains.",
+          "title": "History",
+          "text": "The compiled history preserves accounts of Bongabong's earlier settlement and name. These accounts connect the town's development with its coastal landscape.",
           "sourceIDs": [
             "bong_history"
           ],
           "evidenceStatus": "web_documented",
-          "localReview": "pending"
+          "localReview": "pending",
+          "category": "history"
+        },
+        {
+          "id": "bongabong_discovery_2",
+          "suggestedMission": 2,
+          "title": "Barangay count",
+          "text": "Bongabong has 36 barangays in the PSA table dated 31 July 2025. Barangays are the local communities that make up the municipality or city.",
+          "sourceIDs": [
+            "psa_bongabong"
+          ],
+          "evidenceStatus": "web_documented",
+          "localReview": "pending",
+          "category": "barangays"
+        },
+        {
+          "id": "bongabong_discovery_3",
+          "suggestedMission": 3,
+          "title": "Ways of living",
+          "text": "Coconut plantations on coastal plains are described in the provincial municipal history. Harvesting and processing link farms with household incomes.",
+          "sourceIDs": [
+            "bong_history"
+          ],
+          "evidenceStatus": "web_documented",
+          "localReview": "pending",
+          "category": "livelihoods"
         },
         {
           "id": "bongabong_discovery_4",
           "suggestedMission": 4,
-          "title": "Farm discovery",
-          "text": "The municipal visitor page lists Gabutero Organic Farm among local destinations.",
+          "title": "Traditions",
+          "text": "The municipal history records a Binago-related explanation of Bongabong's name. It is one name account rather than a proven single origin.",
           "sourceIDs": [
-            "bong_lgu"
+            "bong_history"
           ],
-          "evidenceStatus": "web_documented",
-          "localReview": "pending"
+          "evidenceStatus": "oral_account",
+          "localReview": "pending",
+          "category": "traditions"
         },
         {
           "id": "bongabong_discovery_5",
           "suggestedMission": 5,
-          "title": "River crossing",
-          "text": "Lisap Bridge appears in the municipality's own visitor destination list.",
+          "title": "Environment",
+          "text": "Coastal plains and river systems connect cultivation with water. Bongabong has been included in riverbank planting for flood mitigation.",
           "sourceIDs": [
-            "bong_lgu"
+            "bong_history",
+            "rivercare"
           ],
           "evidenceStatus": "web_documented",
-          "localReview": "pending"
+          "localReview": "pending",
+          "category": "environment"
         }
       ],
       "visitorChallenge": {
         "status": "applied_visitor_care_prompt",
-        "text": "Observe historic walls without climbing, marking or taking material from them. Keep a respectful distance from fragile remains.",
+        "text": "Keep shared spaces and waterways free of litter. Ask permission before recording people or sharing their community knowledge.",
         "contextSourceIDs": [
-          "bong_lgu",
-          "bong_kuta",
-          "bong_history"
+          "bong_history",
+          "rivercare"
         ],
         "guidanceSourceIDs": [],
         "note": "Proposed respectful-behavior mechanic; not quoted local rules. Have site custodians review."
       },
       "recap": {
         "optional": true,
-        "question": "What two functions are associated with Kuta?",
+        "question": "How many barangays does Bongabong have in the cited PSA table?",
         "options": [
-          "Worship and defense",
-          "Airport and stadium",
-          "Mine and factory"
+          "36",
+          "39",
+          "34"
         ],
         "correctOptionIndex": 0,
         "sourceIDs": [
-          "bong_kuta"
+          "psa_bongabong"
         ],
         "onIncorrect": "Explain the linked discovery and allow retry. Keep run rewards.",
         "reward": "Optional journal reflection badge; never gate core travel progress."
       },
       "journal": {
-        "title": "A landscape with surviving walls",
-        "text": "Kuta offers a way to discuss built heritage without collecting its materials. Farm and river discoveries keep Bongabong's story connected to living places.",
+        "title": "Bongabong: community and identity",
+        "text": "The compiled history preserves accounts of Bongabong's earlier settlement and name. These accounts connect the town's development with its coastal landscape. Bongabong has 36 barangays in the PSA table dated 31 July 2025. Barangays are the local communities that make up the municipality or city. Coconut plantations on coastal plains are described in the provincial municipal history. Harvesting and processing link farms with household incomes. The municipal history records a Binago-related explanation of Bongabong's name. It is one name account rather than a proven single origin. Coastal plains and river systems connect cultivation with water. Bongabong has been included in riverbank planting for flood mitigation.",
         "sourceIDs": [
-          "bong_lgu",
-          "bong_kuta",
-          "bong_history"
+          "bong_history",
+          "psa_bongabong",
+          "rivercare"
         ],
         "unlock": {
           "type": "complete_destination_mission_5",
           "quizRequired": false
         },
         "additionalSections": [
-          "Place introduction",
-          "Discovered facts",
-          "Collectible meanings",
-          "Visitor care",
-          "Sources and credits"
+          "History",
+          "Barangay count",
+          "Ways of living",
+          "Traditions",
+          "Environment"
         ],
         "note": "Draft editorial synthesis; factual basis is in linked discovery records."
       },
       "pickupName": "Coconut harvest parcel",
-      "pickupImage": "mindoro_item_coconut.webp"
+      "pickupImage": "mindoro_item_coconut.webp",
+      "barangayCount": 36,
+      "barangayCountAsOf": "31 July 2025"
     },
     {
       "destinationID": "oriental_mindoro_roxas",
       "name": "Roxas",
       "introduction": {
-        "text": "Roxas combines farm and cultural destinations with a port connection at Dangay. Explore its working landscapes and discover San Rafael Cave through observation that leaves natural formations in place.",
+        "text": "Meet Roxas through its history, 20 barangays, everyday work, living traditions and environment.",
         "sourceIDs": [
-          "roxas_places",
-          "roxas_port",
-          "roxas_cave"
+          "psa_roxas",
+          "roxas_history"
         ]
       },
       "collectibles": [
         {
-          "name": "Port-route ticket",
+          "name": "Calamansi harvest crate",
           "basisSourceIDs": [
-            "roxas_port"
+            "farm_report"
           ],
-          "status": "game_design_proposal_based_on_documented_topic",
-          "designNotes": "Fictional travel token, not a real ferry schedule or ticket."
-        },
-        {
-          "name": "Cave photo token",
-          "basisSourceIDs": [
-            "roxas_cave"
-          ],
-          "status": "game_design_proposal_based_on_documented_topic",
-          "designNotes": "Do not reward removing cave formations."
+          "status": "illustrated_livelihood_token",
+          "designNotes": "Symbolic everyday-life collectible; no objects removed from nature or community heritage."
         }
       ],
       "discoveries": [
         {
           "id": "roxas_discovery_1",
           "suggestedMission": 1,
-          "title": "Port connection",
-          "text": "DENR's project register locates a Roxas Port expansion project in Barangay Dangay.",
-          "sourceIDs": [
-            "roxas_port"
-          ],
-          "evidenceStatus": "web_documented",
-          "localReview": "pending"
-        },
-        {
-          "id": "roxas_discovery_2",
-          "suggestedMission": 2,
-          "title": "Cave location",
-          "text": "The provincial tourism portal lists San Rafael Cave in Roxas.",
-          "sourceIDs": [
-            "roxas_cave"
-          ],
-          "evidenceStatus": "web_documented",
-          "localReview": "pending"
-        },
-        {
-          "id": "roxas_discovery_3",
-          "suggestedMission": 3,
-          "title": "Agricultural visits",
-          "text": "Roxas's tourism directory includes farm and agritourism destinations.",
-          "sourceIDs": [
-            "roxas_places"
-          ],
-          "evidenceStatus": "web_documented",
-          "localReview": "pending"
-        },
-        {
-          "id": "roxas_discovery_4",
-          "suggestedMission": 4,
-          "title": "A cultural stop",
-          "text": "Clarendon Cultural Center is listed as a cultural destination in Roxas.",
-          "sourceIDs": [
-            "roxas_places"
-          ],
-          "evidenceStatus": "web_documented",
-          "localReview": "pending"
-        },
-        {
-          "id": "roxas_discovery_5",
-          "suggestedMission": 5,
-          "title": "Earlier place name",
-          "text": "The compiled town history connects Roxas's development with Paclasan.",
+          "title": "History",
+          "text": "Roxas's compiled history connects its development with the earlier settlement of Paclasan.",
           "sourceIDs": [
             "roxas_history"
           ],
           "evidenceStatus": "web_documented",
-          "localReview": "pending"
+          "localReview": "pending",
+          "category": "history"
+        },
+        {
+          "id": "roxas_discovery_2",
+          "suggestedMission": 2,
+          "title": "Barangay count",
+          "text": "Roxas has 20 barangays in the PSA table dated 31 July 2025. Barangays are the local communities that make up the municipality or city.",
+          "sourceIDs": [
+            "psa_roxas"
+          ],
+          "evidenceStatus": "web_documented",
+          "localReview": "pending",
+          "category": "barangays"
+        },
+        {
+          "id": "roxas_discovery_3",
+          "suggestedMission": 3,
+          "title": "Ways of living",
+          "text": "Provincial records document support for farmer organizations in Roxas, including calamansi planting materials.",
+          "sourceIDs": [
+            "farm_report"
+          ],
+          "evidenceStatus": "web_documented",
+          "localReview": "pending",
+          "category": "livelihoods"
+        },
+        {
+          "id": "roxas_discovery_4",
+          "suggestedMission": 4,
+          "title": "Traditions",
+          "text": "A local name account connects Paclasan with the palasan palm. Place-name accounts preserve remembered relationships with plants and land.",
+          "sourceIDs": [
+            "roxas_history"
+          ],
+          "evidenceStatus": "oral_account",
+          "localReview": "pending",
+          "category": "traditions"
+        },
+        {
+          "id": "roxas_discovery_5",
+          "suggestedMission": 5,
+          "title": "Environment",
+          "text": "Agricultural soils support crops such as rice, corn, coconut and root crops in the wider southern Mindoro landscape, including Roxas.",
+          "sourceIDs": [
+            "soils"
+          ],
+          "evidenceStatus": "web_documented",
+          "localReview": "pending",
+          "category": "environment"
         }
       ],
       "visitorChallenge": {
         "status": "applied_visitor_care_prompt",
-        "text": "Observe cave formations without touching, marking or removing them. Follow current guidance from site caretakers.",
+        "text": "Keep shared spaces and waterways free of litter. Ask permission before recording people or sharing their community knowledge.",
         "contextSourceIDs": [
-          "roxas_places",
-          "roxas_port",
-          "roxas_cave"
+          "soils"
         ],
         "guidanceSourceIDs": [],
         "note": "Proposed respectful-behavior mechanic; not quoted local rules. Have site custodians review."
       },
       "recap": {
         "optional": true,
-        "question": "Which cave is listed as a Roxas destination?",
+        "question": "How many barangays does Roxas have in the cited PSA table?",
         "options": [
-          "San Rafael Cave",
-          "Sumaguing Cave",
-          "Callao Cave"
+          "20",
+          "23",
+          "18"
         ],
         "correctOptionIndex": 0,
         "sourceIDs": [
-          "roxas_cave"
+          "psa_roxas"
         ],
         "onIncorrect": "Explain the linked discovery and allow retry. Keep run rewards.",
         "reward": "Optional journal reflection badge; never gate core travel progress."
       },
       "journal": {
-        "title": "Routes, farms and a cave",
-        "text": "Roxas can be explored through transport, cultivation and geological observation. A cave photograph carries a memory without removing part of the place.",
+        "title": "Roxas: community and identity",
+        "text": "Roxas's compiled history connects its development with the earlier settlement of Paclasan. Roxas has 20 barangays in the PSA table dated 31 July 2025. Barangays are the local communities that make up the municipality or city. Provincial records document support for farmer organizations in Roxas, including calamansi planting materials. A local name account connects Paclasan with the palasan palm. Place-name accounts preserve remembered relationships with plants and land. Agricultural soils support crops such as rice, corn, coconut and root crops in the wider southern Mindoro landscape, including Roxas.",
         "sourceIDs": [
-          "roxas_places",
-          "roxas_port",
-          "roxas_cave",
-          "roxas_history"
+          "roxas_history",
+          "psa_roxas",
+          "farm_report",
+          "soils"
         ],
         "unlock": {
           "type": "complete_destination_mission_5",
           "quizRequired": false
         },
         "additionalSections": [
-          "Place introduction",
-          "Discovered facts",
-          "Collectible meanings",
-          "Visitor care",
-          "Sources and credits"
+          "History",
+          "Barangay count",
+          "Ways of living",
+          "Traditions",
+          "Environment"
         ],
         "note": "Draft editorial synthesis; factual basis is in linked discovery records."
       },
-      "pickupName": "Port-route ticket",
-      "pickupImage": "heritage_token_roxas.svg"
+      "pickupName": "Calamansi harvest crate",
+      "pickupImage": "heritage_token_socorro.svg",
+      "barangayCount": 20,
+      "barangayCountAsOf": "31 July 2025"
     },
     {
       "destinationID": "oriental_mindoro_mansalay",
       "name": "Mansalay",
       "introduction": {
-        "text": "Mansalay brings a coastal landscape into conversation with Hanunoo Mangyan literary heritage. NCCA connects the poet Ginaw Bilog with Mansalay and the ambahan tradition, offering a specific cultural starting point.",
+        "text": "Meet Mansalay through its history, 17 barangays, everyday work, living traditions and environment.",
         "sourceIDs": [
-          "mansalay_beach",
-          "ambahan_ncca"
+          "psa_mansalay",
+          "act3498"
         ]
       },
       "collectibles": [
         {
           "name": "Literature discovery card",
           "basisSourceIDs": [
-            "ambahan_ncca"
+            "farm_report"
           ],
-          "status": "game_design_proposal_based_on_documented_topic",
-          "designNotes": "A journal unlock rather than a sacred object or copied poem."
-        },
-        {
-          "name": "Beach observation postcard",
-          "basisSourceIDs": [
-            "mansalay_beach"
-          ],
-          "status": "game_design_proposal_based_on_documented_topic",
-          "designNotes": "Replace shell-taking with a drawn memory."
+          "status": "illustrated_livelihood_token",
+          "designNotes": "Symbolic everyday-life collectible; no objects removed from nature or community heritage."
         }
       ],
       "discoveries": [
         {
           "id": "mansalay_discovery_1",
           "suggestedMission": 1,
-          "title": "Coastal place",
-          "text": "The tourism portal locates Buktot Beach in Manaul, Mansalay.",
+          "title": "History",
+          "text": "Act 3498 reestablished Mansalay and Bulalacao separately, effective 1 January 1929.",
           "sourceIDs": [
-            "mansalay_beach"
+            "act3498"
           ],
           "evidenceStatus": "web_documented",
-          "localReview": "pending"
+          "localReview": "pending",
+          "category": "history"
         },
         {
           "id": "mansalay_discovery_2",
           "suggestedMission": 2,
-          "title": "Landscape details",
-          "text": "Its listing describes pale sand and rock formations at Buktot Beach.",
+          "title": "Barangay count",
+          "text": "Mansalay has 17 barangays in the PSA table dated 31 July 2025. Barangays are the local communities that make up the municipality or city.",
           "sourceIDs": [
-            "mansalay_beach"
+            "psa_mansalay"
           ],
           "evidenceStatus": "web_documented",
-          "localReview": "pending"
+          "localReview": "pending",
+          "category": "barangays"
         },
         {
           "id": "mansalay_discovery_3",
           "suggestedMission": 3,
-          "title": "A named culture bearer",
-          "text": "NCCA associates Ginaw Bilog with the Hanunoo Mangyan ambahan tradition of Mansalay.",
+          "title": "Ways of living",
+          "text": "Provincial records document coconut farmer organizations and cacao planting support in Mansalay.",
           "sourceIDs": [
-            "ambahan_ncca"
+            "farm_report"
           ],
           "evidenceStatus": "web_documented",
-          "localReview": "pending"
+          "localReview": "pending",
+          "category": "livelihoods"
         },
         {
           "id": "mansalay_discovery_4",
           "suggestedMission": 4,
-          "title": "Poetic form",
-          "text": "The heritage-center account describes ambahan lines as having seven syllables.",
+          "title": "Traditions",
+          "text": "Hanunoo Mangyan ambahan uses seven-syllable lines to express experiences and relationships. NCCA associates culture bearer Ginaw Bilog with this tradition in Mansalay.",
           "sourceIDs": [
+            "ambahan_ncca",
             "ambahan_form"
           ],
           "evidenceStatus": "web_documented",
-          "localReview": "pending"
+          "localReview": "pending",
+          "category": "traditions"
         },
         {
           "id": "mansalay_discovery_5",
           "suggestedMission": 5,
-          "title": "Everyday themes",
-          "text": "That account explains ambahan's connection to daily life and human relationships.",
+          "title": "Environment",
+          "text": "Farm soils and vegetation support cultivation. Caring for soil and water helps sustain agricultural livelihoods.",
           "sourceIDs": [
-            "ambahan_form"
+            "soils"
           ],
           "evidenceStatus": "web_documented",
-          "localReview": "pending"
+          "localReview": "pending",
+          "category": "environment"
         }
       ],
       "visitorChallenge": {
         "status": "applied_visitor_care_prompt",
-        "text": "Listen respectfully to cultural contributors. Ask before photographing or recording people, and respect a decision to decline.",
+        "text": "Keep shared spaces and waterways free of litter. Ask permission before recording people or sharing their community knowledge.",
         "contextSourceIDs": [
-          "mansalay_beach",
-          "ambahan_ncca"
+          "soils"
         ],
         "guidanceSourceIDs": [],
         "note": "Proposed respectful-behavior mechanic; not quoted local rules. Have site custodians review."
       },
       "recap": {
         "optional": true,
-        "question": "Which literary tradition is linked to Ginaw Bilog in the NCCA source?",
+        "question": "How many barangays does Mansalay have in the cited PSA table?",
         "options": [
-          "Ambahan",
-          "Haiku",
-          "Limerick"
+          "17",
+          "20",
+          "15"
         ],
         "correctOptionIndex": 0,
         "sourceIDs": [
-          "ambahan_ncca"
+          "psa_mansalay"
         ],
         "onIncorrect": "Explain the linked discovery and allow retry. Keep run rewards.",
         "reward": "Optional journal reflection badge; never gate core travel progress."
       },
       "journal": {
-        "title": "Words are living heritage",
-        "text": "A beach can be observed through a photograph; a poetic tradition requires listening to its bearers. Learn about ambahan without inventing verses, scripts or community voices.",
+        "title": "Mansalay: community and identity",
+        "text": "Act 3498 reestablished Mansalay and Bulalacao separately, effective 1 January 1929. Mansalay has 17 barangays in the PSA table dated 31 July 2025. Barangays are the local communities that make up the municipality or city. Provincial records document coconut farmer organizations and cacao planting support in Mansalay. Hanunoo Mangyan ambahan uses seven-syllable lines to express experiences and relationships. NCCA associates culture bearer Ginaw Bilog with this tradition in Mansalay. Farm soils and vegetation support cultivation. Caring for soil and water helps sustain agricultural livelihoods.",
         "sourceIDs": [
-          "mansalay_beach",
+          "act3498",
+          "psa_mansalay",
+          "farm_report",
           "ambahan_ncca",
-          "ambahan_form"
+          "ambahan_form",
+          "soils"
         ],
         "unlock": {
           "type": "complete_destination_mission_5",
           "quizRequired": false
         },
         "additionalSections": [
-          "Place introduction",
-          "Discovered facts",
-          "Collectible meanings",
-          "Visitor care",
-          "Sources and credits"
+          "History",
+          "Barangay count",
+          "Ways of living",
+          "Traditions",
+          "Environment"
         ],
         "note": "Draft editorial synthesis; factual basis is in linked discovery records."
       },
       "pickupName": "Literature discovery card",
-      "pickupImage": "heritage_token_mansalay.svg"
+      "pickupImage": "heritage_token_mansalay.svg",
+      "barangayCount": 17,
+      "barangayCountAsOf": "31 July 2025"
     },
     {
       "destinationID": "oriental_mindoro_bulalacao",
       "name": "Bulalacao",
       "introduction": {
-        "text": "Bulalacao connects island landscapes with coastal livelihoods such as seaweed processing. Discover its islands, learn about local enterprise and encounter a bird legend told about the town’s name.",
+        "text": "Meet Bulalacao through its history, 15 barangays, everyday work, living traditions and environment.",
         "sourceIDs": [
-          "bulalacao_islands",
-          "enterprise",
-          "bulalacao_history"
+          "psa_bulalacao",
+          "act3498"
         ]
       },
       "collectibles": [
@@ -2192,83 +2326,77 @@
           "basisSourceIDs": [
             "enterprise"
           ],
-          "status": "game_design_proposal_based_on_documented_topic",
-          "designNotes": "Stronger local-life link than taking shells from a sandbar."
-        },
-        {
-          "name": "Island photo badge",
-          "basisSourceIDs": [
-            "bulalacao_islands"
-          ],
-          "status": "game_design_proposal_based_on_documented_topic",
-          "designNotes": "Symbolic reward that leaves wildlife and sand in place."
+          "status": "illustrated_livelihood_token",
+          "designNotes": "Symbolic everyday-life collectible; no objects removed from nature or community heritage."
         }
       ],
       "discoveries": [
         {
           "id": "bulalacao_discovery_1",
           "suggestedMission": 1,
-          "title": "Island destinations",
-          "text": "The provincial portal lists Aslom and Suguicay among Bulalacao's island destinations.",
+          "title": "History",
+          "text": "Act 3498 reestablished Bulalacao and Mansalay separately, effective 1 January 1929.",
           "sourceIDs": [
-            "bulalacao_islands"
+            "act3498"
           ],
           "evidenceStatus": "web_documented",
-          "localReview": "pending"
+          "localReview": "pending",
+          "category": "history"
         },
         {
           "id": "bulalacao_discovery_2",
           "suggestedMission": 2,
-          "title": "Another island stop",
-          "text": "Buyayao is also listed as a Bulalacao island destination.",
+          "title": "Barangay count",
+          "text": "Bulalacao has 15 barangays in the PSA table dated 31 July 2025. Barangays are the local communities that make up the municipality or city.",
           "sourceIDs": [
-            "bulalacao_islands"
+            "psa_bulalacao"
           ],
           "evidenceStatus": "web_documented",
-          "localReview": "pending"
+          "localReview": "pending",
+          "category": "barangays"
         },
         {
           "id": "bulalacao_discovery_3",
           "suggestedMission": 3,
-          "title": "A working coast",
-          "text": "The provincial enterprise report identifies a Bulalacao cooperative producing seaweed or kelp noodles.",
+          "title": "Ways of living",
+          "text": "A provincial enterprise report documents a Bulalacao cooperative making seaweed or kelp noodles, connecting coastal resources with food production.",
           "sourceIDs": [
             "enterprise"
           ],
           "evidenceStatus": "web_documented",
-          "localReview": "pending"
+          "localReview": "pending",
+          "category": "livelihoods"
         },
         {
           "id": "bulalacao_discovery_4",
           "suggestedMission": 4,
-          "title": "A name legend",
-          "text": "The compiled town history explicitly describes a bird story as a myth about Bulalacao's name.",
+          "title": "Traditions",
+          "text": "The town history preserves a bird story about Bulalacao's name and explicitly identifies it as a myth. Stories can carry identity without being treated as confirmed events.",
           "sourceIDs": [
             "bulalacao_history"
           ],
-          "evidenceStatus": "legend",
-          "localReview": "pending"
+          "evidenceStatus": "oral_account",
+          "localReview": "pending",
+          "category": "traditions"
         },
         {
           "id": "bulalacao_discovery_5",
           "suggestedMission": 5,
-          "title": "Rocky coast",
-          "text": "Pocanil Rock Formation is listed among Bulalacao's coastal destinations.",
+          "title": "Environment",
+          "text": "Mindoro's agricultural soil survey includes land in Bulalacao. Soil and water care support cultivation and community livelihoods.",
           "sourceIDs": [
-            "bulalacao_islands"
+            "soils"
           ],
           "evidenceStatus": "web_documented",
-          "localReview": "pending"
+          "localReview": "pending",
+          "category": "environment"
         }
       ],
       "visitorChallenge": {
         "status": "applied_visitor_care_prompt",
-        "text": "Bring home photographs and memories rather than shells or coral. Keep boat-route and island litter out of the sea.",
+        "text": "Keep shared spaces and waterways free of litter. Ask permission before recording people or sharing their community knowledge.",
         "contextSourceIDs": [
-          "bulalacao_islands",
-          "enterprise",
-          "bulalacao_history",
-          "marine_souvenirs"
+          "soils"
         ],
         "guidanceSourceIDs": [
           "marine_souvenirs"
@@ -2277,43 +2405,48 @@
       },
       "recap": {
         "optional": true,
-        "question": "Which product is linked to Bulalacao in the provincial enterprise report?",
+        "question": "How many barangays does Bulalacao have in the cited PSA table?",
         "options": [
-          "Seaweed noodles",
-          "Snow boots",
-          "Coral necklaces"
+          "15",
+          "18",
+          "13"
         ],
         "correctOptionIndex": 0,
         "sourceIDs": [
-          "enterprise"
+          "psa_bulalacao"
         ],
         "onIncorrect": "Explain the linked discovery and allow retry. Keep run rewards.",
         "reward": "Optional journal reflection badge; never gate core travel progress."
       },
       "journal": {
-        "title": "Islands and everyday work",
-        "text": "An island visit can lead to learning about livelihoods as well as scenery. Keep the name legend separate from confirmed facts, and leave natural souvenirs in their habitats.",
+        "title": "Bulalacao: community and identity",
+        "text": "Act 3498 reestablished Bulalacao and Mansalay separately, effective 1 January 1929. Bulalacao has 15 barangays in the PSA table dated 31 July 2025. Barangays are the local communities that make up the municipality or city. A provincial enterprise report documents a Bulalacao cooperative making seaweed or kelp noodles, connecting coastal resources with food production. The town history preserves a bird story about Bulalacao's name and explicitly identifies it as a myth. Stories can carry identity without being treated as confirmed events. Mindoro's agricultural soil survey includes land in Bulalacao. Soil and water care support cultivation and community livelihoods.",
         "sourceIDs": [
-          "bulalacao_islands",
+          "act3498",
+          "psa_bulalacao",
           "enterprise",
-          "bulalacao_history"
+          "bulalacao_history",
+          "soils"
         ],
         "unlock": {
           "type": "complete_destination_mission_5",
           "quizRequired": false
         },
         "additionalSections": [
-          "Place introduction",
-          "Discovered facts",
-          "Collectible meanings",
-          "Visitor care",
-          "Sources and credits"
+          "History",
+          "Barangay count",
+          "Ways of living",
+          "Traditions",
+          "Environment"
         ],
         "note": "Draft editorial synthesis; factual basis is in linked discovery records."
       },
       "pickupName": "Seaweed-noodle parcel",
-      "pickupImage": "heritage_token_bulalacao.svg"
+      "pickupImage": "heritage_token_bulalacao.svg",
+      "barangayCount": 15,
+      "barangayCountAsOf": "31 July 2025"
     }
   ],
-  "applicationStatus": "Applied at user request; no additional factual verification round."
+  "applicationStatus": "Applied at user request; no additional factual verification round.",
+  "contentScope": "Municipal and city identity: history, aggregate barangay counts, livelihoods, traditions and environment. Tourism spots, cultural-site visits and festivals reserved for separate future adventures."
 }

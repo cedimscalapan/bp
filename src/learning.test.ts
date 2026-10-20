@@ -1,0 +1,9 @@
+import {describe,it,expect} from 'vitest';
+import {characters,freshLearning,lookupWord,validLearning} from './learning';
+import {freshSave,parseSave} from './model';
+describe('Offline Hanunóo learning',()=>{
+ it('looks up sourced single words both ways without inventing translations',()=>{expect(lookupWord(' DANUM ','hanunoo')?.filipino).toBe('tubig');expect(lookupWord('PUSA','filipino')?.hanunoo).toBe('kuti');expect(lookupWord('hello world','hanunoo')).toBeUndefined();});
+ it('uses Hanunoo Unicode rather than Tagalog script for all base characters',()=>{expect(characters).toHaveLength(18);expect(characters[0].glyph.codePointAt(0)).toBe(0x1720);expect(characters[17].glyph.codePointAt(0)).toBe(0x1731);});
+ it('upgrades old backups and round-trips saved learning without losing adventure progress',()=>{const s=freshSave();s.coins=410;s.completed.example=3;const legacy=JSON.parse(JSON.stringify(s));delete legacy.learning;expect(parseSave(JSON.stringify(legacy)).learning).toEqual(freshLearning());s.learning={bookmarks:['danum'],practiced:['kuti'],attempts:2,correct:1,drawings:[{id:'drawing',target:'danum',kind:'word',savedAt:'2026-10-20T00:00:00Z',strokes:[[{x:30,y:40},{x:40,y:55}]]}]};const restored=parseSave(JSON.stringify(s));expect(restored.learning).toEqual(s.learning);expect(restored.coins).toBe(410);expect(restored.completed.example).toBe(3);});
+ it('rejects malformed or oversized drawing backups and inconsistent counters',()=>{expect(validLearning({...freshLearning(),correct:2})).toBe(false);expect(validLearning({...freshLearning(),drawings:[{strokes:null}]})).toBe(false);const d={id:'d',target:'a',kind:'character',savedAt:'today',strokes:[[{x:601,y:3}]]};expect(validLearning({...freshLearning(),drawings:[d]})).toBe(false);expect(()=>parseSave(JSON.stringify({...freshSave(),learning:{...freshLearning(),attempts:-1}}))).toThrow();});
+});

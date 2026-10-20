@@ -15,3 +15,14 @@ describe('Heritage progress',()=>{
 describe('Applied research coverage',()=>{
  it('connects all 75 local missions to sourced discoveries and valid optional recaps',()=>{expect(heritageProfiles).toHaveLength(15);const sources=new Set(heritageSources.map(s=>s.id));for(const p of heritageProfiles){const dest=catalog.find(d=>d.destinationID===p.destinationID)!;expect(dest).toBeDefined();expect(p.discoveries.map(f=>f.suggestedMission)).toEqual([1,2,3,4,5]);for(const f of p.discoveries)for(const id of f.sourceIDs)expect(sources.has(id)).toBe(true);expect(p.recap.options[p.recap.correctOptionIndex]).toBeTruthy();expect(dest.signatureImage).toBe(p.pickupImage);}});
 });
+
+it('ships five community topics and only aggregate barangay data for every place',()=>{
+ expect(heritageProfiles.reduce((sum,p)=>sum+p.barangayCount,0)).toBe(426);
+ for(const p of heritageProfiles){
+  expect(p.discoveries.map(f=>f.category)).toEqual(['history','barangays','livelihoods','traditions','environment']);
+  expect(p.discoveries[1].text).toContain(`${p.barangayCount} barangays`);
+  expect(p).not.toHaveProperty('barangays');
+  expect(p).not.toHaveProperty('barangayNames');
+  expect(p.journal.text).not.toMatch(/tourist|attraction|museum stop|island visit|cave photograph/i);
+ }
+});

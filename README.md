@@ -8,6 +8,15 @@ KaPamana is an Oriental Mindoro travel and heritage adventure built with Ionic R
 
 KaPamana includes introductions for all 15 Oriental Mindoro locations, 75 sourced post-run discoveries, themed keepsakes, visitor-care prompts and badges, optional recaps, and persistent heritage journals. See [implementation details](docs/HERITAGE-IMPLEMENTATION.md) and the original [culture plan](docs/CULTURE-INTEGRATION-PLAN.md). Existing package/save identifiers stay stable for upgrade compatibility.
 
+## Version 1.8.0
+
+- New KaPamana logo across the header, welcome, passport, launcher icons and splash.
+- Community adventures cover history, barangay counts only, ways of living, traditions and environment.
+- Hanunó’o learning: Sulat conversion rules, script and word tracing, starter word lookup, practice, locally saved drawings and Matuto source references.
+- Learning is included in backup/restore; existing adventure progress is preserved.
+
+See [community content](docs/COMMUNITY-ADVENTURES.md) and [Hanunó’o module](docs/HANUNOO-LEARNING.md).
+
 ## Run
 
 Requires Node.js 22 or newer and npm.
@@ -36,7 +45,7 @@ npm run android:open
 
 Build from Android Studio, or run `gradlew.bat assembleDebug` in `android/`. The Android debug APK compiled successfully in GitHub Actions using JDK 21 / Android SDK 35. No physical-device test has been performed.
 
-Release package ID remains `com.tristanrosales.buddyport`. Debug APKs use `com.tristanrosales.buddyport.ionic` and display as **KaPamana**, so they install alongside the original app. Development version is `1.7.0`, version code 13. An upgrade over the original app requires its original signing key; do not uninstall an existing copy without preserving its progress. Existing Kotlin save migration is not implemented.
+Release package ID remains `com.tristanrosales.buddyport`. Debug APKs use `com.tristanrosales.buddyport.ionic` and display as **KaPamana**, so they install alongside the original app. Development version is `1.8.0`, version code 14. An upgrade over the original app requires its original signing key; do not uninstall an existing copy without preserving its progress. Existing Kotlin save migration is not implemented.
 
 ## Download an APK from GitHub
 
@@ -46,10 +55,10 @@ Latest builds: [GitHub Actions](https://github.com/cedimscalapan/bp/actions/work
 
 ## Included
 
-- Ionic onboarding, home port, six route groups, destination/level selection, Buddy team, shop, passport, missions, settings, and results.
+- Ionic onboarding, home port, five active route groups, destination/level selection, Buddy team, shop, passport, missions, settings, and results.
 - Three-lane runner with touch/swipe and keyboard controls, pause/resume, hazards, objective evaluation, power-ups, companions, and endless play.
 - Oriental Mindoro: Calapan City and all 14 municipalities, with five missions each (75 missions). The original Local routes have been replaced in the active catalog.
-- All 115 International levels remain unchanged; 155 reconstructed development levels cover the other routes. Original Local mission JSON is retained as an archival tuning reference.
+- International Discovery is removed from the active interface. Original mission data remains archived for compatibility.
 - Original Buddy artwork, destinations, collectibles, music, sound effects, and Fredoka font: 272 recovered files total including the two source mission files.
 - Local persistence with Capacitor Preferences; web backup download and native backup sharing; JSON restore and reset confirmation.
 - Unit tests and an end-to-end browser test.

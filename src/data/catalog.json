@@ -4,14 +4,14 @@
     "name": "Calapan City",
     "group": "Oriental Mindoro",
     "image": "destination_oriental_mindoro_calapan_city.webp",
-    "signatureItemName": "Heritage museum ticket",
-    "signatureImage": "heritage_token_calapan_city.svg",
+    "signatureItemName": "Calamansi harvest crate",
+    "signatureImage": "heritage_token_socorro.svg",
     "levels": [
       {
         "id": "oriental_mindoro_calapan_city_level_1",
         "destinationID": "oriental_mindoro_calapan_city",
         "number": 1,
-        "title": "Provincial center",
+        "title": "History",
         "mission": {
           "type": "collectCoins",
           "target": 15,
@@ -34,7 +34,7 @@
         "id": "oriental_mindoro_calapan_city_level_2",
         "destinationID": "oriental_mindoro_calapan_city",
         "number": 2,
-        "title": "Cityhood",
+        "title": "Barangay count",
         "mission": {
           "type": "collectAndSurvive",
           "target": 5,
@@ -58,7 +58,7 @@
         "id": "oriental_mindoro_calapan_city_level_3",
         "destinationID": "oriental_mindoro_calapan_city",
         "number": 3,
-        "title": "Museum discovery",
+        "title": "Ways of living",
         "mission": {
           "type": "scoreWithDamageLimit",
           "target": 1500,
@@ -82,7 +82,7 @@
         "id": "oriental_mindoro_calapan_city_level_4",
         "destinationID": "oriental_mindoro_calapan_city",
         "number": 4,
-        "title": "Silonay",
+        "title": "Traditions",
         "mission": {
           "type": "collectCoins",
           "target": 25,
@@ -105,7 +105,7 @@
         "id": "oriental_mindoro_calapan_city_level_5",
         "destinationID": "oriental_mindoro_calapan_city",
         "number": 5,
-        "title": "Harka Piloto",
+        "title": "Environment",
         "mission": {
           "type": "troublemakerChallenge",
           "target": 4,
@@ -136,14 +136,14 @@
     "name": "Baco",
     "group": "Oriental Mindoro",
     "image": "destination_oriental_mindoro_baco.webp",
-    "signatureItemName": "Mountain postcard",
-    "signatureImage": "heritage_token_baco.svg",
+    "signatureItemName": "Calamansi harvest crate",
+    "signatureImage": "heritage_token_socorro.svg",
     "levels": [
       {
         "id": "oriental_mindoro_baco_level_1",
         "destinationID": "oriental_mindoro_baco",
         "number": 1,
-        "title": "Mountain identity",
+        "title": "History",
         "mission": {
           "type": "collectCoins",
           "target": 18,
@@ -166,7 +166,7 @@
         "id": "oriental_mindoro_baco_level_2",
         "destinationID": "oriental_mindoro_baco",
         "number": 2,
-        "title": "Water landscapes",
+        "title": "Barangay count",
         "mission": {
           "type": "collectSignatureItems",
           "target": 5,
@@ -189,7 +189,7 @@
         "id": "oriental_mindoro_baco_level_3",
         "destinationID": "oriental_mindoro_baco",
         "number": 3,
-        "title": "Distinct communities",
+        "title": "Ways of living",
         "mission": {
           "type": "survive",
           "target": 37,
@@ -212,7 +212,7 @@
         "id": "oriental_mindoro_baco_level_4",
         "destinationID": "oriental_mindoro_baco",
         "number": 4,
-        "title": "One name account",
+        "title": "Traditions",
         "mission": {
           "type": "reachScore",
           "target": 1660,
@@ -235,7 +235,7 @@
         "id": "oriental_mindoro_baco_level_5",
         "destinationID": "oriental_mindoro_baco",
         "number": 5,
-        "title": "Another name account",
+        "title": "Environment",
         "mission": {
           "type": "troublemakerChallenge",
           "target": 4,
@@ -273,7 +273,7 @@
         "id": "oriental_mindoro_bansud_level_1",
         "destinationID": "oriental_mindoro_bansud",
         "number": 1,
-        "title": "Banana connection",
+        "title": "History",
         "mission": {
           "type": "collectCoins",
           "target": 19,
@@ -296,7 +296,7 @@
         "id": "oriental_mindoro_bansud_level_2",
         "destinationID": "oriental_mindoro_bansud",
         "number": 2,
-        "title": "Former territory",
+        "title": "Barangay count",
         "mission": {
           "type": "collectSignatureItems",
           "target": 5,
@@ -319,7 +319,7 @@
         "id": "oriental_mindoro_bansud_level_3",
         "destinationID": "oriental_mindoro_bansud",
         "number": 3,
-        "title": "Delta name account",
+        "title": "Ways of living",
         "mission": {
           "type": "survive",
           "target": 38,
@@ -342,7 +342,7 @@
         "id": "oriental_mindoro_bansud_level_4",
         "destinationID": "oriental_mindoro_bansud",
         "number": 4,
-        "title": "Public-space setting",
+        "title": "Traditions",
         "mission": {
           "type": "reachScore",
           "target": 1790,
@@ -365,7 +365,7 @@
         "id": "oriental_mindoro_bansud_level_5",
         "destinationID": "oriental_mindoro_bansud",
         "number": 5,
-        "title": "A constructed lagoon",
+        "title": "Environment",
         "mission": {
           "type": "troublemakerChallenge",
           "target": 4,
@@ -403,7 +403,7 @@
         "id": "oriental_mindoro_bongabong_level_1",
         "destinationID": "oriental_mindoro_bongabong",
         "number": 1,
-        "title": "Kuta heritage",
+        "title": "History",
         "mission": {
           "type": "collectCoins",
           "target": 20,
@@ -426,7 +426,7 @@
         "id": "oriental_mindoro_bongabong_level_2",
         "destinationID": "oriental_mindoro_bongabong",
         "number": 2,
-        "title": "Two purposes",
+        "title": "Barangay count",
         "mission": {
           "type": "collectSignatureItems",
           "target": 6,
@@ -449,7 +449,7 @@
         "id": "oriental_mindoro_bongabong_level_3",
         "destinationID": "oriental_mindoro_bongabong",
         "number": 3,
-        "title": "Coconut landscape",
+        "title": "Ways of living",
         "mission": {
           "type": "survive",
           "target": 39,
@@ -472,7 +472,7 @@
         "id": "oriental_mindoro_bongabong_level_4",
         "destinationID": "oriental_mindoro_bongabong",
         "number": 4,
-        "title": "Farm discovery",
+        "title": "Traditions",
         "mission": {
           "type": "reachScore",
           "target": 1920,
@@ -495,7 +495,7 @@
         "id": "oriental_mindoro_bongabong_level_5",
         "destinationID": "oriental_mindoro_bongabong",
         "number": 5,
-        "title": "River crossing",
+        "title": "Environment",
         "mission": {
           "type": "troublemakerChallenge",
           "target": 4,
@@ -533,7 +533,7 @@
         "id": "oriental_mindoro_bulalacao_level_1",
         "destinationID": "oriental_mindoro_bulalacao",
         "number": 1,
-        "title": "Island destinations",
+        "title": "History",
         "mission": {
           "type": "collectCoins",
           "target": 21,
@@ -556,7 +556,7 @@
         "id": "oriental_mindoro_bulalacao_level_2",
         "destinationID": "oriental_mindoro_bulalacao",
         "number": 2,
-        "title": "Another island stop",
+        "title": "Barangay count",
         "mission": {
           "type": "collectSignatureItems",
           "target": 6,
@@ -579,7 +579,7 @@
         "id": "oriental_mindoro_bulalacao_level_3",
         "destinationID": "oriental_mindoro_bulalacao",
         "number": 3,
-        "title": "A working coast",
+        "title": "Ways of living",
         "mission": {
           "type": "survive",
           "target": 40,
@@ -602,7 +602,7 @@
         "id": "oriental_mindoro_bulalacao_level_4",
         "destinationID": "oriental_mindoro_bulalacao",
         "number": 4,
-        "title": "A name legend",
+        "title": "Traditions",
         "mission": {
           "type": "reachScore",
           "target": 2050,
@@ -625,7 +625,7 @@
         "id": "oriental_mindoro_bulalacao_level_5",
         "destinationID": "oriental_mindoro_bulalacao",
         "number": 5,
-        "title": "Rocky coast",
+        "title": "Environment",
         "mission": {
           "type": "troublemakerChallenge",
           "target": 5,
@@ -663,7 +663,7 @@
         "id": "oriental_mindoro_gloria_level_1",
         "destinationID": "oriental_mindoro_gloria",
         "number": 1,
-        "title": "Earlier connection",
+        "title": "History",
         "mission": {
           "type": "collectCoins",
           "target": 22,
@@ -686,7 +686,7 @@
         "id": "oriental_mindoro_gloria_level_2",
         "destinationID": "oriental_mindoro_gloria",
         "number": 2,
-        "title": "Tambong account",
+        "title": "Barangay count",
         "mission": {
           "type": "collectSignatureItems",
           "target": 6,
@@ -709,7 +709,7 @@
         "id": "oriental_mindoro_gloria_level_3",
         "destinationID": "oriental_mindoro_gloria",
         "number": 3,
-        "title": "Maligaya",
+        "title": "Ways of living",
         "mission": {
           "type": "survive",
           "target": 41,
@@ -732,7 +732,7 @@
         "id": "oriental_mindoro_gloria_level_4",
         "destinationID": "oriental_mindoro_gloria",
         "number": 4,
-        "title": "Town center",
+        "title": "Traditions",
         "mission": {
           "type": "reachScore",
           "target": 2180,
@@ -755,7 +755,7 @@
         "id": "oriental_mindoro_gloria_level_5",
         "destinationID": "oriental_mindoro_gloria",
         "number": 5,
-        "title": "Adding value",
+        "title": "Environment",
         "mission": {
           "type": "troublemakerChallenge",
           "target": 5,
@@ -793,7 +793,7 @@
         "id": "oriental_mindoro_mansalay_level_1",
         "destinationID": "oriental_mindoro_mansalay",
         "number": 1,
-        "title": "Coastal place",
+        "title": "History",
         "mission": {
           "type": "collectCoins",
           "target": 23,
@@ -816,7 +816,7 @@
         "id": "oriental_mindoro_mansalay_level_2",
         "destinationID": "oriental_mindoro_mansalay",
         "number": 2,
-        "title": "Landscape details",
+        "title": "Barangay count",
         "mission": {
           "type": "collectSignatureItems",
           "target": 6,
@@ -839,7 +839,7 @@
         "id": "oriental_mindoro_mansalay_level_3",
         "destinationID": "oriental_mindoro_mansalay",
         "number": 3,
-        "title": "A named culture bearer",
+        "title": "Ways of living",
         "mission": {
           "type": "survive",
           "target": 42,
@@ -862,7 +862,7 @@
         "id": "oriental_mindoro_mansalay_level_4",
         "destinationID": "oriental_mindoro_mansalay",
         "number": 4,
-        "title": "Poetic form",
+        "title": "Traditions",
         "mission": {
           "type": "reachScore",
           "target": 2310,
@@ -885,7 +885,7 @@
         "id": "oriental_mindoro_mansalay_level_5",
         "destinationID": "oriental_mindoro_mansalay",
         "number": 5,
-        "title": "Everyday themes",
+        "title": "Environment",
         "mission": {
           "type": "troublemakerChallenge",
           "target": 5,
@@ -923,7 +923,7 @@
         "id": "oriental_mindoro_naujan_level_1",
         "destinationID": "oriental_mindoro_naujan",
         "number": 1,
-        "title": "International wetland",
+        "title": "History",
         "mission": {
           "type": "collectCoins",
           "target": 24,
@@ -946,7 +946,7 @@
         "id": "oriental_mindoro_naujan_level_2",
         "destinationID": "oriental_mindoro_naujan",
         "number": 2,
-        "title": "Shared landscape",
+        "title": "Barangay count",
         "mission": {
           "type": "collectSignatureItems",
           "target": 7,
@@ -969,7 +969,7 @@
         "id": "oriental_mindoro_naujan_level_3",
         "destinationID": "oriental_mindoro_naujan",
         "number": 3,
-        "title": "Fishery knowledge",
+        "title": "Ways of living",
         "mission": {
           "type": "survive",
           "target": 43,
@@ -992,7 +992,7 @@
         "id": "oriental_mindoro_naujan_level_4",
         "destinationID": "oriental_mindoro_naujan",
         "number": 4,
-        "title": "Bancuro heritage",
+        "title": "Traditions",
         "mission": {
           "type": "reachScore",
           "target": 2440,
@@ -1015,7 +1015,7 @@
         "id": "oriental_mindoro_naujan_level_5",
         "destinationID": "oriental_mindoro_naujan",
         "number": 5,
-        "title": "A name story",
+        "title": "Environment",
         "mission": {
           "type": "troublemakerChallenge",
           "target": 5,
@@ -1053,7 +1053,7 @@
         "id": "oriental_mindoro_pinamalayan_level_1",
         "destinationID": "oriental_mindoro_pinamalayan",
         "number": 1,
-        "title": "A planned center",
+        "title": "History",
         "mission": {
           "type": "collectCoins",
           "target": 25,
@@ -1076,7 +1076,7 @@
         "id": "oriental_mindoro_pinamalayan_level_2",
         "destinationID": "oriental_mindoro_pinamalayan",
         "number": 2,
-        "title": "Plaza and civic life",
+        "title": "Barangay count",
         "mission": {
           "type": "collectSignatureItems",
           "target": 7,
@@ -1099,7 +1099,7 @@
         "id": "oriental_mindoro_pinamalayan_level_3",
         "destinationID": "oriental_mindoro_pinamalayan",
         "number": 3,
-        "title": "A remembered move",
+        "title": "Ways of living",
         "mission": {
           "type": "survive",
           "target": 44,
@@ -1122,7 +1122,7 @@
         "id": "oriental_mindoro_pinamalayan_level_4",
         "destinationID": "oriental_mindoro_pinamalayan",
         "number": 4,
-        "title": "Food enterprise",
+        "title": "Traditions",
         "mission": {
           "type": "reachScore",
           "target": 2570,
@@ -1145,7 +1145,7 @@
         "id": "oriental_mindoro_pinamalayan_level_5",
         "destinationID": "oriental_mindoro_pinamalayan",
         "number": 5,
-        "title": "Rainbow story",
+        "title": "Environment",
         "mission": {
           "type": "troublemakerChallenge",
           "target": 5,
@@ -1183,7 +1183,7 @@
         "id": "oriental_mindoro_pola_level_1",
         "destinationID": "oriental_mindoro_pola",
         "number": 1,
-        "title": "Ancestral houses",
+        "title": "History",
         "mission": {
           "type": "collectCoins",
           "target": 26,
@@ -1206,7 +1206,7 @@
         "id": "oriental_mindoro_pola_level_2",
         "destinationID": "oriental_mindoro_pola",
         "number": 2,
-        "title": "River and town",
+        "title": "Barangay count",
         "mission": {
           "type": "collectSignatureItems",
           "target": 7,
@@ -1229,7 +1229,7 @@
         "id": "oriental_mindoro_pola_level_3",
         "destinationID": "oriental_mindoro_pola",
         "number": 3,
-        "title": "Everyday livelihoods",
+        "title": "Ways of living",
         "mission": {
           "type": "survive",
           "target": 45,
@@ -1252,7 +1252,7 @@
         "id": "oriental_mindoro_pola_level_4",
         "destinationID": "oriental_mindoro_pola",
         "number": 4,
-        "title": "Nipa craft",
+        "title": "Traditions",
         "mission": {
           "type": "reachScore",
           "target": 2700,
@@ -1275,7 +1275,7 @@
         "id": "oriental_mindoro_pola_level_5",
         "destinationID": "oriental_mindoro_pola",
         "number": 5,
-        "title": "Red-clay account",
+        "title": "Environment",
         "mission": {
           "type": "troublemakerChallenge",
           "target": 6,
@@ -1313,7 +1313,7 @@
         "id": "oriental_mindoro_puerto_galera_level_1",
         "destinationID": "oriental_mindoro_puerto_galera",
         "number": 1,
-        "title": "A biosphere landscape",
+        "title": "History",
         "mission": {
           "type": "collectCoins",
           "target": 15,
@@ -1336,7 +1336,7 @@
         "id": "oriental_mindoro_puerto_galera_level_2",
         "destinationID": "oriental_mindoro_puerto_galera",
         "number": 2,
-        "title": "Beyond the beach",
+        "title": "Barangay count",
         "mission": {
           "type": "collectAndSurvive",
           "target": 5,
@@ -1360,7 +1360,7 @@
         "id": "oriental_mindoro_puerto_galera_level_3",
         "destinationID": "oriental_mindoro_puerto_galera",
         "number": 3,
-        "title": "Living craft",
+        "title": "Ways of living",
         "mission": {
           "type": "scoreWithDamageLimit",
           "target": 1500,
@@ -1384,7 +1384,7 @@
         "id": "oriental_mindoro_puerto_galera_level_4",
         "destinationID": "oriental_mindoro_puerto_galera",
         "number": 4,
-        "title": "Learning across generations",
+        "title": "Traditions",
         "mission": {
           "type": "collectCoins",
           "target": 25,
@@ -1407,7 +1407,7 @@
         "id": "oriental_mindoro_puerto_galera_level_5",
         "destinationID": "oriental_mindoro_puerto_galera",
         "number": 5,
-        "title": "Sea and livelihood",
+        "title": "Environment",
         "mission": {
           "type": "troublemakerChallenge",
           "target": 4,
@@ -1438,14 +1438,14 @@
     "name": "Roxas",
     "group": "Oriental Mindoro",
     "image": "destination_oriental_mindoro_roxas.webp",
-    "signatureItemName": "Port-route ticket",
-    "signatureImage": "heritage_token_roxas.svg",
+    "signatureItemName": "Calamansi harvest crate",
+    "signatureImage": "heritage_token_socorro.svg",
     "levels": [
       {
         "id": "oriental_mindoro_roxas_level_1",
         "destinationID": "oriental_mindoro_roxas",
         "number": 1,
-        "title": "Port connection",
+        "title": "History",
         "mission": {
           "type": "collectCoins",
           "target": 18,
@@ -1468,7 +1468,7 @@
         "id": "oriental_mindoro_roxas_level_2",
         "destinationID": "oriental_mindoro_roxas",
         "number": 2,
-        "title": "Cave location",
+        "title": "Barangay count",
         "mission": {
           "type": "collectSignatureItems",
           "target": 5,
@@ -1491,7 +1491,7 @@
         "id": "oriental_mindoro_roxas_level_3",
         "destinationID": "oriental_mindoro_roxas",
         "number": 3,
-        "title": "Agricultural visits",
+        "title": "Ways of living",
         "mission": {
           "type": "survive",
           "target": 37,
@@ -1514,7 +1514,7 @@
         "id": "oriental_mindoro_roxas_level_4",
         "destinationID": "oriental_mindoro_roxas",
         "number": 4,
-        "title": "A cultural stop",
+        "title": "Traditions",
         "mission": {
           "type": "reachScore",
           "target": 1660,
@@ -1537,7 +1537,7 @@
         "id": "oriental_mindoro_roxas_level_5",
         "destinationID": "oriental_mindoro_roxas",
         "number": 5,
-        "title": "Earlier place name",
+        "title": "Environment",
         "mission": {
           "type": "troublemakerChallenge",
           "target": 4,
@@ -1575,7 +1575,7 @@
         "id": "oriental_mindoro_san_teodoro_level_1",
         "destinationID": "oriental_mindoro_san_teodoro",
         "number": 1,
-        "title": "Earlier name",
+        "title": "History",
         "mission": {
           "type": "collectCoins",
           "target": 19,
@@ -1598,7 +1598,7 @@
         "id": "oriental_mindoro_san_teodoro_level_2",
         "destinationID": "oriental_mindoro_san_teodoro",
         "number": 2,
-        "title": "An earlier center",
+        "title": "Barangay count",
         "mission": {
           "type": "collectSignatureItems",
           "target": 5,
@@ -1621,7 +1621,7 @@
         "id": "oriental_mindoro_san_teodoro_level_3",
         "destinationID": "oriental_mindoro_san_teodoro",
         "number": 3,
-        "title": "Coconut enterprise",
+        "title": "Ways of living",
         "mission": {
           "type": "survive",
           "target": 38,
@@ -1644,7 +1644,7 @@
         "id": "oriental_mindoro_san_teodoro_level_4",
         "destinationID": "oriental_mindoro_san_teodoro",
         "number": 4,
-        "title": "Aras Falls",
+        "title": "Traditions",
         "mission": {
           "type": "reachScore",
           "target": 1790,
@@ -1667,7 +1667,7 @@
         "id": "oriental_mindoro_san_teodoro_level_5",
         "destinationID": "oriental_mindoro_san_teodoro",
         "number": 5,
-        "title": "Botolan Falls",
+        "title": "Environment",
         "mission": {
           "type": "troublemakerChallenge",
           "target": 4,
@@ -1705,7 +1705,7 @@
         "id": "oriental_mindoro_socorro_level_1",
         "destinationID": "oriental_mindoro_socorro",
         "number": 1,
-        "title": "Created from Pola",
+        "title": "History",
         "mission": {
           "type": "collectCoins",
           "target": 20,
@@ -1728,7 +1728,7 @@
         "id": "oriental_mindoro_socorro_level_2",
         "destinationID": "oriental_mindoro_socorro",
         "number": 2,
-        "title": "Creation date checked",
+        "title": "Barangay count",
         "mission": {
           "type": "collectSignatureItems",
           "target": 6,
@@ -1751,7 +1751,7 @@
         "id": "oriental_mindoro_socorro_level_3",
         "destinationID": "oriental_mindoro_socorro",
         "number": 3,
-        "title": "Earlier settlement name",
+        "title": "Ways of living",
         "mission": {
           "type": "survive",
           "target": 39,
@@ -1774,7 +1774,7 @@
         "id": "oriental_mindoro_socorro_level_4",
         "destinationID": "oriental_mindoro_socorro",
         "number": 4,
-        "title": "Agricultural variety",
+        "title": "Traditions",
         "mission": {
           "type": "reachScore",
           "target": 1920,
@@ -1797,7 +1797,7 @@
         "id": "oriental_mindoro_socorro_level_5",
         "destinationID": "oriental_mindoro_socorro",
         "number": 5,
-        "title": "Lake connection",
+        "title": "Environment",
         "mission": {
           "type": "troublemakerChallenge",
           "target": 4,
@@ -1835,7 +1835,7 @@
         "id": "oriental_mindoro_victoria_level_1",
         "destinationID": "oriental_mindoro_victoria",
         "number": 1,
-        "title": "Fruit-basket identity",
+        "title": "History",
         "mission": {
           "type": "collectCoins",
           "target": 21,
@@ -1858,7 +1858,7 @@
         "id": "oriental_mindoro_victoria_level_2",
         "destinationID": "oriental_mindoro_victoria",
         "number": 2,
-        "title": "Rice matters too",
+        "title": "Barangay count",
         "mission": {
           "type": "collectSignatureItems",
           "target": 6,
@@ -1881,7 +1881,7 @@
         "id": "oriental_mindoro_victoria_level_3",
         "destinationID": "oriental_mindoro_victoria",
         "number": 3,
-        "title": "Orchard variety",
+        "title": "Ways of living",
         "mission": {
           "type": "survive",
           "target": 40,
@@ -1904,7 +1904,7 @@
         "id": "oriental_mindoro_victoria_level_4",
         "destinationID": "oriental_mindoro_victoria",
         "number": 4,
-        "title": "Processing livelihoods",
+        "title": "Traditions",
         "mission": {
           "type": "reachScore",
           "target": 2050,
@@ -1927,7 +1927,7 @@
         "id": "oriental_mindoro_victoria_level_5",
         "destinationID": "oriental_mindoro_victoria",
         "number": 5,
-        "title": "Agricultural learning",
+        "title": "Environment",
         "mission": {
           "type": "troublemakerChallenge",
           "target": 5,

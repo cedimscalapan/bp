@@ -1,1 +1,1 @@
-<layer-list xmlns:android="http://schemas.android.com/apk/res/android"><item android:drawable="@android:color/white"/><item android:drawable="@drawable/kapamana_icon" android:gravity="center" android:width="108dp" android:height="108dp"/></layer-list>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android"><item><shape><solid android:color="#FFF8DF"/></shape></item><item android:drawable="@drawable/kapamana_logo_lockup" android:gravity="center" android:width="240dp" android:height="184dp"/></layer-list>

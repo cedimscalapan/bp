@@ -17,6 +17,6 @@
 
 
     <style name="AppTheme.NoActionBarLaunch" parent="Theme.SplashScreen">
-        <item name="android:background">@drawable/kapamana_splash</item><item name="windowSplashScreenAnimatedIcon">@drawable/kapamana_icon</item><item name="windowSplashScreenBackground">#fff8df</item>
+        <item name="android:background">@drawable/kapamana_splash</item><item name="windowSplashScreenAnimatedIcon">@drawable/kapamana_splash_mark</item><item name="windowSplashScreenBackground">#fff8df</item>
     </style>
 </resources>
