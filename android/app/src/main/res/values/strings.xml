@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">BuddyPort Ionic</string>
+    <string name="title_activity_main">BuddyPort Ionic</string>
+    <string name="package_name">com.tristanrosales.buddyport</string>
+    <string name="custom_url_scheme">com.tristanrosales.buddyport</string>
+</resources>

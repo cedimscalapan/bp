@@ -1,0 +1,1227 @@
+{
+  "schemaVersion": 1,
+  "destinations": [
+    {
+      "destinationID": "baguio",
+      "signatureItemName": "Strawberries",
+      "levels": [
+        {
+          "id": "baguio_level_1",
+          "destinationID": "baguio",
+          "number": 1,
+          "title": "Coin Trail",
+          "mission": {
+            "type": "collectCoins",
+            "target": 15,
+            "timeLimit": 55
+          },
+          "lives": 3,
+          "speedMultiplier": 1,
+          "spawnIntervalMultiplier": 0.992,
+          "obstacleDensity": 0.232,
+          "hazardFrequency": 0.078,
+          "rewardTravelerXP": 78,
+          "rewardDestinationXP": 625,
+          "oneStarScore": 890,
+          "twoStarScore": 1340,
+          "threeStarScore": 1790,
+          "failureXPFactor": 0.18,
+          "isFinalChallenge": false
+        },
+        {
+          "id": "baguio_level_2",
+          "destinationID": "baguio",
+          "number": 2,
+          "title": "Strawberry Sprint",
+          "mission": {
+            "type": "collectAndSurvive",
+            "target": 5,
+            "timeLimit": 55,
+            "secondaryTarget": 30
+          },
+          "lives": 3,
+          "speedMultiplier": 1.055,
+          "spawnIntervalMultiplier": 0.932,
+          "obstacleDensity": 0.292,
+          "hazardFrequency": 0.113,
+          "rewardTravelerXP": 96,
+          "rewardDestinationXP": 625,
+          "oneStarScore": 1070,
+          "twoStarScore": 1520,
+          "threeStarScore": 1970,
+          "failureXPFactor": 0.18,
+          "isFinalChallenge": false
+        },
+        {
+          "id": "baguio_level_3",
+          "destinationID": "baguio",
+          "number": 3,
+          "title": "Careful Climb",
+          "mission": {
+            "type": "scoreWithDamageLimit",
+            "target": 1500,
+            "timeLimit": 60,
+            "maximumDamage": 1
+          },
+          "lives": 3,
+          "speedMultiplier": 1.11,
+          "spawnIntervalMultiplier": 0.872,
+          "obstacleDensity": 0.352,
+          "hazardFrequency": 0.148,
+          "rewardTravelerXP": 114,
+          "rewardDestinationXP": 625,
+          "oneStarScore": 1250,
+          "twoStarScore": 1700,
+          "threeStarScore": 2150,
+          "failureXPFactor": 0.18,
+          "isFinalChallenge": false
+        },
+        {
+          "id": "baguio_level_4",
+          "destinationID": "baguio",
+          "number": 4,
+          "title": "Fast Coin Dash",
+          "mission": {
+            "type": "collectCoins",
+            "target": 25,
+            "timeLimit": 70
+          },
+          "lives": 3,
+          "speedMultiplier": 1.165,
+          "spawnIntervalMultiplier": 0.812,
+          "obstacleDensity": 0.412,
+          "hazardFrequency": 0.183,
+          "rewardTravelerXP": 132,
+          "rewardDestinationXP": 625,
+          "oneStarScore": 1430,
+          "twoStarScore": 1880,
+          "threeStarScore": 2330,
+          "failureXPFactor": 0.18,
+          "isFinalChallenge": false
+        },
+        {
+          "id": "baguio_level_5",
+          "destinationID": "baguio",
+          "number": 5,
+          "title": "IO's Final Challenge",
+          "mission": {
+            "type": "troublemakerChallenge",
+            "target": 4,
+            "timeLimit": 70,
+            "maximumDamage": 2
+          },
+          "lives": 3,
+          "speedMultiplier": 1.22,
+          "spawnIntervalMultiplier": 0.752,
+          "obstacleDensity": 0.472,
+          "hazardFrequency": 0.218,
+          "rewardTravelerXP": 150,
+          "rewardDestinationXP": 0,
+          "oneStarScore": 1610,
+          "twoStarScore": 2060,
+          "threeStarScore": 2510,
+          "failureXPFactor": 0.18,
+          "isFinalChallenge": true
+        }
+      ]
+    },
+    {
+      "destinationID": "cebu",
+      "signatureItemName": "Banca Boats",
+      "levels": [
+        {
+          "id": "cebu_level_1",
+          "destinationID": "cebu",
+          "number": 1,
+          "title": "Travel Coin Trail",
+          "mission": {
+            "type": "collectCoins",
+            "target": 18,
+            "timeLimit": 57
+          },
+          "lives": 3,
+          "speedMultiplier": 1.018,
+          "spawnIntervalMultiplier": 0.984,
+          "obstacleDensity": 0.244,
+          "hazardFrequency": 0.086,
+          "rewardTravelerXP": 86,
+          "rewardDestinationXP": 875,
+          "oneStarScore": 980,
+          "twoStarScore": 1430,
+          "threeStarScore": 1880,
+          "failureXPFactor": 0.18,
+          "isFinalChallenge": false
+        },
+        {
+          "id": "cebu_level_2",
+          "destinationID": "cebu",
+          "number": 2,
+          "title": "Signature Search",
+          "mission": {
+            "type": "collectSignatureItems",
+            "target": 5,
+            "timeLimit": 60
+          },
+          "lives": 3,
+          "speedMultiplier": 1.073,
+          "spawnIntervalMultiplier": 0.924,
+          "obstacleDensity": 0.304,
+          "hazardFrequency": 0.121,
+          "rewardTravelerXP": 104,
+          "rewardDestinationXP": 875,
+          "oneStarScore": 1160,
+          "twoStarScore": 1610,
+          "threeStarScore": 2060,
+          "failureXPFactor": 0.18,
+          "isFinalChallenge": false
+        },
+        {
+          "id": "cebu_level_3",
+          "destinationID": "cebu",
+          "number": 3,
+          "title": "Scenic Endurance",
+          "mission": {
+            "type": "survive",
+            "target": 37,
+            "timeLimit": 37
+          },
+          "lives": 3,
+          "speedMultiplier": 1.128,
+          "spawnIntervalMultiplier": 0.864,
+          "obstacleDensity": 0.364,
+          "hazardFrequency": 0.156,
+          "rewardTravelerXP": 122,
+          "rewardDestinationXP": 875,
+          "oneStarScore": 1340,
+          "twoStarScore": 1790,
+          "threeStarScore": 2240,
+          "failureXPFactor": 0.18,
+          "isFinalChallenge": false
+        },
+        {
+          "id": "cebu_level_4",
+          "destinationID": "cebu",
+          "number": 4,
+          "title": "Destination Dash",
+          "mission": {
+            "type": "reachScore",
+            "target": 1660,
+            "timeLimit": 70
+          },
+          "lives": 3,
+          "speedMultiplier": 1.183,
+          "spawnIntervalMultiplier": 0.804,
+          "obstacleDensity": 0.424,
+          "hazardFrequency": 0.191,
+          "rewardTravelerXP": 140,
+          "rewardDestinationXP": 875,
+          "oneStarScore": 1520,
+          "twoStarScore": 1970,
+          "threeStarScore": 2420,
+          "failureXPFactor": 0.18,
+          "isFinalChallenge": false
+        },
+        {
+          "id": "cebu_level_5",
+          "destinationID": "cebu",
+          "number": 5,
+          "title": "IO's Final Challenge",
+          "mission": {
+            "type": "troublemakerChallenge",
+            "target": 4,
+            "timeLimit": 75,
+            "maximumDamage": 2
+          },
+          "lives": 3,
+          "speedMultiplier": 1.238,
+          "spawnIntervalMultiplier": 0.744,
+          "obstacleDensity": 0.484,
+          "hazardFrequency": 0.226,
+          "rewardTravelerXP": 158,
+          "rewardDestinationXP": 0,
+          "oneStarScore": 1700,
+          "twoStarScore": 2150,
+          "threeStarScore": 2600,
+          "failureXPFactor": 0.18,
+          "isFinalChallenge": true
+        }
+      ]
+    },
+    {
+      "destinationID": "davao_bukidnon",
+      "signatureItemName": "Durians",
+      "levels": [
+        {
+          "id": "davao_bukidnon_level_1",
+          "destinationID": "davao_bukidnon",
+          "number": 1,
+          "title": "Travel Coin Trail",
+          "mission": {
+            "type": "collectCoins",
+            "target": 19,
+            "timeLimit": 58
+          },
+          "lives": 3,
+          "speedMultiplier": 1.036,
+          "spawnIntervalMultiplier": 0.976,
+          "obstacleDensity": 0.256,
+          "hazardFrequency": 0.094,
+          "rewardTravelerXP": 94,
+          "rewardDestinationXP": 1175,
+          "oneStarScore": 1070,
+          "twoStarScore": 1520,
+          "threeStarScore": 1970,
+          "failureXPFactor": 0.18,
+          "isFinalChallenge": false
+        },
+        {
+          "id": "davao_bukidnon_level_2",
+          "destinationID": "davao_bukidnon",
+          "number": 2,
+          "title": "Signature Search",
+          "mission": {
+            "type": "collectSignatureItems",
+            "target": 5,
+            "timeLimit": 60
+          },
+          "lives": 3,
+          "speedMultiplier": 1.091,
+          "spawnIntervalMultiplier": 0.916,
+          "obstacleDensity": 0.316,
+          "hazardFrequency": 0.129,
+          "rewardTravelerXP": 112,
+          "rewardDestinationXP": 1175,
+          "oneStarScore": 1250,
+          "twoStarScore": 1700,
+          "threeStarScore": 2150,
+          "failureXPFactor": 0.18,
+          "isFinalChallenge": false
+        },
+        {
+          "id": "davao_bukidnon_level_3",
+          "destinationID": "davao_bukidnon",
+          "number": 3,
+          "title": "Scenic Endurance",
+          "mission": {
+            "type": "survive",
+            "target": 38,
+            "timeLimit": 38
+          },
+          "lives": 3,
+          "speedMultiplier": 1.146,
+          "spawnIntervalMultiplier": 0.856,
+          "obstacleDensity": 0.376,
+          "hazardFrequency": 0.164,
+          "rewardTravelerXP": 130,
+          "rewardDestinationXP": 1175,
+          "oneStarScore": 1430,
+          "twoStarScore": 1880,
+          "threeStarScore": 2330,
+          "failureXPFactor": 0.18,
+          "isFinalChallenge": false
+        },
+        {
+          "id": "davao_bukidnon_level_4",
+          "destinationID": "davao_bukidnon",
+          "number": 4,
+          "title": "Destination Dash",
+          "mission": {
+            "type": "reachScore",
+            "target": 1790,
+            "timeLimit": 70
+          },
+          "lives": 3,
+          "speedMultiplier": 1.201,
+          "spawnIntervalMultiplier": 0.796,
+          "obstacleDensity": 0.436,
+          "hazardFrequency": 0.199,
+          "rewardTravelerXP": 148,
+          "rewardDestinationXP": 1175,
+          "oneStarScore": 1610,
+          "twoStarScore": 2060,
+          "threeStarScore": 2510,
+          "failureXPFactor": 0.18,
+          "isFinalChallenge": false
+        },
+        {
+          "id": "davao_bukidnon_level_5",
+          "destinationID": "davao_bukidnon",
+          "number": 5,
+          "title": "IO's Final Challenge",
+          "mission": {
+            "type": "troublemakerChallenge",
+            "target": 4,
+            "timeLimit": 75,
+            "maximumDamage": 2
+          },
+          "lives": 3,
+          "speedMultiplier": 1.256,
+          "spawnIntervalMultiplier": 0.736,
+          "obstacleDensity": 0.496,
+          "hazardFrequency": 0.234,
+          "rewardTravelerXP": 166,
+          "rewardDestinationXP": 0,
+          "oneStarScore": 1790,
+          "twoStarScore": 2240,
+          "threeStarScore": 2690,
+          "failureXPFactor": 0.18,
+          "isFinalChallenge": true
+        }
+      ]
+    },
+    {
+      "destinationID": "puerto_princesa",
+      "signatureItemName": "Pearl Shells",
+      "levels": [
+        {
+          "id": "puerto_princesa_level_1",
+          "destinationID": "puerto_princesa",
+          "number": 1,
+          "title": "Travel Coin Trail",
+          "mission": {
+            "type": "collectCoins",
+            "target": 20,
+            "timeLimit": 59
+          },
+          "lives": 3,
+          "speedMultiplier": 1.054,
+          "spawnIntervalMultiplier": 0.968,
+          "obstacleDensity": 0.268,
+          "hazardFrequency": 0.102,
+          "rewardTravelerXP": 102,
+          "rewardDestinationXP": 1500,
+          "oneStarScore": 1160,
+          "twoStarScore": 1610,
+          "threeStarScore": 2060,
+          "failureXPFactor": 0.18,
+          "isFinalChallenge": false
+        },
+        {
+          "id": "puerto_princesa_level_2",
+          "destinationID": "puerto_princesa",
+          "number": 2,
+          "title": "Signature Search",
+          "mission": {
+            "type": "collectSignatureItems",
+            "target": 6,
+            "timeLimit": 60
+          },
+          "lives": 3,
+          "speedMultiplier": 1.109,
+          "spawnIntervalMultiplier": 0.908,
+          "obstacleDensity": 0.328,
+          "hazardFrequency": 0.137,
+          "rewardTravelerXP": 120,
+          "rewardDestinationXP": 1500,
+          "oneStarScore": 1340,
+          "twoStarScore": 1790,
+          "threeStarScore": 2240,
+          "failureXPFactor": 0.18,
+          "isFinalChallenge": false
+        },
+        {
+          "id": "puerto_princesa_level_3",
+          "destinationID": "puerto_princesa",
+          "number": 3,
+          "title": "Scenic Endurance",
+          "mission": {
+            "type": "survive",
+            "target": 39,
+            "timeLimit": 39
+          },
+          "lives": 3,
+          "speedMultiplier": 1.164,
+          "spawnIntervalMultiplier": 0.848,
+          "obstacleDensity": 0.388,
+          "hazardFrequency": 0.172,
+          "rewardTravelerXP": 138,
+          "rewardDestinationXP": 1500,
+          "oneStarScore": 1520,
+          "twoStarScore": 1970,
+          "threeStarScore": 2420,
+          "failureXPFactor": 0.18,
+          "isFinalChallenge": false
+        },
+        {
+          "id": "puerto_princesa_level_4",
+          "destinationID": "puerto_princesa",
+          "number": 4,
+          "title": "Destination Dash",
+          "mission": {
+            "type": "reachScore",
+            "target": 1920,
+            "timeLimit": 70
+          },
+          "lives": 3,
+          "speedMultiplier": 1.219,
+          "spawnIntervalMultiplier": 0.788,
+          "obstacleDensity": 0.448,
+          "hazardFrequency": 0.207,
+          "rewardTravelerXP": 156,
+          "rewardDestinationXP": 1500,
+          "oneStarScore": 1700,
+          "twoStarScore": 2150,
+          "threeStarScore": 2600,
+          "failureXPFactor": 0.18,
+          "isFinalChallenge": false
+        },
+        {
+          "id": "puerto_princesa_level_5",
+          "destinationID": "puerto_princesa",
+          "number": 5,
+          "title": "IO's Final Challenge",
+          "mission": {
+            "type": "troublemakerChallenge",
+            "target": 4,
+            "timeLimit": 75,
+            "maximumDamage": 2
+          },
+          "lives": 3,
+          "speedMultiplier": 1.274,
+          "spawnIntervalMultiplier": 0.728,
+          "obstacleDensity": 0.508,
+          "hazardFrequency": 0.242,
+          "rewardTravelerXP": 174,
+          "rewardDestinationXP": 0,
+          "oneStarScore": 1880,
+          "twoStarScore": 2330,
+          "threeStarScore": 2780,
+          "failureXPFactor": 0.18,
+          "isFinalChallenge": true
+        }
+      ]
+    },
+    {
+      "destinationID": "bohol",
+      "signatureItemName": "Chocolate Hill Globes",
+      "levels": [
+        {
+          "id": "bohol_level_1",
+          "destinationID": "bohol",
+          "number": 1,
+          "title": "Travel Coin Trail",
+          "mission": {
+            "type": "collectCoins",
+            "target": 21,
+            "timeLimit": 60
+          },
+          "lives": 3,
+          "speedMultiplier": 1.072,
+          "spawnIntervalMultiplier": 0.96,
+          "obstacleDensity": 0.28,
+          "hazardFrequency": 0.11,
+          "rewardTravelerXP": 110,
+          "rewardDestinationXP": 1875,
+          "oneStarScore": 1250,
+          "twoStarScore": 1700,
+          "threeStarScore": 2150,
+          "failureXPFactor": 0.18,
+          "isFinalChallenge": false
+        },
+        {
+          "id": "bohol_level_2",
+          "destinationID": "bohol",
+          "number": 2,
+          "title": "Signature Search",
+          "mission": {
+            "type": "collectSignatureItems",
+            "target": 6,
+            "timeLimit": 60
+          },
+          "lives": 3,
+          "speedMultiplier": 1.127,
+          "spawnIntervalMultiplier": 0.9,
+          "obstacleDensity": 0.34,
+          "hazardFrequency": 0.145,
+          "rewardTravelerXP": 128,
+          "rewardDestinationXP": 1875,
+          "oneStarScore": 1430,
+          "twoStarScore": 1880,
+          "threeStarScore": 2330,
+          "failureXPFactor": 0.18,
+          "isFinalChallenge": false
+        },
+        {
+          "id": "bohol_level_3",
+          "destinationID": "bohol",
+          "number": 3,
+          "title": "Scenic Endurance",
+          "mission": {
+            "type": "survive",
+            "target": 40,
+            "timeLimit": 40
+          },
+          "lives": 3,
+          "speedMultiplier": 1.182,
+          "spawnIntervalMultiplier": 0.84,
+          "obstacleDensity": 0.4,
+          "hazardFrequency": 0.18,
+          "rewardTravelerXP": 146,
+          "rewardDestinationXP": 1875,
+          "oneStarScore": 1610,
+          "twoStarScore": 2060,
+          "threeStarScore": 2510,
+          "failureXPFactor": 0.18,
+          "isFinalChallenge": false
+        },
+        {
+          "id": "bohol_level_4",
+          "destinationID": "bohol",
+          "number": 4,
+          "title": "Destination Dash",
+          "mission": {
+            "type": "reachScore",
+            "target": 2050,
+            "timeLimit": 70
+          },
+          "lives": 3,
+          "speedMultiplier": 1.237,
+          "spawnIntervalMultiplier": 0.78,
+          "obstacleDensity": 0.46,
+          "hazardFrequency": 0.215,
+          "rewardTravelerXP": 164,
+          "rewardDestinationXP": 1875,
+          "oneStarScore": 1790,
+          "twoStarScore": 2240,
+          "threeStarScore": 2690,
+          "failureXPFactor": 0.18,
+          "isFinalChallenge": false
+        },
+        {
+          "id": "bohol_level_5",
+          "destinationID": "bohol",
+          "number": 5,
+          "title": "IO's Final Challenge",
+          "mission": {
+            "type": "troublemakerChallenge",
+            "target": 5,
+            "timeLimit": 75,
+            "maximumDamage": 2
+          },
+          "lives": 3,
+          "speedMultiplier": 1.292,
+          "spawnIntervalMultiplier": 0.72,
+          "obstacleDensity": 0.52,
+          "hazardFrequency": 0.25,
+          "rewardTravelerXP": 182,
+          "rewardDestinationXP": 0,
+          "oneStarScore": 1970,
+          "twoStarScore": 2420,
+          "threeStarScore": 2870,
+          "failureXPFactor": 0.18,
+          "isFinalChallenge": true
+        }
+      ]
+    },
+    {
+      "destinationID": "siargao",
+      "signatureItemName": "Surfboards",
+      "levels": [
+        {
+          "id": "siargao_level_1",
+          "destinationID": "siargao",
+          "number": 1,
+          "title": "Travel Coin Trail",
+          "mission": {
+            "type": "collectCoins",
+            "target": 22,
+            "timeLimit": 61
+          },
+          "lives": 3,
+          "speedMultiplier": 1.09,
+          "spawnIntervalMultiplier": 0.952,
+          "obstacleDensity": 0.292,
+          "hazardFrequency": 0.118,
+          "rewardTravelerXP": 118,
+          "rewardDestinationXP": 2300,
+          "oneStarScore": 1340,
+          "twoStarScore": 1790,
+          "threeStarScore": 2240,
+          "failureXPFactor": 0.18,
+          "isFinalChallenge": false
+        },
+        {
+          "id": "siargao_level_2",
+          "destinationID": "siargao",
+          "number": 2,
+          "title": "Signature Search",
+          "mission": {
+            "type": "collectSignatureItems",
+            "target": 6,
+            "timeLimit": 60
+          },
+          "lives": 3,
+          "speedMultiplier": 1.145,
+          "spawnIntervalMultiplier": 0.892,
+          "obstacleDensity": 0.352,
+          "hazardFrequency": 0.153,
+          "rewardTravelerXP": 136,
+          "rewardDestinationXP": 2300,
+          "oneStarScore": 1520,
+          "twoStarScore": 1970,
+          "threeStarScore": 2420,
+          "failureXPFactor": 0.18,
+          "isFinalChallenge": false
+        },
+        {
+          "id": "siargao_level_3",
+          "destinationID": "siargao",
+          "number": 3,
+          "title": "Scenic Endurance",
+          "mission": {
+            "type": "survive",
+            "target": 41,
+            "timeLimit": 41
+          },
+          "lives": 3,
+          "speedMultiplier": 1.2,
+          "spawnIntervalMultiplier": 0.832,
+          "obstacleDensity": 0.412,
+          "hazardFrequency": 0.188,
+          "rewardTravelerXP": 154,
+          "rewardDestinationXP": 2300,
+          "oneStarScore": 1700,
+          "twoStarScore": 2150,
+          "threeStarScore": 2600,
+          "failureXPFactor": 0.18,
+          "isFinalChallenge": false
+        },
+        {
+          "id": "siargao_level_4",
+          "destinationID": "siargao",
+          "number": 4,
+          "title": "Destination Dash",
+          "mission": {
+            "type": "reachScore",
+            "target": 2180,
+            "timeLimit": 70
+          },
+          "lives": 3,
+          "speedMultiplier": 1.255,
+          "spawnIntervalMultiplier": 0.772,
+          "obstacleDensity": 0.472,
+          "hazardFrequency": 0.223,
+          "rewardTravelerXP": 172,
+          "rewardDestinationXP": 2300,
+          "oneStarScore": 1880,
+          "twoStarScore": 2330,
+          "threeStarScore": 2780,
+          "failureXPFactor": 0.18,
+          "isFinalChallenge": false
+        },
+        {
+          "id": "siargao_level_5",
+          "destinationID": "siargao",
+          "number": 5,
+          "title": "IO's Final Challenge",
+          "mission": {
+            "type": "troublemakerChallenge",
+            "target": 5,
+            "timeLimit": 75,
+            "maximumDamage": 2
+          },
+          "lives": 3,
+          "speedMultiplier": 1.31,
+          "spawnIntervalMultiplier": 0.712,
+          "obstacleDensity": 0.532,
+          "hazardFrequency": 0.258,
+          "rewardTravelerXP": 190,
+          "rewardDestinationXP": 0,
+          "oneStarScore": 2060,
+          "twoStarScore": 2510,
+          "threeStarScore": 2960,
+          "failureXPFactor": 0.18,
+          "isFinalChallenge": true
+        }
+      ]
+    },
+    {
+      "destinationID": "coron",
+      "signatureItemName": "Dive Masks",
+      "levels": [
+        {
+          "id": "coron_level_1",
+          "destinationID": "coron",
+          "number": 1,
+          "title": "Travel Coin Trail",
+          "mission": {
+            "type": "collectCoins",
+            "target": 23,
+            "timeLimit": 62
+          },
+          "lives": 3,
+          "speedMultiplier": 1.108,
+          "spawnIntervalMultiplier": 0.944,
+          "obstacleDensity": 0.304,
+          "hazardFrequency": 0.126,
+          "rewardTravelerXP": 126,
+          "rewardDestinationXP": 2750,
+          "oneStarScore": 1430,
+          "twoStarScore": 1880,
+          "threeStarScore": 2330,
+          "failureXPFactor": 0.18,
+          "isFinalChallenge": false
+        },
+        {
+          "id": "coron_level_2",
+          "destinationID": "coron",
+          "number": 2,
+          "title": "Signature Search",
+          "mission": {
+            "type": "collectSignatureItems",
+            "target": 6,
+            "timeLimit": 60
+          },
+          "lives": 3,
+          "speedMultiplier": 1.163,
+          "spawnIntervalMultiplier": 0.884,
+          "obstacleDensity": 0.364,
+          "hazardFrequency": 0.161,
+          "rewardTravelerXP": 144,
+          "rewardDestinationXP": 2750,
+          "oneStarScore": 1610,
+          "twoStarScore": 2060,
+          "threeStarScore": 2510,
+          "failureXPFactor": 0.18,
+          "isFinalChallenge": false
+        },
+        {
+          "id": "coron_level_3",
+          "destinationID": "coron",
+          "number": 3,
+          "title": "Scenic Endurance",
+          "mission": {
+            "type": "survive",
+            "target": 42,
+            "timeLimit": 42
+          },
+          "lives": 3,
+          "speedMultiplier": 1.218,
+          "spawnIntervalMultiplier": 0.824,
+          "obstacleDensity": 0.424,
+          "hazardFrequency": 0.196,
+          "rewardTravelerXP": 162,
+          "rewardDestinationXP": 2750,
+          "oneStarScore": 1790,
+          "twoStarScore": 2240,
+          "threeStarScore": 2690,
+          "failureXPFactor": 0.18,
+          "isFinalChallenge": false
+        },
+        {
+          "id": "coron_level_4",
+          "destinationID": "coron",
+          "number": 4,
+          "title": "Destination Dash",
+          "mission": {
+            "type": "reachScore",
+            "target": 2310,
+            "timeLimit": 70
+          },
+          "lives": 3,
+          "speedMultiplier": 1.273,
+          "spawnIntervalMultiplier": 0.764,
+          "obstacleDensity": 0.484,
+          "hazardFrequency": 0.231,
+          "rewardTravelerXP": 180,
+          "rewardDestinationXP": 2750,
+          "oneStarScore": 1970,
+          "twoStarScore": 2420,
+          "threeStarScore": 2870,
+          "failureXPFactor": 0.18,
+          "isFinalChallenge": false
+        },
+        {
+          "id": "coron_level_5",
+          "destinationID": "coron",
+          "number": 5,
+          "title": "IO's Final Challenge",
+          "mission": {
+            "type": "troublemakerChallenge",
+            "target": 5,
+            "timeLimit": 75,
+            "maximumDamage": 2
+          },
+          "lives": 3,
+          "speedMultiplier": 1.328,
+          "spawnIntervalMultiplier": 0.704,
+          "obstacleDensity": 0.544,
+          "hazardFrequency": 0.266,
+          "rewardTravelerXP": 198,
+          "rewardDestinationXP": 0,
+          "oneStarScore": 2150,
+          "twoStarScore": 2600,
+          "threeStarScore": 3050,
+          "failureXPFactor": 0.18,
+          "isFinalChallenge": true
+        }
+      ]
+    },
+    {
+      "destinationID": "boracay",
+      "signatureItemName": "Sunset Shells",
+      "levels": [
+        {
+          "id": "boracay_level_1",
+          "destinationID": "boracay",
+          "number": 1,
+          "title": "Travel Coin Trail",
+          "mission": {
+            "type": "collectCoins",
+            "target": 24,
+            "timeLimit": 63
+          },
+          "lives": 3,
+          "speedMultiplier": 1.126,
+          "spawnIntervalMultiplier": 0.936,
+          "obstacleDensity": 0.316,
+          "hazardFrequency": 0.134,
+          "rewardTravelerXP": 134,
+          "rewardDestinationXP": 3250,
+          "oneStarScore": 1520,
+          "twoStarScore": 1970,
+          "threeStarScore": 2420,
+          "failureXPFactor": 0.18,
+          "isFinalChallenge": false
+        },
+        {
+          "id": "boracay_level_2",
+          "destinationID": "boracay",
+          "number": 2,
+          "title": "Signature Search",
+          "mission": {
+            "type": "collectSignatureItems",
+            "target": 7,
+            "timeLimit": 60
+          },
+          "lives": 3,
+          "speedMultiplier": 1.181,
+          "spawnIntervalMultiplier": 0.876,
+          "obstacleDensity": 0.376,
+          "hazardFrequency": 0.169,
+          "rewardTravelerXP": 152,
+          "rewardDestinationXP": 3250,
+          "oneStarScore": 1700,
+          "twoStarScore": 2150,
+          "threeStarScore": 2600,
+          "failureXPFactor": 0.18,
+          "isFinalChallenge": false
+        },
+        {
+          "id": "boracay_level_3",
+          "destinationID": "boracay",
+          "number": 3,
+          "title": "Scenic Endurance",
+          "mission": {
+            "type": "survive",
+            "target": 43,
+            "timeLimit": 43
+          },
+          "lives": 3,
+          "speedMultiplier": 1.236,
+          "spawnIntervalMultiplier": 0.816,
+          "obstacleDensity": 0.436,
+          "hazardFrequency": 0.204,
+          "rewardTravelerXP": 170,
+          "rewardDestinationXP": 3250,
+          "oneStarScore": 1880,
+          "twoStarScore": 2330,
+          "threeStarScore": 2780,
+          "failureXPFactor": 0.18,
+          "isFinalChallenge": false
+        },
+        {
+          "id": "boracay_level_4",
+          "destinationID": "boracay",
+          "number": 4,
+          "title": "Destination Dash",
+          "mission": {
+            "type": "reachScore",
+            "target": 2440,
+            "timeLimit": 70
+          },
+          "lives": 3,
+          "speedMultiplier": 1.291,
+          "spawnIntervalMultiplier": 0.756,
+          "obstacleDensity": 0.496,
+          "hazardFrequency": 0.239,
+          "rewardTravelerXP": 188,
+          "rewardDestinationXP": 3250,
+          "oneStarScore": 2060,
+          "twoStarScore": 2510,
+          "threeStarScore": 2960,
+          "failureXPFactor": 0.18,
+          "isFinalChallenge": false
+        },
+        {
+          "id": "boracay_level_5",
+          "destinationID": "boracay",
+          "number": 5,
+          "title": "IO's Final Challenge",
+          "mission": {
+            "type": "troublemakerChallenge",
+            "target": 5,
+            "timeLimit": 75,
+            "maximumDamage": 2
+          },
+          "lives": 3,
+          "speedMultiplier": 1.346,
+          "spawnIntervalMultiplier": 0.696,
+          "obstacleDensity": 0.556,
+          "hazardFrequency": 0.274,
+          "rewardTravelerXP": 206,
+          "rewardDestinationXP": 0,
+          "oneStarScore": 2240,
+          "twoStarScore": 2690,
+          "threeStarScore": 3140,
+          "failureXPFactor": 0.18,
+          "isFinalChallenge": true
+        }
+      ]
+    },
+    {
+      "destinationID": "el_nido",
+      "signatureItemName": "Island Compasses",
+      "levels": [
+        {
+          "id": "el_nido_level_1",
+          "destinationID": "el_nido",
+          "number": 1,
+          "title": "Travel Coin Trail",
+          "mission": {
+            "type": "collectCoins",
+            "target": 25,
+            "timeLimit": 64
+          },
+          "lives": 3,
+          "speedMultiplier": 1.144,
+          "spawnIntervalMultiplier": 0.928,
+          "obstacleDensity": 0.328,
+          "hazardFrequency": 0.142,
+          "rewardTravelerXP": 142,
+          "rewardDestinationXP": 3875,
+          "oneStarScore": 1610,
+          "twoStarScore": 2060,
+          "threeStarScore": 2510,
+          "failureXPFactor": 0.18,
+          "isFinalChallenge": false
+        },
+        {
+          "id": "el_nido_level_2",
+          "destinationID": "el_nido",
+          "number": 2,
+          "title": "Signature Search",
+          "mission": {
+            "type": "collectSignatureItems",
+            "target": 7,
+            "timeLimit": 60
+          },
+          "lives": 3,
+          "speedMultiplier": 1.199,
+          "spawnIntervalMultiplier": 0.868,
+          "obstacleDensity": 0.388,
+          "hazardFrequency": 0.177,
+          "rewardTravelerXP": 160,
+          "rewardDestinationXP": 3875,
+          "oneStarScore": 1790,
+          "twoStarScore": 2240,
+          "threeStarScore": 2690,
+          "failureXPFactor": 0.18,
+          "isFinalChallenge": false
+        },
+        {
+          "id": "el_nido_level_3",
+          "destinationID": "el_nido",
+          "number": 3,
+          "title": "Scenic Endurance",
+          "mission": {
+            "type": "survive",
+            "target": 44,
+            "timeLimit": 44
+          },
+          "lives": 3,
+          "speedMultiplier": 1.254,
+          "spawnIntervalMultiplier": 0.808,
+          "obstacleDensity": 0.448,
+          "hazardFrequency": 0.212,
+          "rewardTravelerXP": 178,
+          "rewardDestinationXP": 3875,
+          "oneStarScore": 1970,
+          "twoStarScore": 2420,
+          "threeStarScore": 2870,
+          "failureXPFactor": 0.18,
+          "isFinalChallenge": false
+        },
+        {
+          "id": "el_nido_level_4",
+          "destinationID": "el_nido",
+          "number": 4,
+          "title": "Destination Dash",
+          "mission": {
+            "type": "reachScore",
+            "target": 2570,
+            "timeLimit": 70
+          },
+          "lives": 3,
+          "speedMultiplier": 1.309,
+          "spawnIntervalMultiplier": 0.748,
+          "obstacleDensity": 0.508,
+          "hazardFrequency": 0.247,
+          "rewardTravelerXP": 196,
+          "rewardDestinationXP": 3875,
+          "oneStarScore": 2150,
+          "twoStarScore": 2600,
+          "threeStarScore": 3050,
+          "failureXPFactor": 0.18,
+          "isFinalChallenge": false
+        },
+        {
+          "id": "el_nido_level_5",
+          "destinationID": "el_nido",
+          "number": 5,
+          "title": "IO's Final Challenge",
+          "mission": {
+            "type": "troublemakerChallenge",
+            "target": 5,
+            "timeLimit": 75,
+            "maximumDamage": 2
+          },
+          "lives": 3,
+          "speedMultiplier": 1.364,
+          "spawnIntervalMultiplier": 0.688,
+          "obstacleDensity": 0.568,
+          "hazardFrequency": 0.282,
+          "rewardTravelerXP": 214,
+          "rewardDestinationXP": 0,
+          "oneStarScore": 2330,
+          "twoStarScore": 2780,
+          "threeStarScore": 3230,
+          "failureXPFactor": 0.18,
+          "isFinalChallenge": true
+        }
+      ]
+    },
+    {
+      "destinationID": "batanes",
+      "signatureItemName": "Ivatan House Miniatures",
+      "levels": [
+        {
+          "id": "batanes_level_1",
+          "destinationID": "batanes",
+          "number": 1,
+          "title": "Travel Coin Trail",
+          "mission": {
+            "type": "collectCoins",
+            "target": 26,
+            "timeLimit": 65
+          },
+          "lives": 3,
+          "speedMultiplier": 1.162,
+          "spawnIntervalMultiplier": 0.92,
+          "obstacleDensity": 0.34,
+          "hazardFrequency": 0.15,
+          "rewardTravelerXP": 150,
+          "rewardDestinationXP": 4500,
+          "oneStarScore": 1700,
+          "twoStarScore": 2150,
+          "threeStarScore": 2600,
+          "failureXPFactor": 0.18,
+          "isFinalChallenge": false
+        },
+        {
+          "id": "batanes_level_2",
+          "destinationID": "batanes",
+          "number": 2,
+          "title": "Signature Search",
+          "mission": {
+            "type": "collectSignatureItems",
+            "target": 7,
+            "timeLimit": 60
+          },
+          "lives": 3,
+          "speedMultiplier": 1.217,
+          "spawnIntervalMultiplier": 0.86,
+          "obstacleDensity": 0.4,
+          "hazardFrequency": 0.185,
+          "rewardTravelerXP": 168,
+          "rewardDestinationXP": 4500,
+          "oneStarScore": 1880,
+          "twoStarScore": 2330,
+          "threeStarScore": 2780,
+          "failureXPFactor": 0.18,
+          "isFinalChallenge": false
+        },
+        {
+          "id": "batanes_level_3",
+          "destinationID": "batanes",
+          "number": 3,
+          "title": "Scenic Endurance",
+          "mission": {
+            "type": "survive",
+            "target": 45,
+            "timeLimit": 45
+          },
+          "lives": 3,
+          "speedMultiplier": 1.272,
+          "spawnIntervalMultiplier": 0.8,
+          "obstacleDensity": 0.46,
+          "hazardFrequency": 0.22,
+          "rewardTravelerXP": 186,
+          "rewardDestinationXP": 4500,
+          "oneStarScore": 2060,
+          "twoStarScore": 2510,
+          "threeStarScore": 2960,
+          "failureXPFactor": 0.18,
+          "isFinalChallenge": false
+        },
+        {
+          "id": "batanes_level_4",
+          "destinationID": "batanes",
+          "number": 4,
+          "title": "Destination Dash",
+          "mission": {
+            "type": "reachScore",
+            "target": 2700,
+            "timeLimit": 70
+          },
+          "lives": 3,
+          "speedMultiplier": 1.327,
+          "spawnIntervalMultiplier": 0.74,
+          "obstacleDensity": 0.52,
+          "hazardFrequency": 0.255,
+          "rewardTravelerXP": 204,
+          "rewardDestinationXP": 4500,
+          "oneStarScore": 2240,
+          "twoStarScore": 2690,
+          "threeStarScore": 3140,
+          "failureXPFactor": 0.18,
+          "isFinalChallenge": false
+        },
+        {
+          "id": "batanes_level_5",
+          "destinationID": "batanes",
+          "number": 5,
+          "title": "IO's Final Challenge",
+          "mission": {
+            "type": "troublemakerChallenge",
+            "target": 6,
+            "timeLimit": 75,
+            "maximumDamage": 2
+          },
+          "lives": 3,
+          "speedMultiplier": 1.382,
+          "spawnIntervalMultiplier": 0.68,
+          "obstacleDensity": 0.58,
+          "hazardFrequency": 0.29,
+          "rewardTravelerXP": 222,
+          "rewardDestinationXP": 0,
+          "oneStarScore": 2420,
+          "twoStarScore": 2870,
+          "threeStarScore": 3320,
+          "failureXPFactor": 0.18,
+          "isFinalChallenge": true
+        }
+      ]
+    }
+  ]
+}

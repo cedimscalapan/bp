@@ -1,0 +1,28 @@
+import { test, expect } from '@playwright/test';
+test('onboarding, shop, missions, runner, pause and persistence',async({page})=>{
+ const errors:string[]=[];page.on('pageerror',e=>errors.push(e.message));
+ await page.setViewportSize({width:390,height:844});await page.goto('/');
+ await page.getByLabel('Your traveler name').fill('Avery');
+ await page.getByRole('button',{name:'Let’s explore'}).click();
+ await expect(page.getByRole('heading',{name:'Welcome aboard, Avery.'})).toBeVisible();
+ await page.getByRole('button',{name:'Claim 150 coins'}).click();
+ await page.getByRole('button',{name:'Shop',exact:true}).click();
+ await expect(page.getByRole('heading',{name:'Pack a little possibility.'})).toBeVisible();
+ await page.getByRole('button',{name:'Explore',exact:true}).click();
+ await page.getByRole('button',{name:/01 \/ Local/}).click();
+ await page.getByRole('button',{name:/1 Coin Trail/}).click();
+ await page.getByRole('button',{name:'Start adventure',exact:true}).click();
+ await page.keyboard.press('ArrowLeft');
+ await page.getByRole('button',{name:'Ⅱ Pause'}).click();
+ await expect(page.getByRole('heading',{name:'Adventure paused'})).toBeVisible();
+ await page.getByRole('button',{name:'Continue exploring'}).click();
+ await page.getByRole('button',{name:'Ⅱ Pause'}).click();
+ await page.getByRole('button',{name:'Leave run'}).click();
+ await page.reload();
+ await page.getByRole('button',{name:'Port',exact:true}).click();
+ await expect(page.getByRole('heading',{name:'Welcome aboard, Avery.'})).toBeVisible();
+ await expect(page.getByRole('button',{name:'Claim 150 coins'})).toHaveCount(0);
+ await page.screenshot({path:'../buddyport-mobile.png',fullPage:true});
+ await page.setViewportSize({width:1440,height:1000});await page.screenshot({path:'../buddyport-desktop.png',fullPage:true});
+ expect(errors).toEqual([]);
+});

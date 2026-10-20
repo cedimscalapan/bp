@@ -1,0 +1,1362 @@
+[
+  {
+    "source": "res/drawable-nodpi-v4/app_icon.webp",
+    "file": "public/assets/app_icon.webp",
+    "sha256": "9b53079d5d2f5368b2d1753b7a15cb34e1a2fcbe7f1ddfc56a13c8a97308fc2b"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/app_logo.webp",
+    "file": "public/assets/app_logo.webp",
+    "sha256": "ea5cfe22af37b0a158c00095ed3794b432f6c1c9cbab51cbdac29aeca69df432"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/background_cloud_strip.webp",
+    "file": "public/assets/background_cloud_strip.webp",
+    "sha256": "d7140c01813740c0887c3500965056c55c5931e0fd8c345c5e2caf1d093707f2"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/buddy_bear_front.webp",
+    "file": "public/assets/buddy_bear_front.webp",
+    "sha256": "0b84653761ebd58aac70186d93ecbac69bec804762d23f0636e5fe62c9f21f32"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/buddy_bear_result_failed.webp",
+    "file": "public/assets/buddy_bear_result_failed.webp",
+    "sha256": "fd0095e2c9af8a5daf4fcda28bf7aea1eba4d2d07429a4d60736571c20df8117"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/buddy_bear_result_success.webp",
+    "file": "public/assets/buddy_bear_result_success.webp",
+    "sha256": "0c5a89b43521d8689f401382f0e1fc8b1b112f4079e2ce4feaa3e05475607cc4"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/buddy_bunny_front.webp",
+    "file": "public/assets/buddy_bunny_front.webp",
+    "sha256": "c2920d2b7b48ca4f553aaae25d9d86fc82b2c0ce276e017ed4aaf42ecbc9514f"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/buddy_bunny_guide_peek.webp",
+    "file": "public/assets/buddy_bunny_guide_peek.webp",
+    "sha256": "0d0b6a21ce44635f8f7ff799e72c3646407d23aeeb11886acd0ddc5de3899a2e"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/buddy_bunny_result_failed.webp",
+    "file": "public/assets/buddy_bunny_result_failed.webp",
+    "sha256": "fa346203c18609f7e56539bc40affb6743ce51dbc26e8ebeb51e089e0fe15064"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/buddy_bunny_result_success.webp",
+    "file": "public/assets/buddy_bunny_result_success.webp",
+    "sha256": "87a9e6a6f9807c725652e9ac5c45a4335c87ca33f419473320ea56eb47e1bae2"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/buddy_cat_front.webp",
+    "file": "public/assets/buddy_cat_front.webp",
+    "sha256": "d56254e3a7b94d993417fbc46fcc9887f03f558dbb1e141519516b877301b2fa"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/buddy_cat_guide_peek.webp",
+    "file": "public/assets/buddy_cat_guide_peek.webp",
+    "sha256": "b604764cbc68fd4bb9a4ca5188790e5f3a5584415eb88bd9eb97a5ac0d86e4b9"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/buddy_cat_result_failed.webp",
+    "file": "public/assets/buddy_cat_result_failed.webp",
+    "sha256": "cc11aaf022aa93fc73ae6d76c676abfbee450f3967f690a560e5daaf331645f7"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/buddy_cat_result_success.webp",
+    "file": "public/assets/buddy_cat_result_success.webp",
+    "sha256": "5c6564e3608eb7baae142e2ae3b5ec3b6979b508996850962a7092607756f666"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/buddy_dog_front.webp",
+    "file": "public/assets/buddy_dog_front.webp",
+    "sha256": "b660ed2e06154985b25f37b7aa688741836c7fe26c9171a60b04152053c37bc0"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/buddy_dog_guide_peek.webp",
+    "file": "public/assets/buddy_dog_guide_peek.webp",
+    "sha256": "5102d75d0078fc015dd76bc86cbf39acdfe69c92af79d12672ca4a2e6b070a33"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/buddy_dog_result_failed.webp",
+    "file": "public/assets/buddy_dog_result_failed.webp",
+    "sha256": "105f8f83b1e985902ca3ecb7f0a07f521ad64709ce3ee120e1a3fec66cfcb1cf"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/buddy_dog_result_success.webp",
+    "file": "public/assets/buddy_dog_result_success.webp",
+    "sha256": "3898891ce4b2ae173ae99603bf766f6d982cee6b7452f7e996bd613771cac1a6"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/buddy_monkey_front.webp",
+    "file": "public/assets/buddy_monkey_front.webp",
+    "sha256": "6fd203de9eec4b4ddcf69a79ed944cc5f6349f61a6c97cc40344f032eba9ab3b"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/buddy_monkey_result_failed.webp",
+    "file": "public/assets/buddy_monkey_result_failed.webp",
+    "sha256": "8af0ad3757a21e1050bb503657a3e3ac7fc598fc7caefe258daf2ead99471039"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/buddy_monkey_result_success.webp",
+    "file": "public/assets/buddy_monkey_result_success.webp",
+    "sha256": "901f800cf5bf6114dacdb01b8515249d6551eca8ac4f00002c068e8b51b043b0"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/buddy_owl_front.webp",
+    "file": "public/assets/buddy_owl_front.webp",
+    "sha256": "eda1bde4e6ad1cff35d4ef3b295d17b26926d858251008468f97bf29f17ec357"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/buddy_owl_result_failed.webp",
+    "file": "public/assets/buddy_owl_result_failed.webp",
+    "sha256": "dcd8dd75bd8b77f099a8f5438fe911348d4c0e60e13bd6647170ee59e94cc5b0"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/buddy_owl_result_success.webp",
+    "file": "public/assets/buddy_owl_result_success.webp",
+    "sha256": "1e0d1935cab4b0221d02ff0b346c796e7baad2be658fa82127e8213000407614"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/buddy_penguin_front.webp",
+    "file": "public/assets/buddy_penguin_front.webp",
+    "sha256": "ad8941f923758c3a655e20a4b86db79b5a40536918caef5528dcb0b5e68ac1b5"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/buddy_penguin_guide_peek.webp",
+    "file": "public/assets/buddy_penguin_guide_peek.webp",
+    "sha256": "57c7d21fc57d7799cb40f4ed13b1c9a2edb2ce7597bb6eff521a93002f9f14ef"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/buddy_penguin_result_failed.webp",
+    "file": "public/assets/buddy_penguin_result_failed.webp",
+    "sha256": "ca6ae71e67cc0de57d990d693f37667bf8e70e4ff984db7f34679ce499b2a00e"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/buddy_penguin_result_success.webp",
+    "file": "public/assets/buddy_penguin_result_success.webp",
+    "sha256": "af0b9758af46f78bc181127e85c081a893c1da07ddd861dc8e8903748620f0ba"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/buddy_pig_front.webp",
+    "file": "public/assets/buddy_pig_front.webp",
+    "sha256": "2b56cc3dfbd723344986e2102c4f3c9d180101e08c64c899575aa235aa978c91"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/buddy_pig_guide_peek.webp",
+    "file": "public/assets/buddy_pig_guide_peek.webp",
+    "sha256": "ce8d6b945ba7909a16ef3c00cb04c87db4eac3d3139e134a4602cd8dcbf2ee78"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/buddy_pig_result_failed.webp",
+    "file": "public/assets/buddy_pig_result_failed.webp",
+    "sha256": "d46d0751ef1e6f4799c7ee4ed8ec34feb5f02db84dab529f9be48b154ccaa9c2"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/buddy_pig_result_success.webp",
+    "file": "public/assets/buddy_pig_result_success.webp",
+    "sha256": "8c507eb2c94e9a23b7fbb8aed9267a8096d8d7d5dfa45b9205bd9972275c7127"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/buddy_rhino_front.webp",
+    "file": "public/assets/buddy_rhino_front.webp",
+    "sha256": "8f3d7c8e40af95a2ec787cbdeca5bbbdce3d530bc5ef2800a0c82c7c05cf7f9a"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/buddy_rhino_result_failed.webp",
+    "file": "public/assets/buddy_rhino_result_failed.webp",
+    "sha256": "c78c025fd4c34f2fef476724f4841bd4ed6e8c85e8a20ef6f462b32c117f291b"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/buddy_rhino_result_success.webp",
+    "file": "public/assets/buddy_rhino_result_success.webp",
+    "sha256": "a3d685b7c49fde438a98152f7e487bfcccca4b625e79a1507bdaaadacacbe238"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/buddyport_wordmark.webp",
+    "file": "public/assets/buddyport_wordmark.webp",
+    "sha256": "20931eb8d7ee7b894c624871f5ee35fc7137d076412d86d92082daeb3dbbc1a1"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/collectible_amsterdam_netherlands_souvenir.webp",
+    "file": "public/assets/collectible_amsterdam_netherlands_souvenir.webp",
+    "sha256": "28c2ae334e4af2eb6897640a679ef904824b5711d66b0556e3189206c2222cea"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/collectible_baguio_strawberry.webp",
+    "file": "public/assets/collectible_baguio_strawberry.webp",
+    "sha256": "4885f1f890d0de2224097393e6f0f67235d73dad0bb43bbc43c6340f127dd619"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/collectible_bangkok_thailand_souvenir.webp",
+    "file": "public/assets/collectible_bangkok_thailand_souvenir.webp",
+    "sha256": "8774b493ddd65bd94c321a7abda6b1fe65a554c4344dc11eff936ea35464228b"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/collectible_batanes_souvenir.webp",
+    "file": "public/assets/collectible_batanes_souvenir.webp",
+    "sha256": "8c02d08a5de22583a05a9ea7af4ee9cb71a1966d598f6e94aef467e1a88a531d"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/collectible_beijing_china_souvenir.webp",
+    "file": "public/assets/collectible_beijing_china_souvenir.webp",
+    "sha256": "c15d528c98495c59acdec16241c9d89eff45b5f82620ac58854b8d6c99e60e8f"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/collectible_bohol_souvenir.webp",
+    "file": "public/assets/collectible_bohol_souvenir.webp",
+    "sha256": "d12d877df09b9e67fc3f2b5de90f4856ec7d959165935fd576b95a93c8c81321"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/collectible_boracay_souvenir.webp",
+    "file": "public/assets/collectible_boracay_souvenir.webp",
+    "sha256": "87d8eb9a8e216ca98c488871b8ecffd709507c85d2484366a65dbc8af3b490b8"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/collectible_cebu_souvenir.webp",
+    "file": "public/assets/collectible_cebu_souvenir.webp",
+    "sha256": "c61926f0dee85095e84f9651f170aa6e8c37e8fdbc98df8e39e0de27d80ce11d"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/collectible_coron_souvenir.webp",
+    "file": "public/assets/collectible_coron_souvenir.webp",
+    "sha256": "14f41b573bf08c999f56d83ef5ac93974c5829ad772cc367a67df25658625fb0"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/collectible_da_nang_vietnam_souvenir.webp",
+    "file": "public/assets/collectible_da_nang_vietnam_souvenir.webp",
+    "sha256": "10793f0fbd2c51f140777a5751176aae3f833fdb59518d72d903b2f7a35438e1"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/collectible_davao_bukidnon_souvenir.webp",
+    "file": "public/assets/collectible_davao_bukidnon_souvenir.webp",
+    "sha256": "ac8cb959dbcd54dcdc94bfef45c4eb81fd15286ea1a73db2ab7e9f8882d57b1f"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/collectible_el_nido_souvenir.webp",
+    "file": "public/assets/collectible_el_nido_souvenir.webp",
+    "sha256": "c6c5c0bf0d797c80ff2b6ea1ecbd3f3aef280615c9e336259c122e5f8273a2b8"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/collectible_fukuoka_japan_souvenir.webp",
+    "file": "public/assets/collectible_fukuoka_japan_souvenir.webp",
+    "sha256": "54641a4e9168fe55f23d0d29936d35a6f71c14bb46c1b4045e6bc612f39fabfe"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/collectible_hanoi_vietnam_souvenir.webp",
+    "file": "public/assets/collectible_hanoi_vietnam_souvenir.webp",
+    "sha256": "feee316060da0b1f5eb5f60d4bc4169e1ad989901db94ad1edccd38e1c8f7b7b"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/collectible_hong_kong_souvenir.webp",
+    "file": "public/assets/collectible_hong_kong_souvenir.webp",
+    "sha256": "aef531f07946fcc6849b9a7a7409b09e4643e635b3d7d53289513191ec95f319"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/collectible_interlaken_switzerland.webp",
+    "file": "public/assets/collectible_interlaken_switzerland.webp",
+    "sha256": "eea521ec78389aa7cb11d586dadfb6d20483f137507b5f481bc29f02ea111fad"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/collectible_london_uk_souvenir.webp",
+    "file": "public/assets/collectible_london_uk_souvenir.webp",
+    "sha256": "a96f40903045851842bd5c663de3f4798476b9f334bfe83be66cbcb88cc85267"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/collectible_lucerne_switzerland_souvenir.webp",
+    "file": "public/assets/collectible_lucerne_switzerland_souvenir.webp",
+    "sha256": "77b3393f3fdaf062fbd59d2494568f28f3820213331bb83a94c005583a5e5d0f"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/collectible_new_york_usa_souvenir.webp",
+    "file": "public/assets/collectible_new_york_usa_souvenir.webp",
+    "sha256": "ff1f67b9f62545b9a831b3bf04867a7c96ff0a63307eff1a9583d13b89c71204"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/collectible_north_luzon_rice_bundle.webp",
+    "file": "public/assets/collectible_north_luzon_rice_bundle.webp",
+    "sha256": "2b98b5c88532bbd551163441b7fbf5960be09bd8b1b0878248373ef1444913fb"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/collectible_north_luzon_strawberry.webp",
+    "file": "public/assets/collectible_north_luzon_strawberry.webp",
+    "sha256": "c4a1dabc3cc28650da5ed81699a87dcfe713226044935375287a96d00f610f96"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/collectible_north_luzon_woven_basket.webp",
+    "file": "public/assets/collectible_north_luzon_woven_basket.webp",
+    "sha256": "f034e1362d3221ef7d7a0a89992086a64ffb97e83b6aeb2df8838ea352ff1109"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/collectible_northern_fortress_souvenir.webp",
+    "file": "public/assets/collectible_northern_fortress_souvenir.webp",
+    "sha256": "fb05d12c3dfdd143dab27633c7c6c5a62ecfa55f8c6f767e0ae3842fe5cde257"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/collectible_osaka_japan_souvenir.webp",
+    "file": "public/assets/collectible_osaka_japan_souvenir.webp",
+    "sha256": "c88ae1b2d1447748543222d6d58c76eac79a1855b1b6edc6be40ec23687ba1ff"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/collectible_paris_france_souvenir.webp",
+    "file": "public/assets/collectible_paris_france_souvenir.webp",
+    "sha256": "b3b37ccc62dabdd185bf125cccf879fff2449377c1a68930946983cd0499c414"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/collectible_puerto_princesa_souvenir.webp",
+    "file": "public/assets/collectible_puerto_princesa_souvenir.webp",
+    "sha256": "3ee1b86c943a3027a0e41b7470ff22b96fad9ba81c0b7b03651390dcc413ae07"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/collectible_rome_italy_souvenir.webp",
+    "file": "public/assets/collectible_rome_italy_souvenir.webp",
+    "sha256": "8c535627f77f691a4ae4fcd02692e876cdcdc7387977d043e2a457cf93664a3b"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/collectible_sa_pa_vietnam_souvenir.webp",
+    "file": "public/assets/collectible_sa_pa_vietnam_souvenir.webp",
+    "sha256": "148c44c1a3d3de1610be3e9896f21237e40f8f401a58425c6c215ca2f1e91b62"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/collectible_seoul_south_korea_souvenir.webp",
+    "file": "public/assets/collectible_seoul_south_korea_souvenir.webp",
+    "sha256": "6db069fc56ee650c3b73c007555a4a2a7468533fc218cb76be829bcc935c6368"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/collectible_siargao_souvenir.webp",
+    "file": "public/assets/collectible_siargao_souvenir.webp",
+    "sha256": "d0e538ab789f74a051223271c4c70885f0dd7bd57228fcb6545600f91abbf9a3"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/collectible_singapore_souvenir.webp",
+    "file": "public/assets/collectible_singapore_souvenir.webp",
+    "sha256": "a85c84862f0e38a4ecb3fdd9aefb757160e700936fb54e31686072529bef8860"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/collectible_south_luzon_pahiyas.webp",
+    "file": "public/assets/collectible_south_luzon_pahiyas.webp",
+    "sha256": "000303110da455a47c40fe52872646c569f0319addae1f79f21e1414c1917e9f"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/collectible_south_luzon_pili_nut.webp",
+    "file": "public/assets/collectible_south_luzon_pili_nut.webp",
+    "sha256": "856915ff22fce5c48a99c4933e9e3112f1b29ccdbca999b3274e08acc723eda7"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/collectible_south_luzon_pineapple.webp",
+    "file": "public/assets/collectible_south_luzon_pineapple.webp",
+    "sha256": "2c97f0c95dedbbfdb76a06e309ff75b0c0472c8039fd864a3f4f386912facad2"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/collectible_star.webp",
+    "file": "public/assets/collectible_star.webp",
+    "sha256": "cd33c79d5afcf86aec9b342159b2e957409853417e6516ae998f201d3e4f32d5"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/collectible_sydney_australia.webp",
+    "file": "public/assets/collectible_sydney_australia.webp",
+    "sha256": "461f5ea2cd96639dffcd0abf73edcab1dc781be67aa6dd2952f985c2b15d0d8f"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/collectible_taipei_taiwan_souvenir.webp",
+    "file": "public/assets/collectible_taipei_taiwan_souvenir.webp",
+    "sha256": "aa894b7fde9308ff561b6ae83da0eb4cfa9229b6b2fe2d73e0231cef36e7ea88"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/collectible_tokyo_japan_souvenir.webp",
+    "file": "public/assets/collectible_tokyo_japan_souvenir.webp",
+    "sha256": "0fa72c365899157a95d0a4c762b1c01ad9183b4118df2e69966200a4cde1834b"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/collectible_travel_coin.webp",
+    "file": "public/assets/collectible_travel_coin.webp",
+    "sha256": "f6c6805533abde9b4970f16b1225e292d9e3738b182959b9ba7578a03b7d4b72"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/collectible_zermatt_switzerland_souvenir.webp",
+    "file": "public/assets/collectible_zermatt_switzerland_souvenir.webp",
+    "sha256": "7d0e04c5b6de79b382f84f5df87784bb34a796ab26cf95d650b6ff1a75213d8b"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/collectible_zurich_switzerland_souvenir.webp",
+    "file": "public/assets/collectible_zurich_switzerland_souvenir.webp",
+    "sha256": "5d2e9275bf978cdce5aaaaefbf3e177aae491ac627343ed76b623852f56527ec"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/companion_coin_gecko.webp",
+    "file": "public/assets/companion_coin_gecko.webp",
+    "sha256": "884a7940e4d0066a769428ee78686d92644103f265aa51cd6031211c0c6f3938"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/companion_coin_gecko_action.webp",
+    "file": "public/assets/companion_coin_gecko_action.webp",
+    "sha256": "1a223f5bac4563f26a3b5ca6a27563182105f127f06b793fcae17a623f580d9a"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/companion_guard_turtle.webp",
+    "file": "public/assets/companion_guard_turtle.webp",
+    "sha256": "c2f697000d74ae103041ca66f44110293c39b34b8d929a8b8a15ffe022051853"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/companion_guard_turtle_action.webp",
+    "file": "public/assets/companion_guard_turtle_action.webp",
+    "sha256": "8762dd66d269b9ee05b08571c0233b8bb7100514bc941da8fe4cf67e93eb534f"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/companion_medic_otter.webp",
+    "file": "public/assets/companion_medic_otter.webp",
+    "sha256": "6c5ee9b5edcd2c8f06d388c07c10cd4576a143647a4f28ab6c1a273604a85589"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/companion_medic_otter_action.webp",
+    "file": "public/assets/companion_medic_otter_action.webp",
+    "sha256": "930fe2bae02ed4567cf4bbc1d00e30756336bc87a6ac8c9ed88ec0bf1232063d"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/companion_scout_bird.webp",
+    "file": "public/assets/companion_scout_bird.webp",
+    "sha256": "bd9796359701ca0364b3ab9c9c6a0e4d9cf4f15273571021bac244f29e0b22a0"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/companion_scout_bird_action.webp",
+    "file": "public/assets/companion_scout_bird_action.webp",
+    "sha256": "6e900382a1e8e7a6f598449a4c6745e3a98433b98cf21aa4e80a483fa29efb4f"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/destination_amsterdam_netherlands.webp",
+    "file": "public/assets/destination_amsterdam_netherlands.webp",
+    "sha256": "838854aeadc326da060a7606db43ee13ceff89882bfaab0b60254ad80022b991"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/destination_baguio.webp",
+    "file": "public/assets/destination_baguio.webp",
+    "sha256": "a77cf16aa7a17f13f5b692621220a48ffbf42979b654eea0c462c0a91f4d4fe3"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/destination_baguio_detail.webp",
+    "file": "public/assets/destination_baguio_detail.webp",
+    "sha256": "303a231017a0c88334b4317ef6b803c6e6aa02703275a25e0542896a77d35db3"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/destination_banaue.webp",
+    "file": "public/assets/destination_banaue.webp",
+    "sha256": "ee314668995996531dd347c124d52e15d56ecc88d472971b9c4c38eb9624ed10"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/destination_bangkok_thailand.webp",
+    "file": "public/assets/destination_bangkok_thailand.webp",
+    "sha256": "21caadc481d088b5acda350eda67d1bf3c7ed0289051abf5fe4e87796da6e33e"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/destination_batanes.webp",
+    "file": "public/assets/destination_batanes.webp",
+    "sha256": "1eaece17e40fdb4e9891df939b7648522be71021fc149cb265378a40595778ff"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/destination_batangas.webp",
+    "file": "public/assets/destination_batangas.webp",
+    "sha256": "4319b3a39d3006a2b9201fb7a8d6ff3684b7c9f8831eda7705ceecfad919537e"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/destination_beijing_china.webp",
+    "file": "public/assets/destination_beijing_china.webp",
+    "sha256": "7baa3ccdd2e94b483a58e32c36ad0ba9b9967b9071f31980415b56585cd11ff7"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/destination_bohol.webp",
+    "file": "public/assets/destination_bohol.webp",
+    "sha256": "fc0d42a184b21216bca3a7edc60dc25726eb9061a8aea61c77268248ae357960"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/destination_boracay.webp",
+    "file": "public/assets/destination_boracay.webp",
+    "sha256": "a364ee26593deffbe376074204e42a3032aa5a16239e4d1c95dfddf0014f942d"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/destination_boracay_detail.webp",
+    "file": "public/assets/destination_boracay_detail.webp",
+    "sha256": "b92058450eba624a11ab55019914f2c79ec6833e7794f63b97772b3dee6022ec"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/destination_cebu.webp",
+    "file": "public/assets/destination_cebu.webp",
+    "sha256": "25f1b0a2bdfa738c45699b9451e5a2a90f582b5c4858ed163d353c833be5e73b"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/destination_coron.webp",
+    "file": "public/assets/destination_coron.webp",
+    "sha256": "825869023f9bd61a0e461efc5a25dc4faf5f5973da9187587ca1d98b1aa7d441"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/destination_da_nang_vietnam.webp",
+    "file": "public/assets/destination_da_nang_vietnam.webp",
+    "sha256": "7f245c998d296871417a91ecc12bf3e19aa74a68c5b46921663f81b11bf6f70a"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/destination_davao_bukidnon.webp",
+    "file": "public/assets/destination_davao_bukidnon.webp",
+    "sha256": "ca9abf056a376cd22505c2f6fe3b67fe76f9bc160c3c04c7abda1eba0185383d"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/destination_el_nido.webp",
+    "file": "public/assets/destination_el_nido.webp",
+    "sha256": "9b38741273585acf1f3a1828a6f9c88d1a08c23098ee3749f083d0c01db05b40"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/destination_fukuoka_japan.webp",
+    "file": "public/assets/destination_fukuoka_japan.webp",
+    "sha256": "240993c5f3ea89212c1d04f3482cfebf4128053f4df3b2e410202349da6f06e1"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/destination_hanoi_vietnam.webp",
+    "file": "public/assets/destination_hanoi_vietnam.webp",
+    "sha256": "f89c30594c9920bc092880103178ac994cfc06e3f8c905ad3a34f4b9d5bf004a"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/destination_hong_kong.webp",
+    "file": "public/assets/destination_hong_kong.webp",
+    "sha256": "72351b07880517d69e6c3ec46302f3e9c801bf074adddcd00ce9fbaa183feccb"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/destination_interlaken_switzerland.webp",
+    "file": "public/assets/destination_interlaken_switzerland.webp",
+    "sha256": "54d82d6660c1ff2c90f05f950ba565285c5699e60dffa3bb441bc7fac0dca63b"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/destination_la_union.webp",
+    "file": "public/assets/destination_la_union.webp",
+    "sha256": "dc4630ea1a63f22815e1ab76a460e6c1c7bb74dc5de5b262a45de546042223dd"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/destination_laoag.webp",
+    "file": "public/assets/destination_laoag.webp",
+    "sha256": "a0a548ba4c3f164faff9416444118f15c22759746d9cba23160837b966520d39"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/destination_legazpi.webp",
+    "file": "public/assets/destination_legazpi.webp",
+    "sha256": "d9d15d93e674b989b978500f9a9b28bb8759153c664337e015ed8593d36537a0"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/destination_london_uk.webp",
+    "file": "public/assets/destination_london_uk.webp",
+    "sha256": "3706995e3a31f43a2d0e3bed41ef54369fba9de28099a62074f5c4d308a7942c"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/destination_lucban.webp",
+    "file": "public/assets/destination_lucban.webp",
+    "sha256": "4bf5281a60b7b3e4dc5b9c2a394d6196dd3f4904f7b5a1c1ae4176db8ebfdb90"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/destination_lucerne_switzerland.webp",
+    "file": "public/assets/destination_lucerne_switzerland.webp",
+    "sha256": "8c85d25ad2eaaed93dad2dcf059d6f24e2fc2086d20dbbb37df61e5b3d283033"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/destination_metro_bgc.webp",
+    "file": "public/assets/destination_metro_bgc.webp",
+    "sha256": "a01219bc91cab5477886a7fb7a937a119d916513edd5d5aa9ef42fc8d3110be4"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/destination_metro_binondo.webp",
+    "file": "public/assets/destination_metro_binondo.webp",
+    "sha256": "928955fcb6cb2605dd51ca08acfd995ddfc63c8945ea7a0a80ab1b448855811a"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/destination_metro_escolta.webp",
+    "file": "public/assets/destination_metro_escolta.webp",
+    "sha256": "bb732b8a704b905a4ad915ca899f0e796f9d1482637ec448afcfa9378a644212"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/destination_metro_intramuros.webp",
+    "file": "public/assets/destination_metro_intramuros.webp",
+    "sha256": "088bcf141f84a5583bc34576633c30c3ca7c5d8c82937c8fe5f434d094f9afb9"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/destination_metro_makati.webp",
+    "file": "public/assets/destination_metro_makati.webp",
+    "sha256": "f26a6389b7aba4a421da0ccfc1d216988ab990fa996307982d0b822112f25bcb"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/destination_metro_manila_bay_moa.webp",
+    "file": "public/assets/destination_metro_manila_bay_moa.webp",
+    "sha256": "a6b58d385912d3addb62fd351fc77f4be6d84414f8ede8479f2c8952a44679a7"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/destination_metro_national_museum.webp",
+    "file": "public/assets/destination_metro_national_museum.webp",
+    "sha256": "0066c7af68b80b85939f43f85a75fd837ea173523e9f6354b739f085bfe19c4a"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/destination_metro_ocean_park.webp",
+    "file": "public/assets/destination_metro_ocean_park.webp",
+    "sha256": "b9505dd7674691582e24897e819ff2f6914799334fd22a380ad949d73ecb7858"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/destination_metro_rizal_park.webp",
+    "file": "public/assets/destination_metro_rizal_park.webp",
+    "sha256": "914cc08acee6ab0f9c570abf4815e661d9bef00cf48b2483152e69eea8dbda67"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/destination_metro_star_city.webp",
+    "file": "public/assets/destination_metro_star_city.webp",
+    "sha256": "10453b5ff20fc68ff11e136873304080982a5fb467de644d26f9f5aba4e7290e"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/destination_naga.webp",
+    "file": "public/assets/destination_naga.webp",
+    "sha256": "b21f18687207c666a77ffa13bfc4765a4a0b8e1c42ad172d2b7066e8bfcafa54"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/destination_new_york_usa.webp",
+    "file": "public/assets/destination_new_york_usa.webp",
+    "sha256": "379e8987882396b1a9fcfa6542b55e240fa64fd092672fa26907f331eb3cf234"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/destination_northern_fortress.webp",
+    "file": "public/assets/destination_northern_fortress.webp",
+    "sha256": "2ad7c1c61121124f4dbc55fc045b2f165d315add5fc2158abdb1d579850e21af"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/destination_osaka_japan.webp",
+    "file": "public/assets/destination_osaka_japan.webp",
+    "sha256": "ac46f527ed6c70df4fffa511f557193331d207cbec0f033efd003fd249bdd997"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/destination_pagudpud.webp",
+    "file": "public/assets/destination_pagudpud.webp",
+    "sha256": "4e3bd6dea3ab7066d94f7f95ebe82dca5435ddf057312fe92ffd13f248ee0595"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/destination_paris_france.webp",
+    "file": "public/assets/destination_paris_france.webp",
+    "sha256": "52535179a8bafa6eaf4985c3160bc536e0fc45bc5592c9167b09887cdae0ec04"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/destination_puerto_princesa.webp",
+    "file": "public/assets/destination_puerto_princesa.webp",
+    "sha256": "02e3bb823ced0a7a60a6cc3882a342fce30f6fa8f7c39e37631c072b83310865"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/destination_rome_italy.webp",
+    "file": "public/assets/destination_rome_italy.webp",
+    "sha256": "42085c8373ba73f8a0535729da3f3ceaa4eaab3d2bb55890072ec149a8319f47"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/destination_sa_pa_vietnam.webp",
+    "file": "public/assets/destination_sa_pa_vietnam.webp",
+    "sha256": "fecf3a8002537ebbcfedc12f885f9295028f7615c856af3860e761f2f1e51e97"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/destination_sagada.webp",
+    "file": "public/assets/destination_sagada.webp",
+    "sha256": "599e8130b87cf07fc2699c1d7a2ce5afe66ec791e452aeecfc34c213474b4cf2"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/destination_seoul_south_korea.webp",
+    "file": "public/assets/destination_seoul_south_korea.webp",
+    "sha256": "f3d8df043c372dd99fdebc501d811b1917f2758f076a2e23b6e1e7feebea1ac0"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/destination_siargao.webp",
+    "file": "public/assets/destination_siargao.webp",
+    "sha256": "cd43e10ff069270d4df1650f1dd6591c61d0ea996125f4500b318072132b4c17"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/destination_singapore.webp",
+    "file": "public/assets/destination_singapore.webp",
+    "sha256": "f7cd782fd3c043bbfec20bfe51bc051b91d90a58fee2545419bf634def7ee55a"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/destination_sorsogon.webp",
+    "file": "public/assets/destination_sorsogon.webp",
+    "sha256": "93773308b2444f979910d606c9998e5a5db63c9ccee2b13a986607e0741a59b1"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/destination_sydney_australia.webp",
+    "file": "public/assets/destination_sydney_australia.webp",
+    "sha256": "ef9d438445605747cb3b11caafa56b65ee77a75d0cfdcdf2b8f79058f2b7a714"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/destination_tagaytay.webp",
+    "file": "public/assets/destination_tagaytay.webp",
+    "sha256": "599733c445a8b48be93a0798c9806ac8b064ef81655987c53a30989b94c195c3"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/destination_taipei_taiwan.webp",
+    "file": "public/assets/destination_taipei_taiwan.webp",
+    "sha256": "0c8296779ffaf8f5383776b2213df821121fb6a3ed4e186ac34f7dbea393d428"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/destination_tokyo_japan.webp",
+    "file": "public/assets/destination_tokyo_japan.webp",
+    "sha256": "85079e057bc25a83cff1726e38e8e5a904189cd0da4debfdab3ff994c42a25b0"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/destination_vigan.webp",
+    "file": "public/assets/destination_vigan.webp",
+    "sha256": "5a94c546806b0a92910b6d57359206fdd8a6322506edd0e69bbb95a0a8a3b2b1"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/destination_zermatt_switzerland.webp",
+    "file": "public/assets/destination_zermatt_switzerland.webp",
+    "sha256": "55559e16823eb9d1ef5f0fee21e947a558102e19ab56b8fddf2726af9b9bd051"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/destination_zurich_switzerland.webp",
+    "file": "public/assets/destination_zurich_switzerland.webp",
+    "sha256": "18c543210c93c0565d9cd78975b773645fd0d3129a743866d6504d03d0c8cf36"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/effect_bomb_explosion.webp",
+    "file": "public/assets/effect_bomb_explosion.webp",
+    "sha256": "ccab85a4b6bcad0d946ec7a9c69397ab4bc1f86347d318694f32c2f782af16d7"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/effect_forcefield_bubble.webp",
+    "file": "public/assets/effect_forcefield_bubble.webp",
+    "sha256": "09ca793cab0078749a5817541d9fd6348b06e5a182821a9dd3fea590895eb368"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/effect_guard_turtle_cage.webp",
+    "file": "public/assets/effect_guard_turtle_cage.webp",
+    "sha256": "2f46d73a03400a8dc1f36198e2e6b37276c64b9bcfa0c549bc8eada3e8cd7b1b"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/endless_run_home_card.webp",
+    "file": "public/assets/endless_run_home_card.webp",
+    "sha256": "3b0a12b90796a42e931e941fb50c213d9b61e1f8ece01441400365f463132bf0"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/enemy_foxtrapper.webp",
+    "file": "public/assets/enemy_foxtrapper.webp",
+    "sha256": "1f85d4f05e043aa14a4c169e43ca6d985647a71904d5e60dd981bbe2369bd37b"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/enemy_mirrorhunter_shielded.webp",
+    "file": "public/assets/enemy_mirrorhunter_shielded.webp",
+    "sha256": "20026c941b5527e1bdd55651187b786186c3e18592b6422219020071b116292c"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/fortress_commander.webp",
+    "file": "public/assets/fortress_commander.webp",
+    "sha256": "1881e42537a899aef43ca82d98756ffedab3fa5528973f35144700cbcc159777"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/fortress_commander_portrait.png",
+    "file": "public/assets/fortress_commander_portrait.png",
+    "sha256": "d45a13f43b1c9a33abd07bf92e292dd34b3dbe59ec84c3c8bf765aec26b60313"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/fortress_commander_right.webp",
+    "file": "public/assets/fortress_commander_right.webp",
+    "sha256": "3048ede8821be30f323df2fca40914bd42b527bb03cd55b9d119514c4c4a8982"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/fortress_guard_center.webp",
+    "file": "public/assets/fortress_guard_center.webp",
+    "sha256": "4c8d4d34a39f17288bc87fa087ab1bad5d3d0821a5562607d267edc65864a622"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/fortress_guard_portrait.png",
+    "file": "public/assets/fortress_guard_portrait.png",
+    "sha256": "57eba60b1d76f48f4d88f9fdbf342309f01c3472b75ed4407c95ec5c8458c67c"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/hazard_axe.webp",
+    "file": "public/assets/hazard_axe.webp",
+    "sha256": "eecb3c06a73974f254ba844d5743ff945da3257703661e1dcd03296f30189bc9"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/hazard_bomb.webp",
+    "file": "public/assets/hazard_bomb.webp",
+    "sha256": "81f2258342d9a166c8f45c7c7fe1b8868425bad640808a21180351655aa6c057"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/hazard_china_bamboo_firecracker.webp",
+    "file": "public/assets/hazard_china_bamboo_firecracker.webp",
+    "sha256": "487a2e4ec3bd24a56d3c9f5dfb35ef19f6b6ff1d3f067718c7811d0bd489bd68"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/hazard_china_jade_spinner.webp",
+    "file": "public/assets/hazard_china_jade_spinner.webp",
+    "sha256": "3a17eb87c3949eca702a1330f72aebd6bd5c73a83d6a81c0c8f0c7595af8c3ef"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/hazard_spiked_orb.webp",
+    "file": "public/assets/hazard_spiked_orb.webp",
+    "sha256": "68bb46ef744235e040290329d4f20dd86705f1e4a4dc81b91587035ed58b3b8e"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/io_enemy_guide_face.webp",
+    "file": "public/assets/io_enemy_guide_face.webp",
+    "sha256": "0c25968ed2fbf093b2b6cc0dfcd20d70b298f698b24635e520fe21fbb22bc7df"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/io_launcher_left.webp",
+    "file": "public/assets/io_launcher_left.webp",
+    "sha256": "c44ccfb6c7609d46b13a3c4af283a28c35df62182daaf2c0d04bea13b181fae0"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/io_launcher_right.webp",
+    "file": "public/assets/io_launcher_right.webp",
+    "sha256": "18f4e63ce82a5615f8fde463a5c768734755d932b231cee3a43c76a5160a4c00"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/io_north_luzon_fire_left.webp",
+    "file": "public/assets/io_north_luzon_fire_left.webp",
+    "sha256": "8b532f3f6484c0bff32be6eb10a350a4a4558d9f7633900d1f532b0189514268"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/io_north_luzon_peek_left.webp",
+    "file": "public/assets/io_north_luzon_peek_left.webp",
+    "sha256": "0946c69dbe16e42edc4cfdf75aedfb2bfe96f9ac24e5fa3467ff15e6b510cd93"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/io_peek_left.webp",
+    "file": "public/assets/io_peek_left.webp",
+    "sha256": "261d36ccdab55f4cb27ea9acf0347370157c0a42c78ad4f7e121e2c3ab2d789d"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/io_south_luzon_fire_left.webp",
+    "file": "public/assets/io_south_luzon_fire_left.webp",
+    "sha256": "e0e4d37706792ac7d74140ad7a1f2036de8b33cc13c570b7d044d32b808dd7de"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/io_south_luzon_peek_left.webp",
+    "file": "public/assets/io_south_luzon_peek_left.webp",
+    "sha256": "01dfdeb26d7fac3e5c509c82752426a70660faf188ae2342a488e26597aedd45"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/island_voyage_bantayan_arrival.webp",
+    "file": "public/assets/island_voyage_bantayan_arrival.webp",
+    "sha256": "68459820eddb26999fe70f1870099f7ad9166762fca8627b164cf4abdb616746"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/island_voyage_camiguin_arrival.webp",
+    "file": "public/assets/island_voyage_camiguin_arrival.webp",
+    "sha256": "d1221874f3242287feada3535771bf4f624e25991e8ff3d8b8c17a67a18c87ed"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/island_voyage_dinagat_arrival.webp",
+    "file": "public/assets/island_voyage_dinagat_arrival.webp",
+    "sha256": "9f32f0fb7ee03027419b5bceafb6e89c82908f62b624336276ba2bcede1069d1"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/island_voyage_home_card.webp",
+    "file": "public/assets/island_voyage_home_card.webp",
+    "sha256": "1900624e8c0bec5dcdeb458aeea961fd70f781cedbb05475bf47771785fb75be"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/island_voyage_malapascua_arrival.webp",
+    "file": "public/assets/island_voyage_malapascua_arrival.webp",
+    "sha256": "5ca41c024be808c5d56fa0cbf1efd5c1a46fde2b2de882782e97aff64cc4da7a"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/island_voyage_marinduque_arrival.webp",
+    "file": "public/assets/island_voyage_marinduque_arrival.webp",
+    "sha256": "8e8b28977a291848af3069b02f7d069234fe8cb5bf073c439e08985e43f189c4"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/island_voyage_puerto_galera_arrival.webp",
+    "file": "public/assets/island_voyage_puerto_galera_arrival.webp",
+    "sha256": "6c6f2483d466641a81561576127535c3dd3db3b1e447a9f497bffb5daf5d73d6"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/island_voyage_romblon_arrival.webp",
+    "file": "public/assets/island_voyage_romblon_arrival.webp",
+    "sha256": "3a403cbfb80f94a73a6c0c790784e480d265e60fb087218116536fdb336ce1f4"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/island_voyage_samal_arrival.webp",
+    "file": "public/assets/island_voyage_samal_arrival.webp",
+    "sha256": "80f7deb87df97f6aea4dc1bba6d58f1cf55ae0f363f782e81529929d90175590"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/island_voyage_siquijor_arrival.webp",
+    "file": "public/assets/island_voyage_siquijor_arrival.webp",
+    "sha256": "d9ebcf6b7622d67ce5d8ea9fdc925a8408a0ac6192d41385e49b66a22a46c8dc"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/loop_north_luzon_identity.webp",
+    "file": "public/assets/loop_north_luzon_identity.webp",
+    "sha256": "d3a9d829e49d6c619b4c07369dea5bcf80ecda2fb697cfb37fe7d406dc66b234"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/loop_south_luzon_identity.webp",
+    "file": "public/assets/loop_south_luzon_identity.webp",
+    "sha256": "076390ae3540c30cd1538d48739e02c7e05c5e4050c6c525b8fe6d329b6b8e3c"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/metro_big_bro_fly_ltr.webp",
+    "file": "public/assets/metro_big_bro_fly_ltr.webp",
+    "sha256": "8ce22cc4d16a771bac11c1dc071d9b9b47495816130572ab1301f74972fb0d80"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/metro_big_bro_fly_rtl.webp",
+    "file": "public/assets/metro_big_bro_fly_rtl.webp",
+    "sha256": "b095a111957366addfd671afb48b4a21a047d273ac4c11ec5c5244320ce559ec"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/metro_big_bro_left.webp",
+    "file": "public/assets/metro_big_bro_left.webp",
+    "sha256": "2a1d89fca0ce7d3269de5c712ae83388503977c2ff0bc43bb98ecac2c2a97753"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/metro_big_bro_right.webp",
+    "file": "public/assets/metro_big_bro_right.webp",
+    "sha256": "7871197202d0126afa094bab409922f225c1e14156ee86cb2d372d9655b4eb24"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/metro_city_album_background.webp",
+    "file": "public/assets/metro_city_album_background.webp",
+    "sha256": "4ae9e711b2c77b8278ae044989d160d07cb6f7afe1b6de672128d57f291b5881"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/obstacle_log.webp",
+    "file": "public/assets/obstacle_log.webp",
+    "sha256": "aec0e887e94526b5daf24ffbe4926075407690f366b762fe70e2a05b23f46d72"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/obstacle_puddle.webp",
+    "file": "public/assets/obstacle_puddle.webp",
+    "sha256": "ed986e9edc3d9baa2b01e142eaac930638bea10e7ab196b858c38ec597d139ea"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/obstacle_rock.webp",
+    "file": "public/assets/obstacle_rock.webp",
+    "sha256": "0d9872a0558f60ac2e4249ad021f7d3790de4bc2c0be47a2dbd4160a7ffe67e9"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/passport_cat_selfie.webp",
+    "file": "public/assets/passport_cat_selfie.webp",
+    "sha256": "b74c0c14dc0b96537b9699793441250ccafdaa705b688b3d9de4ee83ea1aa2fa"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/passport_cover.webp",
+    "file": "public/assets/passport_cover.webp",
+    "sha256": "81fb492d2e84bb9d42e4b29618f1e0cd6d1eca1cb6e7d4fc81bf8e5f98971e12"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/passport_emblem.webp",
+    "file": "public/assets/passport_emblem.webp",
+    "sha256": "de2dd079873f599701de7833fda7f8f130945d9e7624ed15cef99616cfd1e9a6"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/pickup_extra_life.webp",
+    "file": "public/assets/pickup_extra_life.webp",
+    "sha256": "55591632cda695cfb23434b345fb9e35e6006738d92923ce6487df88199f2066"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/powerup_buddy_instinct.webp",
+    "file": "public/assets/powerup_buddy_instinct.webp",
+    "sha256": "8e05cf09b20daed49de82bfa7e5e5419bf893a4c8f24bf3473b555f92e9ec931"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/powerup_buddy_rush.webp",
+    "file": "public/assets/powerup_buddy_rush.webp",
+    "sha256": "bb4ce0334ae05ca431b2c900d93301fe0c24ad13e178d481014d73eca88e1f96"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/powerup_forcefield.webp",
+    "file": "public/assets/powerup_forcefield.webp",
+    "sha256": "b453b27a78eb46ec312ff412c8e82f71e18438abc13fb5d78c761a1cd1dfa13d"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/powerup_lucky_star.webp",
+    "file": "public/assets/powerup_lucky_star.webp",
+    "sha256": "de4265245e228876d4e172f913a6026a1d45707ed1c77e6e1e77766fb2933fb2"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/powerup_paw_burst.webp",
+    "file": "public/assets/powerup_paw_burst.webp",
+    "sha256": "d42ae3eddb007b5526117f08de51eb3a8daf4a91239eccf01bfc1db656ef5498"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/powerup_paw_counter.webp",
+    "file": "public/assets/powerup_paw_counter.webp",
+    "sha256": "d860aceba278db1454c4c4bf57ac07e38bbf9b422b0a133ea6a36aad3b58edbd"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/powerup_treasure_magnet.webp",
+    "file": "public/assets/powerup_treasure_magnet.webp",
+    "sha256": "996706264a4fa1aa568467035c1bb32f2726e80f12015a281ed2ba817290a7af"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/region_international_travel.webp",
+    "file": "public/assets/region_international_travel.webp",
+    "sha256": "5e6365958975697f95618c7ea52d8af0872c269b03b5a87656e185a278421c19"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/region_local_ph_flag.webp",
+    "file": "public/assets/region_local_ph_flag.webp",
+    "sha256": "081acba93bc8f6169b0244a515f07f1dd2b2d90b78b6ce0730c7454e564f3ccf"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/shop_tab_companions.webp",
+    "file": "public/assets/shop_tab_companions.webp",
+    "sha256": "20a5d8f44edaf23c046c140037f966f1f67be160d709f041f701cd9238b1376f"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/shop_tab_powerups.webp",
+    "file": "public/assets/shop_tab_powerups.webp",
+    "sha256": "429f837fcaa9abda2da3e61f2d80491f5ab0a478678f09881a58c5add38b7097"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/skill_bear.png",
+    "file": "public/assets/skill_bear.png",
+    "sha256": "ad7890753227630800030e88ed0cf87de4d87ed2cefeee5a6039e2b254778d32"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/skill_bunny.png",
+    "file": "public/assets/skill_bunny.png",
+    "sha256": "5465a8cc2cfa5340f5e04cc2660349b1b139f11ae8eb96decb48cc7df0528406"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/skill_cat.png",
+    "file": "public/assets/skill_cat.png",
+    "sha256": "e433d07f77952e4b468ca7f14798027686f63733ef97602cc779ca1ab0f49637"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/skill_dog.png",
+    "file": "public/assets/skill_dog.png",
+    "sha256": "215ea6bff2246a34e257f2fa594c86cd8b90b14f7b5c75fd1f70a94d6bb6baf7"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/skill_monkey.png",
+    "file": "public/assets/skill_monkey.png",
+    "sha256": "36f38595e1c8e150b49bea12a0284a0914ea3818daea7945b6209ff6a9161f61"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/skill_owl.png",
+    "file": "public/assets/skill_owl.png",
+    "sha256": "33889150553b3dd612b09e9f6c2f089350b1b695aa2f94ef7cfc29f1ac06555e"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/skill_penguin.png",
+    "file": "public/assets/skill_penguin.png",
+    "sha256": "7aaa21cb347bc0a535e24949beb2c9f021a065ba441d82d166c59933d6ea76fa"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/skill_pig.png",
+    "file": "public/assets/skill_pig.png",
+    "sha256": "8a9f84aeb92d3c875576b8bc6becc67d14cc18b62e84c09cf802908f1421ebae"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/skill_rhino.png",
+    "file": "public/assets/skill_rhino.png",
+    "sha256": "89e3d1b1b15360a146142aebc057591942c55c7f0ae5058b7c69f0b8b12695ee"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/stamp_north_luzon.webp",
+    "file": "public/assets/stamp_north_luzon.webp",
+    "sha256": "725c3dfb4ae532fe73b3ba92c2bd9cc54effb8397dce06536b1a9b1b2a03aca1"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/stamp_south_luzon.webp",
+    "file": "public/assets/stamp_south_luzon.webp",
+    "sha256": "a08d0135d830869c0afb70ca69886a0745c061fe6ded673066ce3d637e66aa6a"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/travel_airplane.webp",
+    "file": "public/assets/travel_airplane.webp",
+    "sha256": "59a0729a268f5171ddf2d9736d72751e10eece89d3a5240c9b1dcad886cb3bc0"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/travel_jeepney.webp",
+    "file": "public/assets/travel_jeepney.webp",
+    "sha256": "c7159833ef03111604fa133d55d315baab368ca6e1f03b4fb1473e631ea15c09"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/travel_metro_rail.webp",
+    "file": "public/assets/travel_metro_rail.webp",
+    "sha256": "818c324c0d832204d1fb288ad9a6fb409d1e36294fafa60cc534efa8ff4823f6"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/travel_metro_train.webp",
+    "file": "public/assets/travel_metro_train.webp",
+    "sha256": "cf42056e35a0db681bf477c83535d1fd661445c8f6d5e12edfc84b29ddc7004e"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/travel_voyage_boat.webp",
+    "file": "public/assets/travel_voyage_boat.webp",
+    "sha256": "8d0f23685ba6fd63dbe68c67cd66a207c08d93999a23ef538c068e807a983dd2"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/troublemaker_china_golden_monkey.webp",
+    "file": "public/assets/troublemaker_china_golden_monkey.webp",
+    "sha256": "b9cac49a5cd0675793591a139fcc831a8b4436d050b5c7664901ab9db53f90b3"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/troublemaker_china_golden_monkey_peek.webp",
+    "file": "public/assets/troublemaker_china_golden_monkey_peek.webp",
+    "sha256": "43be64dd9f5adb1498f7c32fe203a8c00116a8d6b2604606917154765a48f118"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/troublemaker_china_red_panda.webp",
+    "file": "public/assets/troublemaker_china_red_panda.webp",
+    "sha256": "50e3ca5ec1247cd2fd72cdd8e74620d7e1565b18eba279ad7b6aa0bd96a62e1b"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/troublemaker_china_red_panda_peek.webp",
+    "file": "public/assets/troublemaker_china_red_panda_peek.webp",
+    "sha256": "ba4619feb0c1332915571b72f84c31a23588168e405e79ab78d75ba75ac3394e"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/troublemaker_rapid_aim.webp",
+    "file": "public/assets/troublemaker_rapid_aim.webp",
+    "sha256": "5fe3b49a71d9ab04d2bda5cc98ede313b8a0b4b8830e5519eb89964b2eef8dc3"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/troublemaker_rapid_bridge_fire.webp",
+    "file": "public/assets/troublemaker_rapid_bridge_fire.webp",
+    "sha256": "2ff70422ab5a5b4eec6e59adb35766be1fbb237e8a655062841ea6bebc4611f1"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/troublemaker_rapid_fire.webp",
+    "file": "public/assets/troublemaker_rapid_fire.webp",
+    "sha256": "dfafc2bbbcd9b401599d1cfa126ac7ed3feae2fcebd561c87143cbbd1ac4a327"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/troublemaker_rapid_followthrough.webp",
+    "file": "public/assets/troublemaker_rapid_followthrough.webp",
+    "sha256": "2eb47938b4a80021dc31e3a8fef4c85c0fde8e9583f7b22ab4820c11a97f8372"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/troublemaker_rapid_peek.webp",
+    "file": "public/assets/troublemaker_rapid_peek.webp",
+    "sha256": "bebce161fe10f836ce9e78d484b3b551f985a2052f9ae993c98b429071065409"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/troublemaker_rapid_portrait.png",
+    "file": "public/assets/troublemaker_rapid_portrait.png",
+    "sha256": "3e911a4984883efa026ca9efa9442184da368e1a1c102dce15535ea86650e51a"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/troublemaker_zigzag_aim.webp",
+    "file": "public/assets/troublemaker_zigzag_aim.webp",
+    "sha256": "fc2fd13e2e881a76424a3c5f965559091fbc37f355b2edfa37c6ed5f42f5848f"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/troublemaker_zigzag_fire.webp",
+    "file": "public/assets/troublemaker_zigzag_fire.webp",
+    "sha256": "2fa9e1b21a1d87b5212f1e7e3ff0da4e02bc55823caa5b87223fee877b8a3025"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/troublemaker_zigzag_followthrough.webp",
+    "file": "public/assets/troublemaker_zigzag_followthrough.webp",
+    "sha256": "d75c185896b9eb7efa0566c4724615fdcec8f52525d7eb3d810123c1347673b1"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/troublemaker_zigzag_level_bridge_fire.png",
+    "file": "public/assets/troublemaker_zigzag_level_bridge_fire.png",
+    "sha256": "ea80d6f2d12e9388563aa38dd552cc840a86d2e6c74663e6d317e823bca9e55c"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/troublemaker_zigzag_peek.webp",
+    "file": "public/assets/troublemaker_zigzag_peek.webp",
+    "sha256": "e21680c58a185d8b80662df3471e9bdd13855bbb5bab0db23c2e251a4dee9fcc"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/troublemaker_zigzag_portrait.png",
+    "file": "public/assets/troublemaker_zigzag_portrait.png",
+    "sha256": "3eb5d539a4faaedbd86ed81d85b978df599c91fce1d273e0052cf9a0edbd0d8d"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/ui_travel_note_clip.webp",
+    "file": "public/assets/ui_travel_note_clip.webp",
+    "sha256": "0b21ae1031b14039445787a75690931b5b6ba44d87d171a44fab90e37f12c312"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/voyage_buddy_lane_boat.webp",
+    "file": "public/assets/voyage_buddy_lane_boat.webp",
+    "sha256": "5240407e275609a1dd7a448ff26bbca01fbf107cf530e3713417721166f540e3"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/voyage_fox_boat.webp",
+    "file": "public/assets/voyage_fox_boat.webp",
+    "sha256": "38d494c17ced3368848bae0f0deafb3f24a907d0bcb4c5d62233952a5394728e"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/voyage_fox_fisherman_boat.webp",
+    "file": "public/assets/voyage_fox_fisherman_boat.webp",
+    "sha256": "b40dcf70e3225e1e144ea4107f7ca2d883a82d02da5d2933d3fdc38c40a36eeb"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/voyage_fox_husband.webp",
+    "file": "public/assets/voyage_fox_husband.webp",
+    "sha256": "7c39aca58cea831fa5aacc806373c58ed132c67f7697d1963010b980c6ddaa9c"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/voyage_fox_raider_boat.webp",
+    "file": "public/assets/voyage_fox_raider_boat.webp",
+    "sha256": "7c39aca58cea831fa5aacc806373c58ed132c67f7697d1963010b980c6ddaa9c"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/voyage_fox_wife_raider_boat.webp",
+    "file": "public/assets/voyage_fox_wife_raider_boat.webp",
+    "sha256": "8c26ad1e20414b24dab9b7ab9d7dbadf602c21d52b55eba87e728e4c055f1159"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/voyage_guide_anchor_emblem.webp",
+    "file": "public/assets/voyage_guide_anchor_emblem.webp",
+    "sha256": "53636674ae3b24c578894a05cc043592658781b4a3769daa6c17cba55cb1c099"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/voyage_guide_fox_fisherman_peek.webp",
+    "file": "public/assets/voyage_guide_fox_fisherman_peek.webp",
+    "sha256": "4a5fd666f3d4b779940a7b6942ca7796c344b16d78397a04ef62cbf02b796d08"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/voyage_guide_fox_husband_peek.webp",
+    "file": "public/assets/voyage_guide_fox_husband_peek.webp",
+    "sha256": "6defea5e2875077626e93d3e6ca4f1cf388cbf5909f2ba5d0d805d1981ef82b5"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/voyage_guide_fox_peek_left.webp",
+    "file": "public/assets/voyage_guide_fox_peek_left.webp",
+    "sha256": "15b927a892ea273679ee1404bce769290e7e00d21bda2e71227c6918ce06d695"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/voyage_guide_fox_peek_right.webp",
+    "file": "public/assets/voyage_guide_fox_peek_right.webp",
+    "sha256": "2529bb2bd11bc7f48fc26f42bc9fb56129314ddf44db4067c656ccd7cf29c1a5"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/voyage_hazard_fuel_canister.webp",
+    "file": "public/assets/voyage_hazard_fuel_canister.webp",
+    "sha256": "563c03a77a873d0ed708aa057298d8fbc545ebfc435a8173c6a5c10930d696e7"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/voyage_hazard_weighted_net.webp",
+    "file": "public/assets/voyage_hazard_weighted_net.webp",
+    "sha256": "7fa28a440fc27595f305458b5a10d294768355d765671e46a63cc89a6a5aca20"
+  },
+  {
+    "source": "res/drawable-nodpi-v4/voyage_player_boat.webp",
+    "file": "public/assets/voyage_player_boat.webp",
+    "sha256": "59cb4000f2989b9e4a6c00dbd1f386ccd92e9cea39c988380734857b823c8d35"
+  },
+  {
+    "source": "res/font/fredoka_variable.ttf",
+    "file": "public/assets/fredoka_variable.ttf",
+    "sha256": "2ba02e68b152868aef9ba28e24b3648c7d457fe6f25c761f2c2c53fb61a73fc8"
+  },
+  {
+    "source": "res/raw/international_adventure.json",
+    "file": "src/data/international_adventure.json",
+    "sha256": "38f40189cba75a4162e27d9e2efbb28173baa80809edd63fc0009eb6c8e33334"
+  },
+  {
+    "source": "res/raw/local_adventure.json",
+    "file": "src/data/local_adventure.json",
+    "sha256": "07e0149c306c0bf79d06eeeea584fbb10d532e2e7cee82aecf828386830e04cf"
+  },
+  {
+    "source": "res/raw/music_catch_dodge.ogg",
+    "file": "public/assets/music_catch_dodge.ogg",
+    "sha256": "4cf4ee38af8017ece401c8f27b4360bc68f67e6f1f0aac870e86e61e5126ae62"
+  },
+  {
+    "source": "res/raw/music_catch_dodge_hard.ogg",
+    "file": "public/assets/music_catch_dodge_hard.ogg",
+    "sha256": "1285e63a340fc571415ceee87290a023a91c4c1f4a34f2443bb76c21ab5bf5dc"
+  },
+  {
+    "source": "res/raw/music_local_international_adventure.ogg",
+    "file": "public/assets/music_local_international_adventure.ogg",
+    "sha256": "97a669cbdaa3f08481a03204375cbc54de6513221304f817f988cd56a1e7b9c2"
+  },
+  {
+    "source": "res/raw/music_main_menu.ogg",
+    "file": "public/assets/music_main_menu.ogg",
+    "sha256": "eafb58bad60e3843f88bc3f6b1a84c9639295a077ff4dcf766a7c86e23e3a45e"
+  },
+  {
+    "source": "res/raw/sfx_axe_exit.wav",
+    "file": "public/assets/sfx_axe_exit.wav",
+    "sha256": "539578b8c37141f798a677ebbea82a8defe72bb9c8ed87205c8e3222874f90db"
+  },
+  {
+    "source": "res/raw/sfx_axe_throw.wav",
+    "file": "public/assets/sfx_axe_throw.wav",
+    "sha256": "d094d3927a098b694266fd0f36bc1d5815091dde7a8baafafe74c2fabe37bad5"
+  },
+  {
+    "source": "res/raw/sfx_bomb_explosion.wav",
+    "file": "public/assets/sfx_bomb_explosion.wav",
+    "sha256": "b3aa19631ad03aa8ac259ff7eec63f964716befc094efc360d57ef8ddafaf3a5"
+  },
+  {
+    "source": "res/raw/sfx_bomb_falling.wav",
+    "file": "public/assets/sfx_bomb_falling.wav",
+    "sha256": "8af9a2f6051e66b729e4653fc20daeafafeb20f30bee77af5c0b278d7ec3b87c"
+  },
+  {
+    "source": "res/raw/sfx_buddy_hit.wav",
+    "file": "public/assets/sfx_buddy_hit.wav",
+    "sha256": "e2e0de4386e95d022baf1194b41c315c4eeabdb595a1a5659312b81236c8734d"
+  },
+  {
+    "source": "res/raw/sfx_collect_coin.wav",
+    "file": "public/assets/sfx_collect_coin.wav",
+    "sha256": "610832843b9f198bec45a3f4b90b4b4d49fde331ef666433522eeaa7f570c96a"
+  },
+  {
+    "source": "res/raw/sfx_collect_powerup.wav",
+    "file": "public/assets/sfx_collect_powerup.wav",
+    "sha256": "256a17f9d03c26fb1fc00a405b49d36e63603419d711b3563769784b85da411f"
+  },
+  {
+    "source": "res/raw/sfx_collect_signature.wav",
+    "file": "public/assets/sfx_collect_signature.wav",
+    "sha256": "c90d95a77e0dc62b97c17bd671163a13bb1b5a3818251dc9b68668e0b33faf7d"
+  },
+  {
+    "source": "res/raw/sfx_collect_star.wav",
+    "file": "public/assets/sfx_collect_star.wav",
+    "sha256": "131c550a6a688b418fbeaf6a3cba1f63a1a87771564057fca11a086c8809f39a"
+  },
+  {
+    "source": "res/raw/sfx_countdown_1.wav",
+    "file": "public/assets/sfx_countdown_1.wav",
+    "sha256": "a20b065abb8fc9cde211191a1b53de0cdd234a9edcf0e58d04a3072d634c18e3"
+  },
+  {
+    "source": "res/raw/sfx_countdown_go.wav",
+    "file": "public/assets/sfx_countdown_go.wav",
+    "sha256": "db0681c49971b8418f20f20acdfd0022623648b7298ef9da99defa9b8b022c23"
+  },
+  {
+    "source": "res/raw/sfx_hazard_missed.wav",
+    "file": "public/assets/sfx_hazard_missed.wav",
+    "sha256": "fd98f0c535d44364bc16681ec490ce6cf1e56c3d3584a355efef7592d4c373b5"
+  },
+  {
+    "source": "res/raw/sfx_heart_lost.wav",
+    "file": "public/assets/sfx_heart_lost.wav",
+    "sha256": "fdb9ca7cdafea687f2397778fc2a25aa266fe9acc68b84c8b219d3f7bd3f8ec3"
+  },
+  {
+    "source": "res/raw/sfx_invulnerability_flash.wav",
+    "file": "public/assets/sfx_invulnerability_flash.wav",
+    "sha256": "40933bc710365aaeff26e7b13a9a1864ea73f3406b2819d362e682968b400067"
+  },
+  {
+    "source": "res/raw/sfx_mission_complete.wav",
+    "file": "public/assets/sfx_mission_complete.wav",
+    "sha256": "630b42045a5f674624679faa364492cc548f84c2233a806ae28b31caf904cb0b"
+  },
+  {
+    "source": "res/raw/sfx_mission_failed.wav",
+    "file": "public/assets/sfx_mission_failed.wav",
+    "sha256": "af43889d3bf263b343c1be79ee8ed6a86cf808ae838270b3820b634c12b95174"
+  },
+  {
+    "source": "res/raw/sfx_rock_throw.wav",
+    "file": "public/assets/sfx_rock_throw.wav",
+    "sha256": "1a1143838eaac1949789c4e329b68b45027959b1f2147c20f1ab1fbee4cef09a"
+  }
+]
