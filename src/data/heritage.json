@@ -433,8 +433,8 @@
             "pg_unesco",
             "pg_weaving"
           ],
-          "status": "illustrated_livelihood_token",
-          "designNotes": "Symbolic everyday-life collectible; no objects removed from nature or community heritage."
+          "status": "illustrated_local_identity_token",
+          "designNotes": "Original illustrated app token inspired by local identity; a fictional keepsake rather than an object removed from nature or heritage."
         }
       ],
       "discoveries": [
@@ -549,7 +549,7 @@
         "note": "Draft editorial synthesis; factual basis is in linked discovery records."
       },
       "pickupName": "Nito basket token",
-      "pickupImage": "heritage_token_puerto_galera.svg",
+      "pickupImage": "municipal/puerto_galera_token.webp",
       "barangayCount": 13,
       "barangayCountAsOf": "31 July 2025"
     },
@@ -566,12 +566,12 @@
       },
       "collectibles": [
         {
-          "name": "Coconut-product parcel",
+          "name": "River-drop token",
           "basisSourceIDs": [
             "enterprise"
           ],
-          "status": "illustrated_livelihood_token",
-          "designNotes": "Symbolic everyday-life collectible; no objects removed from nature or community heritage."
+          "status": "illustrated_local_identity_token",
+          "designNotes": "Original illustrated app token inspired by local identity; a fictional keepsake rather than an object removed from nature or heritage."
         }
       ],
       "discoveries": [
@@ -684,8 +684,8 @@
         ],
         "note": "Draft editorial synthesis; factual basis is in linked discovery records."
       },
-      "pickupName": "Coconut-product parcel",
-      "pickupImage": "mindoro_item_coconut.webp",
+      "pickupName": "River-drop token",
+      "pickupImage": "municipal/san_teodoro_token.webp",
       "barangayCount": 8,
       "barangayCountAsOf": "31 July 2025"
     },
@@ -701,12 +701,12 @@
       },
       "collectibles": [
         {
-          "name": "Calamansi harvest crate",
+          "name": "Paco fern token",
           "basisSourceIDs": [
             "farm_report"
           ],
-          "status": "illustrated_livelihood_token",
-          "designNotes": "Symbolic everyday-life collectible; no objects removed from nature or community heritage."
+          "status": "illustrated_local_identity_token",
+          "designNotes": "Original illustrated app token inspired by local identity; a fictional keepsake rather than an object removed from nature or heritage."
         }
       ],
       "discoveries": [
@@ -820,8 +820,8 @@
         ],
         "note": "Draft editorial synthesis; factual basis is in linked discovery records."
       },
-      "pickupName": "Calamansi harvest crate",
-      "pickupImage": "heritage_token_socorro.svg",
+      "pickupName": "Paco fern token",
+      "pickupImage": "municipal/baco_token.webp",
       "barangayCount": 27,
       "barangayCountAsOf": "31 July 2025"
     },
@@ -837,13 +837,13 @@
       },
       "collectibles": [
         {
-          "name": "Calamansi harvest crate",
+          "name": "Trading-scale token",
           "basisSourceIDs": [
             "calapan",
             "farm_report"
           ],
-          "status": "illustrated_livelihood_token",
-          "designNotes": "Symbolic everyday-life collectible; no objects removed from nature or community heritage."
+          "status": "illustrated_local_identity_token",
+          "designNotes": "Original illustrated app token inspired by local identity; a fictional keepsake rather than an object removed from nature or heritage."
         }
       ],
       "discoveries": [
@@ -957,8 +957,8 @@
         ],
         "note": "Draft editorial synthesis; factual basis is in linked discovery records."
       },
-      "pickupName": "Calamansi harvest crate",
-      "pickupImage": "heritage_token_socorro.svg",
+      "pickupName": "Trading-scale token",
+      "pickupImage": "municipal/calapan_city_token.webp",
       "barangayCount": 62,
       "barangayCountAsOf": "31 July 2025"
     },
@@ -974,12 +974,12 @@
       },
       "collectibles": [
         {
-          "name": "Fish observation card",
+          "name": "Fish observation lens",
           "basisSourceIDs": [
             "lake_fisheries"
           ],
-          "status": "illustrated_livelihood_token",
-          "designNotes": "Symbolic everyday-life collectible; no objects removed from nature or community heritage."
+          "status": "illustrated_local_identity_token",
+          "designNotes": "Original illustrated app token inspired by local identity; a fictional keepsake rather than an object removed from nature or heritage."
         }
       ],
       "discoveries": [
@@ -1090,8 +1090,8 @@
         ],
         "note": "Draft editorial synthesis; factual basis is in linked discovery records."
       },
-      "pickupName": "Fish observation card",
-      "pickupImage": "heritage_token_naujan.svg",
+      "pickupName": "Fish observation lens",
+      "pickupImage": "municipal/naujan_token.webp",
       "barangayCount": 70,
       "barangayCountAsOf": "31 July 2025"
     },
@@ -1107,12 +1107,12 @@
       },
       "collectibles": [
         {
-          "name": "Rambutan and lanzones basket",
+          "name": "Rambutan token",
           "basisSourceIDs": [
             "victoria_up"
           ],
-          "status": "illustrated_livelihood_token",
-          "designNotes": "Symbolic everyday-life collectible; no objects removed from nature or community heritage."
+          "status": "illustrated_local_identity_token",
+          "designNotes": "Original illustrated app token inspired by local identity; a fictional keepsake rather than an object removed from nature or heritage."
         }
       ],
       "discoveries": [
@@ -1225,8 +1225,8 @@
         ],
         "note": "Draft editorial synthesis; factual basis is in linked discovery records."
       },
-      "pickupName": "Rambutan and lanzones basket",
-      "pickupImage": "mindoro_item_fruit_basket.webp",
+      "pickupName": "Rambutan token",
+      "pickupImage": "municipal/victoria_token.webp",
       "barangayCount": 32,
       "barangayCountAsOf": "31 July 2025"
     },
@@ -1242,12 +1242,12 @@
       },
       "collectibles": [
         {
-          "name": "Calamansi harvest crate",
+          "name": "Coffee-cherry token",
           "basisSourceIDs": [
             "ppdo_history"
           ],
-          "status": "illustrated_livelihood_token",
-          "designNotes": "Symbolic everyday-life collectible; no objects removed from nature or community heritage."
+          "status": "illustrated_local_identity_token",
+          "designNotes": "Original illustrated app token inspired by local identity; a fictional keepsake rather than an object removed from nature or heritage."
         }
       ],
       "discoveries": [
@@ -1359,8 +1359,8 @@
         ],
         "note": "Draft editorial synthesis; factual basis is in linked discovery records."
       },
-      "pickupName": "Calamansi harvest crate",
-      "pickupImage": "heritage_token_socorro.svg",
+      "pickupName": "Coffee-cherry token",
+      "pickupImage": "municipal/socorro_token.webp",
       "barangayCount": 26,
       "barangayCountAsOf": "31 July 2025"
     },
@@ -1376,12 +1376,12 @@
       },
       "collectibles": [
         {
-          "name": "Nipa-woven panel token",
+          "name": "Nipa-panel token",
           "basisSourceIDs": [
             "pola_history"
           ],
-          "status": "illustrated_livelihood_token",
-          "designNotes": "Symbolic everyday-life collectible; no objects removed from nature or community heritage."
+          "status": "illustrated_local_identity_token",
+          "designNotes": "Original illustrated app token inspired by local identity; a fictional keepsake rather than an object removed from nature or heritage."
         }
       ],
       "discoveries": [
@@ -1493,8 +1493,8 @@
         ],
         "note": "Draft editorial synthesis; factual basis is in linked discovery records."
       },
-      "pickupName": "Nipa-woven panel token",
-      "pickupImage": "heritage_token_pola.svg",
+      "pickupName": "Nipa-panel token",
+      "pickupImage": "municipal/pola_token.webp",
       "barangayCount": 23,
       "barangayCountAsOf": "31 July 2025"
     },
@@ -1511,12 +1511,12 @@
       },
       "collectibles": [
         {
-          "name": "Banana-chip parcel",
+          "name": "Rainbow-pot token",
           "basisSourceIDs": [
             "pin_facts"
           ],
-          "status": "illustrated_livelihood_token",
-          "designNotes": "Symbolic everyday-life collectible; no objects removed from nature or community heritage."
+          "status": "illustrated_local_identity_token",
+          "designNotes": "Original illustrated app token inspired by local identity; a fictional keepsake rather than an object removed from nature or heritage."
         }
       ],
       "discoveries": [
@@ -1632,8 +1632,8 @@
         ],
         "note": "Draft editorial synthesis; factual basis is in linked discovery records."
       },
-      "pickupName": "Banana-chip parcel",
-      "pickupImage": "heritage_token_pinamalayan.svg",
+      "pickupName": "Rainbow-pot token",
+      "pickupImage": "municipal/pinamalayan_token.webp",
       "barangayCount": 37,
       "barangayCountAsOf": "31 July 2025"
     },
@@ -1649,12 +1649,12 @@
       },
       "collectibles": [
         {
-          "name": "Banana-chip parcel",
+          "name": "Bamboo craft-box token",
           "basisSourceIDs": [
             "enterprise"
           ],
-          "status": "illustrated_livelihood_token",
-          "designNotes": "Symbolic everyday-life collectible; no objects removed from nature or community heritage."
+          "status": "illustrated_local_identity_token",
+          "designNotes": "Original illustrated app token inspired by local identity; a fictional keepsake rather than an object removed from nature or heritage."
         }
       ],
       "discoveries": [
@@ -1769,8 +1769,8 @@
         ],
         "note": "Draft editorial synthesis; factual basis is in linked discovery records."
       },
-      "pickupName": "Banana-chip parcel",
-      "pickupImage": "heritage_token_gloria.svg",
+      "pickupName": "Bamboo craft-box token",
+      "pickupImage": "municipal/gloria_token.webp",
       "barangayCount": 27,
       "barangayCountAsOf": "31 July 2025"
     },
@@ -1786,12 +1786,12 @@
       },
       "collectibles": [
         {
-          "name": "Banana market crate",
+          "name": "Banana-bunch token",
           "basisSourceIDs": [
             "bansud_agri"
           ],
-          "status": "illustrated_livelihood_token",
-          "designNotes": "Symbolic everyday-life collectible; no objects removed from nature or community heritage."
+          "status": "illustrated_local_identity_token",
+          "designNotes": "Original illustrated app token inspired by local identity; a fictional keepsake rather than an object removed from nature or heritage."
         }
       ],
       "discoveries": [
@@ -1902,8 +1902,8 @@
         ],
         "note": "Draft editorial synthesis; factual basis is in linked discovery records."
       },
-      "pickupName": "Banana market crate",
-      "pickupImage": "mindoro_item_banana.webp",
+      "pickupName": "Banana-bunch token",
+      "pickupImage": "municipal/bansud_token.webp",
       "barangayCount": 13,
       "barangayCountAsOf": "31 July 2025"
     },
@@ -1919,12 +1919,12 @@
       },
       "collectibles": [
         {
-          "name": "Coconut harvest parcel",
+          "name": "Coconut-work token",
           "basisSourceIDs": [
             "bong_history"
           ],
-          "status": "illustrated_livelihood_token",
-          "designNotes": "Symbolic everyday-life collectible; no objects removed from nature or community heritage."
+          "status": "illustrated_local_identity_token",
+          "designNotes": "Original illustrated app token inspired by local identity; a fictional keepsake rather than an object removed from nature or heritage."
         }
       ],
       "discoveries": [
@@ -2036,8 +2036,8 @@
         ],
         "note": "Draft editorial synthesis; factual basis is in linked discovery records."
       },
-      "pickupName": "Coconut harvest parcel",
-      "pickupImage": "mindoro_item_coconut.webp",
+      "pickupName": "Coconut-work token",
+      "pickupImage": "municipal/bongabong_token.webp",
       "barangayCount": 36,
       "barangayCountAsOf": "31 July 2025"
     },
@@ -2053,12 +2053,12 @@
       },
       "collectibles": [
         {
-          "name": "Calamansi harvest crate",
+          "name": "Rice-sheaf token",
           "basisSourceIDs": [
             "farm_report"
           ],
-          "status": "illustrated_livelihood_token",
-          "designNotes": "Symbolic everyday-life collectible; no objects removed from nature or community heritage."
+          "status": "illustrated_local_identity_token",
+          "designNotes": "Original illustrated app token inspired by local identity; a fictional keepsake rather than an object removed from nature or heritage."
         }
       ],
       "discoveries": [
@@ -2169,8 +2169,8 @@
         ],
         "note": "Draft editorial synthesis; factual basis is in linked discovery records."
       },
-      "pickupName": "Calamansi harvest crate",
-      "pickupImage": "heritage_token_socorro.svg",
+      "pickupName": "Rice-sheaf token",
+      "pickupImage": "municipal/roxas_token.webp",
       "barangayCount": 20,
       "barangayCountAsOf": "31 July 2025"
     },
@@ -2186,12 +2186,12 @@
       },
       "collectibles": [
         {
-          "name": "Literature discovery card",
+          "name": "Bamboo writing token",
           "basisSourceIDs": [
             "farm_report"
           ],
-          "status": "illustrated_livelihood_token",
-          "designNotes": "Symbolic everyday-life collectible; no objects removed from nature or community heritage."
+          "status": "illustrated_local_identity_token",
+          "designNotes": "Original illustrated app token inspired by local identity; a fictional keepsake rather than an object removed from nature or heritage."
         }
       ],
       "discoveries": [
@@ -2305,8 +2305,8 @@
         ],
         "note": "Draft editorial synthesis; factual basis is in linked discovery records."
       },
-      "pickupName": "Literature discovery card",
-      "pickupImage": "heritage_token_mansalay.svg",
+      "pickupName": "Bamboo writing token",
+      "pickupImage": "municipal/mansalay_token.webp",
       "barangayCount": 17,
       "barangayCountAsOf": "31 July 2025"
     },
@@ -2322,12 +2322,12 @@
       },
       "collectibles": [
         {
-          "name": "Seaweed-noodle parcel",
+          "name": "Seaweed-noodle token",
           "basisSourceIDs": [
             "enterprise"
           ],
-          "status": "illustrated_livelihood_token",
-          "designNotes": "Symbolic everyday-life collectible; no objects removed from nature or community heritage."
+          "status": "illustrated_local_identity_token",
+          "designNotes": "Original illustrated app token inspired by local identity; a fictional keepsake rather than an object removed from nature or heritage."
         }
       ],
       "discoveries": [
@@ -2441,8 +2441,8 @@
         ],
         "note": "Draft editorial synthesis; factual basis is in linked discovery records."
       },
-      "pickupName": "Seaweed-noodle parcel",
-      "pickupImage": "heritage_token_bulalacao.svg",
+      "pickupName": "Seaweed-noodle token",
+      "pickupImage": "municipal/bulalacao_token.webp",
       "barangayCount": 15,
       "barangayCountAsOf": "31 July 2025"
     }

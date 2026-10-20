@@ -4,8 +4,8 @@
     "name": "Calapan City",
     "group": "Oriental Mindoro",
     "image": "destination_oriental_mindoro_calapan_city.webp",
-    "signatureItemName": "Calamansi harvest crate",
-    "signatureImage": "heritage_token_socorro.svg",
+    "signatureItemName": "Trading-scale token",
+    "signatureImage": "municipal/calapan_city_token.webp",
     "levels": [
       {
         "id": "oriental_mindoro_calapan_city_level_1",
@@ -136,8 +136,8 @@
     "name": "Baco",
     "group": "Oriental Mindoro",
     "image": "destination_oriental_mindoro_baco.webp",
-    "signatureItemName": "Calamansi harvest crate",
-    "signatureImage": "heritage_token_socorro.svg",
+    "signatureItemName": "Paco fern token",
+    "signatureImage": "municipal/baco_token.webp",
     "levels": [
       {
         "id": "oriental_mindoro_baco_level_1",
@@ -266,8 +266,8 @@
     "name": "Bansud",
     "group": "Oriental Mindoro",
     "image": "destination_oriental_mindoro_bansud.webp",
-    "signatureItemName": "Banana market crate",
-    "signatureImage": "mindoro_item_banana.webp",
+    "signatureItemName": "Banana-bunch token",
+    "signatureImage": "municipal/bansud_token.webp",
     "levels": [
       {
         "id": "oriental_mindoro_bansud_level_1",
@@ -396,8 +396,8 @@
     "name": "Bongabong",
     "group": "Oriental Mindoro",
     "image": "destination_oriental_mindoro_bongabong.webp",
-    "signatureItemName": "Coconut harvest parcel",
-    "signatureImage": "mindoro_item_coconut.webp",
+    "signatureItemName": "Coconut-work token",
+    "signatureImage": "municipal/bongabong_token.webp",
     "levels": [
       {
         "id": "oriental_mindoro_bongabong_level_1",
@@ -526,8 +526,8 @@
     "name": "Bulalacao",
     "group": "Oriental Mindoro",
     "image": "destination_oriental_mindoro_bulalacao.webp",
-    "signatureItemName": "Seaweed-noodle parcel",
-    "signatureImage": "heritage_token_bulalacao.svg",
+    "signatureItemName": "Seaweed-noodle token",
+    "signatureImage": "municipal/bulalacao_token.webp",
     "levels": [
       {
         "id": "oriental_mindoro_bulalacao_level_1",
@@ -656,8 +656,8 @@
     "name": "Gloria",
     "group": "Oriental Mindoro",
     "image": "destination_oriental_mindoro_gloria.webp",
-    "signatureItemName": "Banana-chip parcel",
-    "signatureImage": "heritage_token_gloria.svg",
+    "signatureItemName": "Bamboo craft-box token",
+    "signatureImage": "municipal/gloria_token.webp",
     "levels": [
       {
         "id": "oriental_mindoro_gloria_level_1",
@@ -786,8 +786,8 @@
     "name": "Mansalay",
     "group": "Oriental Mindoro",
     "image": "destination_oriental_mindoro_mansalay.webp",
-    "signatureItemName": "Literature discovery card",
-    "signatureImage": "heritage_token_mansalay.svg",
+    "signatureItemName": "Bamboo writing token",
+    "signatureImage": "municipal/mansalay_token.webp",
     "levels": [
       {
         "id": "oriental_mindoro_mansalay_level_1",
@@ -916,8 +916,8 @@
     "name": "Naujan",
     "group": "Oriental Mindoro",
     "image": "destination_oriental_mindoro_naujan.webp",
-    "signatureItemName": "Fish observation card",
-    "signatureImage": "heritage_token_naujan.svg",
+    "signatureItemName": "Fish observation lens",
+    "signatureImage": "municipal/naujan_token.webp",
     "levels": [
       {
         "id": "oriental_mindoro_naujan_level_1",
@@ -1046,8 +1046,8 @@
     "name": "Pinamalayan",
     "group": "Oriental Mindoro",
     "image": "destination_oriental_mindoro_pinamalayan.webp",
-    "signatureItemName": "Banana-chip parcel",
-    "signatureImage": "heritage_token_pinamalayan.svg",
+    "signatureItemName": "Rainbow-pot token",
+    "signatureImage": "municipal/pinamalayan_token.webp",
     "levels": [
       {
         "id": "oriental_mindoro_pinamalayan_level_1",
@@ -1176,8 +1176,8 @@
     "name": "Pola",
     "group": "Oriental Mindoro",
     "image": "destination_oriental_mindoro_pola.webp",
-    "signatureItemName": "Nipa-woven panel token",
-    "signatureImage": "heritage_token_pola.svg",
+    "signatureItemName": "Nipa-panel token",
+    "signatureImage": "municipal/pola_token.webp",
     "levels": [
       {
         "id": "oriental_mindoro_pola_level_1",
@@ -1307,7 +1307,7 @@
     "group": "Oriental Mindoro",
     "image": "destination_oriental_mindoro_puerto_galera.webp",
     "signatureItemName": "Nito basket token",
-    "signatureImage": "heritage_token_puerto_galera.svg",
+    "signatureImage": "municipal/puerto_galera_token.webp",
     "levels": [
       {
         "id": "oriental_mindoro_puerto_galera_level_1",
@@ -1438,8 +1438,8 @@
     "name": "Roxas",
     "group": "Oriental Mindoro",
     "image": "destination_oriental_mindoro_roxas.webp",
-    "signatureItemName": "Calamansi harvest crate",
-    "signatureImage": "heritage_token_socorro.svg",
+    "signatureItemName": "Rice-sheaf token",
+    "signatureImage": "municipal/roxas_token.webp",
     "levels": [
       {
         "id": "oriental_mindoro_roxas_level_1",
@@ -1568,8 +1568,8 @@
     "name": "San Teodoro",
     "group": "Oriental Mindoro",
     "image": "destination_oriental_mindoro_san_teodoro.webp",
-    "signatureItemName": "Coconut-product parcel",
-    "signatureImage": "mindoro_item_coconut.webp",
+    "signatureItemName": "River-drop token",
+    "signatureImage": "municipal/san_teodoro_token.webp",
     "levels": [
       {
         "id": "oriental_mindoro_san_teodoro_level_1",
@@ -1698,8 +1698,8 @@
     "name": "Socorro",
     "group": "Oriental Mindoro",
     "image": "destination_oriental_mindoro_socorro.webp",
-    "signatureItemName": "Calamansi harvest crate",
-    "signatureImage": "heritage_token_socorro.svg",
+    "signatureItemName": "Coffee-cherry token",
+    "signatureImage": "municipal/socorro_token.webp",
     "levels": [
       {
         "id": "oriental_mindoro_socorro_level_1",
@@ -1828,8 +1828,8 @@
     "name": "Victoria",
     "group": "Oriental Mindoro",
     "image": "destination_oriental_mindoro_victoria.webp",
-    "signatureItemName": "Rambutan and lanzones basket",
-    "signatureImage": "mindoro_item_fruit_basket.webp",
+    "signatureItemName": "Rambutan token",
+    "signatureImage": "municipal/victoria_token.webp",
     "levels": [
       {
         "id": "oriental_mindoro_victoria_level_1",

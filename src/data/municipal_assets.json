@@ -1,0 +1,167 @@
+[
+  {
+    "destinationID": "oriental_mindoro_puerto_galera",
+    "name": "Puerto Galera",
+    "tokenName": "Nito basket token",
+    "spriteName": "Harbor lanternfish",
+    "palette": "deep indigo, sea turquoise and pale raffia",
+    "spriteType": "static_fictional_story_guide",
+    "tokenImage": "municipal/puerto_galera_token.webp",
+    "passportImage": "municipal/puerto_galera_passport.webp",
+    "spriteImage": "municipal/puerto_galera_sprite.webp"
+  },
+  {
+    "destinationID": "oriental_mindoro_san_teodoro",
+    "name": "San Teodoro",
+    "tokenName": "River-drop token",
+    "spriteName": "Cloud gardener",
+    "palette": "sky cyan, cool slate and white",
+    "spriteType": "static_fictional_story_guide",
+    "tokenImage": "municipal/san_teodoro_token.webp",
+    "passportImage": "municipal/san_teodoro_passport.webp",
+    "spriteImage": "municipal/san_teodoro_sprite.webp"
+  },
+  {
+    "destinationID": "oriental_mindoro_baco",
+    "name": "Baco",
+    "tokenName": "Paco fern token",
+    "spriteName": "Fern stone guardian",
+    "palette": "forest emerald, dark plum and copper",
+    "spriteType": "static_fictional_story_guide",
+    "tokenImage": "municipal/baco_token.webp",
+    "passportImage": "municipal/baco_passport.webp",
+    "spriteImage": "municipal/baco_sprite.webp"
+  },
+  {
+    "destinationID": "oriental_mindoro_calapan_city",
+    "name": "Calapan City",
+    "tokenName": "Trading-scale token",
+    "spriteName": "Parcel messenger",
+    "palette": "brick coral, warm cream and brass",
+    "spriteType": "static_fictional_story_guide",
+    "tokenImage": "municipal/calapan_city_token.webp",
+    "passportImage": "municipal/calapan_city_passport.webp",
+    "spriteImage": "municipal/calapan_city_sprite.webp"
+  },
+  {
+    "destinationID": "oriental_mindoro_naujan",
+    "name": "Naujan",
+    "tokenName": "Fish observation lens",
+    "spriteName": "Reed bird",
+    "palette": "lake cobalt, silver and reed green",
+    "spriteType": "static_fictional_story_guide",
+    "tokenImage": "municipal/naujan_token.webp",
+    "passportImage": "municipal/naujan_passport.webp",
+    "spriteImage": "municipal/naujan_sprite.webp"
+  },
+  {
+    "destinationID": "oriental_mindoro_victoria",
+    "name": "Victoria",
+    "tokenName": "Rambutan token",
+    "spriteName": "Orchard snail",
+    "palette": "rambutan crimson, leaf lime and honey",
+    "spriteType": "static_fictional_story_guide",
+    "tokenImage": "municipal/victoria_token.webp",
+    "passportImage": "municipal/victoria_passport.webp",
+    "spriteImage": "municipal/victoria_sprite.webp"
+  },
+  {
+    "destinationID": "oriental_mindoro_socorro",
+    "name": "Socorro",
+    "tokenName": "Coffee-cherry token",
+    "spriteName": "Coffee seedling",
+    "palette": "espresso brown, burnt orange and cream",
+    "spriteType": "static_fictional_story_guide",
+    "tokenImage": "municipal/socorro_token.webp",
+    "passportImage": "municipal/socorro_passport.webp",
+    "spriteImage": "municipal/socorro_sprite.webp"
+  },
+  {
+    "destinationID": "oriental_mindoro_pola",
+    "name": "Pola",
+    "tokenName": "Nipa-panel token",
+    "spriteName": "Folded-leaf crab",
+    "palette": "nipa olive, clay terracotta and sand",
+    "spriteType": "static_fictional_story_guide",
+    "tokenImage": "municipal/pola_token.webp",
+    "passportImage": "municipal/pola_passport.webp",
+    "spriteImage": "municipal/pola_sprite.webp"
+  },
+  {
+    "destinationID": "oriental_mindoro_pinamalayan",
+    "name": "Pinamalayan",
+    "tokenName": "Rainbow-pot token",
+    "spriteName": "Rainbow kite",
+    "palette": "rainbow jewel tones with violet and yellow dominant",
+    "spriteType": "static_fictional_story_guide",
+    "tokenImage": "municipal/pinamalayan_token.webp",
+    "passportImage": "municipal/pinamalayan_passport.webp",
+    "spriteImage": "municipal/pinamalayan_sprite.webp"
+  },
+  {
+    "destinationID": "oriental_mindoro_gloria",
+    "name": "Gloria",
+    "tokenName": "Bamboo craft-box token",
+    "spriteName": "Bamboo sprout dragon",
+    "palette": "bamboo jade, warm ivory and tangerine",
+    "spriteType": "static_fictional_story_guide",
+    "tokenImage": "municipal/gloria_token.webp",
+    "passportImage": "municipal/gloria_passport.webp",
+    "spriteImage": "municipal/gloria_sprite.webp"
+  },
+  {
+    "destinationID": "oriental_mindoro_bansud",
+    "name": "Bansud",
+    "tokenName": "Banana-bunch token",
+    "spriteName": "Banana blossom",
+    "palette": "banana gold, magenta and charcoal",
+    "spriteType": "static_fictional_story_guide",
+    "tokenImage": "municipal/bansud_token.webp",
+    "passportImage": "municipal/bansud_passport.webp",
+    "spriteImage": "municipal/bansud_sprite.webp"
+  },
+  {
+    "destinationID": "oriental_mindoro_bongabong",
+    "name": "Bongabong",
+    "tokenName": "Coconut-work token",
+    "spriteName": "Coconut drummer",
+    "palette": "coconut chestnut, mint and milk white",
+    "spriteType": "static_fictional_story_guide",
+    "tokenImage": "municipal/bongabong_token.webp",
+    "passportImage": "municipal/bongabong_passport.webp",
+    "spriteImage": "municipal/bongabong_sprite.webp"
+  },
+  {
+    "destinationID": "oriental_mindoro_roxas",
+    "name": "Roxas",
+    "tokenName": "Rice-sheaf token",
+    "spriteName": "Harvest cart",
+    "palette": "rice straw gold, navy and pale peach",
+    "spriteType": "static_fictional_story_guide",
+    "tokenImage": "municipal/roxas_token.webp",
+    "passportImage": "municipal/roxas_passport.webp",
+    "spriteImage": "municipal/roxas_sprite.webp"
+  },
+  {
+    "destinationID": "oriental_mindoro_mansalay",
+    "name": "Mansalay",
+    "tokenName": "Bamboo writing token",
+    "spriteName": "Bookwing moth",
+    "palette": "amethyst purple, muted teal and parchment",
+    "spriteType": "static_fictional_story_guide",
+    "tokenImage": "municipal/mansalay_token.webp",
+    "passportImage": "municipal/mansalay_passport.webp",
+    "spriteImage": "municipal/mansalay_sprite.webp"
+  },
+  {
+    "destinationID": "oriental_mindoro_bulalacao",
+    "name": "Bulalacao",
+    "tokenName": "Seaweed-noodle token",
+    "spriteName": "Seaweed seahorse",
+    "palette": "seafoam aqua, sunset peach and seaweed burgundy",
+    "spriteType": "static_fictional_story_guide",
+    "tokenImage": "municipal/bulalacao_token.webp",
+    "passportImage": "municipal/bulalacao_passport.webp",
+    "spriteImage": "municipal/bulalacao_sprite.webp"
+  }
+]
