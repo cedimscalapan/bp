@@ -7,7 +7,7 @@
       "destinationID": "oriental_mindoro_calapan_city",
       "name": "Calapan City",
       "group": "Oriental Mindoro",
-      "image": "destination_oriental_mindoro_calapan_city.svg",
+      "image": "destination_oriental_mindoro_calapan_city.webp",
       "signatureItemName": "Travel Keepsakes",
       "signatureImage": "collectible_star.webp",
       "levels": [
@@ -139,7 +139,7 @@
       "destinationID": "oriental_mindoro_baco",
       "name": "Baco",
       "group": "Oriental Mindoro",
-      "image": "destination_oriental_mindoro_baco.svg",
+      "image": "destination_oriental_mindoro_baco.webp",
       "signatureItemName": "Travel Keepsakes",
       "signatureImage": "collectible_star.webp",
       "levels": [
@@ -919,7 +919,7 @@
       "destinationID": "oriental_mindoro_naujan",
       "name": "Naujan",
       "group": "Oriental Mindoro",
-      "image": "destination_oriental_mindoro_naujan.svg",
+      "image": "destination_oriental_mindoro_naujan.webp",
       "signatureItemName": "Travel Keepsakes",
       "signatureImage": "collectible_star.webp",
       "levels": [
@@ -1309,7 +1309,7 @@
       "destinationID": "oriental_mindoro_puerto_galera",
       "name": "Puerto Galera",
       "group": "Oriental Mindoro",
-      "image": "destination_oriental_mindoro_puerto_galera.svg",
+      "image": "destination_oriental_mindoro_puerto_galera.webp",
       "signatureItemName": "Travel Keepsakes",
       "signatureImage": "collectible_star.webp",
       "levels": [
@@ -1571,7 +1571,7 @@
       "destinationID": "oriental_mindoro_san_teodoro",
       "name": "San Teodoro",
       "group": "Oriental Mindoro",
-      "image": "destination_oriental_mindoro_san_teodoro.svg",
+      "image": "destination_oriental_mindoro_san_teodoro.webp",
       "signatureItemName": "Travel Keepsakes",
       "signatureImage": "collectible_star.webp",
       "levels": [

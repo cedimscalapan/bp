@@ -1,0 +1,50 @@
+{
+  "mode": "Built-in imagegen; user-provided photo references; no festivals",
+  "assets": [
+    {
+      "id": "puerto_galera",
+      "name": "Puerto Galera",
+      "asset": "destination_oriental_mindoro_puerto_galera.webp",
+      "width": 960,
+      "height": 640,
+      "bytes": 139438,
+      "prompt": "Use case: style-transfer. Input image is the visual reference for Puerto Galera, Oriental Mindoro, for a BuddyPort mobile travel game background. Preserve the reference's curved pale-sand beach sweeping from the lower right into the middle distance, turquoise swimming bay, small colorful plain boats, palm-lined low beachfront buildings and forested headland. Reduce tiny people and visual clutter; no festivals. Reinterpret it as polished family-friendly 3D storybook environmental art with gently rounded forms, clean readable shapes, natural materials and inviting daylight. Keep the place recognizable from THIS reference, rather than substituting generic scenery. Create one landscape 3:2 image, NOT a sheet or collage. Center the recognizable feature so it remains visible in a narrower phone crop. Calm uncluttered lower foreground for gameplay. No words, lettering, captions, logos, watermarks, UI or borders. No festival decorations or added cultural symbols. Match the same refined illustrative style across this five-location set."
+    },
+    {
+      "id": "san_teodoro",
+      "name": "San Teodoro",
+      "asset": "destination_oriental_mindoro_san_teodoro.webp",
+      "width": 960,
+      "height": 640,
+      "bytes": 240244,
+      "prompt": "Use case: style-transfer. Input image is the visual reference for San Teodoro, Oriental Mindoro, for a BuddyPort mobile travel game background. Preserve the reference's LOW rocky waterfall and several small cascades across broad rounded gray boulders, shallow clear freshwater pools and dense rainforest canopy. Do not turn it into a tall waterfall. No watermark or corner badge. Reinterpret it as polished family-friendly 3D storybook environmental art with gently rounded forms, clean readable shapes, natural materials and inviting daylight. Keep the place recognizable from THIS reference, rather than substituting generic scenery. Create one landscape 3:2 image, NOT a sheet or collage. Center the recognizable feature so it remains visible in a narrower phone crop. Calm uncluttered lower foreground for gameplay. No words, lettering, captions, logos, watermarks, UI or borders. No festival decorations or added cultural symbols. Match the same refined illustrative style across this five-location set."
+    },
+    {
+      "id": "baco",
+      "name": "Baco",
+      "asset": "destination_oriental_mindoro_baco.webp",
+      "width": 960,
+      "height": 640,
+      "bytes": 154272,
+      "prompt": "Use case: style-transfer. Input image is the visual reference for Baco, Oriental Mindoro, for a BuddyPort mobile travel game background. Preserve the reference's broad forested Mount Halcon ridge profile with its long uneven summit line, deep green gullies, exposed light rock scars and grassy foreground. No snow, sharp fantasy pinnacles, buildings or ocean. Reinterpret it as polished family-friendly 3D storybook environmental art with gently rounded forms, clean readable shapes, natural materials and inviting daylight. Keep the place recognizable from THIS reference, rather than substituting generic scenery. Create one landscape 3:2 image, NOT a sheet or collage. Center the recognizable feature so it remains visible in a narrower phone crop. Calm uncluttered lower foreground for gameplay. No words, lettering, captions, logos, watermarks, UI or borders. No festival decorations or added cultural symbols. Match the same refined illustrative style across this five-location set."
+    },
+    {
+      "id": "calapan_city",
+      "name": "Calapan City",
+      "asset": "destination_oriental_mindoro_calapan_city.webp",
+      "width": 960,
+      "height": 640,
+      "bytes": 107102,
+      "prompt": "Use case: style-transfer. Input image is the visual reference for Calapan City, Oriental Mindoro, for a BuddyPort mobile travel game background. Preserve the reference cathedral's distinctive architecture: cream-white front, tall narrow rectangular bell tower on the LEFT with vertical dark window grille and a cross on top, triangular central roof, tall patterned facade panels and central religious statue. Keep these relative positions and proportions recognizable. Remove hanging decorative bulb strings, temporary signs, lettering and obstructions; no extra towers, domes or fantasy architecture. Peaceful ordinary daylight. Reinterpret it as polished family-friendly 3D storybook environmental art with gently rounded forms, clean readable shapes, natural materials and inviting daylight. Keep the place recognizable from THIS reference, rather than substituting generic scenery. Create one landscape 3:2 image, NOT a sheet or collage. Center the recognizable feature so it remains visible in a narrower phone crop. Calm uncluttered lower foreground for gameplay. No words, lettering, captions, logos, watermarks, UI or borders. No festival decorations or added cultural symbols. Match the same refined illustrative style across this five-location set."
+    },
+    {
+      "id": "naujan",
+      "name": "Naujan",
+      "asset": "destination_oriental_mindoro_naujan.webp",
+      "width": 960,
+      "height": 640,
+      "bytes": 124392,
+      "prompt": "Use case: style-transfer. Input image is the visual reference for Naujan, Oriental Mindoro, for a BuddyPort mobile travel game background. Preserve the reference's expansive blue-green freshwater lake, gently curving grassy and rocky shoreline entering from the RIGHT, low forested distant hills and lush green shore. Soft white clouds. No ocean coral, tropical resort buildings or invented islands. Reinterpret it as polished family-friendly 3D storybook environmental art with gently rounded forms, clean readable shapes, natural materials and inviting daylight. Keep the place recognizable from THIS reference, rather than substituting generic scenery. Create one landscape 3:2 image, NOT a sheet or collage. Center the recognizable feature so it remains visible in a narrower phone crop. Calm uncluttered lower foreground for gameplay. No words, lettering, captions, logos, watermarks, UI or borders. No festival decorations or added cultural symbols. Match the same refined illustrative style across this five-location set."
+    }
+  ]
+}

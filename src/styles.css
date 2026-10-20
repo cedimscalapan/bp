@@ -7,3 +7,4 @@
 @media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important;animation:none!important}}
 
 @media(max-width:450px){.welcome{background-image:none}.welcome h1{max-width:220px;font-size:32px}.hero-buddy{top:35px;width:120px;height:155px}}
+.destination-image img[src$="destination_oriental_mindoro_calapan_city.webp"],.detail-hero[src$="destination_oriental_mindoro_calapan_city.webp"]{object-fit:contain;background:#a9d9f4}
