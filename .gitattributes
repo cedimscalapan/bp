@@ -1,0 +1,11 @@
+* text=auto
+*.sh text eol=lf
+android/gradlew text eol=lf
+src/data/local_adventure.json -text
+src/data/international_adventure.json -text
+*.webp binary
+*.png binary
+*.ogg binary
+*.wav binary
+*.ttf binary
+*.jar binary
