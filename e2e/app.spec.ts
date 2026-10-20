@@ -13,6 +13,7 @@ test('onboarding, shop, missions, runner, pause and persistence',async({page})=>
  await page.getByRole('button',{name:/YOUR NEXT GREAT DISCOVERY/}).click();
  await page.getByRole('button',{name:/01 \/ Oriental Mindoro/}).click();
  await page.locator('.level-row').first().click();
+ await page.getByRole('button',{name:'Continue →',exact:true}).click();
  await page.getByRole('button',{name:'Start adventure',exact:true}).click();
  await page.keyboard.press('ArrowLeft');
  await page.getByRole('button',{name:'Ⅱ Pause'}).click();

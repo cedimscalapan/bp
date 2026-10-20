@@ -1,0 +1,6 @@
+import { IonModal, IonContent } from '@ionic/react';
+import { buddies, type Destination, type Level } from './model';
+export type Departure={destination:Destination;level:Level;endless:boolean};
+export default function BoardingPass({departure,buddy,onSelect,onClose,onContinue}:{departure:Departure|null;buddy:string;onSelect:(id:string)=>void;onClose:()=>void;onContinue:()=>void}){
+ return <IonModal isOpen={!!departure} onDidDismiss={onClose} className="boarding-modal"><IonContent>{departure&&<section className="boarding-ticket"><div className="boarding-title"><div><small>BUDDY BOARDING PASS</small><h1>Choose Your Buddy</h1><p>{departure.destination.name} · {departure.endless?'Endless adventure':departure.level.title}</p></div><button className="cream-close" aria-label="Close boarding pass" onClick={onClose}>×</button></div><div className="departure-buddies">{buddies.map(b=><button key={b.id} aria-pressed={buddy===b.id} onClick={()=>onSelect(b.id)}><img src={`/assets/buddy_${b.id}_front.webp`} alt=""/><h2>{b.name}</h2><span>{b.skill}</span>{buddy===b.id&&<b className="departure-check">✓</b>}</button>)}</div><div className="boarding-stub"><p>Travel with {buddies.find(b=>b.id===buddy)?.name}</p><button className="coral-action" onClick={onContinue}>Continue →</button></div></section>}</IonContent></IonModal>;
+}
