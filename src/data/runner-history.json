@@ -1,0 +1,2226 @@
+[
+  {
+    "id": "puerto_galera_discovery_6",
+    "placeID": "oriental_mindoro_puerto_galera",
+    "suggestedMission": 6,
+    "title": "Names and identity",
+    "category": "name_origins",
+    "text": "The current community briefings do not establish a verified name-origin account for Puerto Galera. The cited material instead documents its biosphere history, livelihoods, and Iraya-Mangyan weaving. A name translation alone would not establish who first inhabited the place.",
+    "sourceIDs": [
+      "pg_unesco",
+      "pg_weaving",
+      "pg_ayala"
+    ],
+    "evidenceStatus": "attributed_research_summary",
+    "question": "What does the current Puerto Galera briefing establish about the name’s origin?",
+    "options": [
+      "It does not establish a verified origin account",
+      "It establishes a single confirmed discoverer",
+      "It proves that the place was uninhabited before the date",
+      "It confirms every local account as historical fact"
+    ],
+    "answer": "It does not establish a verified origin account"
+  },
+  {
+    "id": "puerto_galera_discovery_7",
+    "placeID": "oriental_mindoro_puerto_galera",
+    "suggestedMission": 7,
+    "title": "Early communities and settlement",
+    "category": "settlement",
+    "text": "The cited community material records Iraya-Mangyan artisans and livelihoods connected to land and sea. It does not date the earliest habitation or identify one discoverer. Existing communities are not made newly discovered by an outsider’s arrival.",
+    "sourceIDs": [
+      "pg_unesco",
+      "pg_weaving",
+      "pg_ayala"
+    ],
+    "evidenceStatus": "attributed_research_summary",
+    "question": "Do these community records identify a single discoverer of Puerto Galera?",
+    "options": [
+      "No; they describe communities and livelihoods, not a sole discoverer",
+      "It establishes a single confirmed discoverer",
+      "It proves that the place was uninhabited before the date",
+      "It confirms every local account as historical fact"
+    ],
+    "answer": "No; they describe communities and livelihoods, not a sole discoverer"
+  },
+  {
+    "id": "puerto_galera_discovery_8",
+    "placeID": "oriental_mindoro_puerto_galera",
+    "suggestedMission": 8,
+    "title": "Events and their historical meaning",
+    "category": "historical_events",
+    "text": "Puerto Galera was nominated as a UNESCO biosphere reserve in 1977, a milestone in the history of its relationship with the surrounding landscape. Read this as the specific event or remembered account described, not an automatic first-settlement or discovery date.",
+    "sourceIDs": [
+      "pg_unesco"
+    ],
+    "evidenceStatus": "web_documented",
+    "question": "What does this historical record allow us to conclude?",
+    "answer": "Only the specific event or account it describes",
+    "options": [
+      "Only the specific event or account it describes",
+      "That nobody lived there before it",
+      "That every tradition began on that date",
+      "That one outsider discovered the place"
+    ]
+  },
+  {
+    "id": "puerto_galera_discovery_9",
+    "placeID": "oriental_mindoro_puerto_galera",
+    "suggestedMission": 9,
+    "title": "Community memory across generations",
+    "category": "community_memory",
+    "text": "Iraya-Mangyan artisans pass nito-weaving skills through families, making baskets, trays and other useful objects. This tradition belongs to its community of makers. Preserve the source’s distinction between a remembered story and a documented practice. Do not assign one community’s knowledge to all residents.",
+    "sourceIDs": [
+      "pg_weaving"
+    ],
+    "evidenceStatus": "web_documented",
+    "question": "How should this local memory or practice be described?",
+    "answer": "With its attribution and limits, without claiming it represents every resident",
+    "options": [
+      "With its attribution and limits, without claiming it represents every resident",
+      "As a practice shared identically by every resident",
+      "As proof of a single founder for the whole municipality",
+      "Without naming the community or source"
+    ]
+  },
+  {
+    "id": "puerto_galera_discovery_10",
+    "placeID": "oriental_mindoro_puerto_galera",
+    "suggestedMission": 10,
+    "title": "History in its regional context",
+    "category": "regional_history",
+    "text": "Puerto Galera belongs to a regional history with different kinds of milestones. The cited Act 3498 reestablishments took effect in 1929; Victoria’s formation is recorded in 1953; Socorro’s legal creation in 1963; and Calapan’s cityhood plebiscite in 1998. These events do not date the first habitation of each place. The dates are inherited citations awaiting fresh source verification.",
+    "sourceIDs": [
+      "act3498",
+      "victoria_history",
+      "socorro_law",
+      "calapan_history"
+    ],
+    "evidenceStatus": "attributed_research_summary",
+    "question": "Which event is latest among these cited regional milestones?",
+    "answer": "Calapan’s cityhood plebiscite in 1998",
+    "options": [
+      "Calapan’s cityhood plebiscite in 1998",
+      "The Act 3498 reestablishments in 1929",
+      "Victoria’s formation in 1953",
+      "Socorro’s creation in 1963"
+    ]
+  },
+  {
+    "id": "san_teodoro_discovery_6",
+    "placeID": "oriental_mindoro_san_teodoro",
+    "suggestedMission": 6,
+    "title": "Names and identity",
+    "category": "name_origins",
+    "text": "Subaan is recorded as an earlier name in the provincial history. The three-Theodores name explanation is an unverified lead, not an established origin. The earlier place name and a later naming explanation are different claims.",
+    "sourceIDs": [
+      "st_history",
+      "act3498",
+      "iraya_craft",
+      "ppdo_history"
+    ],
+    "evidenceStatus": "attributed_research_summary",
+    "question": "Which earlier name is recorded for San Teodoro?",
+    "options": [
+      "Subaan",
+      "It establishes a single confirmed discoverer",
+      "It proves that the place was uninhabited before the date",
+      "It confirms every local account as historical fact"
+    ],
+    "answer": "Subaan"
+  },
+  {
+    "id": "san_teodoro_discovery_7",
+    "placeID": "oriental_mindoro_san_teodoro",
+    "suggestedMission": 7,
+    "title": "Early communities and settlement",
+    "category": "settlement",
+    "text": "The history records Subaan as an earlier name and municipal reestablishment effective 1 January 1929. Reestablishment concerns administration; it does not mean people first settled there in 1929.",
+    "sourceIDs": [
+      "st_history",
+      "act3498",
+      "iraya_craft",
+      "ppdo_history"
+    ],
+    "evidenceStatus": "attributed_research_summary",
+    "question": "What does the 1929 reestablishment date describe?",
+    "options": [
+      "An administrative event, not the beginning of habitation",
+      "It establishes a single confirmed discoverer",
+      "It proves that the place was uninhabited before the date",
+      "It confirms every local account as historical fact"
+    ],
+    "answer": "An administrative event, not the beginning of habitation"
+  },
+  {
+    "id": "san_teodoro_discovery_8",
+    "placeID": "oriental_mindoro_san_teodoro",
+    "suggestedMission": 8,
+    "title": "Events and their historical meaning",
+    "category": "historical_events",
+    "text": "The provincial history records Subaan as an earlier name. Act 3498 reestablished San Teodoro separately from Baco, effective 1 January 1929. Read this as the specific event or remembered account described, not an automatic first-settlement or discovery date.",
+    "sourceIDs": [
+      "st_history",
+      "act3498"
+    ],
+    "evidenceStatus": "web_documented",
+    "question": "What does this historical record allow us to conclude?",
+    "answer": "Only the specific event or account it describes",
+    "options": [
+      "Only the specific event or account it describes",
+      "That nobody lived there before it",
+      "That every tradition began on that date",
+      "That one outsider discovered the place"
+    ]
+  },
+  {
+    "id": "san_teodoro_discovery_9",
+    "placeID": "oriental_mindoro_san_teodoro",
+    "suggestedMission": 9,
+    "title": "Community memory across generations",
+    "category": "community_memory",
+    "text": "Provincial records include Iraya communities in San Teodoro and describe nito weaving among Iraya crafts. Community makers carry their own skills and identities. Preserve the source’s distinction between a remembered story and a documented practice. Do not assign one community’s knowledge to all residents.",
+    "sourceIDs": [
+      "iraya_craft"
+    ],
+    "evidenceStatus": "web_documented",
+    "question": "How should this local memory or practice be described?",
+    "answer": "With its attribution and limits, without claiming it represents every resident",
+    "options": [
+      "With its attribution and limits, without claiming it represents every resident",
+      "As a practice shared identically by every resident",
+      "As proof of a single founder for the whole municipality",
+      "Without naming the community or source"
+    ]
+  },
+  {
+    "id": "san_teodoro_discovery_10",
+    "placeID": "oriental_mindoro_san_teodoro",
+    "suggestedMission": 10,
+    "title": "History in its regional context",
+    "category": "regional_history",
+    "text": "San Teodoro belongs to a regional history with different kinds of milestones. The cited Act 3498 reestablishments took effect in 1929; Victoria’s formation is recorded in 1953; Socorro’s legal creation in 1963; and Calapan’s cityhood plebiscite in 1998. These events do not date the first habitation of each place. The dates are inherited citations awaiting fresh source verification.",
+    "sourceIDs": [
+      "act3498",
+      "victoria_history",
+      "socorro_law",
+      "calapan_history"
+    ],
+    "evidenceStatus": "attributed_research_summary",
+    "question": "Which event is latest among these cited regional milestones?",
+    "answer": "Calapan’s cityhood plebiscite in 1998",
+    "options": [
+      "Calapan’s cityhood plebiscite in 1998",
+      "The Act 3498 reestablishments in 1929",
+      "Victoria’s formation in 1953",
+      "Socorro’s creation in 1963"
+    ]
+  },
+  {
+    "id": "baco_discovery_6",
+    "placeID": "oriental_mindoro_baco",
+    "suggestedMission": 6,
+    "title": "Names and identity",
+    "category": "name_origins",
+    "text": "One local name account connects Baco with paco, an edible fern. Other accounts exist. This is a remembered explanation, not proof of a single settled etymology.",
+    "sourceIDs": [
+      "act3498",
+      "baco_history",
+      "mhc_groups"
+    ],
+    "evidenceStatus": "attributed_research_summary",
+    "question": "How should the paco explanation of Baco’s name be presented?",
+    "options": [
+      "As one local account, not a proven sole origin",
+      "It establishes a single confirmed discoverer",
+      "It proves that the place was uninhabited before the date",
+      "It confirms every local account as historical fact"
+    ],
+    "answer": "As one local account, not a proven sole origin"
+  },
+  {
+    "id": "baco_discovery_7",
+    "placeID": "oriental_mindoro_baco",
+    "suggestedMission": 7,
+    "title": "Early communities and settlement",
+    "category": "settlement",
+    "text": "Act 3498 reestablished Baco and San Teodoro separately effective 1 January 1929. Earlier research also names Iraya and Alangan communities in Baco. The law does not establish the first arrival of people or erase those communities’ histories.",
+    "sourceIDs": [
+      "act3498",
+      "baco_history",
+      "mhc_groups"
+    ],
+    "evidenceStatus": "attributed_research_summary",
+    "question": "Does Act 3498 establish Baco’s first habitation?",
+    "options": [
+      "No; it records municipal reestablishment",
+      "It establishes a single confirmed discoverer",
+      "It proves that the place was uninhabited before the date",
+      "It confirms every local account as historical fact"
+    ],
+    "answer": "No; it records municipal reestablishment"
+  },
+  {
+    "id": "baco_discovery_8",
+    "placeID": "oriental_mindoro_baco",
+    "suggestedMission": 8,
+    "title": "Events and their historical meaning",
+    "category": "historical_events",
+    "text": "Act 3498 reestablished Baco and San Teodoro as separate municipal districts, effective 1 January 1929. Read this as the specific event or remembered account described, not an automatic first-settlement or discovery date.",
+    "sourceIDs": [
+      "act3498"
+    ],
+    "evidenceStatus": "web_documented",
+    "question": "What does this historical record allow us to conclude?",
+    "answer": "Only the specific event or account it describes",
+    "options": [
+      "Only the specific event or account it describes",
+      "That nobody lived there before it",
+      "That every tradition began on that date",
+      "That one outsider discovered the place"
+    ]
+  },
+  {
+    "id": "baco_discovery_9",
+    "placeID": "oriental_mindoro_baco",
+    "suggestedMission": 9,
+    "title": "Community memory across generations",
+    "category": "community_memory",
+    "text": "One local place-name account connects Baco with paco, an edible fern. Other accounts also exist; this is an oral account, not a settled origin. Preserve the source’s distinction between a remembered story and a documented practice. Do not assign one community’s knowledge to all residents.",
+    "sourceIDs": [
+      "baco_history"
+    ],
+    "evidenceStatus": "oral_account",
+    "question": "How should this local memory or practice be described?",
+    "answer": "With its attribution and limits, without claiming it represents every resident",
+    "options": [
+      "With its attribution and limits, without claiming it represents every resident",
+      "As a practice shared identically by every resident",
+      "As proof of a single founder for the whole municipality",
+      "Without naming the community or source"
+    ]
+  },
+  {
+    "id": "baco_discovery_10",
+    "placeID": "oriental_mindoro_baco",
+    "suggestedMission": 10,
+    "title": "History in its regional context",
+    "category": "regional_history",
+    "text": "Baco belongs to a regional history with different kinds of milestones. The cited Act 3498 reestablishments took effect in 1929; Victoria’s formation is recorded in 1953; Socorro’s legal creation in 1963; and Calapan’s cityhood plebiscite in 1998. These events do not date the first habitation of each place. The dates are inherited citations awaiting fresh source verification.",
+    "sourceIDs": [
+      "act3498",
+      "victoria_history",
+      "socorro_law",
+      "calapan_history"
+    ],
+    "evidenceStatus": "attributed_research_summary",
+    "question": "Which event is latest among these cited regional milestones?",
+    "answer": "Calapan’s cityhood plebiscite in 1998",
+    "options": [
+      "Calapan’s cityhood plebiscite in 1998",
+      "The Act 3498 reestablishments in 1929",
+      "Victoria’s formation in 1953",
+      "Socorro’s creation in 1963"
+    ]
+  },
+  {
+    "id": "calapan_city_discovery_6",
+    "placeID": "oriental_mindoro_calapan_city",
+    "suggestedMission": 6,
+    "title": "Names and identity",
+    "category": "name_origins",
+    "text": "The inherited records describe Calapan’s cityhood and role as provincial capital, but do not establish a verified etymology in this briefing. A cityhood date must not be substituted for a name-origin or first-settlement date.",
+    "sourceIDs": [
+      "calapan_history",
+      "calapan_food",
+      "ppdo_history"
+    ],
+    "evidenceStatus": "attributed_research_summary",
+    "question": "Does the cityhood date by itself explain Calapan’s name?",
+    "options": [
+      "No; cityhood and a name’s origin are different questions",
+      "It establishes a single confirmed discoverer",
+      "It proves that the place was uninhabited before the date",
+      "It confirms every local account as historical fact"
+    ],
+    "answer": "No; cityhood and a name’s origin are different questions"
+  },
+  {
+    "id": "calapan_city_discovery_7",
+    "placeID": "oriental_mindoro_calapan_city",
+    "suggestedMission": 7,
+    "title": "Early communities and settlement",
+    "category": "settlement",
+    "text": "Calapan’s 21 March 1998 cityhood plebiscite concerns city status. Its community history did not begin with cityhood. Earlier capital-transfer dates conflict in the research notes, so no first-settlement or transfer date is invented here.",
+    "sourceIDs": [
+      "calapan_history",
+      "calapan_food",
+      "ppdo_history"
+    ],
+    "evidenceStatus": "attributed_research_summary",
+    "question": "Did Calapan’s community history begin at cityhood in 1998?",
+    "options": [
+      "No; cityhood is a change of status, not the beginning of community life",
+      "It establishes a single confirmed discoverer",
+      "It proves that the place was uninhabited before the date",
+      "It confirms every local account as historical fact"
+    ],
+    "answer": "No; cityhood is a change of status, not the beginning of community life"
+  },
+  {
+    "id": "calapan_city_discovery_8",
+    "placeID": "oriental_mindoro_calapan_city",
+    "suggestedMission": 8,
+    "title": "Events and their historical meaning",
+    "category": "historical_events",
+    "text": "Calapan became a city following the plebiscite of 21 March 1998. It is Oriental Mindoro's provincial capital. Read this as the specific event or remembered account described, not an automatic first-settlement or discovery date.",
+    "sourceIDs": [
+      "calapan_history"
+    ],
+    "evidenceStatus": "web_documented",
+    "question": "What does this historical record allow us to conclude?",
+    "answer": "Only the specific event or account it describes",
+    "options": [
+      "Only the specific event or account it describes",
+      "That nobody lived there before it",
+      "That every tradition began on that date",
+      "That one outsider discovered the place"
+    ]
+  },
+  {
+    "id": "calapan_city_discovery_9",
+    "placeID": "oriental_mindoro_calapan_city",
+    "suggestedMission": 9,
+    "title": "Community memory across generations",
+    "category": "community_memory",
+    "text": "Local food-making and sharing are part of Calapan's cultural life. The city government highlights local delicacies as expressions of community identity. Preserve the source’s distinction between a remembered story and a documented practice. Do not assign one community’s knowledge to all residents.",
+    "sourceIDs": [
+      "calapan_food"
+    ],
+    "evidenceStatus": "web_documented",
+    "question": "How should this local memory or practice be described?",
+    "answer": "With its attribution and limits, without claiming it represents every resident",
+    "options": [
+      "With its attribution and limits, without claiming it represents every resident",
+      "As a practice shared identically by every resident",
+      "As proof of a single founder for the whole municipality",
+      "Without naming the community or source"
+    ]
+  },
+  {
+    "id": "calapan_city_discovery_10",
+    "placeID": "oriental_mindoro_calapan_city",
+    "suggestedMission": 10,
+    "title": "History in its regional context",
+    "category": "regional_history",
+    "text": "Calapan City belongs to a regional history with different kinds of milestones. The cited Act 3498 reestablishments took effect in 1929; Victoria’s formation is recorded in 1953; Socorro’s legal creation in 1963; and Calapan’s cityhood plebiscite in 1998. These events do not date the first habitation of each place. The dates are inherited citations awaiting fresh source verification.",
+    "sourceIDs": [
+      "act3498",
+      "victoria_history",
+      "socorro_law",
+      "calapan_history"
+    ],
+    "evidenceStatus": "attributed_research_summary",
+    "question": "Which event is latest among these cited regional milestones?",
+    "answer": "Calapan’s cityhood plebiscite in 1998",
+    "options": [
+      "Calapan’s cityhood plebiscite in 1998",
+      "The Act 3498 reestablishments in 1929",
+      "Victoria’s formation in 1953",
+      "Socorro’s creation in 1963"
+    ]
+  },
+  {
+    "id": "naujan_discovery_6",
+    "placeID": "oriental_mindoro_naujan",
+    "suggestedMission": 6,
+    "title": "Names and identity",
+    "category": "name_origins",
+    "text": "The town history preserves a thirst-related explanation of Naujan’s name as a legend. It is a recorded community story rather than a confirmed account of how the name began.",
+    "sourceIDs": [
+      "naujan_history"
+    ],
+    "evidenceStatus": "attributed_research_summary",
+    "question": "What kind of account is the thirst-related Naujan name story?",
+    "options": [
+      "A recorded local legend",
+      "It establishes a single confirmed discoverer",
+      "It proves that the place was uninhabited before the date",
+      "It confirms every local account as historical fact"
+    ],
+    "answer": "A recorded local legend"
+  },
+  {
+    "id": "naujan_discovery_7",
+    "placeID": "oriental_mindoro_naujan",
+    "suggestedMission": 7,
+    "title": "Early communities and settlement",
+    "category": "settlement",
+    "text": "The inherited material does not establish Naujan’s earliest settlement date. Earlier notes warn that a claim about imported pottery cannot by itself identify the ethnicity of residents. Objects may travel through trade; archaeological context and specialist evidence are needed.",
+    "sourceIDs": [
+      "naujan_history"
+    ],
+    "evidenceStatus": "attributed_research_summary",
+    "question": "Can the style of an imported object alone identify all early residents?",
+    "options": [
+      "No; context and further evidence are needed",
+      "It establishes a single confirmed discoverer",
+      "It proves that the place was uninhabited before the date",
+      "It confirms every local account as historical fact"
+    ],
+    "answer": "No; context and further evidence are needed"
+  },
+  {
+    "id": "naujan_discovery_8",
+    "placeID": "oriental_mindoro_naujan",
+    "suggestedMission": 8,
+    "title": "Events and their historical meaning",
+    "category": "historical_events",
+    "text": "A local legend connects Naujan's name with thirst. It is an origin story recorded in the town history, rather than a confirmed account of how the name began. Read this as the specific event or remembered account described, not an automatic first-settlement or discovery date.",
+    "sourceIDs": [
+      "naujan_history"
+    ],
+    "evidenceStatus": "oral_account",
+    "question": "What does this historical record allow us to conclude?",
+    "answer": "Only the specific event or account it describes",
+    "options": [
+      "Only the specific event or account it describes",
+      "That nobody lived there before it",
+      "That every tradition began on that date",
+      "That one outsider discovered the place"
+    ]
+  },
+  {
+    "id": "naujan_discovery_9",
+    "placeID": "oriental_mindoro_naujan",
+    "suggestedMission": 9,
+    "title": "Community memory across generations",
+    "category": "community_memory",
+    "text": "The provincial history records religious life and places of worship in Naujan's past. Such accounts describe parts of local community life, without representing every resident's beliefs. Preserve the source’s distinction between a remembered story and a documented practice. Do not assign one community’s knowledge to all residents.",
+    "sourceIDs": [
+      "naujan_history"
+    ],
+    "evidenceStatus": "web_documented",
+    "question": "How should this local memory or practice be described?",
+    "answer": "With its attribution and limits, without claiming it represents every resident",
+    "options": [
+      "With its attribution and limits, without claiming it represents every resident",
+      "As a practice shared identically by every resident",
+      "As proof of a single founder for the whole municipality",
+      "Without naming the community or source"
+    ]
+  },
+  {
+    "id": "naujan_discovery_10",
+    "placeID": "oriental_mindoro_naujan",
+    "suggestedMission": 10,
+    "title": "History in its regional context",
+    "category": "regional_history",
+    "text": "Naujan belongs to a regional history with different kinds of milestones. The cited Act 3498 reestablishments took effect in 1929; Victoria’s formation is recorded in 1953; Socorro’s legal creation in 1963; and Calapan’s cityhood plebiscite in 1998. These events do not date the first habitation of each place. The dates are inherited citations awaiting fresh source verification.",
+    "sourceIDs": [
+      "act3498",
+      "victoria_history",
+      "socorro_law",
+      "calapan_history"
+    ],
+    "evidenceStatus": "attributed_research_summary",
+    "question": "Which event is latest among these cited regional milestones?",
+    "answer": "Calapan’s cityhood plebiscite in 1998",
+    "options": [
+      "Calapan’s cityhood plebiscite in 1998",
+      "The Act 3498 reestablishments in 1929",
+      "Victoria’s formation in 1953",
+      "Socorro’s creation in 1963"
+    ]
+  },
+  {
+    "id": "victoria_discovery_6",
+    "placeID": "oriental_mindoro_victoria",
+    "suggestedMission": 6,
+    "title": "Names and identity",
+    "category": "name_origins",
+    "text": "A local account links the earlier name Borbocolon with gushing water. The account preserves community memory; it is not treated as a conclusively established historical etymology.",
+    "sourceIDs": [
+      "victoria_history",
+      "victoria_up"
+    ],
+    "evidenceStatus": "attributed_research_summary",
+    "question": "What does the Borbocolon name account refer to?",
+    "options": [
+      "Gushing water",
+      "It establishes a single confirmed discoverer",
+      "It proves that the place was uninhabited before the date",
+      "It confirms every local account as historical fact"
+    ],
+    "answer": "Gushing water"
+  },
+  {
+    "id": "victoria_discovery_7",
+    "placeID": "oriental_mindoro_victoria",
+    "suggestedMission": 7,
+    "title": "Early communities and settlement",
+    "category": "settlement",
+    "text": "Victoria was formed from territory formerly belonging to Naujan in 1953, according to the municipal history. This records a jurisdictional change; it does not establish that the territory was previously uninhabited.",
+    "sourceIDs": [
+      "victoria_history",
+      "victoria_up"
+    ],
+    "evidenceStatus": "attributed_research_summary",
+    "question": "Which earlier jurisdiction is linked to Victoria’s formation?",
+    "options": [
+      "Naujan",
+      "It establishes a single confirmed discoverer",
+      "It proves that the place was uninhabited before the date",
+      "It confirms every local account as historical fact"
+    ],
+    "answer": "Naujan"
+  },
+  {
+    "id": "victoria_discovery_8",
+    "placeID": "oriental_mindoro_victoria",
+    "suggestedMission": 8,
+    "title": "Events and their historical meaning",
+    "category": "historical_events",
+    "text": "Victoria was formed from territory previously belonging to Naujan in 1953, according to the compiled municipal history. Read this as the specific event or remembered account described, not an automatic first-settlement or discovery date.",
+    "sourceIDs": [
+      "victoria_history"
+    ],
+    "evidenceStatus": "web_documented",
+    "question": "What does this historical record allow us to conclude?",
+    "answer": "Only the specific event or account it describes",
+    "options": [
+      "Only the specific event or account it describes",
+      "That nobody lived there before it",
+      "That every tradition began on that date",
+      "That one outsider discovered the place"
+    ]
+  },
+  {
+    "id": "victoria_discovery_9",
+    "placeID": "oriental_mindoro_victoria",
+    "suggestedMission": 9,
+    "title": "Community memory across generations",
+    "category": "community_memory",
+    "text": "A local account connects the earlier name Borbocolon with gushing water. Place-name stories preserve community memory, even when they are not established historical facts. Preserve the source’s distinction between a remembered story and a documented practice. Do not assign one community’s knowledge to all residents.",
+    "sourceIDs": [
+      "victoria_history"
+    ],
+    "evidenceStatus": "oral_account",
+    "question": "How should this local memory or practice be described?",
+    "answer": "With its attribution and limits, without claiming it represents every resident",
+    "options": [
+      "With its attribution and limits, without claiming it represents every resident",
+      "As a practice shared identically by every resident",
+      "As proof of a single founder for the whole municipality",
+      "Without naming the community or source"
+    ]
+  },
+  {
+    "id": "victoria_discovery_10",
+    "placeID": "oriental_mindoro_victoria",
+    "suggestedMission": 10,
+    "title": "History in its regional context",
+    "category": "regional_history",
+    "text": "Victoria belongs to a regional history with different kinds of milestones. The cited Act 3498 reestablishments took effect in 1929; Victoria’s formation is recorded in 1953; Socorro’s legal creation in 1963; and Calapan’s cityhood plebiscite in 1998. These events do not date the first habitation of each place. The dates are inherited citations awaiting fresh source verification.",
+    "sourceIDs": [
+      "act3498",
+      "victoria_history",
+      "socorro_law",
+      "calapan_history"
+    ],
+    "evidenceStatus": "attributed_research_summary",
+    "question": "Which event is latest among these cited regional milestones?",
+    "answer": "Calapan’s cityhood plebiscite in 1998",
+    "options": [
+      "Calapan’s cityhood plebiscite in 1998",
+      "The Act 3498 reestablishments in 1929",
+      "Victoria’s formation in 1953",
+      "Socorro’s creation in 1963"
+    ]
+  },
+  {
+    "id": "socorro_discovery_6",
+    "placeID": "oriental_mindoro_socorro",
+    "suggestedMission": 6,
+    "title": "Names and identity",
+    "category": "name_origins",
+    "text": "The municipal account links an earlier settlement with Catiningan and preserves a naming story about Socorro. The naming narrative and the legal creation of the municipality are distinct parts of its history.",
+    "sourceIDs": [
+      "socorro_law",
+      "socorro_lgu",
+      "ppdo_history"
+    ],
+    "evidenceStatus": "attributed_research_summary",
+    "question": "Which earlier settlement is linked to Socorro’s local account?",
+    "options": [
+      "Catiningan",
+      "It establishes a single confirmed discoverer",
+      "It proves that the place was uninhabited before the date",
+      "It confirms every local account as historical fact"
+    ],
+    "answer": "Catiningan"
+  },
+  {
+    "id": "socorro_discovery_7",
+    "placeID": "oriental_mindoro_socorro",
+    "suggestedMission": 7,
+    "title": "Early communities and settlement",
+    "category": "settlement",
+    "text": "Republic Act 3609 created Socorro from territory formerly belonging to Pola in 1963, according to the inherited legal citation. Catiningan appears in the local account. Creation of a municipality does not date the first habitation of its territory.",
+    "sourceIDs": [
+      "socorro_law",
+      "socorro_lgu",
+      "ppdo_history"
+    ],
+    "evidenceStatus": "attributed_research_summary",
+    "question": "From which municipality was Socorro’s territory separated?",
+    "options": [
+      "Pola",
+      "It establishes a single confirmed discoverer",
+      "It proves that the place was uninhabited before the date",
+      "It confirms every local account as historical fact"
+    ],
+    "answer": "Pola"
+  },
+  {
+    "id": "socorro_discovery_8",
+    "placeID": "oriental_mindoro_socorro",
+    "suggestedMission": 8,
+    "title": "Events and their historical meaning",
+    "category": "historical_events",
+    "text": "Republic Act 3609, approved on 22 June 1963, created Socorro from territory formerly belonging to Pola. Read this as the specific event or remembered account described, not an automatic first-settlement or discovery date.",
+    "sourceIDs": [
+      "socorro_law"
+    ],
+    "evidenceStatus": "web_documented",
+    "question": "What does this historical record allow us to conclude?",
+    "answer": "Only the specific event or account it describes",
+    "options": [
+      "Only the specific event or account it describes",
+      "That nobody lived there before it",
+      "That every tradition began on that date",
+      "That one outsider discovered the place"
+    ]
+  },
+  {
+    "id": "socorro_discovery_9",
+    "placeID": "oriental_mindoro_socorro",
+    "suggestedMission": 9,
+    "title": "Community memory across generations",
+    "category": "community_memory",
+    "text": "The municipal account links the earlier settlement with Catiningan and explains the name Socorro through a local naming story. Treat such accounts as remembered community narratives. Preserve the source’s distinction between a remembered story and a documented practice. Do not assign one community’s knowledge to all residents.",
+    "sourceIDs": [
+      "socorro_lgu"
+    ],
+    "evidenceStatus": "oral_account",
+    "question": "How should this local memory or practice be described?",
+    "answer": "With its attribution and limits, without claiming it represents every resident",
+    "options": [
+      "With its attribution and limits, without claiming it represents every resident",
+      "As a practice shared identically by every resident",
+      "As proof of a single founder for the whole municipality",
+      "Without naming the community or source"
+    ]
+  },
+  {
+    "id": "socorro_discovery_10",
+    "placeID": "oriental_mindoro_socorro",
+    "suggestedMission": 10,
+    "title": "History in its regional context",
+    "category": "regional_history",
+    "text": "Socorro belongs to a regional history with different kinds of milestones. The cited Act 3498 reestablishments took effect in 1929; Victoria’s formation is recorded in 1953; Socorro’s legal creation in 1963; and Calapan’s cityhood plebiscite in 1998. These events do not date the first habitation of each place. The dates are inherited citations awaiting fresh source verification.",
+    "sourceIDs": [
+      "act3498",
+      "victoria_history",
+      "socorro_law",
+      "calapan_history"
+    ],
+    "evidenceStatus": "attributed_research_summary",
+    "question": "Which event is latest among these cited regional milestones?",
+    "answer": "Calapan’s cityhood plebiscite in 1998",
+    "options": [
+      "Calapan’s cityhood plebiscite in 1998",
+      "The Act 3498 reestablishments in 1929",
+      "Victoria’s formation in 1953",
+      "Socorro’s creation in 1963"
+    ]
+  },
+  {
+    "id": "pola_discovery_6",
+    "placeID": "oriental_mindoro_pola",
+    "suggestedMission": 6,
+    "title": "Names and identity",
+    "category": "name_origins",
+    "text": "The current sources describe Pola’s settlement at an estuary and its livelihoods, but do not establish a verified name-origin explanation in this briefing. An estuary setting alone does not prove an etymology.",
+    "sourceIDs": [
+      "pola_history"
+    ],
+    "evidenceStatus": "attributed_research_summary",
+    "question": "What can Pola’s estuary setting establish by itself about its name?",
+    "options": [
+      "It does not by itself establish the name’s origin",
+      "It establishes a single confirmed discoverer",
+      "It proves that the place was uninhabited before the date",
+      "It confirms every local account as historical fact"
+    ],
+    "answer": "It does not by itself establish the name’s origin"
+  },
+  {
+    "id": "pola_discovery_7",
+    "placeID": "oriental_mindoro_pola",
+    "suggestedMission": 7,
+    "title": "Early communities and settlement",
+    "category": "settlement",
+    "text": "The historical account places Pola’s town center at a river estuary. Farming, fishing, and nipa weaving connect community life to land and water. The record supports this settlement setting, not a precise first-inhabitant date.",
+    "sourceIDs": [
+      "pola_history"
+    ],
+    "evidenceStatus": "attributed_research_summary",
+    "question": "What setting is recorded for Pola’s town center?",
+    "options": [
+      "A river estuary",
+      "It establishes a single confirmed discoverer",
+      "It proves that the place was uninhabited before the date",
+      "It confirms every local account as historical fact"
+    ],
+    "answer": "A river estuary"
+  },
+  {
+    "id": "pola_discovery_8",
+    "placeID": "oriental_mindoro_pola",
+    "suggestedMission": 8,
+    "title": "Events and their historical meaning",
+    "category": "historical_events",
+    "text": "Pola's historical account places the town center at a river estuary, showing the long connection between settlement and water. Read this as the specific event or remembered account described, not an automatic first-settlement or discovery date.",
+    "sourceIDs": [
+      "pola_history"
+    ],
+    "evidenceStatus": "web_documented",
+    "question": "What does this historical record allow us to conclude?",
+    "answer": "Only the specific event or account it describes",
+    "options": [
+      "Only the specific event or account it describes",
+      "That nobody lived there before it",
+      "That every tradition began on that date",
+      "That one outsider discovered the place"
+    ]
+  },
+  {
+    "id": "pola_discovery_9",
+    "placeID": "oriental_mindoro_pola",
+    "suggestedMission": 9,
+    "title": "Community memory across generations",
+    "category": "community_memory",
+    "text": "Nipa weaving is among the local practices recorded in Pola's history. Useful woven materials connect craft knowledge with everyday needs. Preserve the source’s distinction between a remembered story and a documented practice. Do not assign one community’s knowledge to all residents.",
+    "sourceIDs": [
+      "pola_history"
+    ],
+    "evidenceStatus": "web_documented",
+    "question": "How should this local memory or practice be described?",
+    "answer": "With its attribution and limits, without claiming it represents every resident",
+    "options": [
+      "With its attribution and limits, without claiming it represents every resident",
+      "As a practice shared identically by every resident",
+      "As proof of a single founder for the whole municipality",
+      "Without naming the community or source"
+    ]
+  },
+  {
+    "id": "pola_discovery_10",
+    "placeID": "oriental_mindoro_pola",
+    "suggestedMission": 10,
+    "title": "History in its regional context",
+    "category": "regional_history",
+    "text": "Pola belongs to a regional history with different kinds of milestones. The cited Act 3498 reestablishments took effect in 1929; Victoria’s formation is recorded in 1953; Socorro’s legal creation in 1963; and Calapan’s cityhood plebiscite in 1998. These events do not date the first habitation of each place. The dates are inherited citations awaiting fresh source verification.",
+    "sourceIDs": [
+      "act3498",
+      "victoria_history",
+      "socorro_law",
+      "calapan_history"
+    ],
+    "evidenceStatus": "attributed_research_summary",
+    "question": "Which event is latest among these cited regional milestones?",
+    "answer": "Calapan’s cityhood plebiscite in 1998",
+    "options": [
+      "Calapan’s cityhood plebiscite in 1998",
+      "The Act 3498 reestablishments in 1929",
+      "Victoria’s formation in 1953",
+      "Socorro’s creation in 1963"
+    ]
+  },
+  {
+    "id": "pinamalayan_discovery_6",
+    "placeID": "oriental_mindoro_pinamalayan",
+    "suggestedMission": 6,
+    "title": "Names and identity",
+    "category": "name_origins",
+    "text": "A recorded origin legend tells of travelers guided toward land by a rainbow. It is a local name story. The inherited source does not support adding a pot-of-gold detail to that story.",
+    "sourceIDs": [
+      "pin_facts",
+      "pin_lgu",
+      "pin_history"
+    ],
+    "evidenceStatus": "attributed_research_summary",
+    "question": "Which image guides travelers in the recorded Pinamalayan origin legend?",
+    "options": [
+      "A rainbow",
+      "It establishes a single confirmed discoverer",
+      "It proves that the place was uninhabited before the date",
+      "It confirms every local account as historical fact"
+    ],
+    "answer": "A rainbow"
+  },
+  {
+    "id": "pinamalayan_discovery_7",
+    "placeID": "oriental_mindoro_pinamalayan",
+    "suggestedMission": 7,
+    "title": "Early communities and settlement",
+    "category": "settlement",
+    "text": "The quick-facts account dates a town-seat transfer to 1916 and describes a planned center. A transfer implies an earlier town-seat location; the account does not establish the first habitation of the municipality. The date still needs archival corroboration.",
+    "sourceIDs": [
+      "pin_facts",
+      "pin_lgu",
+      "pin_history"
+    ],
+    "evidenceStatus": "attributed_research_summary",
+    "question": "Does a town-seat transfer establish the first habitation date?",
+    "options": [
+      "No; it concerns a change in the town seat",
+      "It establishes a single confirmed discoverer",
+      "It proves that the place was uninhabited before the date",
+      "It confirms every local account as historical fact"
+    ],
+    "answer": "No; it concerns a change in the town seat"
+  },
+  {
+    "id": "pinamalayan_discovery_8",
+    "placeID": "oriental_mindoro_pinamalayan",
+    "suggestedMission": 8,
+    "title": "Events and their historical meaning",
+    "category": "historical_events",
+    "text": "The municipal quick-facts account dates the transfer of the town seat from its earlier location to 1916. Its planned center follows a grid layout. Read this as the specific event or remembered account described, not an automatic first-settlement or discovery date.",
+    "sourceIDs": [
+      "pin_facts",
+      "pin_lgu"
+    ],
+    "evidenceStatus": "web_documented",
+    "question": "What does this historical record allow us to conclude?",
+    "answer": "Only the specific event or account it describes",
+    "options": [
+      "Only the specific event or account it describes",
+      "That nobody lived there before it",
+      "That every tradition began on that date",
+      "That one outsider discovered the place"
+    ]
+  },
+  {
+    "id": "pinamalayan_discovery_9",
+    "placeID": "oriental_mindoro_pinamalayan",
+    "suggestedMission": 9,
+    "title": "Community memory across generations",
+    "category": "community_memory",
+    "text": "A recorded origin legend tells of travelers guided toward land by a rainbow. It is a community story, not proof of the town's historical founding. Preserve the source’s distinction between a remembered story and a documented practice. Do not assign one community’s knowledge to all residents.",
+    "sourceIDs": [
+      "pin_history"
+    ],
+    "evidenceStatus": "oral_account",
+    "question": "How should this local memory or practice be described?",
+    "answer": "With its attribution and limits, without claiming it represents every resident",
+    "options": [
+      "With its attribution and limits, without claiming it represents every resident",
+      "As a practice shared identically by every resident",
+      "As proof of a single founder for the whole municipality",
+      "Without naming the community or source"
+    ]
+  },
+  {
+    "id": "pinamalayan_discovery_10",
+    "placeID": "oriental_mindoro_pinamalayan",
+    "suggestedMission": 10,
+    "title": "History in its regional context",
+    "category": "regional_history",
+    "text": "Pinamalayan belongs to a regional history with different kinds of milestones. The cited Act 3498 reestablishments took effect in 1929; Victoria’s formation is recorded in 1953; Socorro’s legal creation in 1963; and Calapan’s cityhood plebiscite in 1998. These events do not date the first habitation of each place. The dates are inherited citations awaiting fresh source verification.",
+    "sourceIDs": [
+      "act3498",
+      "victoria_history",
+      "socorro_law",
+      "calapan_history"
+    ],
+    "evidenceStatus": "attributed_research_summary",
+    "question": "Which event is latest among these cited regional milestones?",
+    "answer": "Calapan’s cityhood plebiscite in 1998",
+    "options": [
+      "Calapan’s cityhood plebiscite in 1998",
+      "The Act 3498 reestablishments in 1929",
+      "Victoria’s formation in 1953",
+      "Socorro’s creation in 1963"
+    ]
+  },
+  {
+    "id": "gloria_discovery_6",
+    "placeID": "oriental_mindoro_gloria",
+    "suggestedMission": 6,
+    "title": "Names and identity",
+    "category": "name_origins",
+    "text": "The earlier research summary connects Gloria with Tambong and Maligaya and its former place within Pinamalayan. The detailed naming and settlement chronology still needs corroboration; no founder or exact first-settlement date is inferred here.",
+    "sourceIDs": [
+      "gloria_history",
+      "gloria_craft",
+      "ppdo_history"
+    ],
+    "evidenceStatus": "attributed_research_summary",
+    "question": "What remains unresolved in this Gloria naming and settlement summary?",
+    "options": [
+      "The detailed naming and settlement chronology",
+      "It establishes a single confirmed discoverer",
+      "It proves that the place was uninhabited before the date",
+      "It confirms every local account as historical fact"
+    ],
+    "answer": "The detailed naming and settlement chronology"
+  },
+  {
+    "id": "gloria_discovery_7",
+    "placeID": "oriental_mindoro_gloria",
+    "suggestedMission": 7,
+    "title": "Early communities and settlement",
+    "category": "settlement",
+    "text": "The inherited summary describes settlement around Tambong in the early twentieth century and mentions Maligaya. The chronology has not been reverified. Accounts of arriving migrants must not imply that the land had no earlier inhabitants.",
+    "sourceIDs": [
+      "gloria_history",
+      "gloria_craft",
+      "ppdo_history"
+    ],
+    "evidenceStatus": "attributed_research_summary",
+    "question": "How should accounts of arriving migrants be interpreted?",
+    "options": [
+      "Alongside evidence about existing communities and remaining gaps",
+      "It establishes a single confirmed discoverer",
+      "It proves that the place was uninhabited before the date",
+      "It confirms every local account as historical fact"
+    ],
+    "answer": "Alongside evidence about existing communities and remaining gaps"
+  },
+  {
+    "id": "gloria_discovery_8",
+    "placeID": "oriental_mindoro_gloria",
+    "suggestedMission": 8,
+    "title": "Events and their historical meaning",
+    "category": "historical_events",
+    "text": "Gloria's municipal history records that its territory was once part of Pinamalayan and describes settlement around Tambong in the early twentieth century. Read this as the specific event or remembered account described, not an automatic first-settlement or discovery date.",
+    "sourceIDs": [
+      "gloria_history"
+    ],
+    "evidenceStatus": "web_documented",
+    "question": "What does this historical record allow us to conclude?",
+    "answer": "Only the specific event or account it describes",
+    "options": [
+      "Only the specific event or account it describes",
+      "That nobody lived there before it",
+      "That every tradition began on that date",
+      "That one outsider discovered the place"
+    ]
+  },
+  {
+    "id": "gloria_discovery_9",
+    "placeID": "oriental_mindoro_gloria",
+    "suggestedMission": 9,
+    "title": "Community memory across generations",
+    "category": "community_memory",
+    "text": "Bamboo handicraft skills are shared through local training supported by DTI. Contemporary craft learning is part of living culture; it need not be described as an ancient ritual. Preserve the source’s distinction between a remembered story and a documented practice. Do not assign one community’s knowledge to all residents.",
+    "sourceIDs": [
+      "gloria_craft"
+    ],
+    "evidenceStatus": "web_documented",
+    "question": "How should this local memory or practice be described?",
+    "answer": "With its attribution and limits, without claiming it represents every resident",
+    "options": [
+      "With its attribution and limits, without claiming it represents every resident",
+      "As a practice shared identically by every resident",
+      "As proof of a single founder for the whole municipality",
+      "Without naming the community or source"
+    ]
+  },
+  {
+    "id": "gloria_discovery_10",
+    "placeID": "oriental_mindoro_gloria",
+    "suggestedMission": 10,
+    "title": "History in its regional context",
+    "category": "regional_history",
+    "text": "Gloria belongs to a regional history with different kinds of milestones. The cited Act 3498 reestablishments took effect in 1929; Victoria’s formation is recorded in 1953; Socorro’s legal creation in 1963; and Calapan’s cityhood plebiscite in 1998. These events do not date the first habitation of each place. The dates are inherited citations awaiting fresh source verification.",
+    "sourceIDs": [
+      "act3498",
+      "victoria_history",
+      "socorro_law",
+      "calapan_history"
+    ],
+    "evidenceStatus": "attributed_research_summary",
+    "question": "Which event is latest among these cited regional milestones?",
+    "answer": "Calapan’s cityhood plebiscite in 1998",
+    "options": [
+      "Calapan’s cityhood plebiscite in 1998",
+      "The Act 3498 reestablishments in 1929",
+      "Victoria’s formation in 1953",
+      "Socorro’s creation in 1963"
+    ]
+  },
+  {
+    "id": "bansud_discovery_6",
+    "placeID": "oriental_mindoro_bansud",
+    "suggestedMission": 6,
+    "title": "Names and identity",
+    "category": "name_origins",
+    "text": "An oral tradition links Bansud with basud, meaning delta. The specific language and community attribution remain unresolved in the research notes. Do not assign the word to a particular Mangyan language without evidence.",
+    "sourceIDs": [
+      "bansud_history",
+      "ppdo_history"
+    ],
+    "evidenceStatus": "attributed_research_summary",
+    "question": "Which meaning appears in the recorded basud name account?",
+    "options": [
+      "Delta",
+      "It establishes a single confirmed discoverer",
+      "It proves that the place was uninhabited before the date",
+      "It confirms every local account as historical fact"
+    ],
+    "answer": "Delta"
+  },
+  {
+    "id": "bansud_discovery_7",
+    "placeID": "oriental_mindoro_bansud",
+    "suggestedMission": 7,
+    "title": "Early communities and settlement",
+    "category": "settlement",
+    "text": "The compiled history records Bansud as formerly part of Bongabong. The earlier research notes identify Republic Act 2514 as a legal lead to check, but do not establish a verified precise creation or first-settlement date in this briefing.",
+    "sourceIDs": [
+      "bansud_history",
+      "ppdo_history"
+    ],
+    "evidenceStatus": "attributed_research_summary",
+    "question": "Which former jurisdiction is recorded for Bansud?",
+    "options": [
+      "Bongabong",
+      "It establishes a single confirmed discoverer",
+      "It proves that the place was uninhabited before the date",
+      "It confirms every local account as historical fact"
+    ],
+    "answer": "Bongabong"
+  },
+  {
+    "id": "bansud_discovery_8",
+    "placeID": "oriental_mindoro_bansud",
+    "suggestedMission": 8,
+    "title": "Events and their historical meaning",
+    "category": "historical_events",
+    "text": "The compiled municipal history records Bansud as formerly part of Bongabong. Read this as the specific event or remembered account described, not an automatic first-settlement or discovery date.",
+    "sourceIDs": [
+      "bansud_history"
+    ],
+    "evidenceStatus": "web_documented",
+    "question": "What does this historical record allow us to conclude?",
+    "answer": "Only the specific event or account it describes",
+    "options": [
+      "Only the specific event or account it describes",
+      "That nobody lived there before it",
+      "That every tradition began on that date",
+      "That one outsider discovered the place"
+    ]
+  },
+  {
+    "id": "bansud_discovery_9",
+    "placeID": "oriental_mindoro_bansud",
+    "suggestedMission": 9,
+    "title": "Community memory across generations",
+    "category": "community_memory",
+    "text": "An oral tradition connects the name Bansud with basud, or delta. Keep this explanation labeled as a local account. Preserve the source’s distinction between a remembered story and a documented practice. Do not assign one community’s knowledge to all residents.",
+    "sourceIDs": [
+      "bansud_history"
+    ],
+    "evidenceStatus": "oral_account",
+    "question": "How should this local memory or practice be described?",
+    "answer": "With its attribution and limits, without claiming it represents every resident",
+    "options": [
+      "With its attribution and limits, without claiming it represents every resident",
+      "As a practice shared identically by every resident",
+      "As proof of a single founder for the whole municipality",
+      "Without naming the community or source"
+    ]
+  },
+  {
+    "id": "bansud_discovery_10",
+    "placeID": "oriental_mindoro_bansud",
+    "suggestedMission": 10,
+    "title": "History in its regional context",
+    "category": "regional_history",
+    "text": "Bansud belongs to a regional history with different kinds of milestones. The cited Act 3498 reestablishments took effect in 1929; Victoria’s formation is recorded in 1953; Socorro’s legal creation in 1963; and Calapan’s cityhood plebiscite in 1998. These events do not date the first habitation of each place. The dates are inherited citations awaiting fresh source verification.",
+    "sourceIDs": [
+      "act3498",
+      "victoria_history",
+      "socorro_law",
+      "calapan_history"
+    ],
+    "evidenceStatus": "attributed_research_summary",
+    "question": "Which event is latest among these cited regional milestones?",
+    "answer": "Calapan’s cityhood plebiscite in 1998",
+    "options": [
+      "Calapan’s cityhood plebiscite in 1998",
+      "The Act 3498 reestablishments in 1929",
+      "Victoria’s formation in 1953",
+      "Socorro’s creation in 1963"
+    ]
+  },
+  {
+    "id": "bongabong_discovery_6",
+    "placeID": "oriental_mindoro_bongabong",
+    "suggestedMission": 6,
+    "title": "Names and identity",
+    "category": "name_origins",
+    "text": "The municipal history records a Binago-related explanation of Bongabong’s name. It is one name account, not proof of a single origin or of the first people to live in the area.",
+    "sourceIDs": [
+      "bong_history",
+      "ppdo_history",
+      "mhc_groups"
+    ],
+    "evidenceStatus": "attributed_research_summary",
+    "question": "What is the status of the Binago-related explanation?",
+    "options": [
+      "One recorded name account, not a proven single origin",
+      "It establishes a single confirmed discoverer",
+      "It proves that the place was uninhabited before the date",
+      "It confirms every local account as historical fact"
+    ],
+    "answer": "One recorded name account, not a proven single origin"
+  },
+  {
+    "id": "bongabong_discovery_7",
+    "placeID": "oriental_mindoro_bongabong",
+    "suggestedMission": 7,
+    "title": "Early communities and settlement",
+    "category": "settlement",
+    "text": "The compiled history connects earlier settlement and name accounts with Bongabong’s coastal landscape. Some political dates conflict between summaries. The material does not establish a sole discoverer or a precise earliest-settlement date.",
+    "sourceIDs": [
+      "bong_history",
+      "ppdo_history",
+      "mhc_groups"
+    ],
+    "evidenceStatus": "attributed_research_summary",
+    "question": "Which landscape is linked to Bongabong’s earlier settlement accounts?",
+    "options": [
+      "Its coastal landscape",
+      "It establishes a single confirmed discoverer",
+      "It proves that the place was uninhabited before the date",
+      "It confirms every local account as historical fact"
+    ],
+    "answer": "Its coastal landscape"
+  },
+  {
+    "id": "bongabong_discovery_8",
+    "placeID": "oriental_mindoro_bongabong",
+    "suggestedMission": 8,
+    "title": "Events and their historical meaning",
+    "category": "historical_events",
+    "text": "The compiled history preserves accounts of Bongabong's earlier settlement and name. These accounts connect the town's development with its coastal landscape. Read this as the specific event or remembered account described, not an automatic first-settlement or discovery date.",
+    "sourceIDs": [
+      "bong_history"
+    ],
+    "evidenceStatus": "web_documented",
+    "question": "What does this historical record allow us to conclude?",
+    "answer": "Only the specific event or account it describes",
+    "options": [
+      "Only the specific event or account it describes",
+      "That nobody lived there before it",
+      "That every tradition began on that date",
+      "That one outsider discovered the place"
+    ]
+  },
+  {
+    "id": "bongabong_discovery_9",
+    "placeID": "oriental_mindoro_bongabong",
+    "suggestedMission": 9,
+    "title": "Community memory across generations",
+    "category": "community_memory",
+    "text": "The municipal history records a Binago-related explanation of Bongabong's name. It is one name account rather than a proven single origin. Preserve the source’s distinction between a remembered story and a documented practice. Do not assign one community’s knowledge to all residents.",
+    "sourceIDs": [
+      "bong_history"
+    ],
+    "evidenceStatus": "oral_account",
+    "question": "How should this local memory or practice be described?",
+    "answer": "With its attribution and limits, without claiming it represents every resident",
+    "options": [
+      "With its attribution and limits, without claiming it represents every resident",
+      "As a practice shared identically by every resident",
+      "As proof of a single founder for the whole municipality",
+      "Without naming the community or source"
+    ]
+  },
+  {
+    "id": "bongabong_discovery_10",
+    "placeID": "oriental_mindoro_bongabong",
+    "suggestedMission": 10,
+    "title": "History in its regional context",
+    "category": "regional_history",
+    "text": "Bongabong belongs to a regional history with different kinds of milestones. The cited Act 3498 reestablishments took effect in 1929; Victoria’s formation is recorded in 1953; Socorro’s legal creation in 1963; and Calapan’s cityhood plebiscite in 1998. These events do not date the first habitation of each place. The dates are inherited citations awaiting fresh source verification.",
+    "sourceIDs": [
+      "act3498",
+      "victoria_history",
+      "socorro_law",
+      "calapan_history"
+    ],
+    "evidenceStatus": "attributed_research_summary",
+    "question": "Which event is latest among these cited regional milestones?",
+    "answer": "Calapan’s cityhood plebiscite in 1998",
+    "options": [
+      "Calapan’s cityhood plebiscite in 1998",
+      "The Act 3498 reestablishments in 1929",
+      "Victoria’s formation in 1953",
+      "Socorro’s creation in 1963"
+    ]
+  },
+  {
+    "id": "roxas_discovery_6",
+    "placeID": "oriental_mindoro_roxas",
+    "suggestedMission": 6,
+    "title": "Names and identity",
+    "category": "name_origins",
+    "text": "The inherited history links Roxas with the earlier settlement Paclasan. A local name account connects Paclasan with the palasan palm. These references do not establish a sole origin or an earliest-settlement date.",
+    "sourceIDs": [
+      "roxas_history"
+    ],
+    "evidenceStatus": "attributed_research_summary",
+    "question": "Which plant appears in the Paclasan name account?",
+    "options": [
+      "Palasan palm",
+      "It establishes a single confirmed discoverer",
+      "It proves that the place was uninhabited before the date",
+      "It confirms every local account as historical fact"
+    ],
+    "answer": "Palasan palm"
+  },
+  {
+    "id": "roxas_discovery_7",
+    "placeID": "oriental_mindoro_roxas",
+    "suggestedMission": 7,
+    "title": "Early communities and settlement",
+    "category": "settlement",
+    "text": "The earlier settlement of Paclasan is linked to Roxas’s development in the compiled history. A historical settlement name is useful evidence, but the current briefing does not establish the first inhabitants, a sole discoverer, or an exact first-settlement date.",
+    "sourceIDs": [
+      "roxas_history"
+    ],
+    "evidenceStatus": "attributed_research_summary",
+    "question": "Which earlier settlement is linked to Roxas’s development?",
+    "options": [
+      "Paclasan",
+      "It establishes a single confirmed discoverer",
+      "It proves that the place was uninhabited before the date",
+      "It confirms every local account as historical fact"
+    ],
+    "answer": "Paclasan"
+  },
+  {
+    "id": "roxas_discovery_8",
+    "placeID": "oriental_mindoro_roxas",
+    "suggestedMission": 8,
+    "title": "Events and their historical meaning",
+    "category": "historical_events",
+    "text": "Roxas's compiled history connects its development with the earlier settlement of Paclasan. Read this as the specific event or remembered account described, not an automatic first-settlement or discovery date.",
+    "sourceIDs": [
+      "roxas_history"
+    ],
+    "evidenceStatus": "web_documented",
+    "question": "What does this historical record allow us to conclude?",
+    "answer": "Only the specific event or account it describes",
+    "options": [
+      "Only the specific event or account it describes",
+      "That nobody lived there before it",
+      "That every tradition began on that date",
+      "That one outsider discovered the place"
+    ]
+  },
+  {
+    "id": "roxas_discovery_9",
+    "placeID": "oriental_mindoro_roxas",
+    "suggestedMission": 9,
+    "title": "Community memory across generations",
+    "category": "community_memory",
+    "text": "A local name account connects Paclasan with the palasan palm. Place-name accounts preserve remembered relationships with plants and land. Preserve the source’s distinction between a remembered story and a documented practice. Do not assign one community’s knowledge to all residents.",
+    "sourceIDs": [
+      "roxas_history"
+    ],
+    "evidenceStatus": "oral_account",
+    "question": "How should this local memory or practice be described?",
+    "answer": "With its attribution and limits, without claiming it represents every resident",
+    "options": [
+      "With its attribution and limits, without claiming it represents every resident",
+      "As a practice shared identically by every resident",
+      "As proof of a single founder for the whole municipality",
+      "Without naming the community or source"
+    ]
+  },
+  {
+    "id": "roxas_discovery_10",
+    "placeID": "oriental_mindoro_roxas",
+    "suggestedMission": 10,
+    "title": "History in its regional context",
+    "category": "regional_history",
+    "text": "Roxas belongs to a regional history with different kinds of milestones. The cited Act 3498 reestablishments took effect in 1929; Victoria’s formation is recorded in 1953; Socorro’s legal creation in 1963; and Calapan’s cityhood plebiscite in 1998. These events do not date the first habitation of each place. The dates are inherited citations awaiting fresh source verification.",
+    "sourceIDs": [
+      "act3498",
+      "victoria_history",
+      "socorro_law",
+      "calapan_history"
+    ],
+    "evidenceStatus": "attributed_research_summary",
+    "question": "Which event is latest among these cited regional milestones?",
+    "answer": "Calapan’s cityhood plebiscite in 1998",
+    "options": [
+      "Calapan’s cityhood plebiscite in 1998",
+      "The Act 3498 reestablishments in 1929",
+      "Victoria’s formation in 1953",
+      "Socorro’s creation in 1963"
+    ]
+  },
+  {
+    "id": "mansalay_discovery_6",
+    "placeID": "oriental_mindoro_mansalay",
+    "suggestedMission": 6,
+    "title": "Names and identity",
+    "category": "name_origins",
+    "text": "The sources in this briefing document municipal reestablishment and Hanunoo Mangyan cultural history, but do not establish a verified etymology for Mansalay. Neither administrative creation nor a cultural association supplies a name origin by itself.",
+    "sourceIDs": [
+      "act3498",
+      "ambahan_ncca",
+      "ambahan_form"
+    ],
+    "evidenceStatus": "attributed_research_summary",
+    "question": "Do the current Mansalay briefings establish a verified etymology?",
+    "options": [
+      "No; that question still requires specific evidence",
+      "It establishes a single confirmed discoverer",
+      "It proves that the place was uninhabited before the date",
+      "It confirms every local account as historical fact"
+    ],
+    "answer": "No; that question still requires specific evidence"
+  },
+  {
+    "id": "mansalay_discovery_7",
+    "placeID": "oriental_mindoro_mansalay",
+    "suggestedMission": 7,
+    "title": "Early communities and settlement",
+    "category": "settlement",
+    "text": "Act 3498 reestablished Mansalay and Bulalacao separately effective 1 January 1929. This concerns municipal administration, not the beginning of Indigenous community life or a claim that an outsider discovered uninhabited land.",
+    "sourceIDs": [
+      "act3498",
+      "ambahan_ncca",
+      "ambahan_form"
+    ],
+    "evidenceStatus": "attributed_research_summary",
+    "question": "What does the 1929 record establish for Mansalay?",
+    "options": [
+      "Municipal reestablishment, not first habitation",
+      "It establishes a single confirmed discoverer",
+      "It proves that the place was uninhabited before the date",
+      "It confirms every local account as historical fact"
+    ],
+    "answer": "Municipal reestablishment, not first habitation"
+  },
+  {
+    "id": "mansalay_discovery_8",
+    "placeID": "oriental_mindoro_mansalay",
+    "suggestedMission": 8,
+    "title": "Events and their historical meaning",
+    "category": "historical_events",
+    "text": "Act 3498 reestablished Mansalay and Bulalacao separately, effective 1 January 1929. Read this as the specific event or remembered account described, not an automatic first-settlement or discovery date.",
+    "sourceIDs": [
+      "act3498"
+    ],
+    "evidenceStatus": "web_documented",
+    "question": "What does this historical record allow us to conclude?",
+    "answer": "Only the specific event or account it describes",
+    "options": [
+      "Only the specific event or account it describes",
+      "That nobody lived there before it",
+      "That every tradition began on that date",
+      "That one outsider discovered the place"
+    ]
+  },
+  {
+    "id": "mansalay_discovery_9",
+    "placeID": "oriental_mindoro_mansalay",
+    "suggestedMission": 9,
+    "title": "Community memory across generations",
+    "category": "community_memory",
+    "text": "Hanunoo Mangyan ambahan uses seven-syllable lines to express experiences and relationships. NCCA associates culture bearer Ginaw Bilog with this tradition in Mansalay. Preserve the source’s distinction between a remembered story and a documented practice. Do not assign one community’s knowledge to all residents.",
+    "sourceIDs": [
+      "ambahan_ncca",
+      "ambahan_form"
+    ],
+    "evidenceStatus": "web_documented",
+    "question": "How should this local memory or practice be described?",
+    "answer": "With its attribution and limits, without claiming it represents every resident",
+    "options": [
+      "With its attribution and limits, without claiming it represents every resident",
+      "As a practice shared identically by every resident",
+      "As proof of a single founder for the whole municipality",
+      "Without naming the community or source"
+    ]
+  },
+  {
+    "id": "mansalay_discovery_10",
+    "placeID": "oriental_mindoro_mansalay",
+    "suggestedMission": 10,
+    "title": "History in its regional context",
+    "category": "regional_history",
+    "text": "Mansalay belongs to a regional history with different kinds of milestones. The cited Act 3498 reestablishments took effect in 1929; Victoria’s formation is recorded in 1953; Socorro’s legal creation in 1963; and Calapan’s cityhood plebiscite in 1998. These events do not date the first habitation of each place. The dates are inherited citations awaiting fresh source verification.",
+    "sourceIDs": [
+      "act3498",
+      "victoria_history",
+      "socorro_law",
+      "calapan_history"
+    ],
+    "evidenceStatus": "attributed_research_summary",
+    "question": "Which event is latest among these cited regional milestones?",
+    "answer": "Calapan’s cityhood plebiscite in 1998",
+    "options": [
+      "Calapan’s cityhood plebiscite in 1998",
+      "The Act 3498 reestablishments in 1929",
+      "Victoria’s formation in 1953",
+      "Socorro’s creation in 1963"
+    ]
+  },
+  {
+    "id": "bulalacao_discovery_6",
+    "placeID": "oriental_mindoro_bulalacao",
+    "suggestedMission": 6,
+    "title": "Names and identity",
+    "category": "name_origins",
+    "text": "The town history explicitly identifies the bird-related story about Bulalacao’s name as a myth. The Mait identification is a separate unverified historical hypothesis, not proof of the naming story or of a tenth-century settlement.",
+    "sourceIDs": [
+      "act3498",
+      "bulalacao_history",
+      "ppdo_history"
+    ],
+    "evidenceStatus": "attributed_research_summary",
+    "question": "How does the town history identify the bird-related name story?",
+    "options": [
+      "As a myth",
+      "It establishes a single confirmed discoverer",
+      "It proves that the place was uninhabited before the date",
+      "It confirms every local account as historical fact"
+    ],
+    "answer": "As a myth"
+  },
+  {
+    "id": "bulalacao_discovery_7",
+    "placeID": "oriental_mindoro_bulalacao",
+    "suggestedMission": 7,
+    "title": "Early communities and settlement",
+    "category": "settlement",
+    "text": "Act 3498 reestablished Bulalacao and Mansalay separately effective 1 January 1929. The proposed identification of an older place with Mait remains a hypothesis. It is not settled proof of a tenth-century settlement continuous with the present municipality.",
+    "sourceIDs": [
+      "act3498",
+      "bulalacao_history",
+      "ppdo_history"
+    ],
+    "evidenceStatus": "attributed_research_summary",
+    "question": "Does the Mait hypothesis establish a confirmed tenth-century settlement?",
+    "options": [
+      "No; the identification remains unverified",
+      "It establishes a single confirmed discoverer",
+      "It proves that the place was uninhabited before the date",
+      "It confirms every local account as historical fact"
+    ],
+    "answer": "No; the identification remains unverified"
+  },
+  {
+    "id": "bulalacao_discovery_8",
+    "placeID": "oriental_mindoro_bulalacao",
+    "suggestedMission": 8,
+    "title": "Events and their historical meaning",
+    "category": "historical_events",
+    "text": "Act 3498 reestablished Bulalacao and Mansalay separately, effective 1 January 1929. Read this as the specific event or remembered account described, not an automatic first-settlement or discovery date.",
+    "sourceIDs": [
+      "act3498"
+    ],
+    "evidenceStatus": "web_documented",
+    "question": "What does this historical record allow us to conclude?",
+    "answer": "Only the specific event or account it describes",
+    "options": [
+      "Only the specific event or account it describes",
+      "That nobody lived there before it",
+      "That every tradition began on that date",
+      "That one outsider discovered the place"
+    ]
+  },
+  {
+    "id": "bulalacao_discovery_9",
+    "placeID": "oriental_mindoro_bulalacao",
+    "suggestedMission": 9,
+    "title": "Community memory across generations",
+    "category": "community_memory",
+    "text": "The town history preserves a bird story about Bulalacao's name and explicitly identifies it as a myth. Stories can carry identity without being treated as confirmed events. Preserve the source’s distinction between a remembered story and a documented practice. Do not assign one community’s knowledge to all residents.",
+    "sourceIDs": [
+      "bulalacao_history"
+    ],
+    "evidenceStatus": "oral_account",
+    "question": "How should this local memory or practice be described?",
+    "answer": "With its attribution and limits, without claiming it represents every resident",
+    "options": [
+      "With its attribution and limits, without claiming it represents every resident",
+      "As a practice shared identically by every resident",
+      "As proof of a single founder for the whole municipality",
+      "Without naming the community or source"
+    ]
+  },
+  {
+    "id": "bulalacao_discovery_10",
+    "placeID": "oriental_mindoro_bulalacao",
+    "suggestedMission": 10,
+    "title": "History in its regional context",
+    "category": "regional_history",
+    "text": "Bulalacao belongs to a regional history with different kinds of milestones. The cited Act 3498 reestablishments took effect in 1929; Victoria’s formation is recorded in 1953; Socorro’s legal creation in 1963; and Calapan’s cityhood plebiscite in 1998. These events do not date the first habitation of each place. The dates are inherited citations awaiting fresh source verification.",
+    "sourceIDs": [
+      "act3498",
+      "victoria_history",
+      "socorro_law",
+      "calapan_history"
+    ],
+    "evidenceStatus": "attributed_research_summary",
+    "question": "Which event is latest among these cited regional milestones?",
+    "answer": "Calapan’s cityhood plebiscite in 1998",
+    "options": [
+      "Calapan’s cityhood plebiscite in 1998",
+      "The Act 3498 reestablishments in 1929",
+      "Victoria’s formation in 1953",
+      "Socorro’s creation in 1963"
+    ]
+  },
+  {
+    "id": "puerto_galera_discovery_11",
+    "placeID": "oriental_mindoro_puerto_galera",
+    "suggestedMission": 11,
+    "title": "Living heritage and practical skills",
+    "category": "living_heritage",
+    "text": "Basket-making and the sharing of craft knowledge are documented in the cited Iraya-Mangyan community material. Specific patterns and demonstrations require maker consent.",
+    "sourceIDs": [
+      "pg_unesco",
+      "pg_weaving"
+    ],
+    "evidenceStatus": "attributed_research_summary",
+    "question": "Which cultural theme or practical skill is named in this briefing?",
+    "answer": "Iraya-Mangyan nito weaving",
+    "options": [
+      "Iraya-Mangyan nito weaving",
+      "A tradition shared identically by every resident",
+      "A proven single discoverer of the municipality",
+      "Permission to reproduce every local design"
+    ]
+  },
+  {
+    "id": "puerto_galera_discovery_12",
+    "placeID": "oriental_mindoro_puerto_galera",
+    "suggestedMission": 12,
+    "title": "Identity and traveler values",
+    "category": "identity_and_values",
+    "text": "Puerto Galera: Basket-making and the sharing of craft knowledge are documented in the cited Iraya-Mangyan community material. Specific patterns and demonstrations require maker consent. In this adventure, practice these traveler values: Respect named-community attribution; Care for linked land and water habitats. These are learning goals, not a claim that all residents hold identical values.",
+    "sourceIDs": [
+      "pg_unesco",
+      "pg_weaving"
+    ],
+    "evidenceStatus": "attributed_research_summary",
+    "question": "How should your traveler care for this heritage and identity?",
+    "answer": "Respect attribution, community differences, and appropriate permissions",
+    "options": [
+      "Respect attribution, community differences, and appropriate permissions",
+      "Treat every resident as following the same practice",
+      "Take real cultural objects as collectibles",
+      "Copy expressive material without checking permission"
+    ]
+  },
+  {
+    "id": "san_teodoro_discovery_11",
+    "placeID": "oriental_mindoro_san_teodoro",
+    "suggestedMission": 11,
+    "title": "Living heritage and practical skills",
+    "category": "living_heritage",
+    "text": "The cited material describes Iraya craft knowledge and coconut processing. These are documented aspects of local life, not a claim that every household follows one tradition.",
+    "sourceIDs": [
+      "enterprise",
+      "iraya_craft"
+    ],
+    "evidenceStatus": "attributed_research_summary",
+    "question": "Which cultural theme or practical skill is named in this briefing?",
+    "answer": "Nito weaving and coconut-based work",
+    "options": [
+      "Nito weaving and coconut-based work",
+      "A tradition shared identically by every resident",
+      "A proven single discoverer of the municipality",
+      "Permission to reproduce every local design"
+    ]
+  },
+  {
+    "id": "san_teodoro_discovery_12",
+    "placeID": "oriental_mindoro_san_teodoro",
+    "suggestedMission": 12,
+    "title": "Identity and traveler values",
+    "category": "identity_and_values",
+    "text": "San Teodoro: The cited material describes Iraya craft knowledge and coconut processing. These are documented aspects of local life, not a claim that every household follows one tradition. In this adventure, practice these traveler values: Respect community differences; Value careful work and cooperation. These are learning goals, not a claim that all residents hold identical values.",
+    "sourceIDs": [
+      "enterprise",
+      "iraya_craft"
+    ],
+    "evidenceStatus": "attributed_research_summary",
+    "question": "How should your traveler care for this heritage and identity?",
+    "answer": "Respect attribution, community differences, and appropriate permissions",
+    "options": [
+      "Respect attribution, community differences, and appropriate permissions",
+      "Treat every resident as following the same practice",
+      "Take real cultural objects as collectibles",
+      "Copy expressive material without checking permission"
+    ]
+  },
+  {
+    "id": "baco_discovery_11",
+    "placeID": "oriental_mindoro_baco",
+    "suggestedMission": 11,
+    "title": "Living heritage and practical skills",
+    "category": "living_heritage",
+    "text": "The paco name account preserves remembered community narrative. Farmer organizations are documented in calamansi planting support. Iraya and Alangan attribution must be kept specific.",
+    "sourceIDs": [
+      "farm_report",
+      "baco_history"
+    ],
+    "evidenceStatus": "attributed_research_summary",
+    "question": "Which cultural theme or practical skill is named in this briefing?",
+    "answer": "Local name accounts and calamansi growing",
+    "options": [
+      "Local name accounts and calamansi growing",
+      "A tradition shared identically by every resident",
+      "A proven single discoverer of the municipality",
+      "Permission to reproduce every local design"
+    ]
+  },
+  {
+    "id": "baco_discovery_12",
+    "placeID": "oriental_mindoro_baco",
+    "suggestedMission": 12,
+    "title": "Identity and traveler values",
+    "category": "identity_and_values",
+    "text": "Baco: The paco name account preserves remembered community narrative. Farmer organizations are documented in calamansi planting support. Iraya and Alangan attribution must be kept specific. In this adventure, practice these traveler values: Tell local stories with attribution; Respect distinct communities. These are learning goals, not a claim that all residents hold identical values.",
+    "sourceIDs": [
+      "farm_report",
+      "baco_history"
+    ],
+    "evidenceStatus": "attributed_research_summary",
+    "question": "How should your traveler care for this heritage and identity?",
+    "answer": "Respect attribution, community differences, and appropriate permissions",
+    "options": [
+      "Respect attribution, community differences, and appropriate permissions",
+      "Treat every resident as following the same practice",
+      "Take real cultural objects as collectibles",
+      "Copy expressive material without checking permission"
+    ]
+  },
+  {
+    "id": "calapan_city_discovery_11",
+    "placeID": "oriental_mindoro_calapan_city",
+    "suggestedMission": 11,
+    "title": "Living heritage and practical skills",
+    "category": "living_heritage",
+    "text": "The city material highlights local delicacies and food-sharing as expressions of community identity. Farming and commerce also form part of city life.",
+    "sourceIDs": [
+      "calapan",
+      "farm_report",
+      "calapan_food"
+    ],
+    "evidenceStatus": "attributed_research_summary",
+    "question": "Which cultural theme or practical skill is named in this briefing?",
+    "answer": "Local food-making and sharing",
+    "options": [
+      "Local food-making and sharing",
+      "A tradition shared identically by every resident",
+      "A proven single discoverer of the municipality",
+      "Permission to reproduce every local design"
+    ]
+  },
+  {
+    "id": "calapan_city_discovery_12",
+    "placeID": "oriental_mindoro_calapan_city",
+    "suggestedMission": 12,
+    "title": "Identity and traveler values",
+    "category": "identity_and_values",
+    "text": "Calapan City: The city material highlights local delicacies and food-sharing as expressions of community identity. Farming and commerce also form part of city life. In this adventure, practice these traveler values: Share thoughtfully; Value the work behind everyday food. These are learning goals, not a claim that all residents hold identical values.",
+    "sourceIDs": [
+      "calapan",
+      "farm_report",
+      "calapan_food"
+    ],
+    "evidenceStatus": "attributed_research_summary",
+    "question": "How should your traveler care for this heritage and identity?",
+    "answer": "Respect attribution, community differences, and appropriate permissions",
+    "options": [
+      "Respect attribution, community differences, and appropriate permissions",
+      "Treat every resident as following the same practice",
+      "Take real cultural objects as collectibles",
+      "Copy expressive material without checking permission"
+    ]
+  },
+  {
+    "id": "naujan_discovery_11",
+    "placeID": "oriental_mindoro_naujan",
+    "suggestedMission": 11,
+    "title": "Living heritage and practical skills",
+    "category": "living_heritage",
+    "text": "Fishing connects community work with the shared lake landscape. Historical records describe parts of religious life; these do not represent every resident’s beliefs.",
+    "sourceIDs": [
+      "lake_fisheries",
+      "naujan_history"
+    ],
+    "evidenceStatus": "attributed_research_summary",
+    "question": "Which cultural theme or practical skill is named in this briefing?",
+    "answer": "Freshwater livelihoods and varied community beliefs",
+    "options": [
+      "Freshwater livelihoods and varied community beliefs",
+      "A tradition shared identically by every resident",
+      "A proven single discoverer of the municipality",
+      "Permission to reproduce every local design"
+    ]
+  },
+  {
+    "id": "naujan_discovery_12",
+    "placeID": "oriental_mindoro_naujan",
+    "suggestedMission": 12,
+    "title": "Identity and traveler values",
+    "category": "identity_and_values",
+    "text": "Naujan: Fishing connects community work with the shared lake landscape. Historical records describe parts of religious life; these do not represent every resident’s beliefs. In this adventure, practice these traveler values: Care for shared water; Respect different beliefs. These are learning goals, not a claim that all residents hold identical values.",
+    "sourceIDs": [
+      "lake_fisheries",
+      "naujan_history"
+    ],
+    "evidenceStatus": "attributed_research_summary",
+    "question": "How should your traveler care for this heritage and identity?",
+    "answer": "Respect attribution, community differences, and appropriate permissions",
+    "options": [
+      "Respect attribution, community differences, and appropriate permissions",
+      "Treat every resident as following the same practice",
+      "Take real cultural objects as collectibles",
+      "Copy expressive material without checking permission"
+    ]
+  },
+  {
+    "id": "victoria_discovery_11",
+    "placeID": "oriental_mindoro_victoria",
+    "suggestedMission": 11,
+    "title": "Living heritage and practical skills",
+    "category": "living_heritage",
+    "text": "Rice and varied fruits support documented farm livelihoods. The Borbocolon account preserves a remembered relationship with water; it remains a local account.",
+    "sourceIDs": [
+      "victoria_up",
+      "victoria_history"
+    ],
+    "evidenceStatus": "attributed_research_summary",
+    "question": "Which cultural theme or practical skill is named in this briefing?",
+    "answer": "Fruit-growing knowledge and remembered place names",
+    "options": [
+      "Fruit-growing knowledge and remembered place names",
+      "A tradition shared identically by every resident",
+      "A proven single discoverer of the municipality",
+      "Permission to reproduce every local design"
+    ]
+  },
+  {
+    "id": "victoria_discovery_12",
+    "placeID": "oriental_mindoro_victoria",
+    "suggestedMission": 12,
+    "title": "Identity and traveler values",
+    "category": "identity_and_values",
+    "text": "Victoria: Rice and varied fruits support documented farm livelihoods. The Borbocolon account preserves a remembered relationship with water; it remains a local account. In this adventure, practice these traveler values: Care for soil and water; Distinguish stories from proven events. These are learning goals, not a claim that all residents hold identical values.",
+    "sourceIDs": [
+      "victoria_up",
+      "victoria_history"
+    ],
+    "evidenceStatus": "attributed_research_summary",
+    "question": "How should your traveler care for this heritage and identity?",
+    "answer": "Respect attribution, community differences, and appropriate permissions",
+    "options": [
+      "Respect attribution, community differences, and appropriate permissions",
+      "Treat every resident as following the same practice",
+      "Take real cultural objects as collectibles",
+      "Copy expressive material without checking permission"
+    ]
+  },
+  {
+    "id": "socorro_discovery_11",
+    "placeID": "oriental_mindoro_socorro",
+    "suggestedMission": 11,
+    "title": "Living heritage and practical skills",
+    "category": "living_heritage",
+    "text": "Calamansi, rambutan, coffee, and bananas appear in the livelihood briefing. Catiningan and the naming account connect local memory with the town’s development.",
+    "sourceIDs": [
+      "ppdo_history",
+      "socorro_lgu"
+    ],
+    "evidenceStatus": "attributed_research_summary",
+    "question": "Which cultural theme or practical skill is named in this briefing?",
+    "answer": "Mixed-crop farming and settlement memory",
+    "options": [
+      "Mixed-crop farming and settlement memory",
+      "A tradition shared identically by every resident",
+      "A proven single discoverer of the municipality",
+      "Permission to reproduce every local design"
+    ]
+  },
+  {
+    "id": "socorro_discovery_12",
+    "placeID": "oriental_mindoro_socorro",
+    "suggestedMission": 12,
+    "title": "Identity and traveler values",
+    "category": "identity_and_values",
+    "text": "Socorro: Calamansi, rambutan, coffee, and bananas appear in the livelihood briefing. Catiningan and the naming account connect local memory with the town’s development. In this adventure, practice these traveler values: Cooperate around shared resources; Keep historical attribution accurate. These are learning goals, not a claim that all residents hold identical values.",
+    "sourceIDs": [
+      "ppdo_history",
+      "socorro_lgu"
+    ],
+    "evidenceStatus": "attributed_research_summary",
+    "question": "How should your traveler care for this heritage and identity?",
+    "answer": "Respect attribution, community differences, and appropriate permissions",
+    "options": [
+      "Respect attribution, community differences, and appropriate permissions",
+      "Treat every resident as following the same practice",
+      "Take real cultural objects as collectibles",
+      "Copy expressive material without checking permission"
+    ]
+  },
+  {
+    "id": "pola_discovery_11",
+    "placeID": "oriental_mindoro_pola",
+    "suggestedMission": 11,
+    "title": "Living heritage and practical skills",
+    "category": "living_heritage",
+    "text": "Nipa weaving is recorded in the municipal history alongside farming and fishing. The record does not establish the extent of current practice or authorize copying a maker’s technique.",
+    "sourceIDs": [
+      "pola_history"
+    ],
+    "evidenceStatus": "attributed_research_summary",
+    "question": "Which cultural theme or practical skill is named in this briefing?",
+    "answer": "Recorded nipa weaving and fishing livelihoods",
+    "options": [
+      "Recorded nipa weaving and fishing livelihoods",
+      "A tradition shared identically by every resident",
+      "A proven single discoverer of the municipality",
+      "Permission to reproduce every local design"
+    ]
+  },
+  {
+    "id": "pola_discovery_12",
+    "placeID": "oriental_mindoro_pola",
+    "suggestedMission": 12,
+    "title": "Identity and traveler values",
+    "category": "identity_and_values",
+    "text": "Pola: Nipa weaving is recorded in the municipal history alongside farming and fishing. The record does not establish the extent of current practice or authorize copying a maker’s technique. In this adventure, practice these traveler values: Respect makers and their work; Care for waterways. These are learning goals, not a claim that all residents hold identical values.",
+    "sourceIDs": [
+      "pola_history"
+    ],
+    "evidenceStatus": "attributed_research_summary",
+    "question": "How should your traveler care for this heritage and identity?",
+    "answer": "Respect attribution, community differences, and appropriate permissions",
+    "options": [
+      "Respect attribution, community differences, and appropriate permissions",
+      "Treat every resident as following the same practice",
+      "Take real cultural objects as collectibles",
+      "Copy expressive material without checking permission"
+    ]
+  },
+  {
+    "id": "pinamalayan_discovery_11",
+    "placeID": "oriental_mindoro_pinamalayan",
+    "suggestedMission": 11,
+    "title": "Living heritage and practical skills",
+    "category": "living_heritage",
+    "text": "The rainbow narrative is a recorded origin legend. Banana-chip making is a documented food enterprise. No pottery tradition is inferred from a monument.",
+    "sourceIDs": [
+      "pin_facts",
+      "pin_history"
+    ],
+    "evidenceStatus": "attributed_research_summary",
+    "question": "Which cultural theme or practical skill is named in this briefing?",
+    "answer": "Rainbow storytelling and banana-chip enterprise",
+    "options": [
+      "Rainbow storytelling and banana-chip enterprise",
+      "A tradition shared identically by every resident",
+      "A proven single discoverer of the municipality",
+      "Permission to reproduce every local design"
+    ]
+  },
+  {
+    "id": "pinamalayan_discovery_12",
+    "placeID": "oriental_mindoro_pinamalayan",
+    "suggestedMission": 12,
+    "title": "Identity and traveler values",
+    "category": "identity_and_values",
+    "text": "Pinamalayan: The rainbow narrative is a recorded origin legend. Banana-chip making is a documented food enterprise. No pottery tradition is inferred from a monument. In this adventure, practice these traveler values: Preserve stories honestly; Recognize practical food-making skills. These are learning goals, not a claim that all residents hold identical values.",
+    "sourceIDs": [
+      "pin_facts",
+      "pin_history"
+    ],
+    "evidenceStatus": "attributed_research_summary",
+    "question": "How should your traveler care for this heritage and identity?",
+    "answer": "Respect attribution, community differences, and appropriate permissions",
+    "options": [
+      "Respect attribution, community differences, and appropriate permissions",
+      "Treat every resident as following the same practice",
+      "Take real cultural objects as collectibles",
+      "Copy expressive material without checking permission"
+    ]
+  },
+  {
+    "id": "gloria_discovery_11",
+    "placeID": "oriental_mindoro_gloria",
+    "suggestedMission": 11,
+    "title": "Living heritage and practical skills",
+    "category": "living_heritage",
+    "text": "DTI-supported bamboo handicraft training and banana-chip processing are documented. Contemporary skills training is living culture; it is not described as an ancient ritual.",
+    "sourceIDs": [
+      "enterprise",
+      "gloria_craft"
+    ],
+    "evidenceStatus": "attributed_research_summary",
+    "question": "Which cultural theme or practical skill is named in this briefing?",
+    "answer": "Bamboo craft training and banana-chip processing",
+    "options": [
+      "Bamboo craft training and banana-chip processing",
+      "A tradition shared identically by every resident",
+      "A proven single discoverer of the municipality",
+      "Permission to reproduce every local design"
+    ]
+  },
+  {
+    "id": "gloria_discovery_12",
+    "placeID": "oriental_mindoro_gloria",
+    "suggestedMission": 12,
+    "title": "Identity and traveler values",
+    "category": "identity_and_values",
+    "text": "Gloria: DTI-supported bamboo handicraft training and banana-chip processing are documented. Contemporary skills training is living culture; it is not described as an ancient ritual. In this adventure, practice these traveler values: Practice patience and cooperation; Recognize skills without inventing antiquity. These are learning goals, not a claim that all residents hold identical values.",
+    "sourceIDs": [
+      "enterprise",
+      "gloria_craft"
+    ],
+    "evidenceStatus": "attributed_research_summary",
+    "question": "How should your traveler care for this heritage and identity?",
+    "answer": "Respect attribution, community differences, and appropriate permissions",
+    "options": [
+      "Respect attribution, community differences, and appropriate permissions",
+      "Treat every resident as following the same practice",
+      "Take real cultural objects as collectibles",
+      "Copy expressive material without checking permission"
+    ]
+  },
+  {
+    "id": "bansud_discovery_11",
+    "placeID": "oriental_mindoro_bansud",
+    "suggestedMission": 11,
+    "title": "Living heritage and practical skills",
+    "category": "living_heritage",
+    "text": "Bananas are part of documented agricultural identity. The basud or delta explanation remains an oral account with unresolved language attribution.",
+    "sourceIDs": [
+      "bansud_agri",
+      "bansud_history"
+    ],
+    "evidenceStatus": "attributed_research_summary",
+    "question": "Which cultural theme or practical skill is named in this briefing?",
+    "answer": "Banana livelihoods and the basud oral account",
+    "options": [
+      "Banana livelihoods and the basud oral account",
+      "A tradition shared identically by every resident",
+      "A proven single discoverer of the municipality",
+      "Permission to reproduce every local design"
+    ]
+  },
+  {
+    "id": "bansud_discovery_12",
+    "placeID": "oriental_mindoro_bansud",
+    "suggestedMission": 12,
+    "title": "Identity and traveler values",
+    "category": "identity_and_values",
+    "text": "Bansud: Bananas are part of documented agricultural identity. The basud or delta explanation remains an oral account with unresolved language attribution. In this adventure, practice these traveler values: Respect language attribution; Value farm work and shared land. These are learning goals, not a claim that all residents hold identical values.",
+    "sourceIDs": [
+      "bansud_agri",
+      "bansud_history"
+    ],
+    "evidenceStatus": "attributed_research_summary",
+    "question": "How should your traveler care for this heritage and identity?",
+    "answer": "Respect attribution, community differences, and appropriate permissions",
+    "options": [
+      "Respect attribution, community differences, and appropriate permissions",
+      "Treat every resident as following the same practice",
+      "Take real cultural objects as collectibles",
+      "Copy expressive material without checking permission"
+    ]
+  },
+  {
+    "id": "bongabong_discovery_11",
+    "placeID": "oriental_mindoro_bongabong",
+    "suggestedMission": 11,
+    "title": "Living heritage and practical skills",
+    "category": "living_heritage",
+    "text": "Coconut plantations on coastal plains and a Binago-related name explanation appear in the inherited history. Distinct community narratives require their own contributors and credits.",
+    "sourceIDs": [
+      "bong_history"
+    ],
+    "evidenceStatus": "attributed_research_summary",
+    "question": "Which cultural theme or practical skill is named in this briefing?",
+    "answer": "Coconut livelihoods and remembered name accounts",
+    "options": [
+      "Coconut livelihoods and remembered name accounts",
+      "A tradition shared identically by every resident",
+      "A proven single discoverer of the municipality",
+      "Permission to reproduce every local design"
+    ]
+  },
+  {
+    "id": "bongabong_discovery_12",
+    "placeID": "oriental_mindoro_bongabong",
+    "suggestedMission": 12,
+    "title": "Identity and traveler values",
+    "category": "identity_and_values",
+    "text": "Bongabong: Coconut plantations on coastal plains and a Binago-related name explanation appear in the inherited history. Distinct community narratives require their own contributors and credits. In this adventure, practice these traveler values: Credit the right contributors; Care for land and river systems. These are learning goals, not a claim that all residents hold identical values.",
+    "sourceIDs": [
+      "bong_history"
+    ],
+    "evidenceStatus": "attributed_research_summary",
+    "question": "How should your traveler care for this heritage and identity?",
+    "answer": "Respect attribution, community differences, and appropriate permissions",
+    "options": [
+      "Respect attribution, community differences, and appropriate permissions",
+      "Treat every resident as following the same practice",
+      "Take real cultural objects as collectibles",
+      "Copy expressive material without checking permission"
+    ]
+  },
+  {
+    "id": "roxas_discovery_11",
+    "placeID": "oriental_mindoro_roxas",
+    "suggestedMission": 11,
+    "title": "Living heritage and practical skills",
+    "category": "living_heritage",
+    "text": "Farmer organizations received calamansi planting support. The palasan-palm account links remembered naming with plants and land; it is not a proven sole origin.",
+    "sourceIDs": [
+      "farm_report",
+      "roxas_history"
+    ],
+    "evidenceStatus": "attributed_research_summary",
+    "question": "Which cultural theme or practical skill is named in this briefing?",
+    "answer": "Farm knowledge and the Paclasan name account",
+    "options": [
+      "Farm knowledge and the Paclasan name account",
+      "A tradition shared identically by every resident",
+      "A proven single discoverer of the municipality",
+      "Permission to reproduce every local design"
+    ]
+  },
+  {
+    "id": "roxas_discovery_12",
+    "placeID": "oriental_mindoro_roxas",
+    "suggestedMission": 12,
+    "title": "Identity and traveler values",
+    "category": "identity_and_values",
+    "text": "Roxas: Farmer organizations received calamansi planting support. The palasan-palm account links remembered naming with plants and land; it is not a proven sole origin. In this adventure, practice these traveler values: Respect community memory; Value care for crops and soils. These are learning goals, not a claim that all residents hold identical values.",
+    "sourceIDs": [
+      "farm_report",
+      "roxas_history"
+    ],
+    "evidenceStatus": "attributed_research_summary",
+    "question": "How should your traveler care for this heritage and identity?",
+    "answer": "Respect attribution, community differences, and appropriate permissions",
+    "options": [
+      "Respect attribution, community differences, and appropriate permissions",
+      "Treat every resident as following the same practice",
+      "Take real cultural objects as collectibles",
+      "Copy expressive material without checking permission"
+    ]
+  },
+  {
+    "id": "mansalay_discovery_11",
+    "placeID": "oriental_mindoro_mansalay",
+    "suggestedMission": 11,
+    "title": "Living heritage and practical skills",
+    "category": "living_heritage",
+    "text": "The NCCA citation links Ginaw Bilog with Mansalay and ambahan, whose lines have seven syllables. Cultural association does not grant permission to reproduce verses, recordings, or motifs.",
+    "sourceIDs": [
+      "farm_report",
+      "ambahan_ncca",
+      "ambahan_form"
+    ],
+    "evidenceStatus": "attributed_research_summary",
+    "question": "Which cultural theme or practical skill is named in this briefing?",
+    "answer": "Hanunoo Mangyan ambahan",
+    "options": [
+      "Hanunoo Mangyan ambahan",
+      "A tradition shared identically by every resident",
+      "A proven single discoverer of the municipality",
+      "Permission to reproduce every local design"
+    ]
+  },
+  {
+    "id": "mansalay_discovery_12",
+    "placeID": "oriental_mindoro_mansalay",
+    "suggestedMission": 12,
+    "title": "Identity and traveler values",
+    "category": "identity_and_values",
+    "text": "Mansalay: The NCCA citation links Ginaw Bilog with Mansalay and ambahan, whose lines have seven syllables. Cultural association does not grant permission to reproduce verses, recordings, or motifs. In this adventure, practice these traveler values: Respect culture bearers and permissions; Keep Hanunoo Mangyan attribution specific. These are learning goals, not a claim that all residents hold identical values.",
+    "sourceIDs": [
+      "farm_report",
+      "ambahan_ncca",
+      "ambahan_form"
+    ],
+    "evidenceStatus": "attributed_research_summary",
+    "question": "How should your traveler care for this heritage and identity?",
+    "answer": "Respect attribution, community differences, and appropriate permissions",
+    "options": [
+      "Respect attribution, community differences, and appropriate permissions",
+      "Treat every resident as following the same practice",
+      "Take real cultural objects as collectibles",
+      "Copy expressive material without checking permission"
+    ]
+  },
+  {
+    "id": "bulalacao_discovery_11",
+    "placeID": "oriental_mindoro_bulalacao",
+    "suggestedMission": 11,
+    "title": "Living heritage and practical skills",
+    "category": "living_heritage",
+    "text": "A cooperative’s seaweed or kelp noodle production is documented. The town history labels the bird-related origin account as a myth, preserving storytelling without claiming historical proof.",
+    "sourceIDs": [
+      "enterprise",
+      "bulalacao_history"
+    ],
+    "evidenceStatus": "attributed_research_summary",
+    "question": "Which cultural theme or practical skill is named in this briefing?",
+    "answer": "Seaweed-noodle enterprise and the bird-name myth",
+    "options": [
+      "Seaweed-noodle enterprise and the bird-name myth",
+      "A tradition shared identically by every resident",
+      "A proven single discoverer of the municipality",
+      "Permission to reproduce every local design"
+    ]
+  },
+  {
+    "id": "bulalacao_discovery_12",
+    "placeID": "oriental_mindoro_bulalacao",
+    "suggestedMission": 12,
+    "title": "Identity and traveler values",
+    "category": "identity_and_values",
+    "text": "Bulalacao: A cooperative’s seaweed or kelp noodle production is documented. The town history labels the bird-related origin account as a myth, preserving storytelling without claiming historical proof. In this adventure, practice these traveler values: Value cooperative practical skills; Distinguish myth from documented history. These are learning goals, not a claim that all residents hold identical values.",
+    "sourceIDs": [
+      "enterprise",
+      "bulalacao_history"
+    ],
+    "evidenceStatus": "attributed_research_summary",
+    "question": "How should your traveler care for this heritage and identity?",
+    "answer": "Respect attribution, community differences, and appropriate permissions",
+    "options": [
+      "Respect attribution, community differences, and appropriate permissions",
+      "Treat every resident as following the same practice",
+      "Take real cultural objects as collectibles",
+      "Copy expressive material without checking permission"
+    ]
+  }
+]

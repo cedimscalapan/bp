@@ -1,0 +1,275 @@
+[
+  {
+    "placeID": "oriental_mindoro_puerto_galera",
+    "name": "Puerto Galera",
+    "theme": "Iraya-Mangyan nito weaving",
+    "livingHeritage": "Basket-making and the sharing of craft knowledge are documented in the cited Iraya-Mangyan community material. Specific patterns and demonstrations require maker consent.",
+    "travelerValues": [
+      "Respect named-community attribution",
+      "Care for linked land and water habitats"
+    ],
+    "origins": "The cited community material records Iraya-Mangyan artisans and livelihoods connected to land and sea. It does not date the earliest habitation or identify one discoverer. Existing communities are not made newly discovered by an outsider’s arrival.",
+    "discovererStatus": "The available source material does not establish a single discoverer. Administrative dates, name stories, and outsider arrival do not establish the beginning of habitation.",
+    "sourceIDs": [
+      "pg_unesco",
+      "pg_weaving",
+      "pg_ayala"
+    ],
+    "evidenceStatus": "Inherited, attributed material; fresh verification and community review remain pending."
+  },
+  {
+    "placeID": "oriental_mindoro_san_teodoro",
+    "name": "San Teodoro",
+    "theme": "Nito weaving and coconut-based work",
+    "livingHeritage": "The cited material describes Iraya craft knowledge and coconut processing. These are documented aspects of local life, not a claim that every household follows one tradition.",
+    "travelerValues": [
+      "Respect community differences",
+      "Value careful work and cooperation"
+    ],
+    "origins": "The history records Subaan as an earlier name and municipal reestablishment effective 1 January 1929. Reestablishment concerns administration; it does not mean people first settled there in 1929.",
+    "discovererStatus": "The available source material does not establish a single discoverer. Administrative dates, name stories, and outsider arrival do not establish the beginning of habitation.",
+    "sourceIDs": [
+      "enterprise",
+      "iraya_craft",
+      "st_history",
+      "act3498",
+      "ppdo_history"
+    ],
+    "evidenceStatus": "Inherited, attributed material; fresh verification and community review remain pending."
+  },
+  {
+    "placeID": "oriental_mindoro_baco",
+    "name": "Baco",
+    "theme": "Local name accounts and calamansi growing",
+    "livingHeritage": "The paco name account preserves remembered community narrative. Farmer organizations are documented in calamansi planting support. Iraya and Alangan attribution must be kept specific.",
+    "travelerValues": [
+      "Tell local stories with attribution",
+      "Respect distinct communities"
+    ],
+    "origins": "Act 3498 reestablished Baco and San Teodoro separately effective 1 January 1929. Earlier research also names Iraya and Alangan communities in Baco. The law does not establish the first arrival of people or erase those communities’ histories.",
+    "discovererStatus": "The available source material does not establish a single discoverer. Administrative dates, name stories, and outsider arrival do not establish the beginning of habitation.",
+    "sourceIDs": [
+      "farm_report",
+      "baco_history",
+      "act3498",
+      "mhc_groups"
+    ],
+    "evidenceStatus": "Inherited, attributed material; fresh verification and community review remain pending."
+  },
+  {
+    "placeID": "oriental_mindoro_calapan_city",
+    "name": "Calapan City",
+    "theme": "Local food-making and sharing",
+    "livingHeritage": "The city material highlights local delicacies and food-sharing as expressions of community identity. Farming and commerce also form part of city life.",
+    "travelerValues": [
+      "Share thoughtfully",
+      "Value the work behind everyday food"
+    ],
+    "origins": "Calapan’s 21 March 1998 cityhood plebiscite concerns city status. Its community history did not begin with cityhood. Earlier capital-transfer dates conflict in the research notes, so no first-settlement or transfer date is invented here.",
+    "discovererStatus": "The available source material does not establish a single discoverer. Administrative dates, name stories, and outsider arrival do not establish the beginning of habitation.",
+    "sourceIDs": [
+      "calapan",
+      "farm_report",
+      "calapan_food",
+      "calapan_history",
+      "ppdo_history"
+    ],
+    "evidenceStatus": "Inherited, attributed material; fresh verification and community review remain pending."
+  },
+  {
+    "placeID": "oriental_mindoro_naujan",
+    "name": "Naujan",
+    "theme": "Freshwater livelihoods and varied community beliefs",
+    "livingHeritage": "Fishing connects community work with the shared lake landscape. Historical records describe parts of religious life; these do not represent every resident’s beliefs.",
+    "travelerValues": [
+      "Care for shared water",
+      "Respect different beliefs"
+    ],
+    "origins": "The inherited material does not establish Naujan’s earliest settlement date. Earlier notes warn that a claim about imported pottery cannot by itself identify the ethnicity of residents. Objects may travel through trade; archaeological context and specialist evidence are needed.",
+    "discovererStatus": "The available source material does not establish a single discoverer. Administrative dates, name stories, and outsider arrival do not establish the beginning of habitation.",
+    "sourceIDs": [
+      "lake_fisheries",
+      "naujan_history"
+    ],
+    "evidenceStatus": "Inherited, attributed material; fresh verification and community review remain pending."
+  },
+  {
+    "placeID": "oriental_mindoro_victoria",
+    "name": "Victoria",
+    "theme": "Fruit-growing knowledge and remembered place names",
+    "livingHeritage": "Rice and varied fruits support documented farm livelihoods. The Borbocolon account preserves a remembered relationship with water; it remains a local account.",
+    "travelerValues": [
+      "Care for soil and water",
+      "Distinguish stories from proven events"
+    ],
+    "origins": "Victoria was formed from territory formerly belonging to Naujan in 1953, according to the municipal history. This records a jurisdictional change; it does not establish that the territory was previously uninhabited.",
+    "discovererStatus": "The available source material does not establish a single discoverer. Administrative dates, name stories, and outsider arrival do not establish the beginning of habitation.",
+    "sourceIDs": [
+      "victoria_up",
+      "victoria_history"
+    ],
+    "evidenceStatus": "Inherited, attributed material; fresh verification and community review remain pending."
+  },
+  {
+    "placeID": "oriental_mindoro_socorro",
+    "name": "Socorro",
+    "theme": "Mixed-crop farming and settlement memory",
+    "livingHeritage": "Calamansi, rambutan, coffee, and bananas appear in the livelihood briefing. Catiningan and the naming account connect local memory with the town’s development.",
+    "travelerValues": [
+      "Cooperate around shared resources",
+      "Keep historical attribution accurate"
+    ],
+    "origins": "Republic Act 3609 created Socorro from territory formerly belonging to Pola in 1963, according to the inherited legal citation. Catiningan appears in the local account. Creation of a municipality does not date the first habitation of its territory.",
+    "discovererStatus": "The available source material does not establish a single discoverer. Administrative dates, name stories, and outsider arrival do not establish the beginning of habitation.",
+    "sourceIDs": [
+      "ppdo_history",
+      "socorro_lgu",
+      "socorro_law"
+    ],
+    "evidenceStatus": "Inherited, attributed material; fresh verification and community review remain pending."
+  },
+  {
+    "placeID": "oriental_mindoro_pola",
+    "name": "Pola",
+    "theme": "Recorded nipa weaving and fishing livelihoods",
+    "livingHeritage": "Nipa weaving is recorded in the municipal history alongside farming and fishing. The record does not establish the extent of current practice or authorize copying a maker’s technique.",
+    "travelerValues": [
+      "Respect makers and their work",
+      "Care for waterways"
+    ],
+    "origins": "The historical account places Pola’s town center at a river estuary. Farming, fishing, and nipa weaving connect community life to land and water. The record supports this settlement setting, not a precise first-inhabitant date.",
+    "discovererStatus": "The available source material does not establish a single discoverer. Administrative dates, name stories, and outsider arrival do not establish the beginning of habitation.",
+    "sourceIDs": [
+      "pola_history"
+    ],
+    "evidenceStatus": "Inherited, attributed material; fresh verification and community review remain pending."
+  },
+  {
+    "placeID": "oriental_mindoro_pinamalayan",
+    "name": "Pinamalayan",
+    "theme": "Rainbow storytelling and banana-chip enterprise",
+    "livingHeritage": "The rainbow narrative is a recorded origin legend. Banana-chip making is a documented food enterprise. No pottery tradition is inferred from a monument.",
+    "travelerValues": [
+      "Preserve stories honestly",
+      "Recognize practical food-making skills"
+    ],
+    "origins": "The quick-facts account dates a town-seat transfer to 1916 and describes a planned center. A transfer implies an earlier town-seat location; the account does not establish the first habitation of the municipality. The date still needs archival corroboration.",
+    "discovererStatus": "The available source material does not establish a single discoverer. Administrative dates, name stories, and outsider arrival do not establish the beginning of habitation.",
+    "sourceIDs": [
+      "pin_facts",
+      "pin_history",
+      "pin_lgu"
+    ],
+    "evidenceStatus": "Inherited, attributed material; fresh verification and community review remain pending."
+  },
+  {
+    "placeID": "oriental_mindoro_gloria",
+    "name": "Gloria",
+    "theme": "Bamboo craft training and banana-chip processing",
+    "livingHeritage": "DTI-supported bamboo handicraft training and banana-chip processing are documented. Contemporary skills training is living culture; it is not described as an ancient ritual.",
+    "travelerValues": [
+      "Practice patience and cooperation",
+      "Recognize skills without inventing antiquity"
+    ],
+    "origins": "The inherited summary describes settlement around Tambong in the early twentieth century and mentions Maligaya. The chronology has not been reverified. Accounts of arriving migrants must not imply that the land had no earlier inhabitants.",
+    "discovererStatus": "The available source material does not establish a single discoverer. Administrative dates, name stories, and outsider arrival do not establish the beginning of habitation.",
+    "sourceIDs": [
+      "enterprise",
+      "gloria_craft",
+      "gloria_history",
+      "ppdo_history"
+    ],
+    "evidenceStatus": "Inherited, attributed material; fresh verification and community review remain pending."
+  },
+  {
+    "placeID": "oriental_mindoro_bansud",
+    "name": "Bansud",
+    "theme": "Banana livelihoods and the basud oral account",
+    "livingHeritage": "Bananas are part of documented agricultural identity. The basud or delta explanation remains an oral account with unresolved language attribution.",
+    "travelerValues": [
+      "Respect language attribution",
+      "Value farm work and shared land"
+    ],
+    "origins": "The compiled history records Bansud as formerly part of Bongabong. The earlier research notes identify Republic Act 2514 as a legal lead to check, but do not establish a verified precise creation or first-settlement date in this briefing.",
+    "discovererStatus": "The available source material does not establish a single discoverer. Administrative dates, name stories, and outsider arrival do not establish the beginning of habitation.",
+    "sourceIDs": [
+      "bansud_agri",
+      "bansud_history",
+      "ppdo_history"
+    ],
+    "evidenceStatus": "Inherited, attributed material; fresh verification and community review remain pending."
+  },
+  {
+    "placeID": "oriental_mindoro_bongabong",
+    "name": "Bongabong",
+    "theme": "Coconut livelihoods and remembered name accounts",
+    "livingHeritage": "Coconut plantations on coastal plains and a Binago-related name explanation appear in the inherited history. Distinct community narratives require their own contributors and credits.",
+    "travelerValues": [
+      "Credit the right contributors",
+      "Care for land and river systems"
+    ],
+    "origins": "The compiled history connects earlier settlement and name accounts with Bongabong’s coastal landscape. Some political dates conflict between summaries. The material does not establish a sole discoverer or a precise earliest-settlement date.",
+    "discovererStatus": "The available source material does not establish a single discoverer. Administrative dates, name stories, and outsider arrival do not establish the beginning of habitation.",
+    "sourceIDs": [
+      "bong_history",
+      "ppdo_history",
+      "mhc_groups"
+    ],
+    "evidenceStatus": "Inherited, attributed material; fresh verification and community review remain pending."
+  },
+  {
+    "placeID": "oriental_mindoro_roxas",
+    "name": "Roxas",
+    "theme": "Farm knowledge and the Paclasan name account",
+    "livingHeritage": "Farmer organizations received calamansi planting support. The palasan-palm account links remembered naming with plants and land; it is not a proven sole origin.",
+    "travelerValues": [
+      "Respect community memory",
+      "Value care for crops and soils"
+    ],
+    "origins": "The earlier settlement of Paclasan is linked to Roxas’s development in the compiled history. A historical settlement name is useful evidence, but the current briefing does not establish the first inhabitants, a sole discoverer, or an exact first-settlement date.",
+    "discovererStatus": "The available source material does not establish a single discoverer. Administrative dates, name stories, and outsider arrival do not establish the beginning of habitation.",
+    "sourceIDs": [
+      "farm_report",
+      "roxas_history"
+    ],
+    "evidenceStatus": "Inherited, attributed material; fresh verification and community review remain pending."
+  },
+  {
+    "placeID": "oriental_mindoro_mansalay",
+    "name": "Mansalay",
+    "theme": "Hanunoo Mangyan ambahan",
+    "livingHeritage": "The NCCA citation links Ginaw Bilog with Mansalay and ambahan, whose lines have seven syllables. Cultural association does not grant permission to reproduce verses, recordings, or motifs.",
+    "travelerValues": [
+      "Respect culture bearers and permissions",
+      "Keep Hanunoo Mangyan attribution specific"
+    ],
+    "origins": "Act 3498 reestablished Mansalay and Bulalacao separately effective 1 January 1929. This concerns municipal administration, not the beginning of Indigenous community life or a claim that an outsider discovered uninhabited land.",
+    "discovererStatus": "The available source material does not establish a single discoverer. Administrative dates, name stories, and outsider arrival do not establish the beginning of habitation.",
+    "sourceIDs": [
+      "farm_report",
+      "ambahan_ncca",
+      "ambahan_form",
+      "act3498"
+    ],
+    "evidenceStatus": "Inherited, attributed material; fresh verification and community review remain pending."
+  },
+  {
+    "placeID": "oriental_mindoro_bulalacao",
+    "name": "Bulalacao",
+    "theme": "Seaweed-noodle enterprise and the bird-name myth",
+    "livingHeritage": "A cooperative’s seaweed or kelp noodle production is documented. The town history labels the bird-related origin account as a myth, preserving storytelling without claiming historical proof.",
+    "travelerValues": [
+      "Value cooperative practical skills",
+      "Distinguish myth from documented history"
+    ],
+    "origins": "Act 3498 reestablished Bulalacao and Mansalay separately effective 1 January 1929. The proposed identification of an older place with Mait remains a hypothesis. It is not settled proof of a tenth-century settlement continuous with the present municipality.",
+    "discovererStatus": "The available source material does not establish a single discoverer. Administrative dates, name stories, and outsider arrival do not establish the beginning of habitation.",
+    "sourceIDs": [
+      "enterprise",
+      "bulalacao_history",
+      "act3498",
+      "ppdo_history"
+    ],
+    "evidenceStatus": "Inherited, attributed material; fresh verification and community review remain pending."
+  }
+]

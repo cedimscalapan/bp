@@ -16,7 +16,7 @@ test('passport paging, filters, cards and destination navigation',async({page})=
  await expect(page.getByRole('heading',{name:'Your first stamp is waiting.'})).toBeVisible();
  await page.getByRole('button',{name:'Explore Mindoro stamps'}).click();
  await expect(page.locator('.passport-card-grid .destination-leaf')).toHaveCount(15);
- await page.getByRole('button',{name:/Calapan City, 0 of 5 missions/}).click();
+ await page.getByRole('button',{name:/Calapan City, 0 of 12 missions/}).click();
  await expect(page.locator('ion-modal .detail h1')).toHaveText('Calapan City');
  await page.getByRole('button',{name:'Close',exact:true}).click();
  await page.getByRole('button',{name:'Close Passport',exact:true}).click();

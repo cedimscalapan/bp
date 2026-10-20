@@ -6,10 +6,10 @@ import {createRun,missionWon,step} from './engine';
 import {freshSave,type Destination} from './model';
 const places=(catalog as Destination[]).filter(d=>d.group==='Oriental Mindoro');
 describe('Purposeful community missions',()=>{
- it('connects all 75 missions to unique, sourced questions and required local keepsakes',()=>{
-  for(const p of heritageProfiles)for(let n=1;n<=5;n++){
+ it('connects all 180 missions to unique, sourced questions and required local keepsakes',()=>{
+  for(const p of heritageProfiles)for(let n=1;n<=12;n++){
    const q=communityQuestion(p.destinationID,n,4)!;expect(q).toBeTruthy();expect(q.options).toContain(q.answer);expect(new Set(q.options).size).toBe(4);expect(q.fact.sourceIDs.length).toBeGreaterThan(0);
-   const d=places.find(d=>d.destinationID===p.destinationID)!;const l=d.levels[n-1];const r=createRun(l,freshSave());r.coins=999;r.score=99999;r.signature=0;r.dodges=999;r.time=45;expect(missionWon(l,r)).toBe(false);r.signature=99;expect(missionWon(l,r)).toBe(true);
+   const d=places.find(d=>d.destinationID===p.destinationID)!;const l=d.levels[n-1];const r=createRun(l,freshSave());r.stars=999;r.coins=999;r.score=99999;r.signature=0;r.dodges=999;r.time=45;expect(missionWon(l,r)).toBe(false);r.signature=99;expect(missionWon(l,r)).toBe(true);
   }
  });
  it('allows every mission to be completed with careful play within its deadline',()=>{

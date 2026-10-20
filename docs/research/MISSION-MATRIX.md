@@ -1,4 +1,6 @@
-# Investigation mission matrix
+# Archived investigation mission matrix
+
+These investigation activities have been removed from Adventure. The current local campaign has twelve runner missions per place; see `docs/HISTORY-RUNNER-EXPANSION.md`. This matrix is retained as historical design/research documentation.
 
 47 additional investigations include 40 based on inherited discoveries and seven source-comparison inquiries. Candidate claims are not established factual answers; the seven new inquiries reward evaluating evidence and preserving uncertainty. All existing runner missions and save IDs remain intact.
 

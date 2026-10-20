@@ -18,7 +18,7 @@ describe('Separate municipal artwork',()=>{
    expect(d.signatureImage).toBe(a.tokenImage);
    expect(d.signatureItemName).toBe(a.tokenName);
    expect(p.pickupImage).toBe(a.tokenImage);
-   expect(d.levels.map(l=>l.id)).toEqual([1,2,3,4,5].map(n=>a.destinationID+'_level_'+n));
+   expect(d.levels.map(l=>l.id)).toEqual([1,2,3,4,5,6,7,8,9,10,11,12].map(n=>a.destinationID+'_level_'+n));
   }
  });
 });

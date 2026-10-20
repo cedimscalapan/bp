@@ -1,5 +1,7 @@
 # Investigations, learning, and research status
 
+**Current Adventure experience:** Playable investigations and their seals have been removed. Each local destination now has twelve runner missions. See `HISTORY-RUNNER-EXPANSION.md`; the investigation details below document the retired implementation.
+
 **Current learning experience:** The scored learning-game hub and its memory, sorting, planning, and recognition/word challenges have been removed at the user’s request. Learn now offers relaxed character tracing, word tracing, writing practice, and saved drawings. Earlier records are retained for backup compatibility. The game descriptions below document the previous implementation, not currently available Learn activities.
 
 ## What is implemented
