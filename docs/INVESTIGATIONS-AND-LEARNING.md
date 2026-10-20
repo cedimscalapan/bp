@@ -1,5 +1,7 @@
 # Investigations, learning, and research status
 
+**Current learning experience:** The scored learning-game hub and its memory, sorting, planning, and recognition/word challenges have been removed at the user’s request. Learn now offers relaxed character tracing, word tracing, writing practice, and saved drawings. Earlier records are retained for backup compatibility. The game descriptions below document the previous implementation, not currently available Learn activities.
+
 ## What is implemented
 
 Forty-seven new, data-driven community investigations cover Calapan City and the fourteen municipalities. Content quantity follows the available evidence: places have two to four investigations according to the material available. Their tasks use seven mission families and five interaction types (chronology/process ordering, matching, evidence classification, decisions, and constrained budgets). They are playable from each destination's **Investigate this community** section. Source-linked briefings, local fictional sprites, and distinct municipal tokens support the tasks.
