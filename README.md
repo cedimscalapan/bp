@@ -30,13 +30,15 @@ npm run android:sync
 npm run android:open
 ```
 
-Build from Android Studio, or run `gradlew.bat assembleDebug` in `android/`. The generated shell has been synchronized; no native APK build or device test was possible in the migration environment, which had Java 8 and no Android SDK.
+Build from Android Studio, or run `gradlew.bat assembleDebug` in `android/`. The Android debug APK compiled successfully in GitHub Actions using JDK 21 / Android SDK 35. No physical-device test has been performed.
 
 Release package ID remains `com.tristanrosales.buddyport`. Debug APKs use `com.tristanrosales.buddyport.ionic` and display as **BuddyPort Ionic**, so they install alongside the original app. Development version is `1.5.0-ionic-dev`, version code 9. An upgrade over the original app requires its original signing key; do not uninstall an existing copy without preserving its progress. Existing Kotlin save migration is not implemented.
 
 ## Download an APK from GitHub
 
 Every push to `main` runs the **Build Android APK** workflow. Open the repository’s **Actions** tab, select a successful run, and download **BuddyPort-Ionic-Android** from **Artifacts**. Unzip it and install `app-debug.apk` on an Android 6.0+ phone. Allow installation from the browser or file manager when Android asks. A debug build is for testing; Play Store publishing needs release signing and completion of the migration checklist.
+
+Verified APK build: [successful run](https://github.com/cedimscalapan/bp/actions/runs/39392370293) · [download APK artifact](https://github.com/cedimscalapan/bp/actions/runs/39392370293/artifacts/12250760284). GitHub artifacts expire after 30 days; run the workflow again to generate a fresh build.
 
 ## Included
 

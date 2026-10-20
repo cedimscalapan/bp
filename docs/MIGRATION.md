@@ -28,7 +28,7 @@ DEX string inspection and JADX 1.2.0 provided additional screen names, product I
 | Daily / weekly | Working local goals and claim transactions | Original goal rotation, original reward tuning and full challenge catalog |
 | Saves | New validated Ionic JSON schema, local storage, export/restore | Import Android SharedPreferences / original profiles; verify backup on a real device |
 | Billing / entitlements | Original product IDs documented below | Native Google Play Billing integration, purchase/restore/acknowledge/verification, entitlement gates and Play testing |
-| Android | Generated Capacitor shell, original app ID, synced assets/plugins | JDK/SDK build, original signing key, physical-device testing and release testing |
+| Android | Generated Capacitor shell, original app ID, synced assets/plugins | Original release signing key, physical-device testing and release testing |
 | iOS | Web code is portable | Add an iOS project on macOS and test native features; no iOS project claimed |
 
 The non-recovered routes are explicitly marked `recovered: false` in `src/data/catalog.json` and labeled in their boarding-pass screen. They are developer reconstructions, not recovered mission definitions. All destinations are available in this development build; paid route gating is not enabled.
@@ -48,7 +48,7 @@ No purchases, acknowledgements or restores are simulated. The Shop states that p
 - npm dependency audit after updating the test runner.
 - Capacitor Android platform creation and plugin/asset synchronization.
 
-These checks validate the new implementation. They do not establish behavioral equivalence with the original APK. Native compilation, release signing, purchase testing and real-device verification remain unperformed.
+These checks validate the new implementation. They do not establish behavioral equivalence with the original APK. Native debug compilation succeeded in GitHub Actions run 39392370293, for commit e58b7ecf130181b24812bdbf9ccc1f0b9993ea47. The APK artifact is BuddyPort-Ionic-Android (ID 12250760284), ZIP SHA-256 b974ba57238d36045f784f07f820850461ed0b3c40d8d0287d4ee6b8d7e6b7ca. Release signing, purchase testing and real-device verification remain unperformed.
 
 ## To finish the conversion
 
