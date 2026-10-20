@@ -1,0 +1,29 @@
+{
+  "note": "A failed proxy request is not source access. No new historical claims have been verified.",
+  "results": [
+    {
+      "sourceID": "calapan_history",
+      "requestedURL": "https://www.travelorientalmindoro.ph/municipality/calapan-city/history",
+      "attemptedOn": "2026-10-21",
+      "status": "unavailable",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "claimVerification": "not_performed"
+    },
+    {
+      "sourceID": "socorro_law",
+      "requestedURL": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/25043",
+      "attemptedOn": "2026-10-21",
+      "status": "unavailable",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "claimVerification": "not_performed"
+    },
+    {
+      "sourceID": "ppdo_history",
+      "requestedURL": "https://ppdo.ormindoro.gov.ph/provincialdata/history-of-city-municipalities-in-oriental-mindoro/",
+      "attemptedOn": "2026-10-21",
+      "status": "unavailable",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "claimVerification": "not_performed"
+    }
+  ]
+}

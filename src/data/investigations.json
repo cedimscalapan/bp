@@ -1,0 +1,3892 @@
+[
+  {
+    "id": "oriental_mindoro_puerto_galera__community-links",
+    "placeID": "oriental_mindoro_puerto_galera",
+    "title": "Puerto Galera: community connections",
+    "family": "Evidence matching",
+    "learningObjective": "Connect distinct kinds of evidence about the place without inventing chronology.",
+    "whyHere": "Puerto Galera was nominated as a UNESCO biosphere reserve in 1977, a milestone in the history of its relationship with the surrounding landscape.",
+    "claimIDs": [
+      "puerto_galera_discovery_1",
+      "puerto_galera_discovery_3",
+      "puerto_galera_discovery_4"
+    ],
+    "sourceIDs": [
+      "pg_unesco",
+      "pg_weaving"
+    ],
+    "briefing": [
+      "Puerto Galera was nominated as a UNESCO biosphere reserve in 1977, a milestone in the history of its relationship with the surrounding landscape.",
+      "Fishing, subsistence farming and basket-making connect household work with the sea and land.",
+      "Iraya-Mangyan artisans pass nito-weaving skills through families, making baskets, trays and other useful objects. This tradition belongs to its community of makers."
+    ],
+    "designNote": "",
+    "unlock": "Available to all travelers; no purchases or runner completion required",
+    "success": "Solve every task. Incorrect submissions offer explanation and retry.",
+    "failure": "Leaving saves practice only, without rewards.",
+    "difficulty": "Independent reading and multi-step reasoning; untimed",
+    "reward": {
+      "coins": 40,
+      "xp": 30
+    },
+    "artworkRequirements": "Municipal sprite guides; municipal token marks a solved task; investigation seal requires every investigation for this place. Existing passport stamps retain their five-mission rule.",
+    "tasks": [
+      {
+        "id": "context",
+        "kind": "match",
+        "prompt": "Connect each community topic to its evidence summary.",
+        "pairs": [
+          {
+            "id": "1",
+            "left": "History",
+            "right": "Puerto Galera was nominated as a UNESCO biosphere reserve in 1977, a milestone in the history of its relationship with the surrounding landscape."
+          },
+          {
+            "id": "3",
+            "left": "Ways of living",
+            "right": "Fishing, subsistence farming and basket-making connect household work with the sea and land."
+          },
+          {
+            "id": "4",
+            "left": "Traditions",
+            "right": "Iraya-Mangyan artisans pass nito-weaving skills through families, making baskets, trays and other useful objects. This tradition belongs to its community of makers."
+          }
+        ],
+        "explanation": "History, ways of living, and cultural practice answer different questions about the same community."
+      }
+    ]
+  },
+  {
+    "id": "oriental_mindoro_puerto_galera__livelihood-workshop",
+    "placeID": "oriental_mindoro_puerto_galera",
+    "title": "Puerto Galera: basket-making workshop",
+    "family": "Process planning",
+    "learningObjective": "Translate a documented livelihood into a multi-step planning exercise.",
+    "whyHere": "Fishing, subsistence farming and basket-making connect household work with the sea and land.",
+    "claimIDs": [
+      "puerto_galera_discovery_3"
+    ],
+    "sourceIDs": [
+      "pg_unesco",
+      "pg_weaving"
+    ],
+    "briefing": [
+      "Fishing, subsistence farming and basket-making connect household work with the sea and land."
+    ],
+    "designNote": "Original teaching scenario inspired by the cited livelihood; not a historical recipe, safety procedure, or claimed customary method.",
+    "unlock": "Available to all travelers; no purchases or runner completion required",
+    "success": "Solve every task. Incorrect submissions offer explanation and retry.",
+    "failure": "Leaving saves practice only, without rewards.",
+    "difficulty": "Independent reading and multi-step reasoning; untimed",
+    "reward": {
+      "coins": 40,
+      "xp": 30
+    },
+    "artworkRequirements": "Municipal sprite guides; municipal token marks a solved task; investigation seal requires every investigation for this place. Existing passport stamps retain their five-mission rule.",
+    "tasks": [
+      {
+        "id": "process",
+        "kind": "sequence",
+        "prompt": "Plan this fictional basket-making activity in a workable order.",
+        "items": [
+          {
+            "id": "0",
+            "label": "Prepare fictional craft materials"
+          },
+          {
+            "id": "1",
+            "label": "Weave a practice basket"
+          },
+          {
+            "id": "2",
+            "label": "Check the finished basket"
+          },
+          {
+            "id": "3",
+            "label": "Offer it at the community market"
+          }
+        ],
+        "answer": [
+          "0",
+          "1",
+          "2",
+          "3"
+        ],
+        "explanation": "The simulation moves from inputs through preparation and checking to a useful output. This is not a documented historical workflow."
+      },
+      {
+        "id": "quality",
+        "kind": "decision",
+        "prompt": "A delivery is ready, but the goods have not been checked. What should the team do?",
+        "options": [
+          {
+            "id": "check",
+            "label": "Check the goods before releasing the delivery"
+          },
+          {
+            "id": "rush",
+            "label": "Skip checking to finish sooner"
+          },
+          {
+            "id": "claim",
+            "label": "Declare the goods checked without looking"
+          }
+        ],
+        "answer": "check",
+        "explanation": "In this fictional logistics task, checking is a required step before releasing the output."
+      }
+    ]
+  },
+  {
+    "id": "oriental_mindoro_puerto_galera__community-care",
+    "placeID": "oriental_mindoro_puerto_galera",
+    "title": "Puerto Galera: community care plan",
+    "family": "Habitat decisions",
+    "learningObjective": "Apply environmental relationships while meeting several explicit resource constraints.",
+    "whyHere": "Fishing, subsistence farming and basket-making connect household work with the sea and land.",
+    "claimIDs": [
+      "puerto_galera_discovery_3",
+      "puerto_galera_discovery_5"
+    ],
+    "sourceIDs": [
+      "pg_unesco",
+      "pg_weaving"
+    ],
+    "briefing": [
+      "Fishing, subsistence farming and basket-making connect household work with the sea and land.",
+      "Forests, mangroves and coral reefs are connected habitats. Keeping land and water healthy supports people as well as wildlife."
+    ],
+    "designNote": "Fictional care scenario and budgets; not current local regulations, engineering advice, or disaster-response guidance.",
+    "unlock": "Available to all travelers; no purchases or runner completion required",
+    "success": "Solve every task. Incorrect submissions offer explanation and retry.",
+    "failure": "Leaving saves practice only, without rewards.",
+    "difficulty": "Independent reading and multi-step reasoning; untimed",
+    "reward": {
+      "coins": 40,
+      "xp": 30
+    },
+    "artworkRequirements": "Municipal sprite guides; municipal token marks a solved task; investigation seal requires every investigation for this place. Existing passport stamps retain their five-mission rule.",
+    "tasks": [
+      {
+        "id": "care",
+        "kind": "decision",
+        "prompt": "Your fictional team must document a water habitat without taking objects from it. Which plan meets both requirements?",
+        "options": [
+          {
+            "id": "observe",
+            "label": "Record observations and leave living things and objects in place"
+          },
+          {
+            "id": "collect",
+            "label": "Take an organism to prove you visited"
+          },
+          {
+            "id": "souvenir",
+            "label": "Remove a cultural object as a souvenir"
+          }
+        ],
+        "answer": "observe",
+        "explanation": "Observation meets the scenario goal while leaving the habitat and cultural objects in place."
+      },
+      {
+        "id": "supplies",
+        "kind": "budget",
+        "prompt": "Allocate 6 fictional supply points. Cover these needs: craft, habitat. Each required kit must be included; extras are optional.",
+        "budget": 6,
+        "requiredRoles": [
+          "craft",
+          "habitat"
+        ],
+        "items": [
+          {
+            "id": "craft",
+            "label": "Practice basket materials",
+            "cost": 3,
+            "roles": [
+              "craft"
+            ]
+          },
+          {
+            "id": "habitat",
+            "label": "Habitat observation kit",
+            "cost": 2,
+            "roles": [
+              "habitat"
+            ]
+          },
+          {
+            "id": "survey",
+            "label": "Observation notebook",
+            "cost": 1,
+            "roles": []
+          },
+          {
+            "id": "decoration",
+            "label": "Decorative sign",
+            "cost": 4,
+            "roles": []
+          }
+        ],
+        "explanation": "The required kits are Practice basket materials, Habitat observation kit. Add their costs before choosing extras. The notebook is affordable; decoration cannot replace a required kit. All costs and supplies are original game rules, not real prices."
+      }
+    ]
+  },
+  {
+    "id": "oriental_mindoro_san_teodoro__history-docket",
+    "placeID": "oriental_mindoro_san_teodoro",
+    "title": "San Teodoro: history docket",
+    "family": "Timeline investigation",
+    "learningObjective": "Place a local administrative event within a sourced regional chronology.",
+    "whyHere": "The provincial history records Subaan as an earlier name. Act 3498 reestablished San Teodoro separately from Baco, effective 1 January 1929.",
+    "claimIDs": [
+      "san_teodoro_discovery_1",
+      "victoria_discovery_1",
+      "socorro_discovery_1",
+      "calapan_city_discovery_1"
+    ],
+    "sourceIDs": [
+      "st_history",
+      "act3498",
+      "victoria_history",
+      "socorro_law",
+      "calapan_history"
+    ],
+    "briefing": [
+      "The provincial history records Subaan as an earlier name. Act 3498 reestablished San Teodoro separately from Baco, effective 1 January 1929.",
+      "The provincial history records Subaan as an earlier name. Act 3498 reestablished San Teodoro separately from Baco, effective 1 January 1929.",
+      "Victoria was formed from territory previously belonging to Naujan in 1953, according to the compiled municipal history.",
+      "Republic Act 3609, approved on 22 June 1963, created Socorro from territory formerly belonging to Pola.",
+      "Calapan became a city following the plebiscite of 21 March 1998. It is Oriental Mindoro's provincial capital."
+    ],
+    "designNote": "",
+    "unlock": "Available to all travelers; no purchases or runner completion required",
+    "success": "Solve every task. Incorrect submissions offer explanation and retry.",
+    "failure": "Leaving saves practice only, without rewards.",
+    "difficulty": "Independent reading and multi-step reasoning; untimed",
+    "reward": {
+      "coins": 40,
+      "xp": 30
+    },
+    "artworkRequirements": "Municipal sprite guides; municipal token marks a solved task; investigation seal requires every investigation for this place. Existing passport stamps retain their five-mission rule.",
+    "tasks": [
+      {
+        "id": "chronology",
+        "kind": "sequence",
+        "prompt": "Build the regional timeline from earliest to latest. The dates are supplied as evidence.",
+        "items": [
+          {
+            "id": "1929",
+            "label": "1929 · Baco and San Teodoro reestablished separately"
+          },
+          {
+            "id": "1953",
+            "label": "1953 · Victoria formed from Naujan territory"
+          },
+          {
+            "id": "1963",
+            "label": "1963 · Socorro created by Republic Act 3609"
+          },
+          {
+            "id": "1998",
+            "label": "1998 · Calapan cityhood plebiscite"
+          }
+        ],
+        "answer": [
+          "1929",
+          "1953",
+          "1963",
+          "1998"
+        ],
+        "explanation": "Compare years; 1929 precedes 1953, then 1963, then 1998."
+      },
+      {
+        "id": "local-event",
+        "kind": "decision",
+        "prompt": "What does a date in a legal or administrative record establish?",
+        "options": [
+          {
+            "id": "event",
+            "label": "The specific administrative event described in the record"
+          },
+          {
+            "id": "first",
+            "label": "The first time anyone lived in the area"
+          },
+          {
+            "id": "discovery",
+            "label": "That the place was previously undiscovered"
+          }
+        ],
+        "answer": "event",
+        "explanation": "A legal creation or reestablishment date does not date the first settlement or the beginning of community life."
+      }
+    ]
+  },
+  {
+    "id": "oriental_mindoro_san_teodoro__livelihood-workshop",
+    "placeID": "oriental_mindoro_san_teodoro",
+    "title": "San Teodoro: coconut processing workshop",
+    "family": "Process planning",
+    "learningObjective": "Translate a documented livelihood into a multi-step planning exercise.",
+    "whyHere": "Coconut processing is one documented local enterprise, turning farm produce into goods for sale.",
+    "claimIDs": [
+      "san_teodoro_discovery_3"
+    ],
+    "sourceIDs": [
+      "enterprise"
+    ],
+    "briefing": [
+      "Coconut processing is one documented local enterprise, turning farm produce into goods for sale."
+    ],
+    "designNote": "Original teaching scenario inspired by the cited livelihood; not a historical recipe, safety procedure, or claimed customary method.",
+    "unlock": "Available to all travelers; no purchases or runner completion required",
+    "success": "Solve every task. Incorrect submissions offer explanation and retry.",
+    "failure": "Leaving saves practice only, without rewards.",
+    "difficulty": "Independent reading and multi-step reasoning; untimed",
+    "reward": {
+      "coins": 40,
+      "xp": 30
+    },
+    "artworkRequirements": "Municipal sprite guides; municipal token marks a solved task; investigation seal requires every investigation for this place. Existing passport stamps retain their five-mission rule.",
+    "tasks": [
+      {
+        "id": "process",
+        "kind": "sequence",
+        "prompt": "Plan this fictional coconut processing activity in a workable order.",
+        "items": [
+          {
+            "id": "0",
+            "label": "Gather a fictional coconut harvest"
+          },
+          {
+            "id": "1",
+            "label": "Bring the harvest to processing"
+          },
+          {
+            "id": "2",
+            "label": "Check the processed goods"
+          },
+          {
+            "id": "3",
+            "label": "Deliver the goods to market"
+          }
+        ],
+        "answer": [
+          "0",
+          "1",
+          "2",
+          "3"
+        ],
+        "explanation": "The simulation moves from inputs through preparation and checking to a useful output. This is not a documented historical workflow."
+      },
+      {
+        "id": "quality",
+        "kind": "decision",
+        "prompt": "A delivery is ready, but the goods have not been checked. What should the team do?",
+        "options": [
+          {
+            "id": "check",
+            "label": "Check the goods before releasing the delivery"
+          },
+          {
+            "id": "rush",
+            "label": "Skip checking to finish sooner"
+          },
+          {
+            "id": "claim",
+            "label": "Declare the goods checked without looking"
+          }
+        ],
+        "answer": "check",
+        "explanation": "In this fictional logistics task, checking is a required step before releasing the output."
+      }
+    ]
+  },
+  {
+    "id": "oriental_mindoro_san_teodoro__community-care",
+    "placeID": "oriental_mindoro_san_teodoro",
+    "title": "San Teodoro: community care plan",
+    "family": "Community resource planning",
+    "learningObjective": "Apply environmental relationships while meeting several explicit resource constraints.",
+    "whyHere": "Coconut processing is one documented local enterprise, turning farm produce into goods for sale.",
+    "claimIDs": [
+      "san_teodoro_discovery_3",
+      "san_teodoro_discovery_5"
+    ],
+    "sourceIDs": [
+      "enterprise",
+      "st_history"
+    ],
+    "briefing": [
+      "Coconut processing is one documented local enterprise, turning farm produce into goods for sale.",
+      "Rivers and forested land form part of the town landscape. Water flowing downstream links upland care with community life."
+    ],
+    "designNote": "Fictional care scenario and budgets; not current local regulations, engineering advice, or disaster-response guidance.",
+    "unlock": "Available to all travelers; no purchases or runner completion required",
+    "success": "Solve every task. Incorrect submissions offer explanation and retry.",
+    "failure": "Leaving saves practice only, without rewards.",
+    "difficulty": "Independent reading and multi-step reasoning; untimed",
+    "reward": {
+      "coins": 40,
+      "xp": 30
+    },
+    "artworkRequirements": "Municipal sprite guides; municipal token marks a solved task; investigation seal requires every investigation for this place. Existing passport stamps retain their five-mission rule.",
+    "tasks": [
+      {
+        "id": "links",
+        "kind": "match",
+        "prompt": "Connect each part of the briefing to its role in community life.",
+        "pairs": [
+          {
+            "id": "work",
+            "left": "Ways of living",
+            "right": "Coconut processing is one documented local enterprise, turning farm produce into goods for sale."
+          },
+          {
+            "id": "land",
+            "left": "Environment",
+            "right": "Rivers and forested land form part of the town landscape. Water flowing downstream links upland care with community life."
+          }
+        ],
+        "explanation": "The briefing connects local work with the land and water that help sustain it."
+      },
+      {
+        "id": "supplies",
+        "kind": "budget",
+        "prompt": "Allocate 6 fictional supply points. Cover these needs: processing, water. Each required kit must be included; extras are optional.",
+        "budget": 6,
+        "requiredRoles": [
+          "processing",
+          "water"
+        ],
+        "items": [
+          {
+            "id": "processing",
+            "label": "Coconut-processing practice kit",
+            "cost": 3,
+            "roles": [
+              "processing"
+            ]
+          },
+          {
+            "id": "water",
+            "label": "Water-care kit",
+            "cost": 2,
+            "roles": [
+              "water"
+            ]
+          },
+          {
+            "id": "survey",
+            "label": "Observation notebook",
+            "cost": 1,
+            "roles": []
+          },
+          {
+            "id": "decoration",
+            "label": "Decorative sign",
+            "cost": 4,
+            "roles": []
+          }
+        ],
+        "explanation": "The required kits are Coconut-processing practice kit, Water-care kit. Add their costs before choosing extras. The notebook is affordable; decoration cannot replace a required kit. All costs and supplies are original game rules, not real prices."
+      }
+    ]
+  },
+  {
+    "id": "oriental_mindoro_baco__name-evidence",
+    "placeID": "oriental_mindoro_baco",
+    "title": "Baco: name detective",
+    "family": "Evidence sorting",
+    "learningObjective": "Distinguish a remembered origin account from documentary evidence.",
+    "whyHere": "One local place-name account connects Baco with paco, an edible fern. Other accounts also exist; this is an oral account, not a settled origin.",
+    "claimIDs": [
+      "baco_discovery_4",
+      "baco_discovery_3"
+    ],
+    "sourceIDs": [
+      "baco_history",
+      "farm_report"
+    ],
+    "briefing": [
+      "One local place-name account connects Baco with paco, an edible fern. Other accounts also exist; this is an oral account, not a settled origin.",
+      "Farmer organizations in Baco participated in calamansi planting support documented in the provincial 2019 report."
+    ],
+    "designNote": "",
+    "unlock": "Available to all travelers; no purchases or runner completion required",
+    "success": "Solve every task. Incorrect submissions offer explanation and retry.",
+    "failure": "Leaving saves practice only, without rewards.",
+    "difficulty": "Independent reading and multi-step reasoning; untimed",
+    "reward": {
+      "coins": 40,
+      "xp": 30
+    },
+    "artworkRequirements": "Municipal sprite guides; municipal token marks a solved task; investigation seal requires every investigation for this place. Existing passport stamps retain their five-mission rule.",
+    "tasks": [
+      {
+        "id": "evidence",
+        "kind": "classify",
+        "prompt": "Classify each statement. An account can carry community meaning without being a verified historical event.",
+        "items": [
+          {
+            "id": "baco_discovery_1",
+            "label": "Act 3498 reestablished Baco and San Teodoro as separate municipal districts, effective 1 January 1929.",
+            "answer": "record"
+          },
+          {
+            "id": "baco_discovery_3",
+            "label": "Farmer organizations in Baco participated in calamansi planting support documented in the provincial 2019 report.",
+            "answer": "record"
+          },
+          {
+            "id": "baco_discovery_4",
+            "label": "One local place-name account connects Baco with paco, an edible fern. Other accounts also exist; this is an oral account, not a settled origin.",
+            "answer": "story"
+          }
+        ],
+        "categories": [
+          {
+            "id": "record",
+            "label": "Reported in documentary sources"
+          },
+          {
+            "id": "story",
+            "label": "Local story / oral account"
+          }
+        ],
+        "explanation": "Legends and name accounts are presented as remembered narratives. The other statements are source summaries, not independently reverified claims."
+      },
+      {
+        "id": "interpret",
+        "kind": "decision",
+        "prompt": "How should your journal present this name or origin account?",
+        "options": [
+          {
+            "id": "certain",
+            "label": "Present it as the only proven origin"
+          },
+          {
+            "id": "attributed",
+            "label": "Attribute it as a local account and preserve uncertainty"
+          },
+          {
+            "id": "erase",
+            "label": "Remove the community account because it is not a dated law"
+          }
+        ],
+        "answer": "attributed",
+        "explanation": "Attribution respects community memory without claiming historical certainty."
+      }
+    ]
+  },
+  {
+    "id": "oriental_mindoro_baco__community-care",
+    "placeID": "oriental_mindoro_baco",
+    "title": "Baco: community care plan",
+    "family": "Community resource planning",
+    "learningObjective": "Apply environmental relationships while meeting several explicit resource constraints.",
+    "whyHere": "Farmer organizations in Baco participated in calamansi planting support documented in the provincial 2019 report.",
+    "claimIDs": [
+      "baco_discovery_3",
+      "baco_discovery_5"
+    ],
+    "sourceIDs": [
+      "farm_report",
+      "baco_history",
+      "rivercare"
+    ],
+    "briefing": [
+      "Farmer organizations in Baco participated in calamansi planting support documented in the provincial 2019 report.",
+      "Baco has rivers and upland landscapes. Riverbank planting has been used in provincial flood-mitigation efforts that include Baco."
+    ],
+    "designNote": "Fictional care scenario and budgets; not current local regulations, engineering advice, or disaster-response guidance.",
+    "unlock": "Available to all travelers; no purchases or runner completion required",
+    "success": "Solve every task. Incorrect submissions offer explanation and retry.",
+    "failure": "Leaving saves practice only, without rewards.",
+    "difficulty": "Independent reading and multi-step reasoning; untimed",
+    "reward": {
+      "coins": 40,
+      "xp": 30
+    },
+    "artworkRequirements": "Municipal sprite guides; municipal token marks a solved task; investigation seal requires every investigation for this place. Existing passport stamps retain their five-mission rule.",
+    "tasks": [
+      {
+        "id": "links",
+        "kind": "match",
+        "prompt": "Connect each part of the briefing to its role in community life.",
+        "pairs": [
+          {
+            "id": "work",
+            "left": "Ways of living",
+            "right": "Farmer organizations in Baco participated in calamansi planting support documented in the provincial 2019 report."
+          },
+          {
+            "id": "land",
+            "left": "Environment",
+            "right": "Baco has rivers and upland landscapes. Riverbank planting has been used in provincial flood-mitigation efforts that include Baco."
+          }
+        ],
+        "explanation": "The briefing connects local work with the land and water that help sustain it."
+      },
+      {
+        "id": "supplies",
+        "kind": "budget",
+        "prompt": "Allocate 6 fictional supply points. Cover these needs: orchard, river. Each required kit must be included; extras are optional.",
+        "budget": 6,
+        "requiredRoles": [
+          "orchard",
+          "river"
+        ],
+        "items": [
+          {
+            "id": "orchard",
+            "label": "Calamansi planting practice kit",
+            "cost": 2,
+            "roles": [
+              "orchard"
+            ]
+          },
+          {
+            "id": "river",
+            "label": "Riverbank observation kit",
+            "cost": 3,
+            "roles": [
+              "river"
+            ]
+          },
+          {
+            "id": "survey",
+            "label": "Observation notebook",
+            "cost": 1,
+            "roles": []
+          },
+          {
+            "id": "decoration",
+            "label": "Decorative sign",
+            "cost": 4,
+            "roles": []
+          }
+        ],
+        "explanation": "The required kits are Calamansi planting practice kit, Riverbank observation kit. Add their costs before choosing extras. The notebook is affordable; decoration cannot replace a required kit. All costs and supplies are original game rules, not real prices."
+      }
+    ]
+  },
+  {
+    "id": "oriental_mindoro_calapan_city__history-docket",
+    "placeID": "oriental_mindoro_calapan_city",
+    "title": "Calapan City: history docket",
+    "family": "Timeline investigation",
+    "learningObjective": "Place a local administrative event within a sourced regional chronology.",
+    "whyHere": "Calapan became a city following the plebiscite of 21 March 1998. It is Oriental Mindoro's provincial capital.",
+    "claimIDs": [
+      "calapan_city_discovery_1",
+      "san_teodoro_discovery_1",
+      "victoria_discovery_1",
+      "socorro_discovery_1"
+    ],
+    "sourceIDs": [
+      "calapan_history",
+      "st_history",
+      "act3498",
+      "victoria_history",
+      "socorro_law"
+    ],
+    "briefing": [
+      "Calapan became a city following the plebiscite of 21 March 1998. It is Oriental Mindoro's provincial capital.",
+      "The provincial history records Subaan as an earlier name. Act 3498 reestablished San Teodoro separately from Baco, effective 1 January 1929.",
+      "Victoria was formed from territory previously belonging to Naujan in 1953, according to the compiled municipal history.",
+      "Republic Act 3609, approved on 22 June 1963, created Socorro from territory formerly belonging to Pola.",
+      "Calapan became a city following the plebiscite of 21 March 1998. It is Oriental Mindoro's provincial capital."
+    ],
+    "designNote": "",
+    "unlock": "Available to all travelers; no purchases or runner completion required",
+    "success": "Solve every task. Incorrect submissions offer explanation and retry.",
+    "failure": "Leaving saves practice only, without rewards.",
+    "difficulty": "Independent reading and multi-step reasoning; untimed",
+    "reward": {
+      "coins": 40,
+      "xp": 30
+    },
+    "artworkRequirements": "Municipal sprite guides; municipal token marks a solved task; investigation seal requires every investigation for this place. Existing passport stamps retain their five-mission rule.",
+    "tasks": [
+      {
+        "id": "chronology",
+        "kind": "sequence",
+        "prompt": "Build the regional timeline from earliest to latest. The dates are supplied as evidence.",
+        "items": [
+          {
+            "id": "1929",
+            "label": "1929 · Baco and San Teodoro reestablished separately"
+          },
+          {
+            "id": "1953",
+            "label": "1953 · Victoria formed from Naujan territory"
+          },
+          {
+            "id": "1963",
+            "label": "1963 · Socorro created by Republic Act 3609"
+          },
+          {
+            "id": "1998",
+            "label": "1998 · Calapan cityhood plebiscite"
+          }
+        ],
+        "answer": [
+          "1929",
+          "1953",
+          "1963",
+          "1998"
+        ],
+        "explanation": "Compare years; 1929 precedes 1953, then 1963, then 1998."
+      },
+      {
+        "id": "local-event",
+        "kind": "decision",
+        "prompt": "What does a date in a legal or administrative record establish?",
+        "options": [
+          {
+            "id": "event",
+            "label": "The specific administrative event described in the record"
+          },
+          {
+            "id": "first",
+            "label": "The first time anyone lived in the area"
+          },
+          {
+            "id": "discovery",
+            "label": "That the place was previously undiscovered"
+          }
+        ],
+        "answer": "event",
+        "explanation": "A legal creation or reestablishment date does not date the first settlement or the beginning of community life."
+      }
+    ]
+  },
+  {
+    "id": "oriental_mindoro_calapan_city__livelihood-workshop",
+    "placeID": "oriental_mindoro_calapan_city",
+    "title": "Calapan City: farming and commerce workshop",
+    "family": "Process planning",
+    "learningObjective": "Translate a documented livelihood into a multi-step planning exercise.",
+    "whyHere": "Commerce and farming both form part of city life. Provincial records document support for Calapan farmer organizations growing calamansi.",
+    "claimIDs": [
+      "calapan_city_discovery_3"
+    ],
+    "sourceIDs": [
+      "calapan",
+      "farm_report"
+    ],
+    "briefing": [
+      "Commerce and farming both form part of city life. Provincial records document support for Calapan farmer organizations growing calamansi."
+    ],
+    "designNote": "Original teaching scenario inspired by the cited livelihood; not a historical recipe, safety procedure, or claimed customary method.",
+    "unlock": "Available to all travelers; no purchases or runner completion required",
+    "success": "Solve every task. Incorrect submissions offer explanation and retry.",
+    "failure": "Leaving saves practice only, without rewards.",
+    "difficulty": "Independent reading and multi-step reasoning; untimed",
+    "reward": {
+      "coins": 40,
+      "xp": 30
+    },
+    "artworkRequirements": "Municipal sprite guides; municipal token marks a solved task; investigation seal requires every investigation for this place. Existing passport stamps retain their five-mission rule.",
+    "tasks": [
+      {
+        "id": "process",
+        "kind": "sequence",
+        "prompt": "Plan this fictional farming and commerce activity in a workable order.",
+        "items": [
+          {
+            "id": "0",
+            "label": "Receive fictional farm produce"
+          },
+          {
+            "id": "1",
+            "label": "Check the produce"
+          },
+          {
+            "id": "2",
+            "label": "Bring it to the market"
+          },
+          {
+            "id": "3",
+            "label": "Record the trade"
+          }
+        ],
+        "answer": [
+          "0",
+          "1",
+          "2",
+          "3"
+        ],
+        "explanation": "The simulation moves from inputs through preparation and checking to a useful output. This is not a documented historical workflow."
+      },
+      {
+        "id": "quality",
+        "kind": "decision",
+        "prompt": "A delivery is ready, but the goods have not been checked. What should the team do?",
+        "options": [
+          {
+            "id": "check",
+            "label": "Check the goods before releasing the delivery"
+          },
+          {
+            "id": "rush",
+            "label": "Skip checking to finish sooner"
+          },
+          {
+            "id": "claim",
+            "label": "Declare the goods checked without looking"
+          }
+        ],
+        "answer": "check",
+        "explanation": "In this fictional logistics task, checking is a required step before releasing the output."
+      }
+    ]
+  },
+  {
+    "id": "oriental_mindoro_calapan_city__community-care",
+    "placeID": "oriental_mindoro_calapan_city",
+    "title": "Calapan City: community care plan",
+    "family": "Habitat decisions",
+    "learningObjective": "Apply environmental relationships while meeting several explicit resource constraints.",
+    "whyHere": "Commerce and farming both form part of city life. Provincial records document support for Calapan farmer organizations growing calamansi.",
+    "claimIDs": [
+      "calapan_city_discovery_3",
+      "calapan_city_discovery_5"
+    ],
+    "sourceIDs": [
+      "calapan",
+      "farm_report",
+      "calapan_mpa"
+    ],
+    "briefing": [
+      "Commerce and farming both form part of city life. Provincial records document support for Calapan farmer organizations growing calamansi.",
+      "Coastal mangroves and fish habitats are part of Calapan's environment. Healthy coastal water supports living ecosystems."
+    ],
+    "designNote": "Fictional care scenario and budgets; not current local regulations, engineering advice, or disaster-response guidance.",
+    "unlock": "Available to all travelers; no purchases or runner completion required",
+    "success": "Solve every task. Incorrect submissions offer explanation and retry.",
+    "failure": "Leaving saves practice only, without rewards.",
+    "difficulty": "Independent reading and multi-step reasoning; untimed",
+    "reward": {
+      "coins": 40,
+      "xp": 30
+    },
+    "artworkRequirements": "Municipal sprite guides; municipal token marks a solved task; investigation seal requires every investigation for this place. Existing passport stamps retain their five-mission rule.",
+    "tasks": [
+      {
+        "id": "care",
+        "kind": "decision",
+        "prompt": "Your fictional team must document a water habitat without taking objects from it. Which plan meets both requirements?",
+        "options": [
+          {
+            "id": "observe",
+            "label": "Record observations and leave living things and objects in place"
+          },
+          {
+            "id": "collect",
+            "label": "Take an organism to prove you visited"
+          },
+          {
+            "id": "souvenir",
+            "label": "Remove a cultural object as a souvenir"
+          }
+        ],
+        "answer": "observe",
+        "explanation": "Observation meets the scenario goal while leaving the habitat and cultural objects in place."
+      },
+      {
+        "id": "supplies",
+        "kind": "budget",
+        "prompt": "Allocate 5 fictional supply points. Cover these needs: water, food. Each required kit must be included; extras are optional.",
+        "budget": 5,
+        "requiredRoles": [
+          "water",
+          "food"
+        ],
+        "items": [
+          {
+            "id": "water",
+            "label": "Water-care kit",
+            "cost": 2,
+            "roles": [
+              "water"
+            ]
+          },
+          {
+            "id": "soil",
+            "label": "Food-growing support kit",
+            "cost": 2,
+            "roles": [
+              "food"
+            ]
+          },
+          {
+            "id": "survey",
+            "label": "Observation notebook",
+            "cost": 1,
+            "roles": []
+          },
+          {
+            "id": "decoration",
+            "label": "Decorative sign",
+            "cost": 4,
+            "roles": []
+          }
+        ],
+        "explanation": "The required kits are Water-care kit, Food-growing support kit. Add their costs before choosing extras. The notebook is affordable; decoration cannot replace a required kit. All costs and supplies are original game rules, not real prices."
+      }
+    ]
+  },
+  {
+    "id": "oriental_mindoro_naujan__name-evidence",
+    "placeID": "oriental_mindoro_naujan",
+    "title": "Naujan: name detective",
+    "family": "Evidence sorting",
+    "learningObjective": "Distinguish a remembered origin account from documentary evidence.",
+    "whyHere": "A local legend connects Naujan's name with thirst. It is an origin story recorded in the town history, rather than a confirmed account of how the name began.",
+    "claimIDs": [
+      "naujan_discovery_1",
+      "naujan_discovery_3"
+    ],
+    "sourceIDs": [
+      "naujan_history",
+      "lake_fisheries"
+    ],
+    "briefing": [
+      "A local legend connects Naujan's name with thirst. It is an origin story recorded in the town history, rather than a confirmed account of how the name began.",
+      "Freshwater fisheries support livelihoods around Naujan Lake; scientific assessments help guide sustainable management."
+    ],
+    "designNote": "",
+    "unlock": "Available to all travelers; no purchases or runner completion required",
+    "success": "Solve every task. Incorrect submissions offer explanation and retry.",
+    "failure": "Leaving saves practice only, without rewards.",
+    "difficulty": "Independent reading and multi-step reasoning; untimed",
+    "reward": {
+      "coins": 40,
+      "xp": 30
+    },
+    "artworkRequirements": "Municipal sprite guides; municipal token marks a solved task; investigation seal requires every investigation for this place. Existing passport stamps retain their five-mission rule.",
+    "tasks": [
+      {
+        "id": "evidence",
+        "kind": "classify",
+        "prompt": "Classify each statement. An account can carry community meaning without being a verified historical event.",
+        "items": [
+          {
+            "id": "naujan_discovery_1",
+            "label": "A local legend connects Naujan's name with thirst. It is an origin story recorded in the town history, rather than a confirmed account of how the name began.",
+            "answer": "story"
+          },
+          {
+            "id": "naujan_discovery_3",
+            "label": "Freshwater fisheries support livelihoods around Naujan Lake; scientific assessments help guide sustainable management.",
+            "answer": "record"
+          }
+        ],
+        "categories": [
+          {
+            "id": "record",
+            "label": "Reported in documentary sources"
+          },
+          {
+            "id": "story",
+            "label": "Local story / oral account"
+          }
+        ],
+        "explanation": "Legends and name accounts are presented as remembered narratives. The other statements are source summaries, not independently reverified claims."
+      },
+      {
+        "id": "interpret",
+        "kind": "decision",
+        "prompt": "How should your journal present this name or origin account?",
+        "options": [
+          {
+            "id": "certain",
+            "label": "Present it as the only proven origin"
+          },
+          {
+            "id": "attributed",
+            "label": "Attribute it as a local account and preserve uncertainty"
+          },
+          {
+            "id": "erase",
+            "label": "Remove the community account because it is not a dated law"
+          }
+        ],
+        "answer": "attributed",
+        "explanation": "Attribution respects community memory without claiming historical certainty."
+      }
+    ]
+  },
+  {
+    "id": "oriental_mindoro_naujan__community-care",
+    "placeID": "oriental_mindoro_naujan",
+    "title": "Naujan: community care plan",
+    "family": "Community resource planning",
+    "learningObjective": "Apply environmental relationships while meeting several explicit resource constraints.",
+    "whyHere": "Freshwater fisheries support livelihoods around Naujan Lake; scientific assessments help guide sustainable management.",
+    "claimIDs": [
+      "naujan_discovery_3",
+      "naujan_discovery_5"
+    ],
+    "sourceIDs": [
+      "lake_fisheries",
+      "lake_profile"
+    ],
+    "briefing": [
+      "Freshwater fisheries support livelihoods around Naujan Lake; scientific assessments help guide sustainable management.",
+      "Naujan shares a lake ecosystem with Pola, Socorro and Victoria. Freshwater habitats connect communities across municipal boundaries."
+    ],
+    "designNote": "Fictional care scenario and budgets; not current local regulations, engineering advice, or disaster-response guidance.",
+    "unlock": "Available to all travelers; no purchases or runner completion required",
+    "success": "Solve every task. Incorrect submissions offer explanation and retry.",
+    "failure": "Leaving saves practice only, without rewards.",
+    "difficulty": "Independent reading and multi-step reasoning; untimed",
+    "reward": {
+      "coins": 40,
+      "xp": 30
+    },
+    "artworkRequirements": "Municipal sprite guides; municipal token marks a solved task; investigation seal requires every investigation for this place. Existing passport stamps retain their five-mission rule.",
+    "tasks": [
+      {
+        "id": "links",
+        "kind": "match",
+        "prompt": "Connect each part of the briefing to its role in community life.",
+        "pairs": [
+          {
+            "id": "work",
+            "left": "Ways of living",
+            "right": "Freshwater fisheries support livelihoods around Naujan Lake; scientific assessments help guide sustainable management."
+          },
+          {
+            "id": "land",
+            "left": "Environment",
+            "right": "Naujan shares a lake ecosystem with Pola, Socorro and Victoria. Freshwater habitats connect communities across municipal boundaries."
+          }
+        ],
+        "explanation": "The briefing connects local work with the land and water that help sustain it."
+      },
+      {
+        "id": "supplies",
+        "kind": "budget",
+        "prompt": "Allocate 6 fictional supply points. Cover these needs: fishery, water. Each required kit must be included; extras are optional.",
+        "budget": 6,
+        "requiredRoles": [
+          "fishery",
+          "water"
+        ],
+        "items": [
+          {
+            "id": "fishery",
+            "label": "Freshwater-fish observation kit",
+            "cost": 3,
+            "roles": [
+              "fishery"
+            ]
+          },
+          {
+            "id": "water",
+            "label": "Lake-water observation kit",
+            "cost": 2,
+            "roles": [
+              "water"
+            ]
+          },
+          {
+            "id": "survey",
+            "label": "Observation notebook",
+            "cost": 1,
+            "roles": []
+          },
+          {
+            "id": "decoration",
+            "label": "Decorative sign",
+            "cost": 4,
+            "roles": []
+          }
+        ],
+        "explanation": "The required kits are Freshwater-fish observation kit, Lake-water observation kit. Add their costs before choosing extras. The notebook is affordable; decoration cannot replace a required kit. All costs and supplies are original game rules, not real prices."
+      }
+    ]
+  },
+  {
+    "id": "oriental_mindoro_victoria__name-evidence",
+    "placeID": "oriental_mindoro_victoria",
+    "title": "Victoria: name detective",
+    "family": "Evidence sorting",
+    "learningObjective": "Distinguish a remembered origin account from documentary evidence.",
+    "whyHere": "A local account connects the earlier name Borbocolon with gushing water. Place-name stories preserve community memory, even when they are not established historical facts.",
+    "claimIDs": [
+      "victoria_discovery_4",
+      "victoria_discovery_3"
+    ],
+    "sourceIDs": [
+      "victoria_history",
+      "victoria_up"
+    ],
+    "briefing": [
+      "A local account connects the earlier name Borbocolon with gushing water. Place-name stories preserve community memory, even when they are not established historical facts.",
+      "Rice and varied fruits support farm livelihoods. Documented crops include calamansi, bananas, lanzones, mangosteen and rambutan."
+    ],
+    "designNote": "",
+    "unlock": "Available to all travelers; no purchases or runner completion required",
+    "success": "Solve every task. Incorrect submissions offer explanation and retry.",
+    "failure": "Leaving saves practice only, without rewards.",
+    "difficulty": "Independent reading and multi-step reasoning; untimed",
+    "reward": {
+      "coins": 40,
+      "xp": 30
+    },
+    "artworkRequirements": "Municipal sprite guides; municipal token marks a solved task; investigation seal requires every investigation for this place. Existing passport stamps retain their five-mission rule.",
+    "tasks": [
+      {
+        "id": "evidence",
+        "kind": "classify",
+        "prompt": "Classify each statement. An account can carry community meaning without being a verified historical event.",
+        "items": [
+          {
+            "id": "victoria_discovery_1",
+            "label": "Victoria was formed from territory previously belonging to Naujan in 1953, according to the compiled municipal history.",
+            "answer": "record"
+          },
+          {
+            "id": "victoria_discovery_3",
+            "label": "Rice and varied fruits support farm livelihoods. Documented crops include calamansi, bananas, lanzones, mangosteen and rambutan.",
+            "answer": "record"
+          },
+          {
+            "id": "victoria_discovery_4",
+            "label": "A local account connects the earlier name Borbocolon with gushing water. Place-name stories preserve community memory, even when they are not established historical facts.",
+            "answer": "story"
+          }
+        ],
+        "categories": [
+          {
+            "id": "record",
+            "label": "Reported in documentary sources"
+          },
+          {
+            "id": "story",
+            "label": "Local story / oral account"
+          }
+        ],
+        "explanation": "Legends and name accounts are presented as remembered narratives. The other statements are source summaries, not independently reverified claims."
+      },
+      {
+        "id": "interpret",
+        "kind": "decision",
+        "prompt": "How should your journal present this name or origin account?",
+        "options": [
+          {
+            "id": "certain",
+            "label": "Present it as the only proven origin"
+          },
+          {
+            "id": "attributed",
+            "label": "Attribute it as a local account and preserve uncertainty"
+          },
+          {
+            "id": "erase",
+            "label": "Remove the community account because it is not a dated law"
+          }
+        ],
+        "answer": "attributed",
+        "explanation": "Attribution respects community memory without claiming historical certainty."
+      }
+    ]
+  },
+  {
+    "id": "oriental_mindoro_victoria__livelihood-workshop",
+    "placeID": "oriental_mindoro_victoria",
+    "title": "Victoria: fruit farming workshop",
+    "family": "Process planning",
+    "learningObjective": "Translate a documented livelihood into a multi-step planning exercise.",
+    "whyHere": "Rice and varied fruits support farm livelihoods. Documented crops include calamansi, bananas, lanzones, mangosteen and rambutan.",
+    "claimIDs": [
+      "victoria_discovery_3"
+    ],
+    "sourceIDs": [
+      "victoria_up"
+    ],
+    "briefing": [
+      "Rice and varied fruits support farm livelihoods. Documented crops include calamansi, bananas, lanzones, mangosteen and rambutan."
+    ],
+    "designNote": "Original teaching scenario inspired by the cited livelihood; not a historical recipe, safety procedure, or claimed customary method.",
+    "unlock": "Available to all travelers; no purchases or runner completion required",
+    "success": "Solve every task. Incorrect submissions offer explanation and retry.",
+    "failure": "Leaving saves practice only, without rewards.",
+    "difficulty": "Independent reading and multi-step reasoning; untimed",
+    "reward": {
+      "coins": 40,
+      "xp": 30
+    },
+    "artworkRequirements": "Municipal sprite guides; municipal token marks a solved task; investigation seal requires every investigation for this place. Existing passport stamps retain their five-mission rule.",
+    "tasks": [
+      {
+        "id": "process",
+        "kind": "sequence",
+        "prompt": "Plan this fictional fruit farming activity in a workable order.",
+        "items": [
+          {
+            "id": "0",
+            "label": "Gather fictional orchard produce"
+          },
+          {
+            "id": "1",
+            "label": "Sort the fruit"
+          },
+          {
+            "id": "2",
+            "label": "Pack it for transport"
+          },
+          {
+            "id": "3",
+            "label": "Deliver it to market"
+          }
+        ],
+        "answer": [
+          "0",
+          "1",
+          "2",
+          "3"
+        ],
+        "explanation": "The simulation moves from inputs through preparation and checking to a useful output. This is not a documented historical workflow."
+      },
+      {
+        "id": "quality",
+        "kind": "decision",
+        "prompt": "A delivery is ready, but the goods have not been checked. What should the team do?",
+        "options": [
+          {
+            "id": "check",
+            "label": "Check the goods before releasing the delivery"
+          },
+          {
+            "id": "rush",
+            "label": "Skip checking to finish sooner"
+          },
+          {
+            "id": "claim",
+            "label": "Declare the goods checked without looking"
+          }
+        ],
+        "answer": "check",
+        "explanation": "In this fictional logistics task, checking is a required step before releasing the output."
+      }
+    ]
+  },
+  {
+    "id": "oriental_mindoro_victoria__community-care",
+    "placeID": "oriental_mindoro_victoria",
+    "title": "Victoria: community care plan",
+    "family": "Community resource planning",
+    "learningObjective": "Apply environmental relationships while meeting several explicit resource constraints.",
+    "whyHere": "Rice and varied fruits support farm livelihoods. Documented crops include calamansi, bananas, lanzones, mangosteen and rambutan.",
+    "claimIDs": [
+      "victoria_discovery_3",
+      "victoria_discovery_5"
+    ],
+    "sourceIDs": [
+      "victoria_up",
+      "lake_profile"
+    ],
+    "briefing": [
+      "Rice and varied fruits support farm livelihoods. Documented crops include calamansi, bananas, lanzones, mangosteen and rambutan.",
+      "Fields, orchards and the shared lake landscape connect Victoria's food production with soil and water."
+    ],
+    "designNote": "Fictional care scenario and budgets; not current local regulations, engineering advice, or disaster-response guidance.",
+    "unlock": "Available to all travelers; no purchases or runner completion required",
+    "success": "Solve every task. Incorrect submissions offer explanation and retry.",
+    "failure": "Leaving saves practice only, without rewards.",
+    "difficulty": "Independent reading and multi-step reasoning; untimed",
+    "reward": {
+      "coins": 40,
+      "xp": 30
+    },
+    "artworkRequirements": "Municipal sprite guides; municipal token marks a solved task; investigation seal requires every investigation for this place. Existing passport stamps retain their five-mission rule.",
+    "tasks": [
+      {
+        "id": "links",
+        "kind": "match",
+        "prompt": "Connect each part of the briefing to its role in community life.",
+        "pairs": [
+          {
+            "id": "work",
+            "left": "Ways of living",
+            "right": "Rice and varied fruits support farm livelihoods. Documented crops include calamansi, bananas, lanzones, mangosteen and rambutan."
+          },
+          {
+            "id": "land",
+            "left": "Environment",
+            "right": "Fields, orchards and the shared lake landscape connect Victoria's food production with soil and water."
+          }
+        ],
+        "explanation": "The briefing connects local work with the land and water that help sustain it."
+      },
+      {
+        "id": "supplies",
+        "kind": "budget",
+        "prompt": "Allocate 6 fictional supply points. Cover these needs: orchard, soil. Each required kit must be included; extras are optional.",
+        "budget": 6,
+        "requiredRoles": [
+          "orchard",
+          "soil"
+        ],
+        "items": [
+          {
+            "id": "orchard",
+            "label": "Fruit-orchard practice kit",
+            "cost": 3,
+            "roles": [
+              "orchard"
+            ]
+          },
+          {
+            "id": "soil",
+            "label": "Soil-care practice kit",
+            "cost": 2,
+            "roles": [
+              "soil"
+            ]
+          },
+          {
+            "id": "survey",
+            "label": "Observation notebook",
+            "cost": 1,
+            "roles": []
+          },
+          {
+            "id": "decoration",
+            "label": "Decorative sign",
+            "cost": 4,
+            "roles": []
+          }
+        ],
+        "explanation": "The required kits are Fruit-orchard practice kit, Soil-care practice kit. Add their costs before choosing extras. The notebook is affordable; decoration cannot replace a required kit. All costs and supplies are original game rules, not real prices."
+      }
+    ]
+  },
+  {
+    "id": "oriental_mindoro_socorro__name-evidence",
+    "placeID": "oriental_mindoro_socorro",
+    "title": "Socorro: name detective",
+    "family": "Evidence sorting",
+    "learningObjective": "Distinguish a remembered origin account from documentary evidence.",
+    "whyHere": "The municipal account links the earlier settlement with Catiningan and explains the name Socorro through a local naming story. Treat such accounts as remembered community narratives.",
+    "claimIDs": [
+      "socorro_discovery_4",
+      "socorro_discovery_3"
+    ],
+    "sourceIDs": [
+      "socorro_lgu",
+      "ppdo_history"
+    ],
+    "briefing": [
+      "The municipal account links the earlier settlement with Catiningan and explains the name Socorro through a local naming story. Treat such accounts as remembered community narratives.",
+      "Calamansi, rambutan, coffee and bananas are among the crops described in the provincial municipal history."
+    ],
+    "designNote": "",
+    "unlock": "Available to all travelers; no purchases or runner completion required",
+    "success": "Solve every task. Incorrect submissions offer explanation and retry.",
+    "failure": "Leaving saves practice only, without rewards.",
+    "difficulty": "Independent reading and multi-step reasoning; untimed",
+    "reward": {
+      "coins": 40,
+      "xp": 30
+    },
+    "artworkRequirements": "Municipal sprite guides; municipal token marks a solved task; investigation seal requires every investigation for this place. Existing passport stamps retain their five-mission rule.",
+    "tasks": [
+      {
+        "id": "evidence",
+        "kind": "classify",
+        "prompt": "Classify each statement. An account can carry community meaning without being a verified historical event.",
+        "items": [
+          {
+            "id": "socorro_discovery_1",
+            "label": "Republic Act 3609, approved on 22 June 1963, created Socorro from territory formerly belonging to Pola.",
+            "answer": "record"
+          },
+          {
+            "id": "socorro_discovery_3",
+            "label": "Calamansi, rambutan, coffee and bananas are among the crops described in the provincial municipal history.",
+            "answer": "record"
+          },
+          {
+            "id": "socorro_discovery_4",
+            "label": "The municipal account links the earlier settlement with Catiningan and explains the name Socorro through a local naming story. Treat such accounts as remembered community narratives.",
+            "answer": "story"
+          }
+        ],
+        "categories": [
+          {
+            "id": "record",
+            "label": "Reported in documentary sources"
+          },
+          {
+            "id": "story",
+            "label": "Local story / oral account"
+          }
+        ],
+        "explanation": "Legends and name accounts are presented as remembered narratives. The other statements are source summaries, not independently reverified claims."
+      },
+      {
+        "id": "interpret",
+        "kind": "decision",
+        "prompt": "How should your journal present this name or origin account?",
+        "options": [
+          {
+            "id": "certain",
+            "label": "Present it as the only proven origin"
+          },
+          {
+            "id": "attributed",
+            "label": "Attribute it as a local account and preserve uncertainty"
+          },
+          {
+            "id": "erase",
+            "label": "Remove the community account because it is not a dated law"
+          }
+        ],
+        "answer": "attributed",
+        "explanation": "Attribution respects community memory without claiming historical certainty."
+      }
+    ]
+  },
+  {
+    "id": "oriental_mindoro_socorro__community-care",
+    "placeID": "oriental_mindoro_socorro",
+    "title": "Socorro: community care plan",
+    "family": "Community resource planning",
+    "learningObjective": "Apply environmental relationships while meeting several explicit resource constraints.",
+    "whyHere": "Calamansi, rambutan, coffee and bananas are among the crops described in the provincial municipal history.",
+    "claimIDs": [
+      "socorro_discovery_3",
+      "socorro_discovery_5"
+    ],
+    "sourceIDs": [
+      "ppdo_history",
+      "lake_profile"
+    ],
+    "briefing": [
+      "Calamansi, rambutan, coffee and bananas are among the crops described in the provincial municipal history.",
+      "Socorro is one of the four municipalities surrounding the shared Naujan Lake landscape. Water stewardship connects neighboring communities."
+    ],
+    "designNote": "Fictional care scenario and budgets; not current local regulations, engineering advice, or disaster-response guidance.",
+    "unlock": "Available to all travelers; no purchases or runner completion required",
+    "success": "Solve every task. Incorrect submissions offer explanation and retry.",
+    "failure": "Leaving saves practice only, without rewards.",
+    "difficulty": "Independent reading and multi-step reasoning; untimed",
+    "reward": {
+      "coins": 40,
+      "xp": 30
+    },
+    "artworkRequirements": "Municipal sprite guides; municipal token marks a solved task; investigation seal requires every investigation for this place. Existing passport stamps retain their five-mission rule.",
+    "tasks": [
+      {
+        "id": "links",
+        "kind": "match",
+        "prompt": "Connect each part of the briefing to its role in community life.",
+        "pairs": [
+          {
+            "id": "work",
+            "left": "Ways of living",
+            "right": "Calamansi, rambutan, coffee and bananas are among the crops described in the provincial municipal history."
+          },
+          {
+            "id": "land",
+            "left": "Environment",
+            "right": "Socorro is one of the four municipalities surrounding the shared Naujan Lake landscape. Water stewardship connects neighboring communities."
+          }
+        ],
+        "explanation": "The briefing connects local work with the land and water that help sustain it."
+      },
+      {
+        "id": "supplies",
+        "kind": "budget",
+        "prompt": "Allocate 6 fictional supply points. Cover these needs: crops, water. Each required kit must be included; extras are optional.",
+        "budget": 6,
+        "requiredRoles": [
+          "crops",
+          "water"
+        ],
+        "items": [
+          {
+            "id": "crops",
+            "label": "Mixed-crop practice kit",
+            "cost": 3,
+            "roles": [
+              "crops"
+            ]
+          },
+          {
+            "id": "water",
+            "label": "Shared-water observation kit",
+            "cost": 2,
+            "roles": [
+              "water"
+            ]
+          },
+          {
+            "id": "survey",
+            "label": "Observation notebook",
+            "cost": 1,
+            "roles": []
+          },
+          {
+            "id": "decoration",
+            "label": "Decorative sign",
+            "cost": 4,
+            "roles": []
+          }
+        ],
+        "explanation": "The required kits are Mixed-crop practice kit, Shared-water observation kit. Add their costs before choosing extras. The notebook is affordable; decoration cannot replace a required kit. All costs and supplies are original game rules, not real prices."
+      }
+    ]
+  },
+  {
+    "id": "oriental_mindoro_pola__community-links",
+    "placeID": "oriental_mindoro_pola",
+    "title": "Pola: community connections",
+    "family": "Evidence matching",
+    "learningObjective": "Connect distinct kinds of evidence about the place without inventing chronology.",
+    "whyHere": "Pola's historical account places the town center at a river estuary, showing the long connection between settlement and water.",
+    "claimIDs": [
+      "pola_discovery_1",
+      "pola_discovery_3",
+      "pola_discovery_4"
+    ],
+    "sourceIDs": [
+      "pola_history"
+    ],
+    "briefing": [
+      "Pola's historical account places the town center at a river estuary, showing the long connection between settlement and water.",
+      "Agriculture and fishing are documented livelihoods in Pola, linking daily work to farms, rivers and coastal water.",
+      "Nipa weaving is among the local practices recorded in Pola's history. Useful woven materials connect craft knowledge with everyday needs."
+    ],
+    "designNote": "",
+    "unlock": "Available to all travelers; no purchases or runner completion required",
+    "success": "Solve every task. Incorrect submissions offer explanation and retry.",
+    "failure": "Leaving saves practice only, without rewards.",
+    "difficulty": "Independent reading and multi-step reasoning; untimed",
+    "reward": {
+      "coins": 40,
+      "xp": 30
+    },
+    "artworkRequirements": "Municipal sprite guides; municipal token marks a solved task; investigation seal requires every investigation for this place. Existing passport stamps retain their five-mission rule.",
+    "tasks": [
+      {
+        "id": "context",
+        "kind": "match",
+        "prompt": "Connect each community topic to its evidence summary.",
+        "pairs": [
+          {
+            "id": "1",
+            "left": "History",
+            "right": "Pola's historical account places the town center at a river estuary, showing the long connection between settlement and water."
+          },
+          {
+            "id": "3",
+            "left": "Ways of living",
+            "right": "Agriculture and fishing are documented livelihoods in Pola, linking daily work to farms, rivers and coastal water."
+          },
+          {
+            "id": "4",
+            "left": "Traditions",
+            "right": "Nipa weaving is among the local practices recorded in Pola's history. Useful woven materials connect craft knowledge with everyday needs."
+          }
+        ],
+        "explanation": "History, ways of living, and cultural practice answer different questions about the same community."
+      }
+    ]
+  },
+  {
+    "id": "oriental_mindoro_pola__livelihood-workshop",
+    "placeID": "oriental_mindoro_pola",
+    "title": "Pola: agriculture and fishing workshop",
+    "family": "Process planning",
+    "learningObjective": "Translate a documented livelihood into a multi-step planning exercise.",
+    "whyHere": "Agriculture and fishing are documented livelihoods in Pola, linking daily work to farms, rivers and coastal water.",
+    "claimIDs": [
+      "pola_discovery_3"
+    ],
+    "sourceIDs": [
+      "pola_history"
+    ],
+    "briefing": [
+      "Agriculture and fishing are documented livelihoods in Pola, linking daily work to farms, rivers and coastal water."
+    ],
+    "designNote": "Original teaching scenario inspired by the cited livelihood; not a historical recipe, safety procedure, or claimed customary method.",
+    "unlock": "Available to all travelers; no purchases or runner completion required",
+    "success": "Solve every task. Incorrect submissions offer explanation and retry.",
+    "failure": "Leaving saves practice only, without rewards.",
+    "difficulty": "Independent reading and multi-step reasoning; untimed",
+    "reward": {
+      "coins": 40,
+      "xp": 30
+    },
+    "artworkRequirements": "Municipal sprite guides; municipal token marks a solved task; investigation seal requires every investigation for this place. Existing passport stamps retain their five-mission rule.",
+    "tasks": [
+      {
+        "id": "process",
+        "kind": "sequence",
+        "prompt": "Plan this fictional agriculture and fishing activity in a workable order.",
+        "items": [
+          {
+            "id": "0",
+            "label": "Receive fictional food supplies"
+          },
+          {
+            "id": "1",
+            "label": "Check the supplies"
+          },
+          {
+            "id": "2",
+            "label": "Allocate household portions"
+          },
+          {
+            "id": "3",
+            "label": "Deliver remaining supplies to market"
+          }
+        ],
+        "answer": [
+          "0",
+          "1",
+          "2",
+          "3"
+        ],
+        "explanation": "The simulation moves from inputs through preparation and checking to a useful output. This is not a documented historical workflow."
+      },
+      {
+        "id": "quality",
+        "kind": "decision",
+        "prompt": "A delivery is ready, but the goods have not been checked. What should the team do?",
+        "options": [
+          {
+            "id": "check",
+            "label": "Check the goods before releasing the delivery"
+          },
+          {
+            "id": "rush",
+            "label": "Skip checking to finish sooner"
+          },
+          {
+            "id": "claim",
+            "label": "Declare the goods checked without looking"
+          }
+        ],
+        "answer": "check",
+        "explanation": "In this fictional logistics task, checking is a required step before releasing the output."
+      }
+    ]
+  },
+  {
+    "id": "oriental_mindoro_pola__community-care",
+    "placeID": "oriental_mindoro_pola",
+    "title": "Pola: community care plan",
+    "family": "Habitat decisions",
+    "learningObjective": "Apply environmental relationships while meeting several explicit resource constraints.",
+    "whyHere": "Agriculture and fishing are documented livelihoods in Pola, linking daily work to farms, rivers and coastal water.",
+    "claimIDs": [
+      "pola_discovery_3",
+      "pola_discovery_5"
+    ],
+    "sourceIDs": [
+      "pola_history",
+      "lake_profile"
+    ],
+    "briefing": [
+      "Agriculture and fishing are documented livelihoods in Pola, linking daily work to farms, rivers and coastal water.",
+      "A river estuary connects freshwater and coastal water. Pola also shares the wider Naujan Lake landscape with neighboring municipalities."
+    ],
+    "designNote": "Fictional care scenario and budgets; not current local regulations, engineering advice, or disaster-response guidance.",
+    "unlock": "Available to all travelers; no purchases or runner completion required",
+    "success": "Solve every task. Incorrect submissions offer explanation and retry.",
+    "failure": "Leaving saves practice only, without rewards.",
+    "difficulty": "Independent reading and multi-step reasoning; untimed",
+    "reward": {
+      "coins": 40,
+      "xp": 30
+    },
+    "artworkRequirements": "Municipal sprite guides; municipal token marks a solved task; investigation seal requires every investigation for this place. Existing passport stamps retain their five-mission rule.",
+    "tasks": [
+      {
+        "id": "care",
+        "kind": "decision",
+        "prompt": "Your fictional team must document a water habitat without taking objects from it. Which plan meets both requirements?",
+        "options": [
+          {
+            "id": "observe",
+            "label": "Record observations and leave living things and objects in place"
+          },
+          {
+            "id": "collect",
+            "label": "Take an organism to prove you visited"
+          },
+          {
+            "id": "souvenir",
+            "label": "Remove a cultural object as a souvenir"
+          }
+        ],
+        "answer": "observe",
+        "explanation": "Observation meets the scenario goal while leaving the habitat and cultural objects in place."
+      },
+      {
+        "id": "supplies",
+        "kind": "budget",
+        "prompt": "Allocate 6 fictional supply points. Cover these needs: craft, estuary. Each required kit must be included; extras are optional.",
+        "budget": 6,
+        "requiredRoles": [
+          "craft",
+          "estuary"
+        ],
+        "items": [
+          {
+            "id": "craft",
+            "label": "Nipa-weaving practice kit",
+            "cost": 2,
+            "roles": [
+              "craft"
+            ]
+          },
+          {
+            "id": "estuary",
+            "label": "Estuary observation kit",
+            "cost": 3,
+            "roles": [
+              "estuary"
+            ]
+          },
+          {
+            "id": "survey",
+            "label": "Observation notebook",
+            "cost": 1,
+            "roles": []
+          },
+          {
+            "id": "decoration",
+            "label": "Decorative sign",
+            "cost": 4,
+            "roles": []
+          }
+        ],
+        "explanation": "The required kits are Nipa-weaving practice kit, Estuary observation kit. Add their costs before choosing extras. The notebook is affordable; decoration cannot replace a required kit. All costs and supplies are original game rules, not real prices."
+      }
+    ]
+  },
+  {
+    "id": "oriental_mindoro_pinamalayan__name-evidence",
+    "placeID": "oriental_mindoro_pinamalayan",
+    "title": "Pinamalayan: name detective",
+    "family": "Evidence sorting",
+    "learningObjective": "Distinguish a remembered origin account from documentary evidence.",
+    "whyHere": "A recorded origin legend tells of travelers guided toward land by a rainbow. It is a community story, not proof of the town's historical founding.",
+    "claimIDs": [
+      "pinamalayan_discovery_4",
+      "pinamalayan_discovery_3"
+    ],
+    "sourceIDs": [
+      "pin_history",
+      "pin_facts"
+    ],
+    "briefing": [
+      "A recorded origin legend tells of travelers guided toward land by a rainbow. It is a community story, not proof of the town's historical founding.",
+      "Banana-chip making is a documented local food enterprise, adding value to agricultural produce."
+    ],
+    "designNote": "",
+    "unlock": "Available to all travelers; no purchases or runner completion required",
+    "success": "Solve every task. Incorrect submissions offer explanation and retry.",
+    "failure": "Leaving saves practice only, without rewards.",
+    "difficulty": "Independent reading and multi-step reasoning; untimed",
+    "reward": {
+      "coins": 40,
+      "xp": 30
+    },
+    "artworkRequirements": "Municipal sprite guides; municipal token marks a solved task; investigation seal requires every investigation for this place. Existing passport stamps retain their five-mission rule.",
+    "tasks": [
+      {
+        "id": "evidence",
+        "kind": "classify",
+        "prompt": "Classify each statement. An account can carry community meaning without being a verified historical event.",
+        "items": [
+          {
+            "id": "pinamalayan_discovery_1",
+            "label": "The municipal quick-facts account dates the transfer of the town seat from its earlier location to 1916. Its planned center follows a grid layout.",
+            "answer": "record"
+          },
+          {
+            "id": "pinamalayan_discovery_3",
+            "label": "Banana-chip making is a documented local food enterprise, adding value to agricultural produce.",
+            "answer": "record"
+          },
+          {
+            "id": "pinamalayan_discovery_4",
+            "label": "A recorded origin legend tells of travelers guided toward land by a rainbow. It is a community story, not proof of the town's historical founding.",
+            "answer": "story"
+          }
+        ],
+        "categories": [
+          {
+            "id": "record",
+            "label": "Reported in documentary sources"
+          },
+          {
+            "id": "story",
+            "label": "Local story / oral account"
+          }
+        ],
+        "explanation": "Legends and name accounts are presented as remembered narratives. The other statements are source summaries, not independently reverified claims."
+      },
+      {
+        "id": "interpret",
+        "kind": "decision",
+        "prompt": "How should your journal present this name or origin account?",
+        "options": [
+          {
+            "id": "certain",
+            "label": "Present it as the only proven origin"
+          },
+          {
+            "id": "attributed",
+            "label": "Attribute it as a local account and preserve uncertainty"
+          },
+          {
+            "id": "erase",
+            "label": "Remove the community account because it is not a dated law"
+          }
+        ],
+        "answer": "attributed",
+        "explanation": "Attribution respects community memory without claiming historical certainty."
+      }
+    ]
+  },
+  {
+    "id": "oriental_mindoro_pinamalayan__livelihood-workshop",
+    "placeID": "oriental_mindoro_pinamalayan",
+    "title": "Pinamalayan: banana-chip making workshop",
+    "family": "Process planning",
+    "learningObjective": "Translate a documented livelihood into a multi-step planning exercise.",
+    "whyHere": "Banana-chip making is a documented local food enterprise, adding value to agricultural produce.",
+    "claimIDs": [
+      "pinamalayan_discovery_3"
+    ],
+    "sourceIDs": [
+      "pin_facts"
+    ],
+    "briefing": [
+      "Banana-chip making is a documented local food enterprise, adding value to agricultural produce."
+    ],
+    "designNote": "Original teaching scenario inspired by the cited livelihood; not a historical recipe, safety procedure, or claimed customary method.",
+    "unlock": "Available to all travelers; no purchases or runner completion required",
+    "success": "Solve every task. Incorrect submissions offer explanation and retry.",
+    "failure": "Leaving saves practice only, without rewards.",
+    "difficulty": "Independent reading and multi-step reasoning; untimed",
+    "reward": {
+      "coins": 40,
+      "xp": 30
+    },
+    "artworkRequirements": "Municipal sprite guides; municipal token marks a solved task; investigation seal requires every investigation for this place. Existing passport stamps retain their five-mission rule.",
+    "tasks": [
+      {
+        "id": "process",
+        "kind": "sequence",
+        "prompt": "Plan this fictional banana-chip making activity in a workable order.",
+        "items": [
+          {
+            "id": "0",
+            "label": "Receive fictional bananas"
+          },
+          {
+            "id": "1",
+            "label": "Prepare a batch for processing"
+          },
+          {
+            "id": "2",
+            "label": "Process the practice banana chips"
+          },
+          {
+            "id": "3",
+            "label": "Pack the finished batch"
+          }
+        ],
+        "answer": [
+          "0",
+          "1",
+          "2",
+          "3"
+        ],
+        "explanation": "The simulation moves from inputs through preparation and checking to a useful output. This is not a documented historical workflow."
+      },
+      {
+        "id": "quality",
+        "kind": "decision",
+        "prompt": "A delivery is ready, but the goods have not been checked. What should the team do?",
+        "options": [
+          {
+            "id": "check",
+            "label": "Check the goods before releasing the delivery"
+          },
+          {
+            "id": "rush",
+            "label": "Skip checking to finish sooner"
+          },
+          {
+            "id": "claim",
+            "label": "Declare the goods checked without looking"
+          }
+        ],
+        "answer": "check",
+        "explanation": "In this fictional logistics task, checking is a required step before releasing the output."
+      }
+    ]
+  },
+  {
+    "id": "oriental_mindoro_pinamalayan__community-care",
+    "placeID": "oriental_mindoro_pinamalayan",
+    "title": "Pinamalayan: community care plan",
+    "family": "Community resource planning",
+    "learningObjective": "Apply environmental relationships while meeting several explicit resource constraints.",
+    "whyHere": "Banana-chip making is a documented local food enterprise, adding value to agricultural produce.",
+    "claimIDs": [
+      "pinamalayan_discovery_3",
+      "pinamalayan_discovery_5"
+    ],
+    "sourceIDs": [
+      "pin_facts",
+      "soils",
+      "rivercare"
+    ],
+    "briefing": [
+      "Banana-chip making is a documented local food enterprise, adding value to agricultural produce.",
+      "Cultivated soils support farm life. Pinamalayan has also been included in riverbank planting efforts for flood mitigation."
+    ],
+    "designNote": "Fictional care scenario and budgets; not current local regulations, engineering advice, or disaster-response guidance.",
+    "unlock": "Available to all travelers; no purchases or runner completion required",
+    "success": "Solve every task. Incorrect submissions offer explanation and retry.",
+    "failure": "Leaving saves practice only, without rewards.",
+    "difficulty": "Independent reading and multi-step reasoning; untimed",
+    "reward": {
+      "coins": 40,
+      "xp": 30
+    },
+    "artworkRequirements": "Municipal sprite guides; municipal token marks a solved task; investigation seal requires every investigation for this place. Existing passport stamps retain their five-mission rule.",
+    "tasks": [
+      {
+        "id": "links",
+        "kind": "match",
+        "prompt": "Connect each part of the briefing to its role in community life.",
+        "pairs": [
+          {
+            "id": "work",
+            "left": "Ways of living",
+            "right": "Banana-chip making is a documented local food enterprise, adding value to agricultural produce."
+          },
+          {
+            "id": "land",
+            "left": "Environment",
+            "right": "Cultivated soils support farm life. Pinamalayan has also been included in riverbank planting efforts for flood mitigation."
+          }
+        ],
+        "explanation": "The briefing connects local work with the land and water that help sustain it."
+      },
+      {
+        "id": "supplies",
+        "kind": "budget",
+        "prompt": "Allocate 6 fictional supply points. Cover these needs: processing, river. Each required kit must be included; extras are optional.",
+        "budget": 6,
+        "requiredRoles": [
+          "processing",
+          "river"
+        ],
+        "items": [
+          {
+            "id": "processing",
+            "label": "Banana-chip practice supplies",
+            "cost": 3,
+            "roles": [
+              "processing"
+            ]
+          },
+          {
+            "id": "river",
+            "label": "Riverbank observation kit",
+            "cost": 2,
+            "roles": [
+              "river"
+            ]
+          },
+          {
+            "id": "survey",
+            "label": "Observation notebook",
+            "cost": 1,
+            "roles": []
+          },
+          {
+            "id": "decoration",
+            "label": "Decorative sign",
+            "cost": 4,
+            "roles": []
+          }
+        ],
+        "explanation": "The required kits are Banana-chip practice supplies, Riverbank observation kit. Add their costs before choosing extras. The notebook is affordable; decoration cannot replace a required kit. All costs and supplies are original game rules, not real prices."
+      }
+    ]
+  },
+  {
+    "id": "oriental_mindoro_gloria__community-links",
+    "placeID": "oriental_mindoro_gloria",
+    "title": "Gloria: community connections",
+    "family": "Evidence matching",
+    "learningObjective": "Connect distinct kinds of evidence about the place without inventing chronology.",
+    "whyHere": "Gloria's municipal history records that its territory was once part of Pinamalayan and describes settlement around Tambong in the early twentieth century.",
+    "claimIDs": [
+      "gloria_discovery_1",
+      "gloria_discovery_3",
+      "gloria_discovery_4"
+    ],
+    "sourceIDs": [
+      "gloria_history",
+      "enterprise",
+      "gloria_craft"
+    ],
+    "briefing": [
+      "Gloria's municipal history records that its territory was once part of Pinamalayan and describes settlement around Tambong in the early twentieth century.",
+      "Banana-chip processing is one documented enterprise in Gloria, connecting cultivation with food-making and trade.",
+      "Bamboo handicraft skills are shared through local training supported by DTI. Contemporary craft learning is part of living culture; it need not be described as an ancient ritual."
+    ],
+    "designNote": "",
+    "unlock": "Available to all travelers; no purchases or runner completion required",
+    "success": "Solve every task. Incorrect submissions offer explanation and retry.",
+    "failure": "Leaving saves practice only, without rewards.",
+    "difficulty": "Independent reading and multi-step reasoning; untimed",
+    "reward": {
+      "coins": 40,
+      "xp": 30
+    },
+    "artworkRequirements": "Municipal sprite guides; municipal token marks a solved task; investigation seal requires every investigation for this place. Existing passport stamps retain their five-mission rule.",
+    "tasks": [
+      {
+        "id": "context",
+        "kind": "match",
+        "prompt": "Connect each community topic to its evidence summary.",
+        "pairs": [
+          {
+            "id": "1",
+            "left": "History",
+            "right": "Gloria's municipal history records that its territory was once part of Pinamalayan and describes settlement around Tambong in the early twentieth century."
+          },
+          {
+            "id": "3",
+            "left": "Ways of living",
+            "right": "Banana-chip processing is one documented enterprise in Gloria, connecting cultivation with food-making and trade."
+          },
+          {
+            "id": "4",
+            "left": "Traditions",
+            "right": "Bamboo handicraft skills are shared through local training supported by DTI. Contemporary craft learning is part of living culture; it need not be described as an ancient ritual."
+          }
+        ],
+        "explanation": "History, ways of living, and cultural practice answer different questions about the same community."
+      }
+    ]
+  },
+  {
+    "id": "oriental_mindoro_gloria__livelihood-workshop",
+    "placeID": "oriental_mindoro_gloria",
+    "title": "Gloria: banana-chip processing workshop",
+    "family": "Process planning",
+    "learningObjective": "Translate a documented livelihood into a multi-step planning exercise.",
+    "whyHere": "Banana-chip processing is one documented enterprise in Gloria, connecting cultivation with food-making and trade.",
+    "claimIDs": [
+      "gloria_discovery_3"
+    ],
+    "sourceIDs": [
+      "enterprise"
+    ],
+    "briefing": [
+      "Banana-chip processing is one documented enterprise in Gloria, connecting cultivation with food-making and trade."
+    ],
+    "designNote": "Original teaching scenario inspired by the cited livelihood; not a historical recipe, safety procedure, or claimed customary method.",
+    "unlock": "Available to all travelers; no purchases or runner completion required",
+    "success": "Solve every task. Incorrect submissions offer explanation and retry.",
+    "failure": "Leaving saves practice only, without rewards.",
+    "difficulty": "Independent reading and multi-step reasoning; untimed",
+    "reward": {
+      "coins": 40,
+      "xp": 30
+    },
+    "artworkRequirements": "Municipal sprite guides; municipal token marks a solved task; investigation seal requires every investigation for this place. Existing passport stamps retain their five-mission rule.",
+    "tasks": [
+      {
+        "id": "process",
+        "kind": "sequence",
+        "prompt": "Plan this fictional banana-chip processing activity in a workable order.",
+        "items": [
+          {
+            "id": "0",
+            "label": "Receive fictional bananas"
+          },
+          {
+            "id": "1",
+            "label": "Prepare a batch for processing"
+          },
+          {
+            "id": "2",
+            "label": "Process the practice banana chips"
+          },
+          {
+            "id": "3",
+            "label": "Pack the finished batch"
+          }
+        ],
+        "answer": [
+          "0",
+          "1",
+          "2",
+          "3"
+        ],
+        "explanation": "The simulation moves from inputs through preparation and checking to a useful output. This is not a documented historical workflow."
+      },
+      {
+        "id": "quality",
+        "kind": "decision",
+        "prompt": "A delivery is ready, but the goods have not been checked. What should the team do?",
+        "options": [
+          {
+            "id": "check",
+            "label": "Check the goods before releasing the delivery"
+          },
+          {
+            "id": "rush",
+            "label": "Skip checking to finish sooner"
+          },
+          {
+            "id": "claim",
+            "label": "Declare the goods checked without looking"
+          }
+        ],
+        "answer": "check",
+        "explanation": "In this fictional logistics task, checking is a required step before releasing the output."
+      }
+    ]
+  },
+  {
+    "id": "oriental_mindoro_gloria__community-care",
+    "placeID": "oriental_mindoro_gloria",
+    "title": "Gloria: community care plan",
+    "family": "Community resource planning",
+    "learningObjective": "Apply environmental relationships while meeting several explicit resource constraints.",
+    "whyHere": "Banana-chip processing is one documented enterprise in Gloria, connecting cultivation with food-making and trade.",
+    "claimIDs": [
+      "gloria_discovery_3",
+      "gloria_discovery_5"
+    ],
+    "sourceIDs": [
+      "enterprise",
+      "soils",
+      "rivercare"
+    ],
+    "briefing": [
+      "Banana-chip processing is one documented enterprise in Gloria, connecting cultivation with food-making and trade.",
+      "Agricultural soils and riverbanks support local life. Gloria has participated in bamboo planting for flood mitigation."
+    ],
+    "designNote": "Fictional care scenario and budgets; not current local regulations, engineering advice, or disaster-response guidance.",
+    "unlock": "Available to all travelers; no purchases or runner completion required",
+    "success": "Solve every task. Incorrect submissions offer explanation and retry.",
+    "failure": "Leaving saves practice only, without rewards.",
+    "difficulty": "Independent reading and multi-step reasoning; untimed",
+    "reward": {
+      "coins": 40,
+      "xp": 30
+    },
+    "artworkRequirements": "Municipal sprite guides; municipal token marks a solved task; investigation seal requires every investigation for this place. Existing passport stamps retain their five-mission rule.",
+    "tasks": [
+      {
+        "id": "links",
+        "kind": "match",
+        "prompt": "Connect each part of the briefing to its role in community life.",
+        "pairs": [
+          {
+            "id": "work",
+            "left": "Ways of living",
+            "right": "Banana-chip processing is one documented enterprise in Gloria, connecting cultivation with food-making and trade."
+          },
+          {
+            "id": "land",
+            "left": "Environment",
+            "right": "Agricultural soils and riverbanks support local life. Gloria has participated in bamboo planting for flood mitigation."
+          }
+        ],
+        "explanation": "The briefing connects local work with the land and water that help sustain it."
+      },
+      {
+        "id": "supplies",
+        "kind": "budget",
+        "prompt": "Allocate 6 fictional supply points. Cover these needs: bamboo, river. Each required kit must be included; extras are optional.",
+        "budget": 6,
+        "requiredRoles": [
+          "bamboo",
+          "river"
+        ],
+        "items": [
+          {
+            "id": "bamboo",
+            "label": "Bamboo craft practice kit",
+            "cost": 3,
+            "roles": [
+              "bamboo"
+            ]
+          },
+          {
+            "id": "river",
+            "label": "Riverbank observation kit",
+            "cost": 2,
+            "roles": [
+              "river"
+            ]
+          },
+          {
+            "id": "survey",
+            "label": "Observation notebook",
+            "cost": 1,
+            "roles": []
+          },
+          {
+            "id": "decoration",
+            "label": "Decorative sign",
+            "cost": 4,
+            "roles": []
+          }
+        ],
+        "explanation": "The required kits are Bamboo craft practice kit, Riverbank observation kit. Add their costs before choosing extras. The notebook is affordable; decoration cannot replace a required kit. All costs and supplies are original game rules, not real prices."
+      }
+    ]
+  },
+  {
+    "id": "oriental_mindoro_bansud__name-evidence",
+    "placeID": "oriental_mindoro_bansud",
+    "title": "Bansud: name detective",
+    "family": "Evidence sorting",
+    "learningObjective": "Distinguish a remembered origin account from documentary evidence.",
+    "whyHere": "An oral tradition connects the name Bansud with basud, or delta. Keep this explanation labeled as a local account.",
+    "claimIDs": [
+      "bansud_discovery_4",
+      "bansud_discovery_3"
+    ],
+    "sourceIDs": [
+      "bansud_history",
+      "bansud_agri"
+    ],
+    "briefing": [
+      "An oral tradition connects the name Bansud with basud, or delta. Keep this explanation labeled as a local account.",
+      "Bananas and other agricultural products form part of Bansud's documented economic identity."
+    ],
+    "designNote": "",
+    "unlock": "Available to all travelers; no purchases or runner completion required",
+    "success": "Solve every task. Incorrect submissions offer explanation and retry.",
+    "failure": "Leaving saves practice only, without rewards.",
+    "difficulty": "Independent reading and multi-step reasoning; untimed",
+    "reward": {
+      "coins": 40,
+      "xp": 30
+    },
+    "artworkRequirements": "Municipal sprite guides; municipal token marks a solved task; investigation seal requires every investigation for this place. Existing passport stamps retain their five-mission rule.",
+    "tasks": [
+      {
+        "id": "evidence",
+        "kind": "classify",
+        "prompt": "Classify each statement. An account can carry community meaning without being a verified historical event.",
+        "items": [
+          {
+            "id": "bansud_discovery_1",
+            "label": "The compiled municipal history records Bansud as formerly part of Bongabong.",
+            "answer": "record"
+          },
+          {
+            "id": "bansud_discovery_3",
+            "label": "Bananas and other agricultural products form part of Bansud's documented economic identity.",
+            "answer": "record"
+          },
+          {
+            "id": "bansud_discovery_4",
+            "label": "An oral tradition connects the name Bansud with basud, or delta. Keep this explanation labeled as a local account.",
+            "answer": "story"
+          }
+        ],
+        "categories": [
+          {
+            "id": "record",
+            "label": "Reported in documentary sources"
+          },
+          {
+            "id": "story",
+            "label": "Local story / oral account"
+          }
+        ],
+        "explanation": "Legends and name accounts are presented as remembered narratives. The other statements are source summaries, not independently reverified claims."
+      },
+      {
+        "id": "interpret",
+        "kind": "decision",
+        "prompt": "How should your journal present this name or origin account?",
+        "options": [
+          {
+            "id": "certain",
+            "label": "Present it as the only proven origin"
+          },
+          {
+            "id": "attributed",
+            "label": "Attribute it as a local account and preserve uncertainty"
+          },
+          {
+            "id": "erase",
+            "label": "Remove the community account because it is not a dated law"
+          }
+        ],
+        "answer": "attributed",
+        "explanation": "Attribution respects community memory without claiming historical certainty."
+      }
+    ]
+  },
+  {
+    "id": "oriental_mindoro_bansud__community-care",
+    "placeID": "oriental_mindoro_bansud",
+    "title": "Bansud: community care plan",
+    "family": "Community resource planning",
+    "learningObjective": "Apply environmental relationships while meeting several explicit resource constraints.",
+    "whyHere": "Bananas and other agricultural products form part of Bansud's documented economic identity.",
+    "claimIDs": [
+      "bansud_discovery_3",
+      "bansud_discovery_5"
+    ],
+    "sourceIDs": [
+      "bansud_agri",
+      "rivercare"
+    ],
+    "briefing": [
+      "Bananas and other agricultural products form part of Bansud's documented economic identity.",
+      "Riverbank vegetation helps protect waterways and nearby land. Bansud has been included in bamboo planting efforts for flood mitigation."
+    ],
+    "designNote": "Fictional care scenario and budgets; not current local regulations, engineering advice, or disaster-response guidance.",
+    "unlock": "Available to all travelers; no purchases or runner completion required",
+    "success": "Solve every task. Incorrect submissions offer explanation and retry.",
+    "failure": "Leaving saves practice only, without rewards.",
+    "difficulty": "Independent reading and multi-step reasoning; untimed",
+    "reward": {
+      "coins": 40,
+      "xp": 30
+    },
+    "artworkRequirements": "Municipal sprite guides; municipal token marks a solved task; investigation seal requires every investigation for this place. Existing passport stamps retain their five-mission rule.",
+    "tasks": [
+      {
+        "id": "links",
+        "kind": "match",
+        "prompt": "Connect each part of the briefing to its role in community life.",
+        "pairs": [
+          {
+            "id": "work",
+            "left": "Ways of living",
+            "right": "Bananas and other agricultural products form part of Bansud's documented economic identity."
+          },
+          {
+            "id": "land",
+            "left": "Environment",
+            "right": "Riverbank vegetation helps protect waterways and nearby land. Bansud has been included in bamboo planting efforts for flood mitigation."
+          }
+        ],
+        "explanation": "The briefing connects local work with the land and water that help sustain it."
+      },
+      {
+        "id": "supplies",
+        "kind": "budget",
+        "prompt": "Allocate 5 fictional supply points. Cover these needs: banana, river. Each required kit must be included; extras are optional.",
+        "budget": 5,
+        "requiredRoles": [
+          "banana",
+          "river"
+        ],
+        "items": [
+          {
+            "id": "banana",
+            "label": "Banana-growing practice kit",
+            "cost": 2,
+            "roles": [
+              "banana"
+            ]
+          },
+          {
+            "id": "river",
+            "label": "Riverbank vegetation kit",
+            "cost": 2,
+            "roles": [
+              "river"
+            ]
+          },
+          {
+            "id": "survey",
+            "label": "Observation notebook",
+            "cost": 1,
+            "roles": []
+          },
+          {
+            "id": "decoration",
+            "label": "Decorative sign",
+            "cost": 4,
+            "roles": []
+          }
+        ],
+        "explanation": "The required kits are Banana-growing practice kit, Riverbank vegetation kit. Add their costs before choosing extras. The notebook is affordable; decoration cannot replace a required kit. All costs and supplies are original game rules, not real prices."
+      }
+    ]
+  },
+  {
+    "id": "oriental_mindoro_bongabong__name-evidence",
+    "placeID": "oriental_mindoro_bongabong",
+    "title": "Bongabong: name detective",
+    "family": "Evidence sorting",
+    "learningObjective": "Distinguish a remembered origin account from documentary evidence.",
+    "whyHere": "The municipal history records a Binago-related explanation of Bongabong's name. It is one name account rather than a proven single origin.",
+    "claimIDs": [
+      "bongabong_discovery_4",
+      "bongabong_discovery_3"
+    ],
+    "sourceIDs": [
+      "bong_history"
+    ],
+    "briefing": [
+      "The municipal history records a Binago-related explanation of Bongabong's name. It is one name account rather than a proven single origin.",
+      "Coconut plantations on coastal plains are described in the provincial municipal history. Harvesting and processing link farms with household incomes."
+    ],
+    "designNote": "",
+    "unlock": "Available to all travelers; no purchases or runner completion required",
+    "success": "Solve every task. Incorrect submissions offer explanation and retry.",
+    "failure": "Leaving saves practice only, without rewards.",
+    "difficulty": "Independent reading and multi-step reasoning; untimed",
+    "reward": {
+      "coins": 40,
+      "xp": 30
+    },
+    "artworkRequirements": "Municipal sprite guides; municipal token marks a solved task; investigation seal requires every investigation for this place. Existing passport stamps retain their five-mission rule.",
+    "tasks": [
+      {
+        "id": "evidence",
+        "kind": "classify",
+        "prompt": "Classify each statement. An account can carry community meaning without being a verified historical event.",
+        "items": [
+          {
+            "id": "bongabong_discovery_1",
+            "label": "The compiled history preserves accounts of Bongabong's earlier settlement and name. These accounts connect the town's development with its coastal landscape.",
+            "answer": "record"
+          },
+          {
+            "id": "bongabong_discovery_3",
+            "label": "Coconut plantations on coastal plains are described in the provincial municipal history. Harvesting and processing link farms with household incomes.",
+            "answer": "record"
+          },
+          {
+            "id": "bongabong_discovery_4",
+            "label": "The municipal history records a Binago-related explanation of Bongabong's name. It is one name account rather than a proven single origin.",
+            "answer": "story"
+          }
+        ],
+        "categories": [
+          {
+            "id": "record",
+            "label": "Reported in documentary sources"
+          },
+          {
+            "id": "story",
+            "label": "Local story / oral account"
+          }
+        ],
+        "explanation": "Legends and name accounts are presented as remembered narratives. The other statements are source summaries, not independently reverified claims."
+      },
+      {
+        "id": "interpret",
+        "kind": "decision",
+        "prompt": "How should your journal present this name or origin account?",
+        "options": [
+          {
+            "id": "certain",
+            "label": "Present it as the only proven origin"
+          },
+          {
+            "id": "attributed",
+            "label": "Attribute it as a local account and preserve uncertainty"
+          },
+          {
+            "id": "erase",
+            "label": "Remove the community account because it is not a dated law"
+          }
+        ],
+        "answer": "attributed",
+        "explanation": "Attribution respects community memory without claiming historical certainty."
+      }
+    ]
+  },
+  {
+    "id": "oriental_mindoro_bongabong__livelihood-workshop",
+    "placeID": "oriental_mindoro_bongabong",
+    "title": "Bongabong: coconut livelihoods workshop",
+    "family": "Process planning",
+    "learningObjective": "Translate a documented livelihood into a multi-step planning exercise.",
+    "whyHere": "Coconut plantations on coastal plains are described in the provincial municipal history. Harvesting and processing link farms with household incomes.",
+    "claimIDs": [
+      "bongabong_discovery_3"
+    ],
+    "sourceIDs": [
+      "bong_history"
+    ],
+    "briefing": [
+      "Coconut plantations on coastal plains are described in the provincial municipal history. Harvesting and processing link farms with household incomes."
+    ],
+    "designNote": "Original teaching scenario inspired by the cited livelihood; not a historical recipe, safety procedure, or claimed customary method.",
+    "unlock": "Available to all travelers; no purchases or runner completion required",
+    "success": "Solve every task. Incorrect submissions offer explanation and retry.",
+    "failure": "Leaving saves practice only, without rewards.",
+    "difficulty": "Independent reading and multi-step reasoning; untimed",
+    "reward": {
+      "coins": 40,
+      "xp": 30
+    },
+    "artworkRequirements": "Municipal sprite guides; municipal token marks a solved task; investigation seal requires every investigation for this place. Existing passport stamps retain their five-mission rule.",
+    "tasks": [
+      {
+        "id": "process",
+        "kind": "sequence",
+        "prompt": "Plan this fictional coconut livelihoods activity in a workable order.",
+        "items": [
+          {
+            "id": "0",
+            "label": "Gather a fictional coconut harvest"
+          },
+          {
+            "id": "1",
+            "label": "Bring it to processing"
+          },
+          {
+            "id": "2",
+            "label": "Check the finished goods"
+          },
+          {
+            "id": "3",
+            "label": "Deliver the goods to market"
+          }
+        ],
+        "answer": [
+          "0",
+          "1",
+          "2",
+          "3"
+        ],
+        "explanation": "The simulation moves from inputs through preparation and checking to a useful output. This is not a documented historical workflow."
+      },
+      {
+        "id": "quality",
+        "kind": "decision",
+        "prompt": "A delivery is ready, but the goods have not been checked. What should the team do?",
+        "options": [
+          {
+            "id": "check",
+            "label": "Check the goods before releasing the delivery"
+          },
+          {
+            "id": "rush",
+            "label": "Skip checking to finish sooner"
+          },
+          {
+            "id": "claim",
+            "label": "Declare the goods checked without looking"
+          }
+        ],
+        "answer": "check",
+        "explanation": "In this fictional logistics task, checking is a required step before releasing the output."
+      }
+    ]
+  },
+  {
+    "id": "oriental_mindoro_bongabong__community-care",
+    "placeID": "oriental_mindoro_bongabong",
+    "title": "Bongabong: community care plan",
+    "family": "Habitat decisions",
+    "learningObjective": "Apply environmental relationships while meeting several explicit resource constraints.",
+    "whyHere": "Coconut plantations on coastal plains are described in the provincial municipal history. Harvesting and processing link farms with household incomes.",
+    "claimIDs": [
+      "bongabong_discovery_3",
+      "bongabong_discovery_5"
+    ],
+    "sourceIDs": [
+      "bong_history",
+      "rivercare"
+    ],
+    "briefing": [
+      "Coconut plantations on coastal plains are described in the provincial municipal history. Harvesting and processing link farms with household incomes.",
+      "Coastal plains and river systems connect cultivation with water. Bongabong has been included in riverbank planting for flood mitigation."
+    ],
+    "designNote": "Fictional care scenario and budgets; not current local regulations, engineering advice, or disaster-response guidance.",
+    "unlock": "Available to all travelers; no purchases or runner completion required",
+    "success": "Solve every task. Incorrect submissions offer explanation and retry.",
+    "failure": "Leaving saves practice only, without rewards.",
+    "difficulty": "Independent reading and multi-step reasoning; untimed",
+    "reward": {
+      "coins": 40,
+      "xp": 30
+    },
+    "artworkRequirements": "Municipal sprite guides; municipal token marks a solved task; investigation seal requires every investigation for this place. Existing passport stamps retain their five-mission rule.",
+    "tasks": [
+      {
+        "id": "care",
+        "kind": "decision",
+        "prompt": "Your fictional team must document a water habitat without taking objects from it. Which plan meets both requirements?",
+        "options": [
+          {
+            "id": "observe",
+            "label": "Record observations and leave living things and objects in place"
+          },
+          {
+            "id": "collect",
+            "label": "Take an organism to prove you visited"
+          },
+          {
+            "id": "souvenir",
+            "label": "Remove a cultural object as a souvenir"
+          }
+        ],
+        "answer": "observe",
+        "explanation": "Observation meets the scenario goal while leaving the habitat and cultural objects in place."
+      },
+      {
+        "id": "supplies",
+        "kind": "budget",
+        "prompt": "Allocate 7 fictional supply points. Cover these needs: coconut, river. Each required kit must be included; extras are optional.",
+        "budget": 7,
+        "requiredRoles": [
+          "coconut",
+          "river"
+        ],
+        "items": [
+          {
+            "id": "coconut",
+            "label": "Coconut-livelihood practice kit",
+            "cost": 3,
+            "roles": [
+              "coconut"
+            ]
+          },
+          {
+            "id": "river",
+            "label": "River-system observation kit",
+            "cost": 3,
+            "roles": [
+              "river"
+            ]
+          },
+          {
+            "id": "survey",
+            "label": "Observation notebook",
+            "cost": 1,
+            "roles": []
+          },
+          {
+            "id": "decoration",
+            "label": "Decorative sign",
+            "cost": 4,
+            "roles": []
+          }
+        ],
+        "explanation": "The required kits are Coconut-livelihood practice kit, River-system observation kit. Add their costs before choosing extras. The notebook is affordable; decoration cannot replace a required kit. All costs and supplies are original game rules, not real prices."
+      }
+    ]
+  },
+  {
+    "id": "oriental_mindoro_roxas__name-evidence",
+    "placeID": "oriental_mindoro_roxas",
+    "title": "Roxas: name detective",
+    "family": "Evidence sorting",
+    "learningObjective": "Distinguish a remembered origin account from documentary evidence.",
+    "whyHere": "A local name account connects Paclasan with the palasan palm. Place-name accounts preserve remembered relationships with plants and land.",
+    "claimIDs": [
+      "roxas_discovery_4",
+      "roxas_discovery_3"
+    ],
+    "sourceIDs": [
+      "roxas_history",
+      "farm_report"
+    ],
+    "briefing": [
+      "A local name account connects Paclasan with the palasan palm. Place-name accounts preserve remembered relationships with plants and land.",
+      "Provincial records document support for farmer organizations in Roxas, including calamansi planting materials."
+    ],
+    "designNote": "",
+    "unlock": "Available to all travelers; no purchases or runner completion required",
+    "success": "Solve every task. Incorrect submissions offer explanation and retry.",
+    "failure": "Leaving saves practice only, without rewards.",
+    "difficulty": "Independent reading and multi-step reasoning; untimed",
+    "reward": {
+      "coins": 40,
+      "xp": 30
+    },
+    "artworkRequirements": "Municipal sprite guides; municipal token marks a solved task; investigation seal requires every investigation for this place. Existing passport stamps retain their five-mission rule.",
+    "tasks": [
+      {
+        "id": "evidence",
+        "kind": "classify",
+        "prompt": "Classify each statement. An account can carry community meaning without being a verified historical event.",
+        "items": [
+          {
+            "id": "roxas_discovery_1",
+            "label": "Roxas's compiled history connects its development with the earlier settlement of Paclasan.",
+            "answer": "record"
+          },
+          {
+            "id": "roxas_discovery_3",
+            "label": "Provincial records document support for farmer organizations in Roxas, including calamansi planting materials.",
+            "answer": "record"
+          },
+          {
+            "id": "roxas_discovery_4",
+            "label": "A local name account connects Paclasan with the palasan palm. Place-name accounts preserve remembered relationships with plants and land.",
+            "answer": "story"
+          }
+        ],
+        "categories": [
+          {
+            "id": "record",
+            "label": "Reported in documentary sources"
+          },
+          {
+            "id": "story",
+            "label": "Local story / oral account"
+          }
+        ],
+        "explanation": "Legends and name accounts are presented as remembered narratives. The other statements are source summaries, not independently reverified claims."
+      },
+      {
+        "id": "interpret",
+        "kind": "decision",
+        "prompt": "How should your journal present this name or origin account?",
+        "options": [
+          {
+            "id": "certain",
+            "label": "Present it as the only proven origin"
+          },
+          {
+            "id": "attributed",
+            "label": "Attribute it as a local account and preserve uncertainty"
+          },
+          {
+            "id": "erase",
+            "label": "Remove the community account because it is not a dated law"
+          }
+        ],
+        "answer": "attributed",
+        "explanation": "Attribution respects community memory without claiming historical certainty."
+      }
+    ]
+  },
+  {
+    "id": "oriental_mindoro_roxas__community-care",
+    "placeID": "oriental_mindoro_roxas",
+    "title": "Roxas: community care plan",
+    "family": "Community resource planning",
+    "learningObjective": "Apply environmental relationships while meeting several explicit resource constraints.",
+    "whyHere": "Provincial records document support for farmer organizations in Roxas, including calamansi planting materials.",
+    "claimIDs": [
+      "roxas_discovery_3",
+      "roxas_discovery_5"
+    ],
+    "sourceIDs": [
+      "farm_report",
+      "soils"
+    ],
+    "briefing": [
+      "Provincial records document support for farmer organizations in Roxas, including calamansi planting materials.",
+      "Agricultural soils support crops such as rice, corn, coconut and root crops in the wider southern Mindoro landscape, including Roxas."
+    ],
+    "designNote": "Fictional care scenario and budgets; not current local regulations, engineering advice, or disaster-response guidance.",
+    "unlock": "Available to all travelers; no purchases or runner completion required",
+    "success": "Solve every task. Incorrect submissions offer explanation and retry.",
+    "failure": "Leaving saves practice only, without rewards.",
+    "difficulty": "Independent reading and multi-step reasoning; untimed",
+    "reward": {
+      "coins": 40,
+      "xp": 30
+    },
+    "artworkRequirements": "Municipal sprite guides; municipal token marks a solved task; investigation seal requires every investigation for this place. Existing passport stamps retain their five-mission rule.",
+    "tasks": [
+      {
+        "id": "links",
+        "kind": "match",
+        "prompt": "Connect each part of the briefing to its role in community life.",
+        "pairs": [
+          {
+            "id": "work",
+            "left": "Ways of living",
+            "right": "Provincial records document support for farmer organizations in Roxas, including calamansi planting materials."
+          },
+          {
+            "id": "land",
+            "left": "Environment",
+            "right": "Agricultural soils support crops such as rice, corn, coconut and root crops in the wider southern Mindoro landscape, including Roxas."
+          }
+        ],
+        "explanation": "The briefing connects local work with the land and water that help sustain it."
+      },
+      {
+        "id": "supplies",
+        "kind": "budget",
+        "prompt": "Allocate 6 fictional supply points. Cover these needs: calamansi, soil. Each required kit must be included; extras are optional.",
+        "budget": 6,
+        "requiredRoles": [
+          "calamansi",
+          "soil"
+        ],
+        "items": [
+          {
+            "id": "calamansi",
+            "label": "Calamansi planting practice kit",
+            "cost": 2,
+            "roles": [
+              "calamansi"
+            ]
+          },
+          {
+            "id": "soil",
+            "label": "Crop-soil practice kit",
+            "cost": 3,
+            "roles": [
+              "soil"
+            ]
+          },
+          {
+            "id": "survey",
+            "label": "Observation notebook",
+            "cost": 1,
+            "roles": []
+          },
+          {
+            "id": "decoration",
+            "label": "Decorative sign",
+            "cost": 4,
+            "roles": []
+          }
+        ],
+        "explanation": "The required kits are Calamansi planting practice kit, Crop-soil practice kit. Add their costs before choosing extras. The notebook is affordable; decoration cannot replace a required kit. All costs and supplies are original game rules, not real prices."
+      }
+    ]
+  },
+  {
+    "id": "oriental_mindoro_mansalay__community-links",
+    "placeID": "oriental_mindoro_mansalay",
+    "title": "Mansalay: community connections",
+    "family": "Evidence matching",
+    "learningObjective": "Connect distinct kinds of evidence about the place without inventing chronology.",
+    "whyHere": "Act 3498 reestablished Mansalay and Bulalacao separately, effective 1 January 1929.",
+    "claimIDs": [
+      "mansalay_discovery_1",
+      "mansalay_discovery_3",
+      "mansalay_discovery_4"
+    ],
+    "sourceIDs": [
+      "act3498",
+      "farm_report",
+      "ambahan_ncca",
+      "ambahan_form"
+    ],
+    "briefing": [
+      "Act 3498 reestablished Mansalay and Bulalacao separately, effective 1 January 1929.",
+      "Provincial records document coconut farmer organizations and cacao planting support in Mansalay.",
+      "Hanunoo Mangyan ambahan uses seven-syllable lines to express experiences and relationships. NCCA associates culture bearer Ginaw Bilog with this tradition in Mansalay."
+    ],
+    "designNote": "",
+    "unlock": "Available to all travelers; no purchases or runner completion required",
+    "success": "Solve every task. Incorrect submissions offer explanation and retry.",
+    "failure": "Leaving saves practice only, without rewards.",
+    "difficulty": "Independent reading and multi-step reasoning; untimed",
+    "reward": {
+      "coins": 40,
+      "xp": 30
+    },
+    "artworkRequirements": "Municipal sprite guides; municipal token marks a solved task; investigation seal requires every investigation for this place. Existing passport stamps retain their five-mission rule.",
+    "tasks": [
+      {
+        "id": "context",
+        "kind": "match",
+        "prompt": "Connect each community topic to its evidence summary.",
+        "pairs": [
+          {
+            "id": "1",
+            "left": "History",
+            "right": "Act 3498 reestablished Mansalay and Bulalacao separately, effective 1 January 1929."
+          },
+          {
+            "id": "3",
+            "left": "Ways of living",
+            "right": "Provincial records document coconut farmer organizations and cacao planting support in Mansalay."
+          },
+          {
+            "id": "4",
+            "left": "Traditions",
+            "right": "Hanunoo Mangyan ambahan uses seven-syllable lines to express experiences and relationships. NCCA associates culture bearer Ginaw Bilog with this tradition in Mansalay."
+          }
+        ],
+        "explanation": "History, ways of living, and cultural practice answer different questions about the same community."
+      }
+    ]
+  },
+  {
+    "id": "oriental_mindoro_mansalay__livelihood-workshop",
+    "placeID": "oriental_mindoro_mansalay",
+    "title": "Mansalay: coconut and cacao farming workshop",
+    "family": "Process planning",
+    "learningObjective": "Translate a documented livelihood into a multi-step planning exercise.",
+    "whyHere": "Provincial records document coconut farmer organizations and cacao planting support in Mansalay.",
+    "claimIDs": [
+      "mansalay_discovery_3"
+    ],
+    "sourceIDs": [
+      "farm_report"
+    ],
+    "briefing": [
+      "Provincial records document coconut farmer organizations and cacao planting support in Mansalay."
+    ],
+    "designNote": "Original teaching scenario inspired by the cited livelihood; not a historical recipe, safety procedure, or claimed customary method.",
+    "unlock": "Available to all travelers; no purchases or runner completion required",
+    "success": "Solve every task. Incorrect submissions offer explanation and retry.",
+    "failure": "Leaving saves practice only, without rewards.",
+    "difficulty": "Independent reading and multi-step reasoning; untimed",
+    "reward": {
+      "coins": 40,
+      "xp": 30
+    },
+    "artworkRequirements": "Municipal sprite guides; municipal token marks a solved task; investigation seal requires every investigation for this place. Existing passport stamps retain their five-mission rule.",
+    "tasks": [
+      {
+        "id": "process",
+        "kind": "sequence",
+        "prompt": "Plan this fictional coconut and cacao farming activity in a workable order.",
+        "items": [
+          {
+            "id": "0",
+            "label": "Receive fictional planting supplies"
+          },
+          {
+            "id": "1",
+            "label": "Allocate them to farm plots"
+          },
+          {
+            "id": "2",
+            "label": "Care for the growing crops"
+          },
+          {
+            "id": "3",
+            "label": "Plan the later harvest"
+          }
+        ],
+        "answer": [
+          "0",
+          "1",
+          "2",
+          "3"
+        ],
+        "explanation": "The simulation moves from inputs through preparation and checking to a useful output. This is not a documented historical workflow."
+      },
+      {
+        "id": "quality",
+        "kind": "decision",
+        "prompt": "A delivery is ready, but the goods have not been checked. What should the team do?",
+        "options": [
+          {
+            "id": "check",
+            "label": "Check the goods before releasing the delivery"
+          },
+          {
+            "id": "rush",
+            "label": "Skip checking to finish sooner"
+          },
+          {
+            "id": "claim",
+            "label": "Declare the goods checked without looking"
+          }
+        ],
+        "answer": "check",
+        "explanation": "In this fictional logistics task, checking is a required step before releasing the output."
+      }
+    ]
+  },
+  {
+    "id": "oriental_mindoro_mansalay__community-care",
+    "placeID": "oriental_mindoro_mansalay",
+    "title": "Mansalay: community care plan",
+    "family": "Community resource planning",
+    "learningObjective": "Apply environmental relationships while meeting several explicit resource constraints.",
+    "whyHere": "Provincial records document coconut farmer organizations and cacao planting support in Mansalay.",
+    "claimIDs": [
+      "mansalay_discovery_3",
+      "mansalay_discovery_5"
+    ],
+    "sourceIDs": [
+      "farm_report",
+      "soils"
+    ],
+    "briefing": [
+      "Provincial records document coconut farmer organizations and cacao planting support in Mansalay.",
+      "Farm soils and vegetation support cultivation. Caring for soil and water helps sustain agricultural livelihoods."
+    ],
+    "designNote": "Fictional care scenario and budgets; not current local regulations, engineering advice, or disaster-response guidance.",
+    "unlock": "Available to all travelers; no purchases or runner completion required",
+    "success": "Solve every task. Incorrect submissions offer explanation and retry.",
+    "failure": "Leaving saves practice only, without rewards.",
+    "difficulty": "Independent reading and multi-step reasoning; untimed",
+    "reward": {
+      "coins": 40,
+      "xp": 30
+    },
+    "artworkRequirements": "Municipal sprite guides; municipal token marks a solved task; investigation seal requires every investigation for this place. Existing passport stamps retain their five-mission rule.",
+    "tasks": [
+      {
+        "id": "links",
+        "kind": "match",
+        "prompt": "Connect each part of the briefing to its role in community life.",
+        "pairs": [
+          {
+            "id": "work",
+            "left": "Ways of living",
+            "right": "Provincial records document coconut farmer organizations and cacao planting support in Mansalay."
+          },
+          {
+            "id": "land",
+            "left": "Environment",
+            "right": "Farm soils and vegetation support cultivation. Caring for soil and water helps sustain agricultural livelihoods."
+          }
+        ],
+        "explanation": "The briefing connects local work with the land and water that help sustain it."
+      },
+      {
+        "id": "supplies",
+        "kind": "budget",
+        "prompt": "Allocate 8 fictional supply points. Cover these needs: coconut, cacao, soil. Each required kit must be included; extras are optional.",
+        "budget": 8,
+        "requiredRoles": [
+          "coconut",
+          "cacao",
+          "soil"
+        ],
+        "items": [
+          {
+            "id": "coconut",
+            "label": "Coconut-farm practice kit",
+            "cost": 2,
+            "roles": [
+              "coconut"
+            ]
+          },
+          {
+            "id": "cacao",
+            "label": "Cacao planting practice kit",
+            "cost": 3,
+            "roles": [
+              "cacao"
+            ]
+          },
+          {
+            "id": "soil",
+            "label": "Soil-care practice kit",
+            "cost": 2,
+            "roles": [
+              "soil"
+            ]
+          },
+          {
+            "id": "survey",
+            "label": "Observation notebook",
+            "cost": 1,
+            "roles": []
+          },
+          {
+            "id": "decoration",
+            "label": "Decorative sign",
+            "cost": 4,
+            "roles": []
+          }
+        ],
+        "explanation": "The required kits are Coconut-farm practice kit, Cacao planting practice kit, Soil-care practice kit. Add their costs before choosing extras. The notebook is affordable; decoration cannot replace a required kit. All costs and supplies are original game rules, not real prices."
+      }
+    ]
+  },
+  {
+    "id": "oriental_mindoro_bulalacao__name-evidence",
+    "placeID": "oriental_mindoro_bulalacao",
+    "title": "Bulalacao: name detective",
+    "family": "Evidence sorting",
+    "learningObjective": "Distinguish a remembered origin account from documentary evidence.",
+    "whyHere": "The town history preserves a bird story about Bulalacao's name and explicitly identifies it as a myth. Stories can carry identity without being treated as confirmed events.",
+    "claimIDs": [
+      "bulalacao_discovery_4",
+      "bulalacao_discovery_3"
+    ],
+    "sourceIDs": [
+      "bulalacao_history",
+      "enterprise"
+    ],
+    "briefing": [
+      "The town history preserves a bird story about Bulalacao's name and explicitly identifies it as a myth. Stories can carry identity without being treated as confirmed events.",
+      "A provincial enterprise report documents a Bulalacao cooperative making seaweed or kelp noodles, connecting coastal resources with food production."
+    ],
+    "designNote": "",
+    "unlock": "Available to all travelers; no purchases or runner completion required",
+    "success": "Solve every task. Incorrect submissions offer explanation and retry.",
+    "failure": "Leaving saves practice only, without rewards.",
+    "difficulty": "Independent reading and multi-step reasoning; untimed",
+    "reward": {
+      "coins": 40,
+      "xp": 30
+    },
+    "artworkRequirements": "Municipal sprite guides; municipal token marks a solved task; investigation seal requires every investigation for this place. Existing passport stamps retain their five-mission rule.",
+    "tasks": [
+      {
+        "id": "evidence",
+        "kind": "classify",
+        "prompt": "Classify each statement. An account can carry community meaning without being a verified historical event.",
+        "items": [
+          {
+            "id": "bulalacao_discovery_1",
+            "label": "Act 3498 reestablished Bulalacao and Mansalay separately, effective 1 January 1929.",
+            "answer": "record"
+          },
+          {
+            "id": "bulalacao_discovery_3",
+            "label": "A provincial enterprise report documents a Bulalacao cooperative making seaweed or kelp noodles, connecting coastal resources with food production.",
+            "answer": "record"
+          },
+          {
+            "id": "bulalacao_discovery_4",
+            "label": "The town history preserves a bird story about Bulalacao's name and explicitly identifies it as a myth. Stories can carry identity without being treated as confirmed events.",
+            "answer": "story"
+          }
+        ],
+        "categories": [
+          {
+            "id": "record",
+            "label": "Reported in documentary sources"
+          },
+          {
+            "id": "story",
+            "label": "Local story / oral account"
+          }
+        ],
+        "explanation": "Legends and name accounts are presented as remembered narratives. The other statements are source summaries, not independently reverified claims."
+      },
+      {
+        "id": "interpret",
+        "kind": "decision",
+        "prompt": "How should your journal present this name or origin account?",
+        "options": [
+          {
+            "id": "certain",
+            "label": "Present it as the only proven origin"
+          },
+          {
+            "id": "attributed",
+            "label": "Attribute it as a local account and preserve uncertainty"
+          },
+          {
+            "id": "erase",
+            "label": "Remove the community account because it is not a dated law"
+          }
+        ],
+        "answer": "attributed",
+        "explanation": "Attribution respects community memory without claiming historical certainty."
+      }
+    ]
+  },
+  {
+    "id": "oriental_mindoro_bulalacao__livelihood-workshop",
+    "placeID": "oriental_mindoro_bulalacao",
+    "title": "Bulalacao: seaweed-noodle enterprise workshop",
+    "family": "Process planning",
+    "learningObjective": "Translate a documented livelihood into a multi-step planning exercise.",
+    "whyHere": "A provincial enterprise report documents a Bulalacao cooperative making seaweed or kelp noodles, connecting coastal resources with food production.",
+    "claimIDs": [
+      "bulalacao_discovery_3"
+    ],
+    "sourceIDs": [
+      "enterprise"
+    ],
+    "briefing": [
+      "A provincial enterprise report documents a Bulalacao cooperative making seaweed or kelp noodles, connecting coastal resources with food production."
+    ],
+    "designNote": "Original teaching scenario inspired by the cited livelihood; not a historical recipe, safety procedure, or claimed customary method.",
+    "unlock": "Available to all travelers; no purchases or runner completion required",
+    "success": "Solve every task. Incorrect submissions offer explanation and retry.",
+    "failure": "Leaving saves practice only, without rewards.",
+    "difficulty": "Independent reading and multi-step reasoning; untimed",
+    "reward": {
+      "coins": 40,
+      "xp": 30
+    },
+    "artworkRequirements": "Municipal sprite guides; municipal token marks a solved task; investigation seal requires every investigation for this place. Existing passport stamps retain their five-mission rule.",
+    "tasks": [
+      {
+        "id": "process",
+        "kind": "sequence",
+        "prompt": "Plan this fictional seaweed-noodle enterprise activity in a workable order.",
+        "items": [
+          {
+            "id": "0",
+            "label": "Receive fictional seaweed supplies"
+          },
+          {
+            "id": "1",
+            "label": "Prepare supplies for processing"
+          },
+          {
+            "id": "2",
+            "label": "Process the practice noodles"
+          },
+          {
+            "id": "3",
+            "label": "Pack the finished batch"
+          }
+        ],
+        "answer": [
+          "0",
+          "1",
+          "2",
+          "3"
+        ],
+        "explanation": "The simulation moves from inputs through preparation and checking to a useful output. This is not a documented historical workflow."
+      },
+      {
+        "id": "quality",
+        "kind": "decision",
+        "prompt": "A delivery is ready, but the goods have not been checked. What should the team do?",
+        "options": [
+          {
+            "id": "check",
+            "label": "Check the goods before releasing the delivery"
+          },
+          {
+            "id": "rush",
+            "label": "Skip checking to finish sooner"
+          },
+          {
+            "id": "claim",
+            "label": "Declare the goods checked without looking"
+          }
+        ],
+        "answer": "check",
+        "explanation": "In this fictional logistics task, checking is a required step before releasing the output."
+      }
+    ]
+  },
+  {
+    "id": "oriental_mindoro_bulalacao__community-care",
+    "placeID": "oriental_mindoro_bulalacao",
+    "title": "Bulalacao: community care plan",
+    "family": "Community resource planning",
+    "learningObjective": "Apply environmental relationships while meeting several explicit resource constraints.",
+    "whyHere": "A provincial enterprise report documents a Bulalacao cooperative making seaweed or kelp noodles, connecting coastal resources with food production.",
+    "claimIDs": [
+      "bulalacao_discovery_3",
+      "bulalacao_discovery_5"
+    ],
+    "sourceIDs": [
+      "enterprise",
+      "soils"
+    ],
+    "briefing": [
+      "A provincial enterprise report documents a Bulalacao cooperative making seaweed or kelp noodles, connecting coastal resources with food production.",
+      "Mindoro's agricultural soil survey includes land in Bulalacao. Soil and water care support cultivation and community livelihoods."
+    ],
+    "designNote": "Fictional care scenario and budgets; not current local regulations, engineering advice, or disaster-response guidance.",
+    "unlock": "Available to all travelers; no purchases or runner completion required",
+    "success": "Solve every task. Incorrect submissions offer explanation and retry.",
+    "failure": "Leaving saves practice only, without rewards.",
+    "difficulty": "Independent reading and multi-step reasoning; untimed",
+    "reward": {
+      "coins": 40,
+      "xp": 30
+    },
+    "artworkRequirements": "Municipal sprite guides; municipal token marks a solved task; investigation seal requires every investigation for this place. Existing passport stamps retain their five-mission rule.",
+    "tasks": [
+      {
+        "id": "links",
+        "kind": "match",
+        "prompt": "Connect each part of the briefing to its role in community life.",
+        "pairs": [
+          {
+            "id": "work",
+            "left": "Ways of living",
+            "right": "A provincial enterprise report documents a Bulalacao cooperative making seaweed or kelp noodles, connecting coastal resources with food production."
+          },
+          {
+            "id": "land",
+            "left": "Environment",
+            "right": "Mindoro's agricultural soil survey includes land in Bulalacao. Soil and water care support cultivation and community livelihoods."
+          }
+        ],
+        "explanation": "The briefing connects local work with the land and water that help sustain it."
+      },
+      {
+        "id": "supplies",
+        "kind": "budget",
+        "prompt": "Allocate 6 fictional supply points. Cover these needs: noodles, soil. Each required kit must be included; extras are optional.",
+        "budget": 6,
+        "requiredRoles": [
+          "noodles",
+          "soil"
+        ],
+        "items": [
+          {
+            "id": "noodles",
+            "label": "Seaweed-noodle practice kit",
+            "cost": 3,
+            "roles": [
+              "noodles"
+            ]
+          },
+          {
+            "id": "soil",
+            "label": "Soil-care practice kit",
+            "cost": 2,
+            "roles": [
+              "soil"
+            ]
+          },
+          {
+            "id": "survey",
+            "label": "Observation notebook",
+            "cost": 1,
+            "roles": []
+          },
+          {
+            "id": "decoration",
+            "label": "Decorative sign",
+            "cost": 4,
+            "roles": []
+          }
+        ],
+        "explanation": "The required kits are Seaweed-noodle practice kit, Soil-care practice kit. Add their costs before choosing extras. The notebook is affordable; decoration cannot replace a required kit. All costs and supplies are original game rules, not real prices."
+      }
+    ]
+  },
+  {
+    "id": "oriental_mindoro_san_teodoro__source-inquiry",
+    "placeID": "oriental_mindoro_san_teodoro",
+    "title": "San Teodoro: source inquiry",
+    "family": "Source comparison",
+    "learningObjective": "Evaluate what evidence is missing without treating an unverified lead as historical fact.",
+    "whyHere": "Earlier research notes flag a three-Theodores explanation of the town’s name as uncertain. This app does not establish that explanation as the origin of the name or identify a confirmed founder from it.",
+    "claimIDs": [],
+    "researchNoteIDs": [
+      "san-teodoro-name-versions"
+    ],
+    "sourceIDs": [
+      "st_history",
+      "ppdo_history"
+    ],
+    "briefing": [
+      "Unverified name-origin account: Earlier research notes flag a three-Theodores explanation of the town’s name as uncertain. This app does not establish that explanation as the origin of the name or identify a confirmed founder from it.",
+      "Verification still needed: Locate the original account, compare local oral-history versions, and distinguish naming stories from administrative records."
+    ],
+    "designNote": "This mission rewards reasoning about evidence. It does not reward accepting the disputed claim or choosing an unverified date.",
+    "unlock": "Available to every traveler; no purchases required",
+    "success": "Choose a suitable verification method and label the claim’s status correctly.",
+    "failure": "Incorrect choices require revision; leaving records practice only.",
+    "difficulty": "Untimed source reasoning",
+    "reward": {
+      "coins": 40,
+      "xp": 30
+    },
+    "artworkRequirements": "Use the fictional municipal guide and symbolic municipal token.",
+    "tasks": [
+      {
+        "id": "investigate",
+        "kind": "decision",
+        "prompt": "How should a name explanation involving several similarly named people be checked?",
+        "options": [
+          {
+            "id": "0",
+            "label": "Locate original accounts and compare records and attributed oral-history versions"
+          },
+          {
+            "id": "1",
+            "label": "Treat a matching number of names as proof"
+          },
+          {
+            "id": "2",
+            "label": "Publish one version without identifying where it came from"
+          }
+        ],
+        "answer": "0",
+        "explanation": "Locate the original account, compare local oral-history versions, and distinguish naming stories from administrative records."
+      },
+      {
+        "id": "status",
+        "kind": "decision",
+        "prompt": "Before those checks are finished, how should this research lead appear in your journal?",
+        "options": [
+          {
+            "id": "pending",
+            "label": "Attributed and clearly labeled as unverified or disputed"
+          },
+          {
+            "id": "proven",
+            "label": "Presented as confirmed local history"
+          },
+          {
+            "id": "false",
+            "label": "Declared false simply because it has not been verified yet"
+          }
+        ],
+        "answer": "pending",
+        "explanation": "An unresolved claim is neither established fact nor automatically false. Preserve attribution and explain what evidence is missing."
+      }
+    ]
+  },
+  {
+    "id": "oriental_mindoro_calapan_city__source-inquiry",
+    "placeID": "oriental_mindoro_calapan_city",
+    "title": "Calapan City: source inquiry",
+    "family": "Source comparison",
+    "learningObjective": "Evaluate what evidence is missing without treating an unverified lead as historical fact.",
+    "whyHere": "Earlier editorial notes report conflicting capital-transfer dates. No specific transfer date is added here as established history; cityhood and a change in administrative capital must not be treated as the same event.",
+    "claimIDs": [],
+    "researchNoteIDs": [
+      "calapan-capital-chronology"
+    ],
+    "sourceIDs": [
+      "calapan_history",
+      "ppdo_history"
+    ],
+    "briefing": [
+      "Reported source conflict; dates unresolved: Earlier editorial notes report conflicting capital-transfer dates. No specific transfer date is added here as established history; cityhood and a change in administrative capital must not be treated as the same event.",
+      "Verification still needed: Compare original administrative instruments and dated archival records before adopting a transfer chronology."
+    ],
+    "designNote": "This mission rewards reasoning about evidence. It does not reward accepting the disputed claim or choosing an unverified date.",
+    "unlock": "Available to every traveler; no purchases required",
+    "success": "Choose a suitable verification method and label the claim’s status correctly.",
+    "failure": "Incorrect choices require revision; leaving records practice only.",
+    "difficulty": "Untimed source reasoning",
+    "reward": {
+      "coins": 40,
+      "xp": 30
+    },
+    "artworkRequirements": "Use the fictional municipal guide and symbolic municipal token.",
+    "tasks": [
+      {
+        "id": "investigate",
+        "kind": "decision",
+        "prompt": "Which approach can resolve a disagreement about capital-transfer dates?",
+        "options": [
+          {
+            "id": "0",
+            "label": "Compare dated administrative instruments and identify the event each describes"
+          },
+          {
+            "id": "1",
+            "label": "Use the date shown on the largest number of websites"
+          },
+          {
+            "id": "2",
+            "label": "Assume that cityhood and capital transfer are the same event"
+          }
+        ],
+        "answer": "0",
+        "explanation": "Compare original administrative instruments and dated archival records before adopting a transfer chronology."
+      },
+      {
+        "id": "status",
+        "kind": "decision",
+        "prompt": "Before those checks are finished, how should this research lead appear in your journal?",
+        "options": [
+          {
+            "id": "pending",
+            "label": "Attributed and clearly labeled as unverified or disputed"
+          },
+          {
+            "id": "proven",
+            "label": "Presented as confirmed local history"
+          },
+          {
+            "id": "false",
+            "label": "Declared false simply because it has not been verified yet"
+          }
+        ],
+        "answer": "pending",
+        "explanation": "An unresolved claim is neither established fact nor automatically false. Preserve attribution and explain what evidence is missing."
+      }
+    ]
+  },
+  {
+    "id": "oriental_mindoro_naujan__source-inquiry",
+    "placeID": "oriental_mindoro_naujan",
+    "title": "Naujan: source inquiry",
+    "family": "Source comparison",
+    "learningObjective": "Evaluate what evidence is missing without treating an unverified lead as historical fact.",
+    "whyHere": "Earlier research notes caution against concluding that inhabitants were Chinese merely from a claim about imported pottery. The underlying archaeological evidence has not been checked here, and no ethnic identity or earliest-settlement date is established by this note.",
+    "claimIDs": [],
+    "researchNoteIDs": [
+      "naujan-settlement-inference"
+    ],
+    "sourceIDs": [
+      "naujan_history"
+    ],
+    "briefing": [
+      "Unverified archaeological inference: Earlier research notes caution against concluding that inhabitants were Chinese merely from a claim about imported pottery. The underlying archaeological evidence has not been checked here, and no ethnic identity or earliest-settlement date is established by this note.",
+      "Verification still needed: Find excavation context, dating evidence, and specialist interpretation. Distinguish trade in objects from conclusions about the identity of residents."
+    ],
+    "designNote": "This mission rewards reasoning about evidence. It does not reward accepting the disputed claim or choosing an unverified date.",
+    "unlock": "Available to every traveler; no purchases required",
+    "success": "Choose a suitable verification method and label the claim’s status correctly.",
+    "failure": "Incorrect choices require revision; leaving records practice only.",
+    "difficulty": "Untimed source reasoning",
+    "reward": {
+      "coins": 40,
+      "xp": 30
+    },
+    "artworkRequirements": "Use the fictional municipal guide and symbolic municipal token.",
+    "tasks": [
+      {
+        "id": "investigate",
+        "kind": "decision",
+        "prompt": "Why can an imported object alone not establish the identity of local inhabitants?",
+        "options": [
+          {
+            "id": "0",
+            "label": "Objects can move through trade; context and further evidence are needed"
+          },
+          {
+            "id": "1",
+            "label": "Every object was necessarily made by the person who later owned it"
+          },
+          {
+            "id": "2",
+            "label": "The object’s style automatically identifies all residents"
+          }
+        ],
+        "answer": "0",
+        "explanation": "Find excavation context, dating evidence, and specialist interpretation. Distinguish trade in objects from conclusions about the identity of residents."
+      },
+      {
+        "id": "status",
+        "kind": "decision",
+        "prompt": "Before those checks are finished, how should this research lead appear in your journal?",
+        "options": [
+          {
+            "id": "pending",
+            "label": "Attributed and clearly labeled as unverified or disputed"
+          },
+          {
+            "id": "proven",
+            "label": "Presented as confirmed local history"
+          },
+          {
+            "id": "false",
+            "label": "Declared false simply because it has not been verified yet"
+          }
+        ],
+        "answer": "pending",
+        "explanation": "An unresolved claim is neither established fact nor automatically false. Preserve attribution and explain what evidence is missing."
+      }
+    ]
+  },
+  {
+    "id": "oriental_mindoro_socorro__source-inquiry",
+    "placeID": "oriental_mindoro_socorro",
+    "title": "Socorro: source inquiry",
+    "family": "Source comparison",
+    "learningObjective": "Evaluate what evidence is missing without treating an unverified lead as historical fact.",
+    "whyHere": "Earlier research notes identify a conflict: one provincial summary gives 1962, while the cited Republic Act 3609 and LGU account identify 1963. This is presented as a source-comparison lead; the original legal text has not been retrieved again in this update.",
+    "claimIDs": [],
+    "researchNoteIDs": [
+      "socorro-creation-conflict"
+    ],
+    "sourceIDs": [
+      "socorro_law",
+      "ppdo_history",
+      "socorro_lgu"
+    ],
+    "briefing": [
+      "Inherited conflicting dates; primary citation awaits rechecking: Earlier research notes identify a conflict: one provincial summary gives 1962, while the cited Republic Act 3609 and LGU account identify 1963. This is presented as a source-comparison lead; the original legal text has not been retrieved again in this update.",
+      "Verification still needed: Read the Act’s approval and effectivity provisions and compare them with the LGU chronology; do not choose a date by majority vote among websites."
+    ],
+    "designNote": "This mission rewards reasoning about evidence. It does not reward accepting the disputed claim or choosing an unverified date.",
+    "unlock": "Available to every traveler; no purchases required",
+    "success": "Choose a suitable verification method and label the claim’s status correctly.",
+    "failure": "Incorrect choices require revision; leaving records practice only.",
+    "difficulty": "Untimed source reasoning",
+    "reward": {
+      "coins": 40,
+      "xp": 30
+    },
+    "artworkRequirements": "Use the fictional municipal guide and symbolic municipal token.",
+    "tasks": [
+      {
+        "id": "investigate",
+        "kind": "decision",
+        "prompt": "How should the 1962/1963 disagreement be investigated?",
+        "options": [
+          {
+            "id": "0",
+            "label": "Compare the original Act’s approval and effectivity provisions with the LGU chronology"
+          },
+          {
+            "id": "1",
+            "label": "Pick whichever year appears first in a search result"
+          },
+          {
+            "id": "2",
+            "label": "Treat a later summary as automatically stronger than the legal text"
+          }
+        ],
+        "answer": "0",
+        "explanation": "Read the Act’s approval and effectivity provisions and compare them with the LGU chronology; do not choose a date by majority vote among websites."
+      },
+      {
+        "id": "status",
+        "kind": "decision",
+        "prompt": "Before those checks are finished, how should this research lead appear in your journal?",
+        "options": [
+          {
+            "id": "pending",
+            "label": "Attributed and clearly labeled as unverified or disputed"
+          },
+          {
+            "id": "proven",
+            "label": "Presented as confirmed local history"
+          },
+          {
+            "id": "false",
+            "label": "Declared false simply because it has not been verified yet"
+          }
+        ],
+        "answer": "pending",
+        "explanation": "An unresolved claim is neither established fact nor automatically false. Preserve attribution and explain what evidence is missing."
+      }
+    ]
+  },
+  {
+    "id": "oriental_mindoro_gloria__source-inquiry",
+    "placeID": "oriental_mindoro_gloria",
+    "title": "Gloria: source inquiry",
+    "family": "Source comparison",
+    "learningObjective": "Evaluate what evidence is missing without treating an unverified lead as historical fact.",
+    "whyHere": "The earlier research summary connects Gloria’s development with Tambong and Maligaya and a former connection to Pinamalayan. The detailed settlement chronology has not been reverified; accounts of arriving migrants must not imply that the land had no earlier inhabitants.",
+    "claimIDs": [],
+    "researchNoteIDs": [
+      "gloria-settlement-context"
+    ],
+    "sourceIDs": [
+      "gloria_history",
+      "ppdo_history"
+    ],
+    "briefing": [
+      "Inherited settlement summary; chronology incomplete: The earlier research summary connects Gloria’s development with Tambong and Maligaya and a former connection to Pinamalayan. The detailed settlement chronology has not been reverified; accounts of arriving migrants must not imply that the land had no earlier inhabitants.",
+      "Verification still needed: Compare dated local histories with evidence about existing communities, land use, and migration before writing a founding narrative."
+    ],
+    "designNote": "This mission rewards reasoning about evidence. It does not reward accepting the disputed claim or choosing an unverified date.",
+    "unlock": "Available to every traveler; no purchases required",
+    "success": "Choose a suitable verification method and label the claim’s status correctly.",
+    "failure": "Incorrect choices require revision; leaving records practice only.",
+    "difficulty": "Untimed source reasoning",
+    "reward": {
+      "coins": 40,
+      "xp": 30
+    },
+    "artworkRequirements": "Use the fictional municipal guide and symbolic municipal token.",
+    "tasks": [
+      {
+        "id": "investigate",
+        "kind": "decision",
+        "prompt": "How should a migration account be written when earlier settlement is unclear?",
+        "options": [
+          {
+            "id": "0",
+            "label": "Describe the documented arrivals while acknowledging existing communities and evidence gaps"
+          },
+          {
+            "id": "1",
+            "label": "State that nobody lived there before the arrivals"
+          },
+          {
+            "id": "2",
+            "label": "Treat the first date in the summary as the beginning of habitation"
+          }
+        ],
+        "answer": "0",
+        "explanation": "Compare dated local histories with evidence about existing communities, land use, and migration before writing a founding narrative."
+      },
+      {
+        "id": "status",
+        "kind": "decision",
+        "prompt": "Before those checks are finished, how should this research lead appear in your journal?",
+        "options": [
+          {
+            "id": "pending",
+            "label": "Attributed and clearly labeled as unverified or disputed"
+          },
+          {
+            "id": "proven",
+            "label": "Presented as confirmed local history"
+          },
+          {
+            "id": "false",
+            "label": "Declared false simply because it has not been verified yet"
+          }
+        ],
+        "answer": "pending",
+        "explanation": "An unresolved claim is neither established fact nor automatically false. Preserve attribution and explain what evidence is missing."
+      }
+    ]
+  },
+  {
+    "id": "oriental_mindoro_bansud__source-inquiry",
+    "placeID": "oriental_mindoro_bansud",
+    "title": "Bansud: source inquiry",
+    "family": "Source comparison",
+    "learningObjective": "Evaluate what evidence is missing without treating an unverified lead as historical fact.",
+    "whyHere": "Earlier notes leave the specific language and community attribution of the basud name account unresolved. They also flag Republic Act 2514 as a lead to check before teaching a precise municipal creation date. Neither missing detail is supplied as a confirmed fact here.",
+    "claimIDs": [],
+    "researchNoteIDs": [
+      "bansud-name-and-law"
+    ],
+    "sourceIDs": [
+      "bansud_history",
+      "ppdo_history"
+    ],
+    "briefing": [
+      "Oral-account attribution and legal lead pending: Earlier notes leave the specific language and community attribution of the basud name account unresolved. They also flag Republic Act 2514 as a lead to check before teaching a precise municipal creation date. Neither missing detail is supplied as a confirmed fact here.",
+      "Verification still needed: Locate the original legal instrument and a credible language or community source; do not infer a particular Mangyan language from a generic label."
+    ],
+    "designNote": "This mission rewards reasoning about evidence. It does not reward accepting the disputed claim or choosing an unverified date.",
+    "unlock": "Available to every traveler; no purchases required",
+    "success": "Choose a suitable verification method and label the claim’s status correctly.",
+    "failure": "Incorrect choices require revision; leaving records practice only.",
+    "difficulty": "Untimed source reasoning",
+    "reward": {
+      "coins": 40,
+      "xp": 30
+    },
+    "artworkRequirements": "Use the fictional municipal guide and symbolic municipal token.",
+    "tasks": [
+      {
+        "id": "investigate",
+        "kind": "decision",
+        "prompt": "What is needed before assigning the name account to a specific language?",
+        "options": [
+          {
+            "id": "0",
+            "label": "A credible language or named-community source supporting that attribution"
+          },
+          {
+            "id": "1",
+            "label": "The general word Mangyan without a specific community source"
+          },
+          {
+            "id": "2",
+            "label": "A guess based only on the sound of the place name"
+          }
+        ],
+        "answer": "0",
+        "explanation": "Locate the original legal instrument and a credible language or community source; do not infer a particular Mangyan language from a generic label."
+      },
+      {
+        "id": "status",
+        "kind": "decision",
+        "prompt": "Before those checks are finished, how should this research lead appear in your journal?",
+        "options": [
+          {
+            "id": "pending",
+            "label": "Attributed and clearly labeled as unverified or disputed"
+          },
+          {
+            "id": "proven",
+            "label": "Presented as confirmed local history"
+          },
+          {
+            "id": "false",
+            "label": "Declared false simply because it has not been verified yet"
+          }
+        ],
+        "answer": "pending",
+        "explanation": "An unresolved claim is neither established fact nor automatically false. Preserve attribution and explain what evidence is missing."
+      }
+    ]
+  },
+  {
+    "id": "oriental_mindoro_bulalacao__source-inquiry",
+    "placeID": "oriental_mindoro_bulalacao",
+    "title": "Bulalacao: source inquiry",
+    "family": "Source comparison",
+    "learningObjective": "Evaluate what evidence is missing without treating an unverified lead as historical fact.",
+    "whyHere": "Earlier research notes describe the identification of an old town with Mait as a hypothesis, not settled proof of a tenth-century settlement. This app does not present that identification or date as an established origin for Bulalacao.",
+    "claimIDs": [],
+    "researchNoteIDs": [
+      "bulalacao-mait-hypothesis"
+    ],
+    "sourceIDs": [
+      "bulalacao_history",
+      "ppdo_history"
+    ],
+    "briefing": [
+      "Unverified historical identification hypothesis: Earlier research notes describe the identification of an old town with Mait as a hypothesis, not settled proof of a tenth-century settlement. This app does not present that identification or date as an established origin for Bulalacao.",
+      "Verification still needed: Locate the underlying historical and archaeological arguments, check dates and geographic identification, and compare scholarly alternatives before asserting continuity with a present-day municipality."
+    ],
+    "designNote": "This mission rewards reasoning about evidence. It does not reward accepting the disputed claim or choosing an unverified date.",
+    "unlock": "Available to every traveler; no purchases required",
+    "success": "Choose a suitable verification method and label the claim’s status correctly.",
+    "failure": "Incorrect choices require revision; leaving records practice only.",
+    "difficulty": "Untimed source reasoning",
+    "reward": {
+      "coins": 40,
+      "xp": 30
+    },
+    "artworkRequirements": "Use the fictional municipal guide and symbolic municipal token.",
+    "tasks": [
+      {
+        "id": "investigate",
+        "kind": "decision",
+        "prompt": "What would strengthen an ancient-place identification?",
+        "options": [
+          {
+            "id": "0",
+            "label": "Dated textual and archaeological evidence, geographic context, and comparison with alternatives"
+          },
+          {
+            "id": "1",
+            "label": "A resemblance between two place names alone"
+          },
+          {
+            "id": "2",
+            "label": "Selecting the oldest date mentioned in a retelling"
+          }
+        ],
+        "answer": "0",
+        "explanation": "Locate the underlying historical and archaeological arguments, check dates and geographic identification, and compare scholarly alternatives before asserting continuity with a present-day municipality."
+      },
+      {
+        "id": "status",
+        "kind": "decision",
+        "prompt": "Before those checks are finished, how should this research lead appear in your journal?",
+        "options": [
+          {
+            "id": "pending",
+            "label": "Attributed and clearly labeled as unverified or disputed"
+          },
+          {
+            "id": "proven",
+            "label": "Presented as confirmed local history"
+          },
+          {
+            "id": "false",
+            "label": "Declared false simply because it has not been verified yet"
+          }
+        ],
+        "answer": "pending",
+        "explanation": "An unresolved claim is neither established fact nor automatically false. Preserve attribution and explain what evidence is missing."
+      }
+    ]
+  }
+]
