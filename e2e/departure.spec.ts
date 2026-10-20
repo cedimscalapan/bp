@@ -11,11 +11,14 @@ test('goal sheet, boarding selection, frozen introduction and running HUD',async
  await page.locator('.departure-buddies button').filter({has:page.getByRole('heading',{name:'Dog',exact:true})}).click();
  await page.getByRole('button',{name:'Continue →',exact:true}).click();
  await expect(page.locator('.mission-dialogue')).toBeVisible();
+ await expect(page.locator('.mission-guide,.live-troublemaker')).toHaveCount(0);
+ await expect(page.locator('.game-shell img[src*="fox"],.game-shell img[src*="troublemaker"]')).toHaveCount(0);
  await expect(page.locator('.hud-clock')).toHaveText('◷ 0.0s');
  await page.waitForTimeout(300);await expect(page.locator('.hud-clock')).toHaveText('◷ 0.0s');
  await expect(page.locator('.player img')).toHaveAttribute('alt','Dog');
  await page.getByRole('button',{name:'Start adventure',exact:true}).click();
  await expect(page.locator('.hud-clock')).not.toHaveText('◷ 0.0s');
+ await expect(page.locator('.game-shell img[src*="fox"],.game-shell img[src*="troublemaker"]')).toHaveCount(0);
  await page.getByRole('button',{name:'Ⅱ Pause',exact:true}).click();
  await expect(page.getByRole('heading',{name:'Adventure paused'})).toBeVisible();
  await page.getByRole('button',{name:'Leave run',exact:true}).click();
