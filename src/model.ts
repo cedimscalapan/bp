@@ -18,8 +18,8 @@ export const powerups = [
  {id:'treasure_magnet',name:'Treasure Magnet',price:120,description:'Attracts the next 15 coins, stars, and destination items.'},
  {id:'buddy_rush',name:'Buddy Rush',price:220,description:'Move faster and reach rewards more easily for 12 seconds.'},
  {id:'lucky_star',name:'Lucky Star',price:130,description:'The next 10 eligible rewards count twice.'},
- {id:'paw_burst',name:'Paw Burst',price:160,description:'Clears active danger and knocks Troublemakers away.'},
- {id:'paw_counter',name:'Paw Counter',price:180,description:'Catches and reflects the next 3 enemy projectiles.'},
+ {id:'paw_burst',name:'Heritage Burst',price:160,description:'Clears active danger and knocks Troublemakers away.'},
+ {id:'paw_counter',name:'Guardian Counter',price:180,description:'Catches and reflects the next 3 enemy projectiles.'},
  {id:'buddy_instinct',name:'Buddy Instinct',price:260,description:'Automatically dodges danger and catches rewards for 20 seconds.'}
 ];
 export const companions = [

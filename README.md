@@ -1,8 +1,12 @@
-# BuddyPort · Ionic
+# KaPamana · Oriental Mindoro
 
-Ionic React + TypeScript rebuild of BuddyPort 1.5 with a Capacitor Android project. Recovered original artwork, audio, fonts, and the Local/International mission JSON are included.
+KaPamana is an Oriental Mindoro travel and heritage adventure built with Ionic React, TypeScript and Capacitor, based on the BuddyPort migration. Recovered original artwork, audio, fonts, and the Local/International mission JSON are included.
 
 **Status: playable migration in progress, not a verified one-to-one conversion or a production release.** The input was a split-APK export, not a Kotlin source project. See [migration status](docs/MIGRATION.md) before release.
+
+## Culture integration
+
+The new KaPamana name, mountain/water/book branding, Android launcher icon and heritage passport are implemented. The culture learning layer is planned in [the culture integration plan](docs/CULTURE-INTEGRATION-PLAN.md); educational stories and quizzes are not yet shipped. Existing package/save identifiers stay stable for upgrade compatibility.
 
 ## Run
 
@@ -32,13 +36,13 @@ npm run android:open
 
 Build from Android Studio, or run `gradlew.bat assembleDebug` in `android/`. The Android debug APK compiled successfully in GitHub Actions using JDK 21 / Android SDK 35. No physical-device test has been performed.
 
-Release package ID remains `com.tristanrosales.buddyport`. Debug APKs use `com.tristanrosales.buddyport.ionic` and display as **BuddyPort Ionic**, so they install alongside the original app. Development version is `1.5.2-ionic-dev`, version code 11. An upgrade over the original app requires its original signing key; do not uninstall an existing copy without preserving its progress. Existing Kotlin save migration is not implemented.
+Release package ID remains `com.tristanrosales.buddyport`. Debug APKs use `com.tristanrosales.buddyport.ionic` and display as **KaPamana**, so they install alongside the original app. Development version is `1.6.0`, version code 12. An upgrade over the original app requires its original signing key; do not uninstall an existing copy without preserving its progress. Existing Kotlin save migration is not implemented.
 
 ## Download an APK from GitHub
 
-Every push to `main` runs the **Build Android APK** workflow. Open the repository’s **Actions** tab, select a successful run, and download **BuddyPort-Ionic-Android** from **Artifacts**. Unzip it and install `app-debug.apk` on an Android 6.0+ phone. Allow installation from the browser or file manager when Android asks. A debug build is for testing; Play Store publishing needs release signing and completion of the migration checklist.
+Every push to `main` runs the **Build Android APK** workflow. Open the repository’s **Actions** tab, select a successful run, and download **KaPamana-Android** from **Artifacts**. Unzip it and install `app-debug.apk` on an Android 6.0+ phone. Allow installation from the browser or file manager when Android asks. A debug build is for testing; Play Store publishing needs release signing and completion of the migration checklist.
 
-Verified APK build: [successful run](https://github.com/cedimscalapan/bp/actions/runs/39392370293) · [download APK artifact](https://github.com/cedimscalapan/bp/actions/runs/39392370293/artifacts/12250760284). GitHub artifacts expire after 30 days; run the workflow again to generate a fresh build.
+Latest builds: [GitHub Actions](https://github.com/cedimscalapan/bp/actions/workflows/android-apk.yml). Download the KaPamana-Android artifact from a successful run for the latest commit. Artifacts expire after 30 days.
 
 ## Included
 
