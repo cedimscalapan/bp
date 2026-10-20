@@ -8,3 +8,4 @@
 
 @media(max-width:450px){.welcome{background-image:none}.welcome h1{max-width:220px;font-size:32px}.hero-buddy{top:35px;width:120px;height:155px}}
 .destination-image img[src$="destination_oriental_mindoro_calapan_city.webp"],.detail-hero[src$="destination_oriental_mindoro_calapan_city.webp"]{object-fit:contain;background:#a9d9f4}
+.destination-image img[src$="_pola.webp"],.destination-image img[src$="_bansud.webp"],.destination-image img[src$="_pinamalayan.webp"],.detail-hero[src$="_pola.webp"],.detail-hero[src$="_bansud.webp"],.detail-hero[src$="_pinamalayan.webp"]{object-fit:contain;background:#a9d9f4}

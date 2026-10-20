@@ -45,6 +45,96 @@
       "height": 640,
       "bytes": 124392,
       "prompt": "Use case: style-transfer. Input image is the visual reference for Naujan, Oriental Mindoro, for a BuddyPort mobile travel game background. Preserve the reference's expansive blue-green freshwater lake, gently curving grassy and rocky shoreline entering from the RIGHT, low forested distant hills and lush green shore. Soft white clouds. No ocean coral, tropical resort buildings or invented islands. Reinterpret it as polished family-friendly 3D storybook environmental art with gently rounded forms, clean readable shapes, natural materials and inviting daylight. Keep the place recognizable from THIS reference, rather than substituting generic scenery. Create one landscape 3:2 image, NOT a sheet or collage. Center the recognizable feature so it remains visible in a narrower phone crop. Calm uncluttered lower foreground for gameplay. No words, lettering, captions, logos, watermarks, UI or borders. No festival decorations or added cultural symbols. Match the same refined illustrative style across this five-location set."
+    },
+    {
+      "id": "victoria",
+      "name": "Victoria",
+      "asset": "destination_oriental_mindoro_victoria.webp",
+      "width": 960,
+      "height": 640,
+      "bytes": 139400,
+      "prompt": "Create one landscape 3:2 image for the BuddyPort mobile travel game, using the attached photo as the visual reference. Match the previous set's polished family-friendly 3D storybook environment style, softly rounded forms, clean readable shapes, natural materials, inviting daylight. Preserve recognizable reference features. Center the main feature for mobile card cropping and keep foreground calm. No festivals, UI, borders, watermarks or unrelated cultural symbols. Preserve the large woven fruit-basket monument in the landscaped foreground, including pineapple, mango, rambutan and open spiky durian, and the cream rectangular municipal building with blue glass behind. No building lettering or logos."
+    },
+    {
+      "id": "socorro",
+      "name": "Socorro",
+      "asset": "destination_oriental_mindoro_socorro.webp",
+      "width": 960,
+      "height": 640,
+      "bytes": 180546,
+      "prompt": "Create one landscape 3:2 image for the BuddyPort mobile travel game, using the attached photo as the visual reference. Match the previous set's polished family-friendly 3D storybook environment style, softly rounded forms, clean readable shapes, natural materials, inviting daylight. Preserve recognizable reference features. Center the main feature for mobile card cropping and keep foreground calm. No festivals, UI, borders, watermarks or unrelated cultural symbols. Preserve the elevated lake view with blue water, angular red-and-blue waterfront walkway with two open hexagonal platforms, small covered floating boat, and coconut-covered green hills behind. No text."
+    },
+    {
+      "id": "pola",
+      "name": "Pola",
+      "asset": "destination_oriental_mindoro_pola.webp",
+      "width": 960,
+      "height": 640,
+      "bytes": 142064,
+      "prompt": "Create one landscape 3:2 image for the BuddyPort mobile travel game, using the attached photo as the visual reference. Match the previous set's polished family-friendly 3D storybook environment style, softly rounded forms, clean readable shapes, natural materials, inviting daylight. Preserve recognizable reference features. Center the main feature for mobile card cropping and keep foreground calm. No festivals, UI, borders, watermarks or unrelated cultural symbols. Preserve the lawn plaza with its blue-and-white I heart POLA landmark, blue heart with white wave patterns, palm trees, modest buildings and small monument behind. The landmark must read exactly I \u2665 POLA. No other words."
+    },
+    {
+      "id": "gloria",
+      "name": "Gloria",
+      "asset": "destination_oriental_mindoro_gloria.webp",
+      "width": 960,
+      "height": 640,
+      "bytes": 162138,
+      "prompt": "Create one landscape 3:2 image for the BuddyPort mobile travel game, using the attached photo as the visual reference. Match the previous set's polished family-friendly 3D storybook environment style, softly rounded forms, clean readable shapes, natural materials, inviting daylight. Preserve recognizable reference features. Center the main feature for mobile card cropping and keep foreground calm. No festivals, UI, borders, watermarks or unrelated cultural symbols. Preserve the dark pebble beach on LEFT, gently curling white surf in center, clear turquoise sea RIGHT, coconut trees along grassy shore and distant blue mountainous coastline. No words."
+    },
+    {
+      "id": "bansud",
+      "name": "Bansud",
+      "asset": "destination_oriental_mindoro_bansud.webp",
+      "width": 960,
+      "height": 640,
+      "bytes": 113806,
+      "prompt": "Create one landscape 3:2 image for the BuddyPort mobile travel game, using the attached photo as the visual reference. Match the previous set's polished family-friendly 3D storybook environment style, softly rounded forms, clean readable shapes, natural materials, inviting daylight. Preserve recognizable reference features. Center the main feature for mobile card cropping and keep foreground calm. No festivals, UI, borders, watermarks or unrelated cultural symbols. Preserve the distinctive oversized yellow banana gateway arch on RIGHT beside a quiet rural road, coconut palm LEFT, green rice fields and sky. Arch text reads exactly BANSUD. Remove circular seal, overhead wires and road traffic. No other words."
+    },
+    {
+      "id": "bongabong",
+      "name": "Bongabong",
+      "asset": "destination_oriental_mindoro_bongabong.webp",
+      "width": 960,
+      "height": 640,
+      "bytes": 187348,
+      "prompt": "Create one landscape 3:2 image for the BuddyPort mobile travel game, using the attached photo as the visual reference. Match the previous set's polished family-friendly 3D storybook environment style, softly rounded forms, clean readable shapes, natural materials, inviting daylight. Preserve recognizable reference features. Center the main feature for mobile card cropping and keep foreground calm. No festivals, UI, borders, watermarks or unrelated cultural symbols. Preserve the clear deep teal river pool, pebbly foreground, tall forested rock cliff LEFT, big rounded rock by water, and narrow rustic footbridge crossing toward RIGHT. No watermark or words."
+    },
+    {
+      "id": "roxas",
+      "name": "Roxas",
+      "asset": "destination_oriental_mindoro_roxas.webp",
+      "width": 960,
+      "height": 640,
+      "bytes": 179832,
+      "prompt": "Create one landscape 3:2 image for the BuddyPort mobile travel game, using the attached photo as the visual reference. Match the previous set's polished family-friendly 3D storybook environment style, softly rounded forms, clean readable shapes, natural materials, inviting daylight. Preserve recognizable reference features. Center the main feature for mobile card cropping and keep foreground calm. No festivals, UI, borders, watermarks or unrelated cultural symbols. Preserve the limestone cave interior with tall ribbed flowstone column RIGHT, jagged stalactites above, warm brown gray rock walls, and daylight shaft from opening LEFT. Readable softly lit cave without fantasy crystals. No text."
+    },
+    {
+      "id": "mansalay",
+      "name": "Mansalay",
+      "asset": "destination_oriental_mindoro_mansalay.webp",
+      "width": 960,
+      "height": 640,
+      "bytes": 141200,
+      "prompt": "Create one landscape 3:2 image for the BuddyPort mobile travel game, using the attached photo as the visual reference. Match the previous set's polished family-friendly 3D storybook environment style, softly rounded forms, clean readable shapes, natural materials, inviting daylight. Preserve recognizable reference features. Center the main feature for mobile card cropping and keep foreground calm. No festivals, UI, borders, watermarks or unrelated cultural symbols. Preserve aerial oblique view of pale sandy beach sweeping down RIGHT, emerald shallows and deeper blue water LEFT, small plain wooden beach huts, dense trees and mountainous green inland background. No text."
+    },
+    {
+      "id": "bulalacao",
+      "name": "Bulalacao",
+      "asset": "destination_oriental_mindoro_bulalacao.webp",
+      "width": 960,
+      "height": 640,
+      "bytes": 125202,
+      "prompt": "Create one landscape 3:2 image for the BuddyPort mobile travel game, using the attached photo as the visual reference. Match the previous set's polished family-friendly 3D storybook environment style, softly rounded forms, clean readable shapes, natural materials, inviting daylight. Preserve recognizable reference features. Center the main feature for mobile card cropping and keep foreground calm. No festivals, UI, borders, watermarks or unrelated cultural symbols. Preserve distinctive curving narrow white sandbar across lower center, vivid turquoise shallow sea, darker blue open water, and low palm-covered headland upper right. Reinterpret the scene only; remove all poster text, border, footer and tiny boat. No words."
+    },
+    {
+      "id": "pinamalayan",
+      "name": "Pinamalayan",
+      "asset": "destination_oriental_mindoro_pinamalayan.webp",
+      "width": 960,
+      "height": 640,
+      "bytes": 97234,
+      "prompt": "Generate one landscape 3:2 BuddyPort mobile game environment in polished family-friendly 3D storybook style, natural materials, rounded forms and inviting daylight, matching our previous destination artwork. Use this photo as reference. Preserve the distinctive Pinamalayan monument: very large brown earthen pot on elevated circular platform supported by slanting cream legs, upright curved rainbow rising from the pot with red yellow green blue purple bands, colorful PINAMALAYAN letters wrapping the platform. Quiet plaza beside road and low buildings. Frame whole monument including rainbow with generous sky margin, centered for mobile cropping. No festival decorations, people, timestamp, watermark, UI or borders. Only text PINAMALAYAN."
     }
   ]
 }

@@ -265,7 +265,7 @@
     "destinationID": "oriental_mindoro_bansud",
     "name": "Bansud",
     "group": "Oriental Mindoro",
-    "image": "destination_oriental_mindoro_bansud.svg",
+    "image": "destination_oriental_mindoro_bansud.webp",
     "signatureItemName": "Travel Keepsakes",
     "signatureImage": "collectible_star.webp",
     "levels": [
@@ -395,7 +395,7 @@
     "destinationID": "oriental_mindoro_bongabong",
     "name": "Bongabong",
     "group": "Oriental Mindoro",
-    "image": "destination_oriental_mindoro_bongabong.svg",
+    "image": "destination_oriental_mindoro_bongabong.webp",
     "signatureItemName": "Travel Keepsakes",
     "signatureImage": "collectible_star.webp",
     "levels": [
@@ -525,7 +525,7 @@
     "destinationID": "oriental_mindoro_bulalacao",
     "name": "Bulalacao",
     "group": "Oriental Mindoro",
-    "image": "destination_oriental_mindoro_bulalacao.svg",
+    "image": "destination_oriental_mindoro_bulalacao.webp",
     "signatureItemName": "Travel Keepsakes",
     "signatureImage": "collectible_star.webp",
     "levels": [
@@ -655,7 +655,7 @@
     "destinationID": "oriental_mindoro_gloria",
     "name": "Gloria",
     "group": "Oriental Mindoro",
-    "image": "destination_oriental_mindoro_gloria.svg",
+    "image": "destination_oriental_mindoro_gloria.webp",
     "signatureItemName": "Travel Keepsakes",
     "signatureImage": "collectible_star.webp",
     "levels": [
@@ -785,7 +785,7 @@
     "destinationID": "oriental_mindoro_mansalay",
     "name": "Mansalay",
     "group": "Oriental Mindoro",
-    "image": "destination_oriental_mindoro_mansalay.svg",
+    "image": "destination_oriental_mindoro_mansalay.webp",
     "signatureItemName": "Travel Keepsakes",
     "signatureImage": "collectible_star.webp",
     "levels": [
@@ -1045,7 +1045,7 @@
     "destinationID": "oriental_mindoro_pinamalayan",
     "name": "Pinamalayan",
     "group": "Oriental Mindoro",
-    "image": "destination_oriental_mindoro_pinamalayan.svg",
+    "image": "destination_oriental_mindoro_pinamalayan.webp",
     "signatureItemName": "Travel Keepsakes",
     "signatureImage": "collectible_star.webp",
     "levels": [
@@ -1175,7 +1175,7 @@
     "destinationID": "oriental_mindoro_pola",
     "name": "Pola",
     "group": "Oriental Mindoro",
-    "image": "destination_oriental_mindoro_pola.svg",
+    "image": "destination_oriental_mindoro_pola.webp",
     "signatureItemName": "Travel Keepsakes",
     "signatureImage": "collectible_star.webp",
     "levels": [
@@ -1437,7 +1437,7 @@
     "destinationID": "oriental_mindoro_roxas",
     "name": "Roxas",
     "group": "Oriental Mindoro",
-    "image": "destination_oriental_mindoro_roxas.svg",
+    "image": "destination_oriental_mindoro_roxas.webp",
     "signatureItemName": "Travel Keepsakes",
     "signatureImage": "collectible_star.webp",
     "levels": [
@@ -1697,7 +1697,7 @@
     "destinationID": "oriental_mindoro_socorro",
     "name": "Socorro",
     "group": "Oriental Mindoro",
-    "image": "destination_oriental_mindoro_socorro.svg",
+    "image": "destination_oriental_mindoro_socorro.webp",
     "signatureItemName": "Travel Keepsakes",
     "signatureImage": "collectible_star.webp",
     "levels": [
@@ -1827,7 +1827,7 @@
     "destinationID": "oriental_mindoro_victoria",
     "name": "Victoria",
     "group": "Oriental Mindoro",
-    "image": "destination_oriental_mindoro_victoria.svg",
+    "image": "destination_oriental_mindoro_victoria.webp",
     "signatureItemName": "Travel Keepsakes",
     "signatureImage": "collectible_star.webp",
     "levels": [
