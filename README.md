@@ -32,7 +32,7 @@ npm run android:open
 
 Build from Android Studio, or run `gradlew.bat assembleDebug` in `android/`. The Android debug APK compiled successfully in GitHub Actions using JDK 21 / Android SDK 35. No physical-device test has been performed.
 
-Release package ID remains `com.tristanrosales.buddyport`. Debug APKs use `com.tristanrosales.buddyport.ionic` and display as **BuddyPort Ionic**, so they install alongside the original app. Development version is `1.5.0-ionic-dev`, version code 9. An upgrade over the original app requires its original signing key; do not uninstall an existing copy without preserving its progress. Existing Kotlin save migration is not implemented.
+Release package ID remains `com.tristanrosales.buddyport`. Debug APKs use `com.tristanrosales.buddyport.ionic` and display as **BuddyPort Ionic**, so they install alongside the original app. Development version is `1.5.1-ionic-dev`, version code 10. An upgrade over the original app requires its original signing key; do not uninstall an existing copy without preserving its progress. Existing Kotlin save migration is not implemented.
 
 ## Download an APK from GitHub
 
@@ -44,7 +44,8 @@ Verified APK build: [successful run](https://github.com/cedimscalapan/bp/actions
 
 - Ionic onboarding, home port, six route groups, destination/level selection, Buddy team, shop, passport, missions, settings, and results.
 - Three-lane runner with touch/swipe and keyboard controls, pause/resume, hazards, objective evaluation, power-ups, companions, and endless play.
-- All 165 original Local/International level definitions preserved exactly; 155 reconstructed development levels for the other routes.
+- Oriental Mindoro: Calapan City and all 14 municipalities, with five missions each (75 missions). The original Local routes have been replaced in the active catalog.
+- All 115 International levels remain unchanged; 155 reconstructed development levels cover the other routes. Original Local mission JSON is retained as an archival tuning reference.
 - Original Buddy artwork, destinations, collectibles, music, sound effects, and Fredoka font: 272 recovered files total including the two source mission files.
 - Local persistence with Capacitor Preferences; web backup download and native backup sharing; JSON restore and reset confirmation.
 - Unit tests and an end-to-end browser test.
@@ -68,3 +69,7 @@ Controls: swipe left/right, tap a lane, use the arrow buttons, or press ‚Üê / ‚Ü
 Native shell code is Java; the app UI and game logic are TypeScript rather than Kotlin. No APKs, decompiled dependency source, credentials, or signing keys are committed.
 
 Original BuddyPort attribution: Tristan Jules B. Rosales. The recovered assets retain their original ownership; no new license is asserted over them.
+
+## Oriental Mindoro destinations
+
+Calapan City; Baco; Bansud; Bongabong; Bulalacao; Gloria; Mansalay; Naujan; Pinamalayan; Pola; Puerto Galera; Roxas; San Teodoro; Socorro; Victoria. Names and classifications verified against the [Philippine Statistics Authority PSGC](https://psa.gov.ph/classification/psgc/citimuni/1705200000) on 20 October 2026. Illustrations are stylized cards rather than destination photographs. The five missions per locality reuse existing gameplay tuning with new IDs. Existing wallets remain intact; the new localities begin with their own mission progress.

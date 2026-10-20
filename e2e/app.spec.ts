@@ -9,7 +9,7 @@ test('onboarding, shop, missions, runner, pause and persistence',async({page})=>
  await page.getByRole('button',{name:'Shop',exact:true}).click();
  await expect(page.getByRole('heading',{name:'Pack a little possibility.'})).toBeVisible();
  await page.getByRole('button',{name:'Explore',exact:true}).click();
- await page.getByRole('button',{name:/01 \/ Local/}).click();
+ await page.getByRole('button',{name:/01 \/ Oriental Mindoro/}).click();
  await page.getByRole('button',{name:/1 Coin Trail/}).click();
  await page.getByRole('button',{name:'Start adventure',exact:true}).click();
  await page.keyboard.press('ArrowLeft');

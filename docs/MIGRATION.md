@@ -1,5 +1,9 @@
 # APK-to-Ionic migration status
 
+## Oriental Mindoro customization — 20 October 2026
+
+The active Local region has been replaced with **Oriental Mindoro**, containing Calapan City and the 14 municipalities listed by the [PSA PSGC](https://psa.gov.ph/classification/psgc/citimuni/1705200000). Each has five missions with new IDs, drawn from the existing Local tuning templates. `oriental_mindoro.json` records their source and classification. New SVG card illustrations replace photographs of unrelated destinations. These 75 missions are custom content, not recovered Kotlin definitions. Original Local JSON remains archived; the 115 International mission definitions remain active and unchanged. The historical APK links below refer to the earlier migration build.
+
 ## Input and recovery
 
 Input: `BuddyPort-1.5-split-apks(1).zip`, containing `base.apk`, arm64, English, and xxhdpi split APKs, and an export manifest. Package `com.tristanrosales.buddyport`; original version 1.5, version code 8.
