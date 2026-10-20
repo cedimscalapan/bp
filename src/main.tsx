@@ -7,5 +7,6 @@ import '@ionic/react/css/structure.css';
 import '@ionic/react/css/typography.css';
 import App from './App';
 import './styles.css';
+import './adventure-theme.css';
 setupIonicReact({ mode: 'md' });
 createRoot(document.getElementById('root')!).render(<React.StrictMode><App /></React.StrictMode>);
