@@ -7,7 +7,7 @@ export function objective(l:Level,r:Run):{value:number;target:number;label:strin
  const m=l.mission;const v:Record<string,[number,string]>={collectCoins:[r.coins,'Travel Coins'],collectStars:[r.stars,'Travel Stars'],collectSignatureItems:[r.signature,'keepsakes'],collectAndSurvive:[r.signature,'keepsakes'],survive:[Math.floor(r.time),'seconds'],reachScore:[r.score,'score'],scoreWithDamageLimit:[r.score,'score'],troublemakerChallenge:[r.dodges,'hazards dodged'],comboStreak:[r.bestCombo,'combo']};
  const [value,label]=v[m.type]??[0,'unsupported objective'];return {value,target:m.target,label};
 }
-export function missionWon(l:Level,r:Run){const m=l.mission;return objective(l,r).value>=m.target&&(m.maximumDamage===undefined||r.damage<=m.maximumDamage)&&(m.type!=='collectAndSurvive'||r.time>=(m.secondaryTarget??0));}
+export function missionWon(l:Level,r:Run){const m=l.mission;return objective(l,r).value>=m.target&&r.signature>=(m.minimumKeepsakes??0)&&(m.maximumDamage===undefined||r.damage<=m.maximumDamage)&&(m.type!=='collectAndSurvive'||r.time>=(m.secondaryTarget??0));}
 export function activate(r:Run,id:string,buddy='cat'):Run {
  const n={...r,items:[...r.items]};
  switch(id){

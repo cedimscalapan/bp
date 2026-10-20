@@ -1,0 +1,10 @@
+import {useEffect,useRef,useState} from 'react';
+import {communityQuestion} from './communityQuestions';
+import {municipalFor} from './municipal';
+import {Sources} from './HeritagePanels';
+export default function CommunityCheck({destinationID,mission,onComplete}:{destinationID:string;mission:number;onComplete:()=>void}){
+ const heading=useRef<HTMLHeadingElement>(null);useEffect(()=>{heading.current?.focus();},[]);
+ const q=communityQuestion(destinationID,mission);const sprite=municipalFor(destinationID);const [choice,setChoice]=useState<string|null>(null);if(!q)return null;
+ const correct=choice===q.answer;
+ return <div className="community-check" role="dialog" aria-modal="true" aria-labelledby="community-check-title" onKeyDown={e=>{if(e.key!=='Tab')return;const items=[...e.currentTarget.querySelectorAll<HTMLElement>('button:not(:disabled),a[href],summary')];const first=items[0],last=items.at(-1);if(!first)return;if(e.shiftKey&&(document.activeElement===first||document.activeElement===heading.current)){e.preventDefault();last?.focus();}else if(!e.shiftKey&&document.activeElement===last){e.preventDefault();first.focus();}}}><section><div className="community-check-guide">{sprite&&<img src={'/assets/'+sprite.spriteImage} alt={`${sprite.spriteName}, fictional local story guide`}/>}<div><small>RUN OBJECTIVE ACHIEVED · ONE LAST TASK</small><h2 ref={heading} tabIndex={-1} id="community-check-title">Bring the discovery home</h2><p>{sprite?.spriteName??'Your story guide'} has a question.</p></div></div><p>{q.question}</p><div className="knowledge-options">{q.options.map(option=><button key={option} disabled={correct} aria-pressed={choice===option} onClick={()=>setChoice(option)}>{option}</button>)}</div>{choice&&<p role="status">{correct?'Correct! Your mission and discovery are ready to save.':'Not yet. Revisit the briefing below, then try again.'}</p>}{choice&&!correct&&<div className="knowledge-review"><p>{q.fact.text}</p><Sources ids={q.fact.sourceIDs}/></div>}{correct&&<button className="yellow-link" onClick={onComplete}>Complete mission →</button>}</section></div>;
+}
