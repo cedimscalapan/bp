@@ -32,7 +32,7 @@ npm run android:open
 
 Build from Android Studio, or run `gradlew.bat assembleDebug` in `android/`. The Android debug APK compiled successfully in GitHub Actions using JDK 21 / Android SDK 35. No physical-device test has been performed.
 
-Release package ID remains `com.tristanrosales.buddyport`. Debug APKs use `com.tristanrosales.buddyport.ionic` and display as **BuddyPort Ionic**, so they install alongside the original app. Development version is `1.5.1-ionic-dev`, version code 10. An upgrade over the original app requires its original signing key; do not uninstall an existing copy without preserving its progress. Existing Kotlin save migration is not implemented.
+Release package ID remains `com.tristanrosales.buddyport`. Debug APKs use `com.tristanrosales.buddyport.ionic` and display as **BuddyPort Ionic**, so they install alongside the original app. Development version is `1.5.2-ionic-dev`, version code 11. An upgrade over the original app requires its original signing key; do not uninstall an existing copy without preserving its progress. Existing Kotlin save migration is not implemented.
 
 ## Download an APK from GitHub
 
