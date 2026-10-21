@@ -1,0 +1,10 @@
+import { IonButton } from '@ionic/react';
+import { achievements, journeyStats, nextMission } from './journey';
+import type { Destination, Level, Save } from './model';
+export function NextAdventure({save,catalog,onStart}:{save:Save;catalog:Destination[];onStart:(d:Destination,l:Level)=>void}){
+ const next=nextMission(save,catalog);const stats=journeyStats(save,catalog);
+ return <section className="journey-banner" aria-label="Your heritage journey"><div><small>YOUR HERITAGE JOURNEY</small><h2>{next?`${next.destination.name} is calling`:'Every community, a memory'}</h2><p>{stats.cleared}/{stats.total} missions · {stats.visited}/15 communities · {stats.stamps}/15 stamps</p><progress aria-label="Community campaign progress" value={stats.cleared} max={stats.total}/>{next?<p>Next: {next.level.title} · Mission {next.level.number} of {next.destination.levels.length}</p>:<p>All community missions complete. Replay your favorites for three stars!</p>}</div>{next&&<IonButton onClick={()=>onStart(next.destination,next.level)}>Continue journey →</IonButton>}</section>;
+}
+export function AchievementBoard({save,catalog,onClaim}:{save:Save;catalog:Destination[];onClaim:(id:string)=>void}){
+ return <section aria-label="Heritage achievements"><h2>Your heritage achievements</h2><p>Keep the memories you earn. Claim each milestone reward once, whenever you’re ready.</p><div className="achievement-grid">{achievements(save,catalog).map(a=><article key={a.id} className={`achievement-card ${a.earned?'earned':''}`}><span className="achievement-icon" aria-hidden="true">{a.icon}</span><div><small>{a.claimed?'REWARD CLAIMED':a.earned?'MILESTONE UNLOCKED':'ON YOUR WAY'}</small><h3>{a.title}</h3><p>{a.description}</p><progress aria-label={`${a.title} progress`} value={a.value} max={a.target}/><p>{a.value}/{a.target} · ◉ {a.reward} coins</p><IonButton size="small" disabled={!a.earned||a.claimed} onClick={()=>onClaim(a.id)}>{a.claimed?'Claimed':a.earned?`Claim ${a.reward} coins`:'Keep exploring'}</IonButton></div></article>)}</div></section>;
+}
