@@ -1,0 +1,25 @@
+/* News & updates (Adventure screen) and account section (Travel settings) */
+.kp-news{background:var(--paper,#fffcf5);border:1px solid var(--line,#dddccc);border-radius:22px;padding:18px 20px;margin:22px 0;box-shadow:0 8px 0 #dfdcca55}
+.kp-news-head{display:flex;align-items:center;gap:12px;margin-bottom:12px}
+.kp-news-head>span{display:grid;place-items:center;width:42px;height:42px;border-radius:14px;background:#ffd66b;font-size:20px}
+.kp-news-head small{display:block;color:#ac8855;font-size:11px;letter-spacing:1.6px;font-weight:600}
+.kp-news-head h2{margin:2px 0 0}
+.kp-news ul{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:10px}
+.kp-news-item{display:flex;gap:12px;align-items:flex-start;background:#fff;border:1px solid #ece6d2;border-left:5px solid #227b70;border-radius:16px;padding:12px 14px}
+.kp-news-item.is-advisory{border-left-color:#b74843}
+.kp-news-item.is-event{border-left-color:#e6a85a}
+.kp-news-item.is-news{border-left-color:#236181}
+.kp-news-item img{flex:none;width:76px;height:76px;object-fit:cover;border-radius:12px}
+.kp-news-item small{color:#8c9176;font-size:11px;font-weight:700;letter-spacing:1px;text-transform:uppercase}
+.kp-news-item h3{margin:4px 0}
+.kp-news-item p{margin:0;font-size:14px;line-height:1.5;white-space:pre-line}
+.kp-news-item a{display:inline-block;margin-top:6px;font-weight:600;color:#227b70}
+.kp-news-more{margin-top:10px;background:none;border:0;padding:4px 0;color:#227b70;font:inherit;font-weight:600;cursor:pointer}
+.kp-account{margin:24px 0;padding:20px;border-radius:18px;background:#efe9d8}
+.kp-account h2{margin-top:0}
+.kp-account-status{font-size:13px;color:var(--muted,#74837a)}
+.kp-account-form{display:flex;flex-direction:column;gap:12px}
+.kp-account-actions{display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+.kp-role{text-transform:capitalize;font-weight:700;color:#b27d48}
+.kp-account-message{color:#1d6a60;font-weight:600}
+.kp-account-error{color:#b74843;font-weight:600}

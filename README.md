@@ -4,6 +4,14 @@ KaPamana is an Oriental Mindoro travel and heritage adventure built with Ionic R
 
 **Status: playable migration in progress, not a verified one-to-one conversion or a production release.** The input was a split-APK export, not a Kotlin source project. See [migration status](docs/MIGRATION.md) before release.
 
+## Version 1.13.0 · Supabase database and admin dashboard
+
+- All game content lives in Supabase PostgreSQL: 69 destinations with their runner missions, heritage journals, 105 history questions, 47 investigations, cultural identity, research notes, local story guides, sources, shop prices and a new **News & updates** feed.
+- **Admin dashboard at `/admin`**: full create/read/update/delete for every table, drafts, search, JSON export, image upload, **Players & cloud saves** (view, adjust coins/XP/name, delete), **Users & roles** (traveler / editor / admin) and an activity log. Access is enforced by row level security in the database.
+- Optional traveler account in **Travel settings** backs up the save and restores it on another phone.
+- Still offline-first: without Supabase settings the game runs exactly as before; downloaded content is cached for offline play.
+- Setup: [SUPABASE_SETUP.md](SUPABASE_SETUP.md).
+
 ## Culture integration
 
 KaPamana includes introductions for all 15 Oriental Mindoro locations, 75 sourced post-run discoveries, themed keepsakes, visitor-care prompts and badges, optional recaps, and persistent heritage journals. See [implementation details](docs/HERITAGE-IMPLEMENTATION.md) and the original [culture plan](docs/CULTURE-INTEGRATION-PLAN.md). Existing package/save identifiers stay stable for upgrade compatibility.

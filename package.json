@@ -1,6 +1,6 @@
 {
   "name": "kapamana",
-  "version": "1.12.0",
+  "version": "1.13.0",
   "private": true,
   "type": "module",
   "scripts": {
@@ -11,7 +11,9 @@
     "android:add": "cap add android",
     "android:sync": "npm run build && cap sync android",
     "android:open": "cap open android",
-    "test:e2e": "playwright test"
+    "test:e2e": "playwright test",
+    "db:generate": "vite-node scripts/generate-supabase-sql.ts",
+    "db:test": "bash scripts/test-supabase-sql.sh"
   },
   "dependencies": {
     "@capacitor/android": "^7.4.0",
@@ -20,6 +22,7 @@
     "@capacitor/preferences": "^7.0.0",
     "@capacitor/share": "^7.0.4",
     "@ionic/react": "^8.7.0",
+    "@supabase/supabase-js": "^2.118.0",
     "ionicons": "^7.4.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
@@ -32,6 +35,7 @@
     "@vitejs/plugin-react": "^4.4.0",
     "typescript": "~5.7.3",
     "vite": "^6.1.0",
+    "vite-node": "^3.2.4",
     "vitest": "^4.1.11"
   }
 }

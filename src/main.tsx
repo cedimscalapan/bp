@@ -1,12 +1,11 @@
-import React from 'react';
-import { createRoot } from 'react-dom/client';
-import { setupIonicReact } from '@ionic/react';
-import '@ionic/react/css/core.css';
-import '@ionic/react/css/normalize.css';
-import '@ionic/react/css/structure.css';
-import '@ionic/react/css/typography.css';
-import App from './App';
-import './styles.css';
-import './adventure-theme.css';
-setupIonicReact({ mode: 'md' });
-createRoot(document.getElementById('root')!).render(<React.StrictMode><App /></React.StrictMode>);
+import { prepareContent } from './cloud/content-sync';
+import { syncSaveOnLaunch } from './cloud/save-sync';
+
+/**
+ * Admin-managed content (Supabase, or its offline cache) is applied before any UI module is imported,
+ * so data derived at import time reflects it too. A newer cloud save is pulled before the app reads
+ * its save. Both steps are time-limited and fall back to the offline app.
+ */
+const isAdmin = /^\/admin\/?$/.test(window.location.pathname);
+void Promise.allSettled([prepareContent(), isAdmin ? Promise.resolve() : syncSaveOnLaunch()])
+  .finally(() => (isAdmin ? import('./admin/admin-main') : import('./bootstrap')));
