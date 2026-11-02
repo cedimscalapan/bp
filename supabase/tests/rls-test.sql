@@ -56,6 +56,7 @@ do $$ begin
 end $$;
 select pg_temp.expect_denied($$update public.profiles set role = 'admin' where id = auth.uid()$$, 'self-promotion');
 select pg_temp.expect_denied($$update public.profiles set email = 'admin@kapamana.test' where id = auth.uid()$$, 'profile email is read-only');
+select pg_temp.expect_denied($$select public.admin_set_password('00000000-0000-0000-0000-00000000000a', 'takeover-123')$$, 'traveler sets admin password');
 select pg_temp.expect_denied($$truncate public.sources$$, 'truncate bypasses RLS');
 select pg_temp.expect_denied($$insert into public.player_saves (user_id, save) values ('00000000-0000-0000-0000-00000000000c', '{}')$$, 'write another player save');
 select pg_temp.expect_denied($$insert into public.player_saves (save) values ('[]')$$, 'save must be an object');
@@ -95,6 +96,13 @@ do $$ begin
   if not exists (select 1 from public.content_audit_log where table_name = 'player_saves' and action = 'UPDATE') then raise exception 'admin save edit not audited'; end if;
 end $$;
 select pg_temp.expect_denied($$update public.profiles set role = 'learner' where email = 'admin@kapamana.test'$$, 'demote last admin');
+select public.admin_set_password('00000000-0000-0000-0000-00000000000b', 'new-secret-123');
+select pg_temp.expect_denied($$select public.admin_set_password('00000000-0000-0000-0000-00000000000b', 'short')$$, 'password too short');
 reset role;
 
+do $$ begin
+  if (select encrypted_password from auth.users where email = 'traveler@kapamana.test') <> extensions.crypt('new-secret-123', (select encrypted_password from auth.users where email = 'traveler@kapamana.test')) then raise exception 'password hash does not verify'; end if;
+  if (select encrypted_password from auth.users where email = 'admin@kapamana.test') is not null then raise exception 'traveler changed admin password'; end if;
+  if not exists (select 1 from public.content_audit_log where table_name = 'auth_users') then raise exception 'password reset not audited'; end if;
+end $$;
 select 'ALL RLS CHECKS PASSED' as result;

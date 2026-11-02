@@ -77,7 +77,7 @@ export default function CloudAccount({ save, onSaveReplaced }: { save: Save; onS
       <div className="kp-account-actions">
         <IonButton fill="outline" disabled={busy} onClick={() => void run(async () => { await uploadSave(save); return 'Backed up just now.'; })}>Back up now</IonButton>
         {(profile.role === 'admin' || profile.role === 'editor') && <IonButton onClick={() => window.location.assign('/admin')}>Open admin dashboard</IonButton>}
-        <IonButton fill="clear" disabled={busy} onClick={() => void run(async () => { await signOutCloud(save); setProfile(undefined); return 'Signed out. Progress on this device was kept.'; })}>Sign out</IonButton>
+        <IonButton fill="clear" disabled={busy} onClick={() => { if (window.confirm('Sign out of KaPamana? Your adventure stays saved in your account.')) void run(async () => { await signOutCloud(save); setProfile(undefined); }); }}>Sign out</IonButton>
         <IonButton fill="clear" color="danger" disabled={busy} onClick={() => {
           if (!window.confirm('Delete your cloud backup? Progress on this device is kept.')) return;
           void run(async () => { await deleteCloudSave(); setProfile(undefined); return 'Cloud backup deleted and signed out.'; });
@@ -90,12 +90,7 @@ export default function CloudAccount({ save, onSaveReplaced }: { save: Save; onS
       <div className="kp-account-actions">
         <IonButton type="submit" disabled={busy || !email || password.length < 8}>{busy ? 'Please wait…' : mode === 'signup' ? 'Create account' : 'Sign in'}</IonButton>
         <IonButton fill="clear" onClick={() => setMode(mode === 'signup' ? 'signin' : 'signup')}>{mode === 'signup' ? 'I already have an account' : 'Create an account'}</IonButton>
-        {mode === 'signin' && <IonButton fill="clear" disabled={busy} onClick={() => void run(async () => {
-          if (!email) throw Error('Type your email address first.');
-          const { error: e } = await getSupabase()!.auth.resetPasswordForEmail(email);
-          if (e) throw e;
-          return 'Password reset email sent.';
-        })}>Forgot password?</IonButton>}
+
       </div>
     </form>}
     {message && <p className="kp-account-message" role="status">{message}</p>}

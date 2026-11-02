@@ -339,18 +339,28 @@ function UsersView({ me }: { me: Profile }) {
     const { error: e } = await getSupabase()!.from('profiles').update({ role }).eq('id', user.id);
     if (e) setError(e.message.includes('At least one admin') ? 'At least one admin must remain.' : errorText(e)); else { setError(''); reload(); }
   };
+  const [notice, setNotice] = useState('');
+  const setPassword = async (user: Profile) => {
+    const next = window.prompt(`New password for ${user.email} (at least 8 characters). Share it with them privately.`);
+    if (next === null) return;
+    if (next.length < 8) { setError('The password needs at least 8 characters.'); return; }
+    const { error: e } = await getSupabase()!.rpc('admin_set_password', { target_user: user.id, new_password: next });
+    if (e) setError(errorText(e)); else { setError(''); setNotice(`Password updated for ${user.email}. They can sign in with it now.`); setTimeout(() => setNotice(''), 6000); }
+  };
   const shown = (users ?? []).filter(u => !query || `${u.email} ${u.display_name}`.toLowerCase().includes(query.toLowerCase()));
   return <>
     <header className="adm-head"><div><h1>Users & roles</h1><p><strong>Traveler</strong>: plays and backs up progress. <strong>Editor</strong>: manages all content. <strong>Admin</strong>: content, user roles and player saves.</p></div></header>
+    {notice && <p className="adm-notice" role="status">{notice}</p>}
     {error && <p className="adm-error" role="alert">{error}</p>}
     <div className="adm-toolbar"><input type="search" placeholder="Search by email or name…" value={query} onChange={e => setQuery(e.target.value)} aria-label="Search users" />
       <span className="adm-muted">{users ? `${shown.length} of ${users.length}` : 'Loading…'}</span></div>
     <div className="adm-table-wrap"><table className="adm-table">
-      <thead><tr><th>Email</th><th>Name</th><th>Joined</th><th>Role</th></tr></thead>
+      <thead><tr><th>Email</th><th>Name</th><th>Joined</th><th>Role</th><th><span className="adm-sr">Actions</span></th></tr></thead>
       <tbody>{shown.map(u => <tr key={u.id}><td>{u.email}{u.id === me.id && <small>you</small>}</td><td>{u.display_name ?? '—'}</td>
         <td className="adm-muted">{new Date(u.created_at).toLocaleDateString()}</td>
         <td><select value={u.role} onChange={e => void changeRole(u, e.target.value as AppRole)} aria-label={`Role for ${u.email}`}>
-          <option value="learner">Traveler</option><option value="editor">Editor</option><option value="admin">Admin</option></select></td></tr>)}</tbody>
+          <option value="learner">Traveler</option><option value="editor">Editor</option><option value="admin">Admin</option></select></td>
+        <td className="adm-actions"><button className="adm-link" onClick={() => void setPassword(u)}>Set password</button></td></tr>)}</tbody>
     </table></div>
   </>;
 }

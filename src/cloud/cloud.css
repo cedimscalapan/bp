@@ -23,3 +23,15 @@
 .kp-role{text-transform:capitalize;font-weight:700;color:#b27d48}
 .kp-account-message{color:#1d6a60;font-weight:600}
 .kp-account-error{color:#b74843;font-weight:600}
+/* Account-first screen */
+.kp-auth{text-align:center}
+.kp-auth form,.kp-auth{display:block}
+.kp-auth ion-input{margin-bottom:14px!important}
+.kp-auth ion-button[type=submit]{margin-top:6px}
+.kp-auth-show{display:flex;align-items:center;justify-content:flex-start;gap:8px;margin:-4px 0 12px;font-size:14px;color:#517587}
+.kp-auth-show input{width:18px;height:18px}
+.kp-auth-error{background:#fdecea;color:#9c2f29;border:1px solid #f3c3bd;border-radius:12px;padding:10px 12px;font-weight:600;text-align:left}
+.kp-auth-offline{background:#fff4d6;color:#7a5a12;border:1px solid #f0d58a;border-radius:12px;padding:10px 12px;text-align:left}
+.kp-auth-steps{text-align:left;margin:12px 0 18px;padding-left:22px;line-height:1.55}
+.kp-auth-steps li{margin-bottom:8px}
+.kp-auth ion-spinner{margin:20px auto 6px;display:block}

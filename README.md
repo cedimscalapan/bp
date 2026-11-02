@@ -4,6 +4,13 @@ KaPamana is an Oriental Mindoro travel and heritage adventure built with Ionic R
 
 **Status: playable migration in progress, not a verified one-to-one conversion or a production release.** The input was a split-APK export, not a Kotlin source project. See [migration status](docs/MIGRATION.md) before release.
 
+## Version 1.14.0 · Account first
+
+- Opening the app now starts with **Create your traveler account / Sign in**, before the welcome screen and the game. The session is remembered, so reopening the app (even offline) goes straight to the adventure; a new phone restores it after sign-in.
+- Clear messages for wrong passwords, existing emails, offline use and email-confirmation limits. If email confirmation is on, a guided screen explains the link (including the `localhost` page) and continues once confirmed.
+- No-email password help: admins can **Set password** under **Users & roles**.
+- Requires **Confirm email = off** in Supabase (see [SUPABASE_SETUP.md](SUPABASE_SETUP.md#accounts-come-first)).
+
 ## Version 1.13.0 · Supabase database and admin dashboard
 
 - All game content lives in Supabase PostgreSQL: 69 destinations with their runner missions, heritage journals, 105 history questions, 47 investigations, cultural identity, research notes, local story guides, sources, shop prices and a new **News & updates** feed.

@@ -145,6 +145,22 @@ begin
 end $$;
 revoke all on function public.promote_to_admin(text) from public, anon, authenticated;
 
+-- Admins can set a new password for a traveler (no email needed). The built-in Supabase mailer only reaches
+-- project team members, so emailed reset links cannot reach players without custom SMTP.
+create or replace function public.admin_set_password(target_user uuid, new_password text) returns void
+language plpgsql security definer set search_path = public, extensions as $$
+begin
+  if not public.is_admin() then raise exception 'Admins only' using errcode = '42501'; end if;
+  if new_password is null or length(new_password) < 8 then raise exception 'Password must be at least 8 characters'; end if;
+  update auth.users set encrypted_password = extensions.crypt(new_password, extensions.gen_salt('bf', 10)), updated_at = now()
+  where id = target_user;
+  if not found then raise exception 'User not found'; end if;
+  insert into public.content_audit_log (table_name, record_id, action, changed_by, changed_by_email, new_data)
+  values ('auth_users', target_user::text, 'UPDATE', auth.uid(), (select email from public.profiles where id = auth.uid()), jsonb_build_object('password', 'set by admin'));
+end $$;
+revoke all on function public.admin_set_password(uuid, text) from public, anon;
+grant execute on function public.admin_set_password(uuid, text) to authenticated;
+
 -- ───────────────────────── Audit log ─────────────────────────
 create table if not exists public.content_audit_log (
   id bigint generated always as identity primary key,

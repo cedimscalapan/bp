@@ -21,6 +21,9 @@ import { heritageFor, heritageProfiles, journalUnlocked, recordDiscovery } from 
 import { exportBackup } from './backup';
 import AnnouncementsCard from './cloud/AnnouncementsCard';
 import CloudAccount from './cloud/CloudAccount';
+import AuthGate from './cloud/AuthGate';
+import { useAuthSession } from './cloud/auth';
+import { isLinked } from './cloud/save-sync';
 const catalog=(catalogData as Destination[]).filter(d=>d.group!=='International');
 const Brand=()=> <div className="kapamana-brand"><img src="/assets/kapamana-logo-lockup.webp" alt="KaPamana · Oriental Mindoro"/></div>;
 const art=(name:string)=>`/assets/${name}`;
@@ -30,6 +33,7 @@ export default function App(){
  const [departure,setDeparture]=useState<Departure|null>(null);const [departureBuddy,setDepartureBuddy]=useState('cat');const [goalDetails,setGoalDetails]=useState<'daily'|'weekly'|null>(null);
  const [journal,setJournal]=useState<Destination|null>(null);
  const [save,setSave]=useState<Save|null>(null);const saveRef=useRef<Save|null>(null);const [tab,setTab]=useState<Tab>('home');const [group,setGroup]=useState('Oriental Mindoro');const [detail,setDetail]=useState<Destination|null>(null);const [trip,setTrip]=useState<Trip|null>(null);const [result,setResult]=useState<{run:Run;trip:Trip;before:Save}|null>(null);const [settings,setSettings]=useState(false);const [reset,setReset]=useState(false);const [toast,setToast]=useState('');const [error,setError]=useState('');const [name,setName]=useState('');const [introBuddy,setIntroBuddy]=useState('cat');const [shopTab,setShopTab]=useState('powerups');const input=useRef<HTMLInputElement>(null);
+ const auth=useAuthSession();const [,setAuthTick]=useState(0);
  useEffect(()=>{loadSave().then(s=>{saveRef.current=s;setSave(s);setName(s.name);}).catch(e=>setError(String(e.message)));},[]);
  function update(fn:(s:Save)=>Save){const s=saveRef.current;if(!s)return;const next=fn(rotateGoals(s));saveRef.current=next;setSave(next);void storeSave(next).catch(()=>setToast('Progress could not be saved. Please export a backup.'));}
  useEffect(()=>{if(save&&!trip)playMusic('music_main_menu',save.settings.music&&save.onboarded);return()=>playMusic('',false);},[save?.settings.music,save?.onboarded,trip]);
@@ -42,6 +46,9 @@ export default function App(){
  function backup(){void exportBackup(saveRef.current!).catch(()=>setToast('Backup export was canceled or could not be completed.'));}
  async function restore(file?:File){if(!file)return;try{const s=parseSave(await file.text());saveRef.current=s;setSave(s);setName(s.name);await storeSave(s);setToast('Backup restored.');}catch(e){setToast((e as Error).message);}if(input.current)input.current.value='';}
  if(!save)return <IonApp><IonPage><IonContent><div className="loading"><Brand/>{error?<><h2>Let’s recover your travel data</h2><p>{error}</p><input aria-label="Restore backup" type="file" accept="application/json" onChange={e=>void restore(e.target.files?.[0])}/><IonButton color="danger" onClick={()=>setReset(true)}>Reset saved data</IonButton></>:<><IonSpinner/><p>Preparing your passport…</p></>}</div></IonContent><IonAlert isOpen={reset} header="Reset saved data?" message="This deletes saved progress on this device." buttons={[{text:'Cancel',role:'cancel'},{text:'Reset',role:'destructive',handler:()=>{const s=freshSave();saveRef.current=s;setSave(s);void storeSave(s);setError('');}}]} onDidDismiss={()=>setReset(false)}/></IonPage></IonApp>;
+ // Account first: when the KaPamana server is configured, travelers sign up or sign in before onboarding and play.
+ if(auth.status==='loading')return <IonApp><IonPage><IonContent><div className="loading"><Brand/><IonSpinner/><p>Checking your traveler account…</p></div></IonContent></IonPage></IonApp>;
+ if(auth.status==='signed-out'||(auth.status==='signed-in'&&!isLinked()))return <IonApp><IonPage><IonContent><AuthGate key={auth.status} save={save} signedIn={auth.status==='signed-in'} onReady={({save:restored,travelerName})=>{if(restored){saveRef.current=restored;setSave(restored);setName(restored.name);}else if(travelerName&&!save.onboarded)setName(travelerName);setAuthTick(t=>t+1);}}/></IonContent></IonPage></IonApp>;
  const buddy=buddies.find(b=>b.id===save.buddy)!;const totalStars=Object.values(save.completed).reduce((a,b)=>a+b,0);const groups=[...new Set(catalog.map(d=>d.group))];const destinations=catalog.filter(d=>d.group===group);
  const nav=[['home','Adventure',homeOutline],['passport','Passport',bookOutline],['team','Buddies',peopleOutline],['shop','Shop',bagHandleOutline],['learn','Learn',bookOutline],['missions','Missions',trophyOutline]] as const;
  return <IonApp><IonPage className={trip?'playing':'adventure-app'}>

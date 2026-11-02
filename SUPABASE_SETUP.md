@@ -49,15 +49,24 @@ Nobody can promote themselves, the last admin can't be demoted, and every admin 
 
 The schema, security policies, storage bucket and all content are already applied. The app is connected through the committed `.env` file, which holds the URL and the **publishable** key; both are public by design. Every build, including the GitHub Actions APK, uses it automatically. To point a local build at a different project, create a git-ignored `.env.local`. **Never** put the `service_role`/secret key in the app.
 
+### Accounts come first
+
+When the app opens, travelers **create an account or sign in before anything else**. Only then do they see the welcome screen (choose a Buddy) and the game. The session is kept on the phone, so reopening the app (even offline) goes straight to the game. Signing out returns to the account screen. On a new phone, signing in restores the adventure.
+
+**Required project setting: turn off "Confirm email".** In the dashboard open **Authentication → Sign In / Providers → Email** and switch **Confirm email** off, then **Save**.
+Why: Supabase's built-in mailer only delivers to members of your Supabase organization and only a few emails per hour. While confirmation is on, sign-ups from any other address fail (`email_address_not_authorized`), and the confirmation link lands on `http://localhost:3000` (the default Site URL). With confirmation off, sign-up logs the traveler in immediately: no email, no link, no localhost page.
+If you ever want confirmation emails, first set up custom SMTP (**Authentication → Emails → SMTP Settings**) and set **Authentication → URL Configuration → Site URL** to a real web page. The app already handles that mode: it shows a "Confirm your email" screen that explains the link and continues after confirmation.
+
+**Forgot password:** emailed reset links have the same mailer limits, so password resets go through an admin. In the admin dashboard choose **Users & roles → Set password** (`public.admin_set_password`, admin-only and recorded in the activity log), then share the new password with the traveler privately.
+
 ### First admin (one time)
 
-1. Open the game → **Travel settings → Account & cloud backup → Create an account**.
-2. New Supabase projects require email confirmation. Open the link in the email. It may land on a "localhost" page that doesn't load; the account is confirmed anyway. To make the link land somewhere friendly, set **Authentication → URL Configuration → Site URL** in the dashboard.
-3. In the dashboard **SQL Editor** run:
+1. Open the game. The first screen asks you to **create your traveler account**.
+2. In the dashboard **SQL Editor** run:
    ```sql
    select public.promote_to_admin('you@example.com');
    ```
-4. **Travel settings → Open admin dashboard** (or open `/admin` in a browser running the web build). Promote others under **Users & roles**.
+3. **Travel settings → Open admin dashboard** (or open `/admin` in a browser running the web build). Promote others under **Users & roles**.
 
 ### Setting up another project from scratch
 
