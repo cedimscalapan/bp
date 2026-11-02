@@ -63,18 +63,18 @@ create trigger profiles_guard before update on public.profiles for each row exec
 
 alter table public.profiles enable row level security;
 drop policy if exists "Users read own profile, admins read all" on public.profiles;
-create policy "Users read own profile, admins read all" on public.profiles for select to authenticated using (id = auth.uid() or public.is_admin());
+create policy "Users read own profile, admins read all" on public.profiles for select to authenticated using (id = (select auth.uid()) or (select public.is_admin()));
 drop policy if exists "Users update own profile, admins update all" on public.profiles;
-create policy "Users update own profile, admins update all" on public.profiles for update to authenticated using (id = auth.uid() or public.is_admin()) with check (id = auth.uid() or public.is_admin());
+create policy "Users update own profile, admins update all" on public.profiles for update to authenticated using (id = (select auth.uid()) or (select public.is_admin())) with check (id = (select auth.uid()) or (select public.is_admin()));
 drop policy if exists "Admins delete profiles" on public.profiles;
-create policy "Admins delete profiles" on public.profiles for delete to authenticated using (public.is_admin() and id <> auth.uid());
+create policy "Admins delete profiles" on public.profiles for delete to authenticated using ((select public.is_admin()) and id <> (select auth.uid()));
 grant select, update, delete on public.profiles to authenticated;
 
 -- Run once in the Supabase SQL editor to create the first admin (see SUPABASE_SETUP.md).
 create or replace function public.promote_to_admin(user_email text) returns void
 language plpgsql security definer set search_path = public as $$
 begin
-  update public.profiles set role = 'admin' where lower(email) = lower(user_email);
+  update public.profiles set role = 'admin' where id = (select id from auth.users where lower(email) = lower(user_email) limit 1);
   if not found then raise exception 'No profile for %. Sign up in the app first.', user_email; end if;
 end $$;
 revoke all on function public.promote_to_admin(text) from public, anon, authenticated;
@@ -94,7 +94,8 @@ create table if not exists public.content_audit_log (
 create index if not exists content_audit_log_recent_idx on public.content_audit_log (changed_at desc);
 alter table public.content_audit_log enable row level security;
 drop policy if exists "Editors read audit log" on public.content_audit_log;
-create policy "Editors read audit log" on public.content_audit_log for select to authenticated using (public.is_editor());
+create policy "Editors read audit log" on public.content_audit_log for select to authenticated using ((select public.is_editor()));
+create index if not exists content_audit_log_changed_by_idx on public.content_audit_log (changed_by);
 grant select on public.content_audit_log to authenticated;
 
 create or replace function public.touch_content_row() returns trigger
@@ -135,13 +136,18 @@ create table if not exists public.player_saves (
 );
 alter table public.player_saves enable row level security;
 drop policy if exists "Players manage own save" on public.player_saves;
-create policy "Players manage own save" on public.player_saves for all to authenticated using (user_id = auth.uid()) with check (user_id = auth.uid());
 drop policy if exists "Admins read saves" on public.player_saves;
-create policy "Admins read saves" on public.player_saves for select to authenticated using (public.is_admin());
 drop policy if exists "Admins update saves" on public.player_saves;
-create policy "Admins update saves" on public.player_saves for update to authenticated using (public.is_admin()) with check (public.is_admin());
 drop policy if exists "Admins delete saves" on public.player_saves;
-create policy "Admins delete saves" on public.player_saves for delete to authenticated using (public.is_admin());
+drop policy if exists "Read own save, admins read all" on public.player_saves;
+create policy "Read own save, admins read all" on public.player_saves for select to authenticated using (user_id = (select auth.uid()) or (select public.is_admin()));
+drop policy if exists "Create own save" on public.player_saves;
+create policy "Create own save" on public.player_saves for insert to authenticated with check (user_id = (select auth.uid()));
+drop policy if exists "Update own save, admins update all" on public.player_saves;
+create policy "Update own save, admins update all" on public.player_saves for update to authenticated using (user_id = (select auth.uid()) or (select public.is_admin())) with check (user_id = (select auth.uid()) or (select public.is_admin()));
+drop policy if exists "Delete own save, admins delete all" on public.player_saves;
+create policy "Delete own save, admins delete all" on public.player_saves for delete to authenticated using (user_id = (select auth.uid()) or (select public.is_admin()));
+create index if not exists player_saves_updated_by_idx on public.player_saves (updated_by);
 grant select, insert, update, delete on public.player_saves to authenticated;
 
 create or replace function public.touch_player_save() returns trigger
@@ -193,15 +199,16 @@ create table if not exists public.announcements (
 );
 comment on table public.announcements is 'News, updates, events and advisories shown on the Adventure (home) screen.';
 create index if not exists announcements_order_idx on public.announcements (sort_order, id);
+create index if not exists announcements_updated_by_idx on public.announcements (updated_by);
 alter table public.announcements enable row level security;
 drop policy if exists "Anyone can read published announcements" on public.announcements;
-create policy "Anyone can read published announcements" on public.announcements for select to anon, authenticated using (is_published or public.is_editor());
+create policy "Anyone can read published announcements" on public.announcements for select to anon, authenticated using (is_published or (select public.is_editor()));
 drop policy if exists "Editors can insert announcements" on public.announcements;
-create policy "Editors can insert announcements" on public.announcements for insert to authenticated with check (public.is_editor());
+create policy "Editors can insert announcements" on public.announcements for insert to authenticated with check ((select public.is_editor()));
 drop policy if exists "Editors can update announcements" on public.announcements;
-create policy "Editors can update announcements" on public.announcements for update to authenticated using (public.is_editor()) with check (public.is_editor());
+create policy "Editors can update announcements" on public.announcements for update to authenticated using ((select public.is_editor())) with check ((select public.is_editor()));
 drop policy if exists "Editors can delete announcements" on public.announcements;
-create policy "Editors can delete announcements" on public.announcements for delete to authenticated using (public.is_editor());
+create policy "Editors can delete announcements" on public.announcements for delete to authenticated using ((select public.is_editor()));
 grant select on public.announcements to anon, authenticated;
 grant insert, update, delete on public.announcements to authenticated;
 drop trigger if exists announcements_touch on public.announcements;
@@ -230,15 +237,16 @@ create table if not exists public.destinations (
 );
 comment on table public.destinations is 'Every adventure stop, its artwork and its runner missions (levels).';
 create index if not exists destinations_order_idx on public.destinations (sort_order, id);
+create index if not exists destinations_updated_by_idx on public.destinations (updated_by);
 alter table public.destinations enable row level security;
 drop policy if exists "Anyone can read published destinations" on public.destinations;
-create policy "Anyone can read published destinations" on public.destinations for select to anon, authenticated using (is_published or public.is_editor());
+create policy "Anyone can read published destinations" on public.destinations for select to anon, authenticated using (is_published or (select public.is_editor()));
 drop policy if exists "Editors can insert destinations" on public.destinations;
-create policy "Editors can insert destinations" on public.destinations for insert to authenticated with check (public.is_editor());
+create policy "Editors can insert destinations" on public.destinations for insert to authenticated with check ((select public.is_editor()));
 drop policy if exists "Editors can update destinations" on public.destinations;
-create policy "Editors can update destinations" on public.destinations for update to authenticated using (public.is_editor()) with check (public.is_editor());
+create policy "Editors can update destinations" on public.destinations for update to authenticated using ((select public.is_editor())) with check ((select public.is_editor()));
 drop policy if exists "Editors can delete destinations" on public.destinations;
-create policy "Editors can delete destinations" on public.destinations for delete to authenticated using (public.is_editor());
+create policy "Editors can delete destinations" on public.destinations for delete to authenticated using ((select public.is_editor()));
 grant select on public.destinations to anon, authenticated;
 grant insert, update, delete on public.destinations to authenticated;
 drop trigger if exists destinations_touch on public.destinations;
@@ -268,15 +276,16 @@ create table if not exists public.heritage_profiles (
 );
 comment on table public.heritage_profiles is 'Place introductions, discoveries, collectibles, visitor challenge, recap and journal story for each Oriental Mindoro place.';
 create index if not exists heritage_profiles_order_idx on public.heritage_profiles (sort_order, id);
+create index if not exists heritage_profiles_updated_by_idx on public.heritage_profiles (updated_by);
 alter table public.heritage_profiles enable row level security;
 drop policy if exists "Anyone can read published heritage_profiles" on public.heritage_profiles;
-create policy "Anyone can read published heritage_profiles" on public.heritage_profiles for select to anon, authenticated using (is_published or public.is_editor());
+create policy "Anyone can read published heritage_profiles" on public.heritage_profiles for select to anon, authenticated using (is_published or (select public.is_editor()));
 drop policy if exists "Editors can insert heritage_profiles" on public.heritage_profiles;
-create policy "Editors can insert heritage_profiles" on public.heritage_profiles for insert to authenticated with check (public.is_editor());
+create policy "Editors can insert heritage_profiles" on public.heritage_profiles for insert to authenticated with check ((select public.is_editor()));
 drop policy if exists "Editors can update heritage_profiles" on public.heritage_profiles;
-create policy "Editors can update heritage_profiles" on public.heritage_profiles for update to authenticated using (public.is_editor()) with check (public.is_editor());
+create policy "Editors can update heritage_profiles" on public.heritage_profiles for update to authenticated using ((select public.is_editor())) with check ((select public.is_editor()));
 drop policy if exists "Editors can delete heritage_profiles" on public.heritage_profiles;
-create policy "Editors can delete heritage_profiles" on public.heritage_profiles for delete to authenticated using (public.is_editor());
+create policy "Editors can delete heritage_profiles" on public.heritage_profiles for delete to authenticated using ((select public.is_editor()));
 grant select on public.heritage_profiles to anon, authenticated;
 grant insert, update, delete on public.heritage_profiles to authenticated;
 drop trigger if exists heritage_profiles_touch on public.heritage_profiles;
@@ -287,7 +296,7 @@ create trigger heritage_profiles_audit after insert or update or delete on publi
 -- History runner questions: Readings and quiz questions unlocked by missions 6 and above.
 create table if not exists public.history_questions (
   id text primary key check (length(trim(id)) > 0),
-  place_i_d text not null,
+  place_id text not null,
   suggested_mission integer not null,
   title text not null,
   category text not null,
@@ -295,7 +304,7 @@ create table if not exists public.history_questions (
   question text not null,
   answer text not null,
   options text[] not null,
-  source_i_ds text[],
+  source_ids text[],
   evidence_status text not null,
   sort_order integer not null default 0,
   is_published boolean not null default true,
@@ -305,15 +314,16 @@ create table if not exists public.history_questions (
 );
 comment on table public.history_questions is 'Readings and quiz questions unlocked by missions 6 and above.';
 create index if not exists history_questions_order_idx on public.history_questions (sort_order, id);
+create index if not exists history_questions_updated_by_idx on public.history_questions (updated_by);
 alter table public.history_questions enable row level security;
 drop policy if exists "Anyone can read published history_questions" on public.history_questions;
-create policy "Anyone can read published history_questions" on public.history_questions for select to anon, authenticated using (is_published or public.is_editor());
+create policy "Anyone can read published history_questions" on public.history_questions for select to anon, authenticated using (is_published or (select public.is_editor()));
 drop policy if exists "Editors can insert history_questions" on public.history_questions;
-create policy "Editors can insert history_questions" on public.history_questions for insert to authenticated with check (public.is_editor());
+create policy "Editors can insert history_questions" on public.history_questions for insert to authenticated with check ((select public.is_editor()));
 drop policy if exists "Editors can update history_questions" on public.history_questions;
-create policy "Editors can update history_questions" on public.history_questions for update to authenticated using (public.is_editor()) with check (public.is_editor());
+create policy "Editors can update history_questions" on public.history_questions for update to authenticated using ((select public.is_editor())) with check ((select public.is_editor()));
 drop policy if exists "Editors can delete history_questions" on public.history_questions;
-create policy "Editors can delete history_questions" on public.history_questions for delete to authenticated using (public.is_editor());
+create policy "Editors can delete history_questions" on public.history_questions for delete to authenticated using ((select public.is_editor()));
 grant select on public.history_questions to anon, authenticated;
 grant insert, update, delete on public.history_questions to authenticated;
 drop trigger if exists history_questions_touch on public.history_questions;
@@ -324,7 +334,7 @@ create trigger history_questions_audit after insert or update or delete on publi
 -- Investigations: Learning Studio challenges (sequence, match, classify, decision, budget).
 create table if not exists public.investigations (
   id text primary key check (length(trim(id)) > 0),
-  place_i_d text not null,
+  place_id text not null,
   title text not null,
   family text not null,
   difficulty text not null,
@@ -338,9 +348,9 @@ create table if not exists public.investigations (
   failure text not null,
   design_note text,
   artwork_requirements text not null,
-  claim_i_ds text[],
-  research_note_i_ds text[],
-  source_i_ds text[],
+  claim_ids text[],
+  research_note_ids text[],
+  source_ids text[],
   sort_order integer not null default 0,
   is_published boolean not null default true,
   created_at timestamptz not null default now(),
@@ -349,15 +359,16 @@ create table if not exists public.investigations (
 );
 comment on table public.investigations is 'Learning Studio challenges (sequence, match, classify, decision, budget).';
 create index if not exists investigations_order_idx on public.investigations (sort_order, id);
+create index if not exists investigations_updated_by_idx on public.investigations (updated_by);
 alter table public.investigations enable row level security;
 drop policy if exists "Anyone can read published investigations" on public.investigations;
-create policy "Anyone can read published investigations" on public.investigations for select to anon, authenticated using (is_published or public.is_editor());
+create policy "Anyone can read published investigations" on public.investigations for select to anon, authenticated using (is_published or (select public.is_editor()));
 drop policy if exists "Editors can insert investigations" on public.investigations;
-create policy "Editors can insert investigations" on public.investigations for insert to authenticated with check (public.is_editor());
+create policy "Editors can insert investigations" on public.investigations for insert to authenticated with check ((select public.is_editor()));
 drop policy if exists "Editors can update investigations" on public.investigations;
-create policy "Editors can update investigations" on public.investigations for update to authenticated using (public.is_editor()) with check (public.is_editor());
+create policy "Editors can update investigations" on public.investigations for update to authenticated using ((select public.is_editor())) with check ((select public.is_editor()));
 drop policy if exists "Editors can delete investigations" on public.investigations;
-create policy "Editors can delete investigations" on public.investigations for delete to authenticated using (public.is_editor());
+create policy "Editors can delete investigations" on public.investigations for delete to authenticated using ((select public.is_editor()));
 grant select on public.investigations to anon, authenticated;
 grant insert, update, delete on public.investigations to authenticated;
 drop trigger if exists investigations_touch on public.investigations;
@@ -374,7 +385,7 @@ create table if not exists public.cultural_profiles (
   traveler_values text[] not null,
   origins text not null,
   discoverer_status text not null,
-  source_i_ds text[],
+  source_ids text[],
   evidence_status text not null,
   sort_order integer not null default 0,
   is_published boolean not null default true,
@@ -384,15 +395,16 @@ create table if not exists public.cultural_profiles (
 );
 comment on table public.cultural_profiles is 'Living heritage, traveler values and origins for each place.';
 create index if not exists cultural_profiles_order_idx on public.cultural_profiles (sort_order, id);
+create index if not exists cultural_profiles_updated_by_idx on public.cultural_profiles (updated_by);
 alter table public.cultural_profiles enable row level security;
 drop policy if exists "Anyone can read published cultural_profiles" on public.cultural_profiles;
-create policy "Anyone can read published cultural_profiles" on public.cultural_profiles for select to anon, authenticated using (is_published or public.is_editor());
+create policy "Anyone can read published cultural_profiles" on public.cultural_profiles for select to anon, authenticated using (is_published or (select public.is_editor()));
 drop policy if exists "Editors can insert cultural_profiles" on public.cultural_profiles;
-create policy "Editors can insert cultural_profiles" on public.cultural_profiles for insert to authenticated with check (public.is_editor());
+create policy "Editors can insert cultural_profiles" on public.cultural_profiles for insert to authenticated with check ((select public.is_editor()));
 drop policy if exists "Editors can update cultural_profiles" on public.cultural_profiles;
-create policy "Editors can update cultural_profiles" on public.cultural_profiles for update to authenticated using (public.is_editor()) with check (public.is_editor());
+create policy "Editors can update cultural_profiles" on public.cultural_profiles for update to authenticated using ((select public.is_editor())) with check ((select public.is_editor()));
 drop policy if exists "Editors can delete cultural_profiles" on public.cultural_profiles;
-create policy "Editors can delete cultural_profiles" on public.cultural_profiles for delete to authenticated using (public.is_editor());
+create policy "Editors can delete cultural_profiles" on public.cultural_profiles for delete to authenticated using ((select public.is_editor()));
 grant select on public.cultural_profiles to anon, authenticated;
 grant insert, update, delete on public.cultural_profiles to authenticated;
 drop trigger if exists cultural_profiles_touch on public.cultural_profiles;
@@ -403,12 +415,12 @@ create trigger cultural_profiles_audit after insert or update or delete on publi
 -- Research notes: Attributed research leads and open questions (never used as quiz answers).
 create table if not exists public.research_notes (
   id text primary key check (length(trim(id)) > 0),
-  place_i_d text not null,
+  place_id text not null,
   title text not null,
   statement text not null,
   evidence_label text not null,
   verification_needed text not null,
-  source_i_ds text[],
+  source_ids text[],
   fact_quiz_eligible boolean not null default false,
   sort_order integer not null default 0,
   is_published boolean not null default true,
@@ -418,15 +430,16 @@ create table if not exists public.research_notes (
 );
 comment on table public.research_notes is 'Attributed research leads and open questions (never used as quiz answers).';
 create index if not exists research_notes_order_idx on public.research_notes (sort_order, id);
+create index if not exists research_notes_updated_by_idx on public.research_notes (updated_by);
 alter table public.research_notes enable row level security;
 drop policy if exists "Anyone can read published research_notes" on public.research_notes;
-create policy "Anyone can read published research_notes" on public.research_notes for select to anon, authenticated using (is_published or public.is_editor());
+create policy "Anyone can read published research_notes" on public.research_notes for select to anon, authenticated using (is_published or (select public.is_editor()));
 drop policy if exists "Editors can insert research_notes" on public.research_notes;
-create policy "Editors can insert research_notes" on public.research_notes for insert to authenticated with check (public.is_editor());
+create policy "Editors can insert research_notes" on public.research_notes for insert to authenticated with check ((select public.is_editor()));
 drop policy if exists "Editors can update research_notes" on public.research_notes;
-create policy "Editors can update research_notes" on public.research_notes for update to authenticated using (public.is_editor()) with check (public.is_editor());
+create policy "Editors can update research_notes" on public.research_notes for update to authenticated using ((select public.is_editor())) with check ((select public.is_editor()));
 drop policy if exists "Editors can delete research_notes" on public.research_notes;
-create policy "Editors can delete research_notes" on public.research_notes for delete to authenticated using (public.is_editor());
+create policy "Editors can delete research_notes" on public.research_notes for delete to authenticated using ((select public.is_editor()));
 grant select on public.research_notes to anon, authenticated;
 grant insert, update, delete on public.research_notes to authenticated;
 drop trigger if exists research_notes_touch on public.research_notes;
@@ -453,15 +466,16 @@ create table if not exists public.municipal_guides (
 );
 comment on table public.municipal_guides is 'Municipal tokens, passport art and fictional story-guide sprites.';
 create index if not exists municipal_guides_order_idx on public.municipal_guides (sort_order, id);
+create index if not exists municipal_guides_updated_by_idx on public.municipal_guides (updated_by);
 alter table public.municipal_guides enable row level security;
 drop policy if exists "Anyone can read published municipal_guides" on public.municipal_guides;
-create policy "Anyone can read published municipal_guides" on public.municipal_guides for select to anon, authenticated using (is_published or public.is_editor());
+create policy "Anyone can read published municipal_guides" on public.municipal_guides for select to anon, authenticated using (is_published or (select public.is_editor()));
 drop policy if exists "Editors can insert municipal_guides" on public.municipal_guides;
-create policy "Editors can insert municipal_guides" on public.municipal_guides for insert to authenticated with check (public.is_editor());
+create policy "Editors can insert municipal_guides" on public.municipal_guides for insert to authenticated with check ((select public.is_editor()));
 drop policy if exists "Editors can update municipal_guides" on public.municipal_guides;
-create policy "Editors can update municipal_guides" on public.municipal_guides for update to authenticated using (public.is_editor()) with check (public.is_editor());
+create policy "Editors can update municipal_guides" on public.municipal_guides for update to authenticated using ((select public.is_editor())) with check ((select public.is_editor()));
 drop policy if exists "Editors can delete municipal_guides" on public.municipal_guides;
-create policy "Editors can delete municipal_guides" on public.municipal_guides for delete to authenticated using (public.is_editor());
+create policy "Editors can delete municipal_guides" on public.municipal_guides for delete to authenticated using ((select public.is_editor()));
 grant select on public.municipal_guides to anon, authenticated;
 grant insert, update, delete on public.municipal_guides to authenticated;
 drop trigger if exists municipal_guides_touch on public.municipal_guides;
@@ -483,15 +497,16 @@ create table if not exists public.sources (
 );
 comment on table public.sources is 'Citations shown under “Sources” throughout the app.';
 create index if not exists sources_order_idx on public.sources (sort_order, id);
+create index if not exists sources_updated_by_idx on public.sources (updated_by);
 alter table public.sources enable row level security;
 drop policy if exists "Anyone can read published sources" on public.sources;
-create policy "Anyone can read published sources" on public.sources for select to anon, authenticated using (is_published or public.is_editor());
+create policy "Anyone can read published sources" on public.sources for select to anon, authenticated using (is_published or (select public.is_editor()));
 drop policy if exists "Editors can insert sources" on public.sources;
-create policy "Editors can insert sources" on public.sources for insert to authenticated with check (public.is_editor());
+create policy "Editors can insert sources" on public.sources for insert to authenticated with check ((select public.is_editor()));
 drop policy if exists "Editors can update sources" on public.sources;
-create policy "Editors can update sources" on public.sources for update to authenticated using (public.is_editor()) with check (public.is_editor());
+create policy "Editors can update sources" on public.sources for update to authenticated using ((select public.is_editor())) with check ((select public.is_editor()));
 drop policy if exists "Editors can delete sources" on public.sources;
-create policy "Editors can delete sources" on public.sources for delete to authenticated using (public.is_editor());
+create policy "Editors can delete sources" on public.sources for delete to authenticated using ((select public.is_editor()));
 grant select on public.sources to anon, authenticated;
 grant insert, update, delete on public.sources to authenticated;
 drop trigger if exists sources_touch on public.sources;
@@ -513,15 +528,16 @@ create table if not exists public.shop_powerups (
 );
 comment on table public.shop_powerups is 'Power-up names, prices and descriptions. The ID decides the in-game effect, so only edit existing IDs.';
 create index if not exists shop_powerups_order_idx on public.shop_powerups (sort_order, id);
+create index if not exists shop_powerups_updated_by_idx on public.shop_powerups (updated_by);
 alter table public.shop_powerups enable row level security;
 drop policy if exists "Anyone can read published shop_powerups" on public.shop_powerups;
-create policy "Anyone can read published shop_powerups" on public.shop_powerups for select to anon, authenticated using (is_published or public.is_editor());
+create policy "Anyone can read published shop_powerups" on public.shop_powerups for select to anon, authenticated using (is_published or (select public.is_editor()));
 drop policy if exists "Editors can insert shop_powerups" on public.shop_powerups;
-create policy "Editors can insert shop_powerups" on public.shop_powerups for insert to authenticated with check (public.is_editor());
+create policy "Editors can insert shop_powerups" on public.shop_powerups for insert to authenticated with check ((select public.is_editor()));
 drop policy if exists "Editors can update shop_powerups" on public.shop_powerups;
-create policy "Editors can update shop_powerups" on public.shop_powerups for update to authenticated using (public.is_editor()) with check (public.is_editor());
+create policy "Editors can update shop_powerups" on public.shop_powerups for update to authenticated using ((select public.is_editor())) with check ((select public.is_editor()));
 drop policy if exists "Editors can delete shop_powerups" on public.shop_powerups;
-create policy "Editors can delete shop_powerups" on public.shop_powerups for delete to authenticated using (public.is_editor());
+create policy "Editors can delete shop_powerups" on public.shop_powerups for delete to authenticated using ((select public.is_editor()));
 grant select on public.shop_powerups to anon, authenticated;
 grant insert, update, delete on public.shop_powerups to authenticated;
 drop trigger if exists shop_powerups_touch on public.shop_powerups;
@@ -543,15 +559,16 @@ create table if not exists public.shop_companions (
 );
 comment on table public.shop_companions is 'Companion names, prices and descriptions. The ID decides the in-game ability, so only edit existing IDs.';
 create index if not exists shop_companions_order_idx on public.shop_companions (sort_order, id);
+create index if not exists shop_companions_updated_by_idx on public.shop_companions (updated_by);
 alter table public.shop_companions enable row level security;
 drop policy if exists "Anyone can read published shop_companions" on public.shop_companions;
-create policy "Anyone can read published shop_companions" on public.shop_companions for select to anon, authenticated using (is_published or public.is_editor());
+create policy "Anyone can read published shop_companions" on public.shop_companions for select to anon, authenticated using (is_published or (select public.is_editor()));
 drop policy if exists "Editors can insert shop_companions" on public.shop_companions;
-create policy "Editors can insert shop_companions" on public.shop_companions for insert to authenticated with check (public.is_editor());
+create policy "Editors can insert shop_companions" on public.shop_companions for insert to authenticated with check ((select public.is_editor()));
 drop policy if exists "Editors can update shop_companions" on public.shop_companions;
-create policy "Editors can update shop_companions" on public.shop_companions for update to authenticated using (public.is_editor()) with check (public.is_editor());
+create policy "Editors can update shop_companions" on public.shop_companions for update to authenticated using ((select public.is_editor())) with check ((select public.is_editor()));
 drop policy if exists "Editors can delete shop_companions" on public.shop_companions;
-create policy "Editors can delete shop_companions" on public.shop_companions for delete to authenticated using (public.is_editor());
+create policy "Editors can delete shop_companions" on public.shop_companions for delete to authenticated using ((select public.is_editor()));
 grant select on public.shop_companions to anon, authenticated;
 grant insert, update, delete on public.shop_companions to authenticated;
 drop trigger if exists shop_companions_touch on public.shop_companions;
@@ -575,4 +592,27 @@ begin
     'changes_7d', (select count(*) from public.content_audit_log where changed_at > now() - interval '7 days')
   );
 end $$;
+revoke all on function public.admin_overview() from public, anon;
 grant execute on function public.admin_overview() to authenticated;
+
+-- Least privilege. Supabase grants every new public table to anon/authenticated by default (including TRUNCATE,
+-- which bypasses row level security); reset each table to exactly what the app uses.
+do $$
+declare t text;
+begin
+  foreach t in array array['announcements', 'destinations', 'heritage_profiles', 'history_questions', 'investigations', 'cultural_profiles', 'research_notes', 'municipal_guides', 'sources', 'shop_powerups', 'shop_companions'] loop
+    execute format('revoke all on public.%I from anon, authenticated', t);
+    execute format('grant select on public.%I to anon, authenticated', t);
+    execute format('grant insert, update, delete on public.%I to authenticated', t);
+  end loop;
+end $$;
+revoke all on public.profiles, public.player_saves, public.content_audit_log from anon, authenticated;
+-- Profiles: only the display name (and role, guarded so only admins can change it) are editable; email mirrors auth.
+grant select, delete on public.profiles to authenticated;
+grant update (display_name, role) on public.profiles to authenticated;
+grant select, insert, update, delete on public.player_saves to authenticated;
+grant select on public.content_audit_log to authenticated;
+
+-- Trigger-only functions must not be callable through the API.
+revoke all on function public.handle_new_user(), public.guard_profile_update(), public.touch_content_row(),
+  public.audit_content_change(), public.touch_player_save(), public.audit_player_save() from public, anon, authenticated;

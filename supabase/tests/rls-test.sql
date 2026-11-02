@@ -35,6 +35,8 @@ select pg_temp.expect_denied($$select 1 from public.profiles$$, 'anon read profi
 select pg_temp.expect_denied($$select 1 from public.player_saves$$, 'anon read saves');
 select pg_temp.expect_denied($$insert into public.sources (id, title, publisher, url) values ('x','x','x','https://x')$$, 'anon insert');
 select pg_temp.expect_denied($$select public.admin_overview()$$, 'anon overview');
+select pg_temp.expect_denied($$select public.handle_new_user()$$, 'trigger function via API');
+select pg_temp.expect_denied($$truncate public.player_saves$$, 'anon truncate');
 reset role;
 
 -- ── traveler ──
@@ -53,6 +55,8 @@ do $$ begin
   update public.profiles set display_name = 'Bea' where id = auth.uid();
 end $$;
 select pg_temp.expect_denied($$update public.profiles set role = 'admin' where id = auth.uid()$$, 'self-promotion');
+select pg_temp.expect_denied($$update public.profiles set email = 'admin@kapamana.test' where id = auth.uid()$$, 'profile email is read-only');
+select pg_temp.expect_denied($$truncate public.sources$$, 'truncate bypasses RLS');
 select pg_temp.expect_denied($$insert into public.player_saves (user_id, save) values ('00000000-0000-0000-0000-00000000000c', '{}')$$, 'write another player save');
 select pg_temp.expect_denied($$insert into public.player_saves (save) values ('[]')$$, 'save must be an object');
 reset role;

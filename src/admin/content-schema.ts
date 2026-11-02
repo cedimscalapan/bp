@@ -51,7 +51,7 @@ export const contentTableNames = [
 export type ContentTableName = typeof contentTableNames[number];
 
 const f = (key: string, label: string, type: FieldType, extra: Partial<ContentField> = {}): ContentField => ({
-  key, label, type, column: extra.column ?? key.replace(/\./g, '_').replace(/[A-Z]/g, c => '_' + c.toLowerCase()), ...extra,
+  key, label, type, column: extra.column ?? key.replace(/\./g, '_').replace(/IDs/g, 'Ids').replace(/ID/g, 'Id').replace(/[A-Z]/g, c => '_' + c.toLowerCase()), ...extra,
 });
 const sourceIDs = f('sourceIDs', 'Source IDs', 'textlist', { help: 'IDs from the Sources table, one per line.' });
 const placeID = f('placeID', 'Place (destination ID)', 'text', { required: true, listed: true, help: 'e.g. oriental_mindoro_calapan_city' });

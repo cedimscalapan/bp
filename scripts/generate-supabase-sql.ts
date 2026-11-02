@@ -7,6 +7,7 @@
  *   supabase/migrations/20261102000000_kapamana_core.sql   tables, roles, RLS, audit log
  *   supabase/migrations/20261102000100_kapamana_storage.sql  public media bucket for admin uploads
  *   supabase/seed.sql                                      all content currently bundled in the app
+ *   supabase/seed-from-github.sql                          compact equivalent that downloads the JSON from GitHub
  */
 import { mkdirSync, writeFileSync } from 'node:fs';
 import { dirname, resolve } from 'node:path';
@@ -46,15 +47,16 @@ ${cols.join(',\n')},
 );
 comment on table ${t} is ${lit(table.description)};
 create index if not exists ${table.table}_order_idx on ${t} (sort_order, id);
+create index if not exists ${table.table}_updated_by_idx on ${t} (updated_by);
 alter table ${t} enable row level security;
 drop policy if exists "Anyone can read published ${table.table}" on ${t};
-create policy "Anyone can read published ${table.table}" on ${t} for select to anon, authenticated using (is_published or public.is_editor());
+create policy "Anyone can read published ${table.table}" on ${t} for select to anon, authenticated using (is_published or (select public.is_editor()));
 drop policy if exists "Editors can insert ${table.table}" on ${t};
-create policy "Editors can insert ${table.table}" on ${t} for insert to authenticated with check (public.is_editor());
+create policy "Editors can insert ${table.table}" on ${t} for insert to authenticated with check ((select public.is_editor()));
 drop policy if exists "Editors can update ${table.table}" on ${t};
-create policy "Editors can update ${table.table}" on ${t} for update to authenticated using (public.is_editor()) with check (public.is_editor());
+create policy "Editors can update ${table.table}" on ${t} for update to authenticated using ((select public.is_editor())) with check ((select public.is_editor()));
 drop policy if exists "Editors can delete ${table.table}" on ${t};
-create policy "Editors can delete ${table.table}" on ${t} for delete to authenticated using (public.is_editor());
+create policy "Editors can delete ${table.table}" on ${t} for delete to authenticated using ((select public.is_editor()));
 grant select on ${t} to anon, authenticated;
 grant insert, update, delete on ${t} to authenticated;
 drop trigger if exists ${table.table}_touch on ${t};
@@ -127,18 +129,18 @@ create trigger profiles_guard before update on public.profiles for each row exec
 
 alter table public.profiles enable row level security;
 drop policy if exists "Users read own profile, admins read all" on public.profiles;
-create policy "Users read own profile, admins read all" on public.profiles for select to authenticated using (id = auth.uid() or public.is_admin());
+create policy "Users read own profile, admins read all" on public.profiles for select to authenticated using (id = (select auth.uid()) or (select public.is_admin()));
 drop policy if exists "Users update own profile, admins update all" on public.profiles;
-create policy "Users update own profile, admins update all" on public.profiles for update to authenticated using (id = auth.uid() or public.is_admin()) with check (id = auth.uid() or public.is_admin());
+create policy "Users update own profile, admins update all" on public.profiles for update to authenticated using (id = (select auth.uid()) or (select public.is_admin())) with check (id = (select auth.uid()) or (select public.is_admin()));
 drop policy if exists "Admins delete profiles" on public.profiles;
-create policy "Admins delete profiles" on public.profiles for delete to authenticated using (public.is_admin() and id <> auth.uid());
+create policy "Admins delete profiles" on public.profiles for delete to authenticated using ((select public.is_admin()) and id <> (select auth.uid()));
 grant select, update, delete on public.profiles to authenticated;
 
 -- Run once in the Supabase SQL editor to create the first admin (see SUPABASE_SETUP.md).
 create or replace function public.promote_to_admin(user_email text) returns void
 language plpgsql security definer set search_path = public as $$
 begin
-  update public.profiles set role = 'admin' where lower(email) = lower(user_email);
+  update public.profiles set role = 'admin' where id = (select id from auth.users where lower(email) = lower(user_email) limit 1);
   if not found then raise exception 'No profile for %. Sign up in the app first.', user_email; end if;
 end $$;
 revoke all on function public.promote_to_admin(text) from public, anon, authenticated;
@@ -158,7 +160,8 @@ create table if not exists public.content_audit_log (
 create index if not exists content_audit_log_recent_idx on public.content_audit_log (changed_at desc);
 alter table public.content_audit_log enable row level security;
 drop policy if exists "Editors read audit log" on public.content_audit_log;
-create policy "Editors read audit log" on public.content_audit_log for select to authenticated using (public.is_editor());
+create policy "Editors read audit log" on public.content_audit_log for select to authenticated using ((select public.is_editor()));
+create index if not exists content_audit_log_changed_by_idx on public.content_audit_log (changed_by);
 grant select on public.content_audit_log to authenticated;
 
 create or replace function public.touch_content_row() returns trigger
@@ -199,13 +202,18 @@ create table if not exists public.player_saves (
 );
 alter table public.player_saves enable row level security;
 drop policy if exists "Players manage own save" on public.player_saves;
-create policy "Players manage own save" on public.player_saves for all to authenticated using (user_id = auth.uid()) with check (user_id = auth.uid());
 drop policy if exists "Admins read saves" on public.player_saves;
-create policy "Admins read saves" on public.player_saves for select to authenticated using (public.is_admin());
 drop policy if exists "Admins update saves" on public.player_saves;
-create policy "Admins update saves" on public.player_saves for update to authenticated using (public.is_admin()) with check (public.is_admin());
 drop policy if exists "Admins delete saves" on public.player_saves;
-create policy "Admins delete saves" on public.player_saves for delete to authenticated using (public.is_admin());
+drop policy if exists "Read own save, admins read all" on public.player_saves;
+create policy "Read own save, admins read all" on public.player_saves for select to authenticated using (user_id = (select auth.uid()) or (select public.is_admin()));
+drop policy if exists "Create own save" on public.player_saves;
+create policy "Create own save" on public.player_saves for insert to authenticated with check (user_id = (select auth.uid()));
+drop policy if exists "Update own save, admins update all" on public.player_saves;
+create policy "Update own save, admins update all" on public.player_saves for update to authenticated using (user_id = (select auth.uid()) or (select public.is_admin())) with check (user_id = (select auth.uid()) or (select public.is_admin()));
+drop policy if exists "Delete own save, admins delete all" on public.player_saves;
+create policy "Delete own save, admins delete all" on public.player_saves for delete to authenticated using (user_id = (select auth.uid()) or (select public.is_admin()));
+create index if not exists player_saves_updated_by_idx on public.player_saves (updated_by);
 grant select, insert, update, delete on public.player_saves to authenticated;
 
 create or replace function public.touch_player_save() returns trigger
@@ -253,7 +261,30 @@ begin
     'changes_7d', (select count(*) from public.content_audit_log where changed_at > now() - interval '7 days')
   );
 end $$;
+revoke all on function public.admin_overview() from public, anon;
 grant execute on function public.admin_overview() to authenticated;
+
+-- Least privilege. Supabase grants every new public table to anon/authenticated by default (including TRUNCATE,
+-- which bypasses row level security); reset each table to exactly what the app uses.
+do $$
+declare t text;
+begin
+  foreach t in array array[${contentTables.map(t => lit(t.table)).join(', ')}] loop
+    execute format('revoke all on public.%I from anon, authenticated', t);
+    execute format('grant select on public.%I to anon, authenticated', t);
+    execute format('grant insert, update, delete on public.%I to authenticated', t);
+  end loop;
+end $$;
+revoke all on public.profiles, public.player_saves, public.content_audit_log from anon, authenticated;
+-- Profiles: only the display name (and role, guarded so only admins can change it) are editable; email mirrors auth.
+grant select, delete on public.profiles to authenticated;
+grant update (display_name, role) on public.profiles to authenticated;
+grant select, insert, update, delete on public.player_saves to authenticated;
+grant select on public.content_audit_log to authenticated;
+
+-- Trigger-only functions must not be callable through the API.
+revoke all on function public.handle_new_user(), public.guard_profile_update(), public.touch_content_row(),
+  public.audit_content_change(), public.touch_player_save(), public.audit_player_save() from public, anon, authenticated;
 `;
 
 const storage = `${header('Public media bucket for images uploaded from the admin dashboard (Supabase Storage).')}
@@ -285,6 +316,54 @@ on conflict (id) do nothing;
 });
 const seed = `${header('Seed: all content bundled in the app as of generation. Safe to re-run (existing rows are kept).')}${seedParts.join('')}`;
 
+// Compact seed for hosted projects: the database downloads the bundled JSON from GitHub (pinned commit)
+// with the `http` extension and maps it with the same field definitions. Produces the same rows as seed.sql.
+const DATA_COMMIT = '1c17d4a9ffb78023443d679e24c0d66e6054d0b9';
+const remoteSources: Partial<Record<string, { file: string; path?: string }>> = {
+  destinations: { file: 'catalog.json' },
+  heritage_profiles: { file: 'heritage.json', path: 'profiles' },
+  sources: { file: 'heritage.json', path: 'sources' },
+  history_questions: { file: 'runner-history.json' },
+  investigations: { file: 'investigations.json' },
+  cultural_profiles: { file: 'cultural-profiles.json' },
+  research_notes: { file: 'research-notes.json' },
+  municipal_guides: { file: 'municipal_assets.json' },
+};
+const fieldExpr = (field: ContentTable['fields'][number]) => {
+  const k = lit(field.key);
+  switch (field.type) {
+    case 'json': return `x -> ${k}`;
+    case 'textlist': return `case when jsonb_typeof(x -> ${k}) = 'array' then array(select jsonb_array_elements_text(x -> ${k})) end`;
+    case 'bool': return `coalesce((x ->> ${k})::boolean, false)`;
+    default: return `(x ->> ${k})::${sqlType(field.type)}`;
+  }
+};
+const files = [...new Set(Object.values(remoteSources).map(s => s!.file))];
+const remoteParts = contentTables.map(table => {
+  const cols = ['id', ...table.fields.map(f => f.column), 'sort_order'];
+  const exprs = [`x ->> ${lit(table.idKey ?? 'id')}`, ...table.fields.map(fieldExpr), '(o - 1)::int'];
+  const src = remoteSources[table.table];
+  const from = src
+    ? `pg_temp.kapamana_src s, jsonb_array_elements(${src.path ? `s.data -> ${lit(src.path)}` : 's.data'}) with ordinality as t(x, o) where s.file = ${lit(src.file)}`
+    : `jsonb_array_elements($pamana$${JSON.stringify(content[table.table])}$pamana$::jsonb) with ordinality as t(x, o)`;
+  return `insert into public.${table.table} (${cols.join(', ')})\nselect ${exprs.join(',\n  ')}\nfrom ${from}\non conflict (id) do nothing;\n`;
+});
+const remoteSeed = `${header(`Compact seed for a hosted Supabase project: downloads the bundled JSON from GitHub (commit ${DATA_COMMIT}) with the http extension. Same rows as seed.sql. Safe to re-run.`)}
+create extension if not exists http with schema extensions;
+create temp table if not exists kapamana_src (file text primary key, data jsonb not null);
+do $$
+declare f text; r extensions.http_response;
+begin
+  foreach f in array array[${files.map(lit).join(', ')}] loop
+    r := extensions.http_get('https://raw.githubusercontent.com/cedimscalapan/bp/${DATA_COMMIT}/src/data/' || f);
+    if r.status <> 200 then raise exception 'Download of % failed: HTTP %', f, r.status; end if;
+    insert into pg_temp.kapamana_src values (f, r.content::jsonb) on conflict (file) do update set data = excluded.data;
+  end loop;
+end $$;
+-- SEED-ROWS-START
+${remoteParts.join('\n')}`;
+
 write('supabase/migrations/20261102000000_kapamana_core.sql', core);
+write('supabase/seed-from-github.sql', remoteSeed);
 write('supabase/migrations/20261102000100_kapamana_storage.sql', storage);
 write('supabase/seed.sql', seed);

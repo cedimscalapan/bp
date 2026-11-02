@@ -38,27 +38,33 @@ Every content table also has `sort_order`, `is_published` (drafts are hidden fro
 
 Nobody can promote themselves, the last admin can't be demoted, and every admin change to a player's save is logged. `supabase/tests/rls-test.sql` checks all of this (`npm run db:test`).
 
-## Setup (about 10 minutes)
+## The live project
 
-1. **Create a project** at [supabase.com](https://supabase.com). The free tier is enough.
-2. **Create the tables.** In **SQL Editor**, run these in order:
-   1. `supabase/migrations/20261102000000_kapamana_core.sql`
-   2. `supabase/migrations/20261102000100_kapamana_storage.sql` (the `content-media` image bucket)
-   3. `supabase/seed.sql` (all current game content; safe to run again)
+| | |
+| --- | --- |
+| Organization | **CEDIMS** (free plan) |
+| Project | **kapamana** · ref `pkosielivjvkgiialjda` · region `ap-southeast-1` (Singapore) |
+| API URL | `https://pkosielivjvkgiialjda.supabase.co` |
+| Dashboard | https://supabase.com/dashboard/project/pkosielivjvkgiialjda |
 
-   With the Supabase CLI instead: `supabase link --project-ref <ref>`, then `supabase db push`, then run `seed.sql` once.
-3. **Connect the app.** Copy `.env.example` to `.env.local` and fill in the values from **Project Settings → API**:
-   ```
-   VITE_SUPABASE_URL=https://<project-ref>.supabase.co
-   VITE_SUPABASE_ANON_KEY=<anon public key>
-   ```
-   **Never** use the `service_role` key in the app. For the GitHub Actions APK, add the same two values as repository secrets (**Settings → Secrets and variables → Actions**). `.github/workflows/android-apk.yml` already passes them to the build.
-4. **Create your account.** In the game open **Travel settings → Account & cloud backup → Create an account**, and confirm the email if your project requires it.
-5. **Make yourself admin.** In the SQL Editor run:
+The schema, security policies, storage bucket and all content are already applied. The app is connected through the committed `.env` file, which holds the URL and the **publishable** key; both are public by design. Every build, including the GitHub Actions APK, uses it automatically. To point a local build at a different project, create a git-ignored `.env.local`. **Never** put the `service_role`/secret key in the app.
+
+### First admin (one time)
+
+1. Open the game → **Travel settings → Account & cloud backup → Create an account**.
+2. New Supabase projects require email confirmation. Open the link in the email. It may land on a "localhost" page that doesn't load; the account is confirmed anyway. To make the link land somewhere friendly, set **Authentication → URL Configuration → Site URL** in the dashboard.
+3. In the dashboard **SQL Editor** run:
    ```sql
    select public.promote_to_admin('you@example.com');
    ```
-6. Open **Travel settings → Open admin dashboard** (or go to `/admin` in the browser). You can promote others under **Users & roles**.
+4. **Travel settings → Open admin dashboard** (or open `/admin` in a browser running the web build). Promote others under **Users & roles**.
+
+### Setting up another project from scratch
+
+Run, in order, in the SQL Editor (or `supabase db push` with the CLI):
+1. `supabase/migrations/20261102000000_kapamana_core.sql`
+2. `supabase/migrations/20261102000100_kapamana_storage.sql`
+3. `supabase/seed-from-github.sql` (10 KB; the database downloads the game JSON from this repo at a pinned commit) **or** `supabase/seed.sql` (570 KB, self-contained). Both produce identical rows.
 
 ## Using the dashboard
 
