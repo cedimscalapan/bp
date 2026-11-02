@@ -1,37 +1,15 @@
 import { IonApp, IonContent, IonPage } from '@ionic/react';
-import { useCallback, useEffect, useMemo, useState, type FormEvent } from 'react';
+import { useCallback, useEffect, useMemo, useRef, useState, type FormEvent } from 'react';
 import { contentTables, tableByName, validateRow, type ContentTable, type ContentTableName } from './content-schema';
 import { formToRow, previewCell, rowToForm, type FormValues } from './admin-form';
+import { contentGroups, errorText, fetchAll, timeAgo, type Row, type View } from './admin-shared';
+import HomeView from './HomeView';
+import JsonEditor from './JsonEditor';
 import { currentProfile, getSupabase, isSupabaseConfigured, type AppRole, type Profile } from '../cloud/supabase';
 import { parseSave, type Save } from '../model';
 import './admin.css';
 
-type Row = Record<string, unknown> & { id: string; is_published: boolean; sort_order: number; updated_at: string };
-type View = 'overview' | 'users' | 'players' | 'activity' | ContentTableName;
-type Overview = Record<string, { total: number; published: number } | number>;
-
 const roleLabel: Record<AppRole, string> = { learner: 'traveler', editor: 'editor', admin: 'admin' };
-
-const errorText = (error: unknown) => {
-  if (error && typeof error === 'object' && 'message' in error) {
-    const message = String((error as { message: unknown }).message);
-    if (/row-level security|permission denied|42501/i.test(message)) return 'You do not have permission for this action.';
-    if (/duplicate key/i.test(message)) return 'A record with this ID already exists. Choose another ID.';
-    return message;
-  }
-  return 'Something went wrong. Please try again.';
-};
-
-async function fetchAll(table: string): Promise<Row[]> {
-  const supabase = getSupabase()!;
-  const rows: Row[] = [];
-  for (let from = 0; ; from += 1000) {
-    const { data, error } = await supabase.from(table).select('*').order('sort_order').order('id').range(from, from + 999);
-    if (error) throw error;
-    rows.push(...((data ?? []) as Row[]));
-    if (!data || data.length < 1000) return rows;
-  }
-}
 
 /* ───────────────────────── Shell & sign-in ───────────────────────── */
 
@@ -102,22 +80,28 @@ function NoAccess({ profile }: { profile: Profile }) {
 }
 
 function Dashboard({ profile }: { profile: Profile }) {
-  const [view, setView] = useState<View>('overview');
+  const [view, setView] = useState<View>('home');
+  const [openRecord, setOpenRecord] = useState<{ id: string; nonce: number }>();
   const [menuOpen, setMenuOpen] = useState(false);
-  const go = (next: View) => { setView(next); setMenuOpen(false); };
+  const go = (next: View) => { setView(next); setOpenRecord(undefined); setMenuOpen(false); };
+  const openRecordIn = (tableName: ContentTableName, id: string) => { setView(tableName); setOpenRecord({ id, nonce: Date.now() }); setMenuOpen(false); };
   const table = tableByName(view);
+  const isAdmin = profile.role === 'admin';
+  const navButton = (id: View, label: string) => <button key={id} className={view === id ? 'is-active' : ''} aria-current={view === id ? 'page' : undefined} onClick={() => go(id)}>{label}</button>;
   return <div className="adm-layout">
     <aside className={`adm-sidebar${menuOpen ? ' is-open' : ''}`}>
-      <div className="adm-brand"><img className="adm-logo" src="/assets/kapamana-emblem.webp" alt="" /><div><strong>KaPamana Admin</strong><small>{profile.email} · {roleLabel[profile.role]}</small></div></div>
+      <div className="adm-brand"><img className="adm-logo" src="/assets/kapamana-emblem.webp" alt="" /><div><strong>KaPamana {isAdmin ? 'Admin' : 'Editor'}</strong><small>{profile.email} · {roleLabel[profile.role]}</small></div></div>
       <button className="adm-menu-toggle" onClick={() => setMenuOpen(o => !o)} aria-expanded={menuOpen}>{menuOpen ? 'Close menu' : 'Menu'}</button>
-      <nav aria-label="Admin sections">
-        <button className={view === 'overview' ? 'is-active' : ''} onClick={() => go('overview')}>Overview</button>
-        <span className="adm-nav-label">Content</span>
-        {contentTables.map(t => <button key={t.table} className={view === t.table ? 'is-active' : ''} onClick={() => go(t.table)}>{t.label}</button>)}
-        <span className="adm-nav-label">System</span>
-        {profile.role === 'admin' && <button className={view === 'players' ? 'is-active' : ''} onClick={() => go('players')}>Players & cloud saves</button>}
-        {profile.role === 'admin' && <button className={view === 'users' ? 'is-active' : ''} onClick={() => go('users')}>Users & roles</button>}
-        <button className={view === 'activity' ? 'is-active' : ''} onClick={() => go('activity')}>Activity log</button>
+      <nav aria-label="Dashboard sections">
+        {navButton('home', 'Home')}
+        {contentGroups.map(group => <div key={group.label} className="adm-nav-group">
+          <span className="adm-nav-label">{group.label}</span>
+          {group.tables.map(name => navButton(name, tableByName(name)!.label))}
+        </div>)}
+        <span className="adm-nav-label">{isAdmin ? 'People & system' : 'History'}</span>
+        {isAdmin && navButton('players', 'Players & cloud saves')}
+        {isAdmin && navButton('users', 'Users & roles')}
+        {navButton('activity', 'Activity log')}
       </nav>
       <div className="adm-sidebar-foot">
         <a href="/">← Back to the app</a>
@@ -125,53 +109,23 @@ function Dashboard({ profile }: { profile: Profile }) {
       </div>
     </aside>
     <main className="adm-main">
-      {view === 'overview' && <OverviewView onOpen={go} />}
-      {view === 'users' && profile.role === 'admin' && <UsersView me={profile} />}
-      {view === 'players' && profile.role === 'admin' && <PlayersView />}
-      {view === 'activity' && <ActivityView />}
-      {table && <TableView key={table.table} table={table} />}
+      {view === 'home' && <HomeView profile={profile} onOpen={go} onOpenRecord={openRecordIn} />}
+      {view === 'users' && isAdmin && <UsersView me={profile} />}
+      {view === 'players' && isAdmin && <PlayersView />}
+      {view === 'activity' && <ActivityView me={profile} />}
+      {table && <TableView key={`${table.table}-${openRecord?.nonce ?? 0}`} table={table} initialEditId={openRecord?.id} />}
     </main>
   </div>;
 }
 
-/* ───────────────────────── Overview ───────────────────────── */
-
-function OverviewView({ onOpen }: { onOpen: (view: View) => void }) {
-  const [data, setData] = useState<Overview>();
-  const [error, setError] = useState('');
-  useEffect(() => {
-    getSupabase()!.rpc('admin_overview').then(({ data: d, error: e }) => { if (e) setError(errorText(e)); else setData(d as Overview); });
-  }, []);
-  const stat = (key: string) => (typeof data?.[key] === 'number' ? data[key] as number : 0);
-  return <>
-    <header className="adm-head"><div><h1>Overview</h1><p>Everything travelers see in KaPamana comes from these tables. Published changes reach the app the next time it opens online.</p></div>
-      <button className="adm-btn is-primary" onClick={() => onOpen('announcements')}>+ New announcement</button></header>
-    {error && <p className="adm-error">{error}</p>}
-    <div className="adm-stats">
-      <div className="adm-stat"><strong>{stat('users')}</strong><span>Accounts</span></div>
-      <div className="adm-stat"><strong>{stat('cloud_saves')}</strong><span>Travelers with a cloud backup</span></div>
-      <div className="adm-stat"><strong>{stat('changes_7d')}</strong><span>Content changes (7 days)</span></div>
-    </div>
-    <div className="adm-grid">
-      {contentTables.map(t => {
-        const counts = data?.[t.table] as { total: number; published: number } | undefined;
-        return <button key={t.table} className="adm-card adm-tile" onClick={() => onOpen(t.table)}>
-          <strong>{t.label}</strong><small>{t.description}</small>
-          <span className="adm-tile-count">{counts ? <>{counts.published}<em> published</em>{counts.total > counts.published && <em> · {counts.total - counts.published} draft</em>}</> : '…'}</span>
-        </button>;
-      })}
-    </div>
-  </>;
-}
-
 /* ───────────────────────── Content tables (CRUD) ───────────────────────── */
 
-function TableView({ table }: { table: ContentTable }) {
+function TableView({ table, initialEditId }: { table: ContentTable; initialEditId?: string }) {
   const [rows, setRows] = useState<Row[]>();
   const [error, setError] = useState('');
   const [notice, setNotice] = useState('');
   const [query, setQuery] = useState('');
-  const [status, setStatus] = useState<'all' | 'published' | 'draft'>('all');
+  const [status, setStatus] = useState<'all' | 'published' | 'draft' | 'problems'>('all');
   const [editing, setEditing] = useState<{ row?: Row } | undefined>();
   const [page, setPage] = useState(0);
   const pageSize = 25;
@@ -179,12 +133,22 @@ function TableView({ table }: { table: ContentTable }) {
 
   const reload = useCallback(() => { fetchAll(table.table).then(setRows).catch(e => setError(errorText(e))); }, [table.table]);
   useEffect(reload, [reload]);
+  const issues = useMemo(() => new Map((rows ?? []).map(row => [row.id, validateRow(table, row)])), [rows, table]);
+  const problemCount = [...issues.values()].filter(list => list.length).length;
+  // Opened from Home ("Needs attention" / "Post news"): jump straight into the editor.
+  const autoOpened = useRef(false);
+  useEffect(() => {
+    if (initialEditId === undefined || !rows || autoOpened.current) return;
+    autoOpened.current = true; // only once: later reloads (after saving) must not reopen the editor
+    if (initialEditId === '') setEditing({});
+    else { const row = rows.find(r => r.id === initialEditId); if (row) setEditing({ row }); }
+  }, [initialEditId, rows]);
 
   const filtered = useMemo(() => {
     const q = query.trim().toLowerCase();
-    return (rows ?? []).filter(row => (status === 'all' || (status === 'published') === row.is_published)
+    return (rows ?? []).filter(row => (status === 'all' || (status === 'problems' ? (issues.get(row.id)?.length ?? 0) > 0 : (status === 'published') === row.is_published))
       && (!q || row.id.toLowerCase().includes(q) || table.fields.some(f => JSON.stringify(row[f.column] ?? '').toLowerCase().includes(q))));
-  }, [rows, query, status, table.fields]);
+  }, [rows, query, status, table.fields, issues]);
   useEffect(() => setPage(0), [query, status]);
   const pages = Math.max(1, Math.ceil(filtered.length / pageSize));
   const visible = filtered.slice(page * pageSize, page * pageSize + pageSize);
@@ -215,10 +179,11 @@ function TableView({ table }: { table: ContentTable }) {
         <button className="adm-btn is-primary" onClick={() => setEditing({})}>+ New</button></div></header>
     {notice && <p className="adm-notice" role="status">{notice}</p>}
     {error && <p className="adm-error" role="alert">{error} <button className="adm-link" onClick={() => setError('')}>Dismiss</button></p>}
+    {problemCount > 0 && status !== 'problems' && <p className="adm-warn">{problemCount} record{problemCount === 1 ? ' has' : 's have'} problems and {problemCount === 1 ? 'is' : 'are'} skipped by the app. <button className="adm-link" onClick={() => setStatus('problems')}>Show them</button></p>}
     <div className="adm-toolbar">
       <input type="search" placeholder="Search…" value={query} onChange={e => setQuery(e.target.value)} aria-label="Search records" />
       <select value={status} onChange={e => setStatus(e.target.value as typeof status)} aria-label="Filter by status">
-        <option value="all">All</option><option value="published">Published</option><option value="draft">Drafts</option>
+        <option value="all">All</option><option value="published">Published</option><option value="draft">Drafts</option><option value="problems">Has problems{problemCount ? ` (${problemCount})` : ''}</option>
       </select>
       <span className="adm-muted">{rows ? `${filtered.length} of ${rows.length}` : 'Loading…'}</span>
     </div>
@@ -226,10 +191,11 @@ function TableView({ table }: { table: ContentTable }) {
       <thead><tr><th>{titleColumn.label}</th>{listed.filter(f => f !== titleColumn).map(f => <th key={f.column}>{f.label}</th>)}<th>Status</th><th>Updated</th><th><span className="adm-sr">Actions</span></th></tr></thead>
       <tbody>
         {visible.map(row => <tr key={row.id}>
-          <td><button className="adm-link adm-title-cell" onClick={() => setEditing({ row })}>{previewCell(titleColumn, row[titleColumn.column])}</button><small>{row.id}</small></td>
+          <td>{(issues.get(row.id)?.length ?? 0) > 0 && <span className="adm-flag" title={issues.get(row.id)!.join('\n')}>⚠ Problem</span>}
+            <button className="adm-link adm-title-cell" onClick={() => setEditing({ row })}>{previewCell(titleColumn, row[titleColumn.column])}</button><small>{row.id}</small></td>
           {listed.filter(f => f !== titleColumn).map(f => <td key={f.column}>{previewCell(f, row[f.column])}</td>)}
           <td><button className={`adm-pill ${row.is_published ? 'is-on' : ''}`} onClick={() => void togglePublished(row)} title="Click to toggle">{row.is_published ? 'Published' : 'Draft'}</button></td>
-          <td className="adm-muted">{new Date(row.updated_at).toLocaleDateString()}</td>
+          <td className="adm-muted" title={new Date(row.updated_at).toLocaleString()}>{timeAgo(row.updated_at)}</td>
           <td className="adm-actions"><button className="adm-link" onClick={() => setEditing({ row })}>Edit</button>
             <button className="adm-link" onClick={() => setEditing({ row: { ...row, id: '' } })}>Duplicate</button>
             <button className="adm-link is-danger" onClick={() => void remove(row)}>Delete</button></td>
@@ -299,7 +265,7 @@ function RecordEditor({ table, row, nextSort, onClose, onSaved }: { table: Conte
             case 'bool': return <label key={field.column} className="adm-field adm-check"><input type="checkbox" checked={value === true} onChange={e => set(field.column, e.target.checked)} />{label}</label>;
             case 'longtext': input = <textarea rows={4} value={String(value)} onChange={e => set(field.column, e.target.value)} />; break;
             case 'textlist': input = <textarea rows={4} value={String(value)} onChange={e => set(field.column, e.target.value)} placeholder="One item per line" />; break;
-            case 'json': input = <textarea rows={8} className="adm-code" spellCheck={false} value={String(value)} onChange={e => set(field.column, e.target.value)} />; break;
+            case 'json': return <div key={field.column} className="adm-field">{label}<JsonEditor label={field.label} text={String(value)} onText={text => set(field.column, text)} />{field.help && <small>{field.help}</small>}</div>;
             case 'select': input = <select value={String(value)} onChange={e => set(field.column, e.target.value)}><option value="">—</option>{field.options?.map(o => <option key={o} value={o}>{o}</option>)}</select>; break;
             case 'int': case 'number': input = <input type="number" step={field.type === 'int' ? 1 : 'any'} value={String(value)} onChange={e => set(field.column, e.target.value)} />; break;
             case 'date': input = <input type="date" value={String(value)} onChange={e => set(field.column, e.target.value)} />; break;
@@ -312,6 +278,7 @@ function RecordEditor({ table, row, nextSort, onClose, onSaved }: { table: Conte
           }
           return <label key={field.column} className="adm-field">{label}{input}{field.help && <small>{field.help}</small>}</label>;
         })}
+        {table.table === 'announcements' && <AnnouncementPreview values={values} />}
         <div className="adm-row adm-meta">
           <label className="adm-field adm-check"><input type="checkbox" checked={values.__published === true} onChange={e => set('__published', e.target.checked)} />Published (visible to travelers)</label>
           <label className="adm-field adm-sort">Sort order<input type="number" step={1} value={String(values.__sort)} onChange={e => set('__sort', e.target.value)} /></label>
@@ -321,6 +288,22 @@ function RecordEditor({ table, row, nextSort, onClose, onSaved }: { table: Conte
       <footer><button type="button" className="adm-btn" onClick={onClose}>Cancel</button>
         <button className="adm-btn is-primary" disabled={busy}>{busy ? 'Saving…' : isNew ? 'Create' : 'Save changes'}</button></footer>
     </form>
+  </div>;
+}
+
+/** How the news card will look on the Adventure screen. */
+function AnnouncementPreview({ values }: { values: FormValues }) {
+  const category = String(values.category || 'update');
+  const label = { update: 'Update', news: 'Balita', event: 'Event', advisory: 'Advisory' }[category] ?? category;
+  return <div className="adm-preview" aria-label="Preview">
+    <small className="adm-muted">Preview on the Adventure screen</small>
+    <div className={`adm-news is-${category}`}>
+      {values.image_url ? <img src={String(values.image_url)} alt="" /> : null}
+      <div><small>{values.pinned === true ? '📌 ' : ''}{label}</small>
+        <h3>{String(values.title || 'Your title')}</h3>
+        <p>{String(values.body || 'Your message to travelers.')}</p>
+        {values.link_url ? <span className="adm-news-link">{String(values.link_label || 'Learn more')} ↗</span> : null}</div>
+    </div>
   </div>;
 }
 
@@ -470,26 +453,56 @@ function changedColumns(entry: AuditEntry): string[] {
   return Object.keys(entry.new_data).filter(k => !ignored.has(k) && JSON.stringify(entry.old_data![k]) !== JSON.stringify(entry.new_data![k]));
 }
 
-function ActivityView() {
+const restoreColumns = (data: Record<string, unknown>) => Object.fromEntries(Object.entries(data).filter(([k]) => !ignored.has(k) || k === 'created_at'));
+const short = (value: unknown) => { const text = typeof value === 'string' ? value : JSON.stringify(value); return text === undefined ? '—' : text.length > 120 ? text.slice(0, 117) + '…' : text; };
+
+function ActivityView({ me }: { me: Profile }) {
   const [entries, setEntries] = useState<AuditEntry[]>();
   const [error, setError] = useState('');
+  const [notice, setNotice] = useState('');
   const [table, setTable] = useState('');
+  const [mine, setMine] = useState(false);
+  const [open, setOpen] = useState<number>();
+  const [tick, setTick] = useState(0);
   useEffect(() => {
     let query = getSupabase()!.from('content_audit_log').select('*').order('changed_at', { ascending: false }).limit(200);
     if (table) query = query.eq('table_name', table);
+    if (mine) query = query.eq('changed_by', me.id);
     query.then(({ data, error: e }) => { if (e) setError(errorText(e)); else setEntries(data as AuditEntry[]); });
-  }, [table]);
+  }, [table, mine, me.id, tick]);
+
+  const restore = async (entry: AuditEntry) => {
+    const t = tableByName(entry.table_name);
+    if (!t || !entry.old_data) return;
+    const what = entry.action === 'DELETE' ? 'bring back this deleted record' : 'put this record back the way it was before this edit';
+    if (!window.confirm(`Restore: ${what}? The current version is replaced (and kept in this log).`)) return;
+    const { error: e } = await getSupabase()!.from(t.table).upsert(restoreColumns(entry.old_data));
+    if (e) setError(errorText(e)); else { setError(''); setNotice(`Restored ${entry.record_id}.`); setTimeout(() => setNotice(''), 4000); setTick(n => n + 1); }
+  };
+
   return <>
-    <header className="adm-head"><div><h1>Activity log</h1><p>Every create, edit and delete on content, newest first (latest 200).</p></div></header>
+    <header className="adm-head"><div><h1>Activity log</h1><p>Every add, edit and delete, newest first (latest 200). Made a mistake? Open an entry and choose <b>Restore</b>.</p></div></header>
+    {notice && <p className="adm-notice" role="status">{notice}</p>}
     {error && <p className="adm-error" role="alert">{error}</p>}
     <div className="adm-toolbar"><select value={table} onChange={e => setTable(e.target.value)} aria-label="Filter by table">
-      <option value="">All tables</option>{contentTables.map(t => <option key={t.table} value={t.table}>{t.label}</option>)}</select></div>
+      <option value="">All tables</option>{contentTables.map(t => <option key={t.table} value={t.table}>{t.label}</option>)}</select>
+      <label className="adm-check-inline"><input type="checkbox" checked={mine} onChange={e => setMine(e.target.checked)} /> Only my changes</label></div>
     <ul className="adm-log">{(entries ?? []).map(entry => {
       const changed = changedColumns(entry);
-      return <li key={entry.id}><span className={`adm-pill is-${entry.action.toLowerCase()}`}>{entry.action}</span>
-        <div><strong>{tableByName(entry.table_name)?.label ?? entry.table_name}</strong> · <code>{entry.record_id}</code>
+      const t = tableByName(entry.table_name);
+      const canRestore = Boolean(t && entry.old_data && entry.action !== 'INSERT');
+      const isOpen = open === entry.id;
+      return <li key={entry.id}><span className={`adm-pill is-${entry.action.toLowerCase()}`}>{entry.action === 'INSERT' ? 'Added' : entry.action === 'UPDATE' ? 'Edited' : 'Deleted'}</span>
+        <div className="adm-log-body"><strong>{t?.label ?? (entry.table_name === 'player_saves' ? 'Player save' : entry.table_name === 'auth_users' ? 'Password' : entry.table_name)}</strong> · <code>{entry.record_id}</code>
           {changed.length > 0 && <small> — changed {changed.join(', ')}</small>}
-          <small className="adm-muted">{new Date(entry.changed_at).toLocaleString()} · {entry.changed_by_email ?? 'SQL / system'}</small></div></li>;
+          <small className="adm-muted">{new Date(entry.changed_at).toLocaleString()} · {entry.changed_by_email ?? 'Setup / system'}</small>
+          {(changed.length > 0 || canRestore) && <div className="adm-row">
+            {changed.length > 0 && <button className="adm-link" onClick={() => setOpen(isOpen ? undefined : entry.id)}>{isOpen ? 'Hide details' : 'Details'}</button>}
+            {canRestore && <button className="adm-link" onClick={() => void restore(entry)}>{entry.action === 'DELETE' ? 'Restore deleted record' : 'Restore previous version'}</button>}
+          </div>}
+          {isOpen && <table className="adm-diff"><thead><tr><th>Field</th><th>Before</th><th>After</th></tr></thead><tbody>
+            {changed.map(k => <tr key={k}><td>{k}</td><td>{short(entry.old_data?.[k])}</td><td>{short(entry.new_data?.[k])}</td></tr>)}</tbody></table>}
+        </div></li>;
     })}{entries && !entries.length && <li className="adm-empty">No activity yet.</li>}</ul>
   </>;
 }

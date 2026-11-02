@@ -4,6 +4,13 @@ KaPamana is an Oriental Mindoro travel and heritage adventure built with Ionic R
 
 **Status: playable migration in progress, not a verified one-to-one conversion or a production release.** The input was a split-APK export, not a Kotlin source project. See [migration status](docs/MIGRATION.md) before release.
 
+## Version 1.15.0 · Editor and admin dashboards
+
+- Role-based homes: **Editor dashboard** (content work) and **Admin dashboard** (content, people and players), each with quick actions, stats, a **Needs attention** list and recent changes.
+- Content menu grouped by purpose; records with problems are flagged and filterable.
+- Form-based editing for runner missions, tasks and journals (add, duplicate, reorder, remove) with a JSON tab; live news preview.
+- Activity log with before/after details and one-click **Restore**.
+
 ## Version 1.14.0 · Account first
 
 - Opening the app now starts with **Create your traveler account / Sign in**, before the welcome screen and the game. The session is remembered, so reopening the app (even offline) goes straight to the adventure; a new phone restores it after sign-in.

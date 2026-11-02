@@ -75,12 +75,19 @@ Run, in order, in the SQL Editor (or `supabase db push` with the CLI):
 2. `supabase/migrations/20261102000100_kapamana_storage.sql`
 3. `supabase/seed-from-github.sql` (10 KB; the database downloads the game JSON from this repo at a pinned commit) **or** `supabase/seed.sql` (570 KB, self-contained). Both produce identical rows.
 
-## Using the dashboard
+## Using the dashboards
 
-- **Overview:** published and draft counts per table, accounts, travelers with a cloud backup, and changes in the last 7 days.
-- **Each content table:** search, filter by published or draft, **+ New**, **Edit**, **Duplicate**, **Delete**, click a status to publish or unpublish, and **Export JSON**. The forms are typed and check required fields and JSON before saving. Destinations must keep at least one runner mission with unique level IDs, and history answers must be among their options. The database checks these rules again.
-- **Players & cloud saves:** see each traveler's level, coins, XP and stars. **Adjust** the name, coins or XP (the app's own save validation runs first), **Download** the save JSON, or **Delete** the cloud backup. The phone picks up an adjustment the next time the game opens online, unless it has newer unsynced progress.
-- **Activity log:** the latest 200 changes, with who made them and which fields changed.
+Open **Travel settings → Open admin dashboard** in the app, or `/admin` in a browser running the web build. What you see depends on your role.
+
+| | Editor dashboard | Admin dashboard |
+| --- | --- | --- |
+| **Home** | Quick actions (**+ Post news**, places & missions, quiz questions, shop prices); stats; **Needs attention** (records with problems, drafts, scheduled or expired news, each one click from its editor); **Recent changes** | Everything editors see, plus **People** (accounts, roles, new sign-ups) and **Top travelers** |
+| **Content** | Menu grouped by purpose: News · Places & missions · Learning · Shop · References. Each table can search, filter (Published / Drafts / **Has problems**), add, edit, duplicate, delete, publish or unpublish, and export JSON | Same |
+| **Editing** | Typed forms. Structured data (runner missions, tasks, journals, rewards) opens as a **form**: cards for each item with **Add**, **Duplicate**, **↑ ↓**, **Remove**, plus a **JSON** tab for advanced edits. News shows a **live preview** | Same |
+| **History** | **Activity log**: who changed what, **Details** (before/after per field), **Restore previous version** or **Restore deleted record**, and **Only my changes** | Same, plus player-save adjustments and password resets |
+| **People** | — | **Players & cloud saves** (adjust coins/XP/name, download, delete) and **Users & roles** (traveler/editor/admin, **Set password**) |
+
+Records with problems (for example a quiz answer that isn't one of its options) are flagged everywhere and **skipped by the app** until fixed, so the built-in version is shown instead. Players never see broken content.
 
 ## How cloud saves work
 
