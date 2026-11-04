@@ -39,6 +39,19 @@ begin
   on conflict (id) do nothing;
   return new;
 end $$;
+-- No email confirmation: every new account is confirmed as it is created, so travelers can sign in right after
+-- signing up. (Supabase's built-in mailer only reaches project team members, so confirmation links cannot
+-- reach players without custom SMTP.)
+create or replace function public.auto_confirm_email() returns trigger
+language plpgsql security definer set search_path = public as $$
+begin
+  if new.email is not null and new.email_confirmed_at is null then new.email_confirmed_at := now(); end if;
+  return new;
+end $$;
+drop trigger if exists auto_confirm_email on auth.users;
+create trigger auto_confirm_email before insert on auth.users for each row execute function public.auto_confirm_email();
+update auth.users set email_confirmed_at = now() where email is not null and email_confirmed_at is null;
+
 drop trigger if exists on_auth_user_created on auth.users;
 create trigger on_auth_user_created after insert on auth.users for each row execute function public.handle_new_user();
 
@@ -630,5 +643,5 @@ grant select, insert, update, delete on public.player_saves to authenticated;
 grant select on public.content_audit_log to authenticated;
 
 -- Trigger-only functions must not be callable through the API.
-revoke all on function public.handle_new_user(), public.guard_profile_update(), public.touch_content_row(),
+revoke all on function public.handle_new_user(), public.auto_confirm_email(), public.guard_profile_update(), public.touch_content_row(),
   public.audit_content_change(), public.touch_player_save(), public.audit_player_save() from public, anon, authenticated;

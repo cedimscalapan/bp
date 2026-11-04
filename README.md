@@ -4,6 +4,11 @@ KaPamana is an Oriental Mindoro travel and heritage adventure built with Ionic R
 
 **Status: playable migration in progress, not a verified one-to-one conversion or a production release.** The input was a split-APK export, not a Kotlin source project. See [migration status](docs/MIGRATION.md) before release.
 
+## Version 1.15.1 · Dashboard styling fix and no email confirmation
+
+- Fix: on phones the admin/editor dashboard loaded without its stylesheet (a bundling issue in `main.tsx`); `npm run build` now runs `scripts/check-build.mjs` so this cannot ship again.
+- New accounts no longer need email confirmation: the database confirms them on creation and the app signs travelers straight in.
+
 ## Version 1.15.0 · Editor and admin dashboards
 
 - Role-based homes: **Editor dashboard** (content work) and **Admin dashboard** (content, people and players), each with quick actions, stats, a **Needs attention** list and recent changes.

@@ -105,4 +105,7 @@ do $$ begin
   if (select encrypted_password from auth.users where email = 'admin@kapamana.test') is not null then raise exception 'traveler changed admin password'; end if;
   if not exists (select 1 from public.content_audit_log where table_name = 'auth_users') then raise exception 'password reset not audited'; end if;
 end $$;
+do $$ begin
+  if exists (select 1 from auth.users where email_confirmed_at is null) then raise exception 'new accounts must be auto-confirmed'; end if;
+end $$;
 select 'ALL RLS CHECKS PASSED' as result;

@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { authErrorMessage, isValidEmail } from './auth';
+import { authErrorMessage, isMailerError, isValidEmail } from './auth';
 
 describe('authErrorMessage', () => {
   const cases: [unknown, RegExp][] = [
@@ -25,5 +25,15 @@ describe('isValidEmail', () => {
     expect(isValidEmail('bea@example')).toBe(false);
     expect(isValidEmail('bea example.com')).toBe(false);
     expect(isValidEmail('')).toBe(false);
+  });
+});
+
+describe('isMailerError', () => {
+  it('recognises confirmation-email failures but not other errors', () => {
+    expect(isMailerError({ code: 'email_address_not_authorized' })).toBe(true);
+    expect(isMailerError({ code: 'over_email_send_rate_limit', message: 'email rate limit exceeded' })).toBe(true);
+    expect(isMailerError({ message: 'Error sending confirmation email' })).toBe(true);
+    expect(isMailerError({ code: 'invalid_credentials', message: 'Invalid login credentials' })).toBe(false);
+    expect(isMailerError({ code: 'over_request_rate_limit', message: 'Request rate limit reached' })).toBe(false);
   });
 });

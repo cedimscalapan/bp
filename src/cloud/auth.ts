@@ -31,12 +31,27 @@ export async function signUpTraveler(email: string, password: string, travelerNa
     password,
     options: { data: { display_name: travelerName.trim().slice(0, 24) || undefined } },
   });
-  if (error) throw error;
+  // New accounts are confirmed by the database (auto_confirm_email trigger), so even when Supabase still has
+  // "Confirm email" switched on, or could not send the confirmation email, the traveler can sign in right away.
+  const trySignIn = async () => !(await getSupabase()!.auth.signInWithPassword({ email: email.trim(), password })).error;
+  if (error) {
+    if (isMailerError(error) && await trySignIn()) return { kind: 'signed-in' };
+    throw error;
+  }
   // Supabase returns a fake user with no identities when the email is already registered (anti-enumeration).
   if (data.user && Array.isArray(data.user.identities) && data.user.identities.length === 0) {
     throw Object.assign(new Error('User already registered'), { code: 'user_already_exists' });
   }
-  return data.session ? { kind: 'signed-in' } : { kind: 'confirm-email' };
+  if (data.session) return { kind: 'signed-in' };
+  return (await trySignIn()) ? { kind: 'signed-in' } : { kind: 'confirm-email' };
+}
+
+/** Errors caused by Supabase failing to send (or being limited from sending) the confirmation email. */
+export function isMailerError(error: unknown): boolean {
+  const e = (error ?? {}) as { message?: string; code?: string };
+  const message = (e.message ?? '').toLowerCase();
+  return ['over_email_send_rate_limit', 'email_address_not_authorized', 'unexpected_failure'].includes(e.code ?? '')
+    || message.includes('confirmation email') || message.includes('email rate limit') || message.includes('not authorized');
 }
 
 export async function signInTraveler(email: string, password: string): Promise<void> {
