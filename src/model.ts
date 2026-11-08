@@ -2,7 +2,7 @@ import { validChallengeRecords, type ChallengeRecord } from './challengeProgress
 import { freshLearning, validLearning, type LearningProgress } from './learning';
 export type Mission = { type: string; target: number; timeLimit: number; secondaryTarget?: number; minimumKeepsakes?:number; maximumDamage?: number };
 export type Level = { id: string; destinationID: string; number: number; title: string; mission: Mission; lives: number; speedMultiplier: number; spawnIntervalMultiplier: number; obstacleDensity: number; hazardFrequency: number; rewardTravelerXP: number; rewardDestinationXP: number; oneStarScore: number; twoStarScore: number; threeStarScore: number; failureXPFactor: number; isFinalChallenge: boolean };
-export type Destination = { destinationID: string; name: string; group: string; image: string; signatureItemName: string; signatureImage: string; levels: Level[]; recovered: boolean; custom?: boolean; localityType?: string; sourceUrl?: string };
+export type Destination = { destinationID: string; name: string; group: string; image: string; signatureItemName: string; signatureImage: string; levels: Level[]; recovered: boolean; custom?: boolean; localityType?: string; sourceUrl?: string; passportImage?: string; spriteImage?: string; spriteName?: string };
 export type Buddy = { id: string; name: string; skill: string; description: string };
 export const buddies: Buddy[] = [
  {id:'cat',name:'Cat',skill:'Nine Lives',description:'Survive one fatal hit per run with one heart and brief protection.'},

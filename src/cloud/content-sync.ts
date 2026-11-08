@@ -30,6 +30,7 @@ export const contentStatus: ContentStatus = { source: 'bundled', tables: [], ski
 
 type AnyRecord = Record<string, unknown>;
 const replace = (target: unknown[], items: AnyRecord[]) => { target.splice(0, target.length, ...items); };
+const bundledFestivals = catalog.filter(d => d.group === 'Oriental Mindoro Festivals');
 
 const targets: Record<ContentTableName, unknown[]> = {
   announcements,
@@ -58,7 +59,12 @@ export function applyContentSnapshot(snapshot: ContentSnapshot): { tables: Conte
       return problems.length === 0;
     });
     if (!valid.length) continue;
-    replace(targets[table.table], valid.map(row => fromRow(table, row)));
+    const mapped = valid.map(row => fromRow(table, row));
+    if (table.table === 'destinations') {
+      const ids = new Set(mapped.map(row => (row as AnyRecord).destinationID));
+      mapped.push(...bundledFestivals.filter(d => !ids.has(d.destinationID)));
+    }
+    replace(targets[table.table], mapped);
     applied.push(table.table);
   }
   return { tables: applied, skippedRows };

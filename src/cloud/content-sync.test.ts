@@ -20,7 +20,7 @@ describe('content overlay', () => {
     const result = applyContentSnapshot(snapshot);
     expect(result.skippedRows).toBe(0);
     expect(result.tables).toHaveLength(contentTables.length);
-    expect(catalog).toHaveLength(69);
+    expect(catalog).toHaveLength(87);
     expect(heritage.profiles).toHaveLength(15);
   });
 

@@ -55,7 +55,7 @@ const f = (key: string, label: string, type: FieldType, extra: Partial<ContentFi
 });
 const sourceIDs = f('sourceIDs', 'Source IDs', 'textlist', { help: 'IDs from the Sources table, one per line.' });
 const placeID = f('placeID', 'Place (destination ID)', 'text', { required: true, listed: true, help: 'e.g. oriental_mindoro_calapan_city' });
-export const destinationGroups = ['Oriental Mindoro', 'North Luzon', 'South Luzon', 'Metro Manila', 'Island Voyage', 'International'] as const;
+export const destinationGroups = ['Oriental Mindoro', 'Oriental Mindoro Festivals', 'North Luzon', 'South Luzon', 'Metro Manila', 'Island Voyage', 'International'] as const;
 
 export const contentTables: readonly ContentTable[] = [
   {
@@ -84,6 +84,9 @@ export const contentTables: readonly ContentTable[] = [
       f('image', 'Destination image', 'text', { required: true, help: 'File in /assets, e.g. destination_oriental_mindoro_calapan_city.webp, or a full https:// URL.' }),
       f('signatureItemName', 'Keepsake name', 'text', { required: true }),
       f('signatureImage', 'Keepsake image', 'text', { required: true }),
+      f('passportImage', 'Passport icon', 'text'),
+      f('spriteImage', 'Runner sprite', 'text'),
+      f('spriteName', 'Runner name', 'text'),
       f('levels', 'Runner missions', 'json', { required: true, help: '[{ "id", "number", "title", "mission": { "type", "target", "timeLimit" }, "lives", ... }]' }),
       f('sourceUrl', 'Source URL', 'url'),
       f('recovered', 'Recovered original route', 'bool'),
