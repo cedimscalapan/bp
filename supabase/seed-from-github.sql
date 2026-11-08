@@ -28,7 +28,7 @@ select x ->> 'id',
 from jsonb_array_elements($pamana$[{"id":"welcome-kapamana-online","title":"Maligayang pagdating, Traveler!","body":"KaPamana places, missions and stories can now be refreshed by the KaPamana team without a new app download. Your progress stays on this device unless you sign in to back it up.","category":"update","pinned":true}]$pamana$::jsonb) with ordinality as t(x, o)
 on conflict (id) do nothing;
 
-insert into public.destinations (id, name, adventure_group, locality_type, image, signature_item_name, signature_image, levels, source_url, recovered, custom, sort_order)
+insert into public.destinations (id, name, adventure_group, locality_type, image, signature_item_name, signature_image, passport_image, sprite_image, sprite_name, levels, source_url, recovered, custom, sort_order)
 select x ->> 'destinationID',
   (x ->> 'name')::text,
   (x ->> 'group')::text,
@@ -36,6 +36,9 @@ select x ->> 'destinationID',
   (x ->> 'image')::text,
   (x ->> 'signatureItemName')::text,
   (x ->> 'signatureImage')::text,
+  (x ->> 'passportImage')::text,
+  (x ->> 'spriteImage')::text,
+  (x ->> 'spriteName')::text,
   x -> 'levels',
   (x ->> 'sourceUrl')::text,
   coalesce((x ->> 'recovered')::boolean, false),

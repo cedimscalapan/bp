@@ -57,6 +57,26 @@ for slug, title, locality, motif, glyph, color in FESTIVALS:
           'failureXPFactor':.18,'isFinalChallenge':i==3})
     catalog.append({'destinationID':dest_id,'name':title,'group':'Oriental Mindoro Festivals','image':f'festival/{slug}_background.png',
       'signatureItemName':f'{title} keepsake','signatureImage':f'festival/{slug}_item.png','passportImage':f'festival/{slug}_icon.png',
-      'spriteImage':f'festival/{slug}_runner.png','spriteName':'Festival runner','localityType':locality,'sourceUrl':'https://www.travelorientalmindoro.ph/Festivals/',
+      'spriteImage':f'festival/{slug}_runner.png','spriteName':'Festival guide','localityType':locality,'sourceUrl':'https://www.travelorientalmindoro.ph/Festivals/',
       'levels':levels,'recovered':False,'custom':True})
 CATALOG.write_text(json.dumps(catalog, ensure_ascii=False, indent=2)+'\n', encoding='utf-8')
+festival_rows = [d for d in catalog if d['group'] == 'Oriental Mindoro Festivals']
+migration = ROOT / 'supabase' / 'migrations' / '20261108000200_seed_festival_destinations.sql'
+migration.write_text('''-- Publish festival routes to existing Supabase projects after the festival columns migration.
+insert into public.destinations
+  (id, name, adventure_group, locality_type, image, signature_item_name, signature_image,
+   passport_image, sprite_image, sprite_name, levels, source_url, recovered, custom, sort_order)
+select x ->> 'destinationID', x ->> 'name', x ->> 'group', x ->> 'localityType',
+       x ->> 'image', x ->> 'signatureItemName', x ->> 'signatureImage',
+       x ->> 'passportImage', x ->> 'spriteImage', x ->> 'spriteName',
+       x -> 'levels', x ->> 'sourceUrl', false, true, (o + 68)::int
+from jsonb_array_elements($festival$''' + json.dumps(festival_rows, ensure_ascii=False, separators=(',', ':')) + '''$festival$::jsonb) with ordinality as t(x, o)
+on conflict (id) do update set
+  name = excluded.name, adventure_group = excluded.adventure_group,
+  locality_type = excluded.locality_type, image = excluded.image,
+  signature_item_name = excluded.signature_item_name, signature_image = excluded.signature_image,
+  passport_image = excluded.passport_image, sprite_image = excluded.sprite_image,
+  sprite_name = excluded.sprite_name, levels = excluded.levels,
+  source_url = excluded.source_url, recovered = excluded.recovered,
+  custom = excluded.custom;
+''', encoding='utf-8')

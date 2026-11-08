@@ -11560,7 +11560,7 @@
     "signatureImage": "festival/calapan_city_item.png",
     "passportImage": "festival/calapan_city_icon.png",
     "spriteImage": "festival/calapan_city_runner.png",
-    "spriteName": "Festival runner",
+    "spriteName": "Festival guide",
     "localityType": "Calapan City",
     "sourceUrl": "https://www.travelorientalmindoro.ph/Festivals/",
     "levels": [
@@ -11678,7 +11678,7 @@
     "signatureImage": "festival/calapan_pandang_gitab_item.png",
     "passportImage": "festival/calapan_pandang_gitab_icon.png",
     "spriteImage": "festival/calapan_pandang_gitab_runner.png",
-    "spriteName": "Festival runner",
+    "spriteName": "Festival guide",
     "localityType": "Calapan City",
     "sourceUrl": "https://www.travelorientalmindoro.ph/Festivals/",
     "levels": [
@@ -11796,7 +11796,7 @@
     "signatureImage": "festival/calapan_mahal_tana_item.png",
     "passportImage": "festival/calapan_mahal_tana_icon.png",
     "spriteImage": "festival/calapan_mahal_tana_runner.png",
-    "spriteName": "Festival runner",
+    "spriteName": "Festival guide",
     "localityType": "Calapan City",
     "sourceUrl": "https://www.travelorientalmindoro.ph/Festivals/",
     "levels": [
@@ -11914,7 +11914,7 @@
     "signatureImage": "festival/calapan_salong_dagitab_item.png",
     "passportImage": "festival/calapan_salong_dagitab_icon.png",
     "spriteImage": "festival/calapan_salong_dagitab_runner.png",
-    "spriteName": "Festival runner",
+    "spriteName": "Festival guide",
     "localityType": "Calapan City",
     "sourceUrl": "https://www.travelorientalmindoro.ph/Festivals/",
     "levels": [
@@ -12032,7 +12032,7 @@
     "signatureImage": "festival/baco_item.png",
     "passportImage": "festival/baco_icon.png",
     "spriteImage": "festival/baco_runner.png",
-    "spriteName": "Festival runner",
+    "spriteName": "Festival guide",
     "localityType": "Baco",
     "sourceUrl": "https://www.travelorientalmindoro.ph/Festivals/",
     "levels": [
@@ -12150,7 +12150,7 @@
     "signatureImage": "festival/bansud_item.png",
     "passportImage": "festival/bansud_icon.png",
     "spriteImage": "festival/bansud_runner.png",
-    "spriteName": "Festival runner",
+    "spriteName": "Festival guide",
     "localityType": "Bansud",
     "sourceUrl": "https://www.travelorientalmindoro.ph/Festivals/",
     "levels": [
@@ -12268,7 +12268,7 @@
     "signatureImage": "festival/bongabong_item.png",
     "passportImage": "festival/bongabong_icon.png",
     "spriteImage": "festival/bongabong_runner.png",
-    "spriteName": "Festival runner",
+    "spriteName": "Festival guide",
     "localityType": "Bongabong",
     "sourceUrl": "https://www.travelorientalmindoro.ph/Festivals/",
     "levels": [
@@ -12386,7 +12386,7 @@
     "signatureImage": "festival/bulalacao_item.png",
     "passportImage": "festival/bulalacao_icon.png",
     "spriteImage": "festival/bulalacao_runner.png",
-    "spriteName": "Festival runner",
+    "spriteName": "Festival guide",
     "localityType": "Bulalacao",
     "sourceUrl": "https://www.travelorientalmindoro.ph/Festivals/",
     "levels": [
@@ -12504,7 +12504,7 @@
     "signatureImage": "festival/gloria_item.png",
     "passportImage": "festival/gloria_icon.png",
     "spriteImage": "festival/gloria_runner.png",
-    "spriteName": "Festival runner",
+    "spriteName": "Festival guide",
     "localityType": "Gloria",
     "sourceUrl": "https://www.travelorientalmindoro.ph/Festivals/",
     "levels": [
@@ -12622,7 +12622,7 @@
     "signatureImage": "festival/mansalay_item.png",
     "passportImage": "festival/mansalay_icon.png",
     "spriteImage": "festival/mansalay_runner.png",
-    "spriteName": "Festival runner",
+    "spriteName": "Festival guide",
     "localityType": "Mansalay",
     "sourceUrl": "https://www.travelorientalmindoro.ph/Festivals/",
     "levels": [
@@ -12740,7 +12740,7 @@
     "signatureImage": "festival/naujan_item.png",
     "passportImage": "festival/naujan_icon.png",
     "spriteImage": "festival/naujan_runner.png",
-    "spriteName": "Festival runner",
+    "spriteName": "Festival guide",
     "localityType": "Naujan",
     "sourceUrl": "https://www.travelorientalmindoro.ph/Festivals/",
     "levels": [
@@ -12858,7 +12858,7 @@
     "signatureImage": "festival/pinamalayan_item.png",
     "passportImage": "festival/pinamalayan_icon.png",
     "spriteImage": "festival/pinamalayan_runner.png",
-    "spriteName": "Festival runner",
+    "spriteName": "Festival guide",
     "localityType": "Pinamalayan",
     "sourceUrl": "https://www.travelorientalmindoro.ph/Festivals/",
     "levels": [
@@ -12976,7 +12976,7 @@
     "signatureImage": "festival/pola_item.png",
     "passportImage": "festival/pola_icon.png",
     "spriteImage": "festival/pola_runner.png",
-    "spriteName": "Festival runner",
+    "spriteName": "Festival guide",
     "localityType": "Pola",
     "sourceUrl": "https://www.travelorientalmindoro.ph/Festivals/",
     "levels": [
@@ -13094,7 +13094,7 @@
     "signatureImage": "festival/puerto_galera_item.png",
     "passportImage": "festival/puerto_galera_icon.png",
     "spriteImage": "festival/puerto_galera_runner.png",
-    "spriteName": "Festival runner",
+    "spriteName": "Festival guide",
     "localityType": "Puerto Galera",
     "sourceUrl": "https://www.travelorientalmindoro.ph/Festivals/",
     "levels": [
@@ -13212,7 +13212,7 @@
     "signatureImage": "festival/roxas_item.png",
     "passportImage": "festival/roxas_icon.png",
     "spriteImage": "festival/roxas_runner.png",
-    "spriteName": "Festival runner",
+    "spriteName": "Festival guide",
     "localityType": "Roxas",
     "sourceUrl": "https://www.travelorientalmindoro.ph/Festivals/",
     "levels": [
@@ -13330,7 +13330,7 @@
     "signatureImage": "festival/san_teodoro_item.png",
     "passportImage": "festival/san_teodoro_icon.png",
     "spriteImage": "festival/san_teodoro_runner.png",
-    "spriteName": "Festival runner",
+    "spriteName": "Festival guide",
     "localityType": "San Teodoro",
     "sourceUrl": "https://www.travelorientalmindoro.ph/Festivals/",
     "levels": [
@@ -13448,7 +13448,7 @@
     "signatureImage": "festival/socorro_item.png",
     "passportImage": "festival/socorro_icon.png",
     "spriteImage": "festival/socorro_runner.png",
-    "spriteName": "Festival runner",
+    "spriteName": "Festival guide",
     "localityType": "Socorro",
     "sourceUrl": "https://www.travelorientalmindoro.ph/Festivals/",
     "levels": [
@@ -13566,7 +13566,7 @@
     "signatureImage": "festival/victoria_item.png",
     "passportImage": "festival/victoria_icon.png",
     "spriteImage": "festival/victoria_runner.png",
-    "spriteName": "Festival runner",
+    "spriteName": "Festival guide",
     "localityType": "Victoria",
     "sourceUrl": "https://www.travelorientalmindoro.ph/Festivals/",
     "levels": [

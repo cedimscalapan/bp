@@ -11,10 +11,11 @@
  */
 import { mkdirSync, writeFileSync } from 'node:fs';
 import { dirname, resolve } from 'node:path';
+import { fileURLToPath } from 'node:url';
 import { contentTables, sqlType, toRow, type ContentTable } from '../src/admin/content-schema';
 import { bundledContent } from '../src/admin/seed-records';
 
-const root = resolve(dirname(new URL(import.meta.url).pathname), '..');
+const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const write = (path: string, text: string) => {
   const target = resolve(root, path);
   mkdirSync(dirname(target), { recursive: true });
