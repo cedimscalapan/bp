@@ -11,3 +11,5 @@ android/build/
 *.keystore
 test-results/
 playwright-report/
+presentation/.build/
+presentation/video-source/

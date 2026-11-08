@@ -95,6 +95,10 @@ Every push to `main` runs the **Build Android APK** workflow. Open the repositor
 
 Latest builds: [GitHub Actions](https://github.com/cedimscalapan/bp/actions/workflows/android-apk.yml). Download the KaPamana-Android artifact from a successful run for the latest commit. Artifacts expire after 30 days.
 
+## Presentation kit
+
+The [KA-PAMANA presentation kit](presentation/README.md) includes print-ready Chapters 1 and 3, an editable document, a six-slide deck, a 72-second offline feature video, and a live-demo runbook.
+
 ## Included
 
 - Ionic onboarding, home port, five active route groups, destination/level selection, Buddy team, shop, passport, missions, settings, and results.
