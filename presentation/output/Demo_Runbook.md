@@ -31,19 +31,19 @@ The converter renders a Latin spelling for script practice. It does not translat
 
 1. Switch from the primary connection to the backup hotspot and reopen the app.
 2. If the phone cannot connect, show the already installed app's offline screens and local save.
-3. Play the local `KaPamana_Feature_Video_Motion.mp4` from the laptop. The video lasts **72 seconds** and does not need internet.
+3. Play the local `KaPamana_Actual_App_Demo.mp4` from the laptop. The video lasts **90 seconds** and does not need internet. The earlier `KaPamana_Feature_Video_Motion.mp4` remains a backup.
 4. Continue with the slide deck and answer questions using the printed documentation.
 
-## Suggested 72-second video narration
+## Suggested 90-second video narration
 
 | Seconds | Narration |
 | --- | --- |
-| 0–12 | “KaPamana is our mobile application for learning about Oriental Mindoro's culture and heritage through play.” |
-| 12–24 | “Travelers choose a Buddy, then complete short runner missions by collecting items and avoiding hazards.” |
-| 24–36 | “The app includes 18 Oriental Mindoro festival routes and 72 festival missions. Festival characters guide the route while the chosen Buddy runs.” |
-| 36–48 | “The learning studio introduces Hanunó'o characters. Users can enter a word, trace its script rendering, and save or share a practice image.” |
-| 48–60 | “Mission results build a passport with stars and stamps. Progress saves on the phone and syncs to the traveler's account when online.” |
-| 60–72 | “For the live demonstration, we will show sign-in, a festival run, the passport, and a saved tracing.” |
+| 0–13 | “KaPamana brings Oriental Mindoro's culture and heritage into a mobile adventure. Here we open Calapan in the real app.” |
+| 13–28 | “Our chosen Buddy runs the mission. We collect keepsakes, avoid obstacles, and build a score.” |
+| 28–44 | “Every mission leads back to learning. We answer a heritage question and read more in the journal.” |
+| 44–61 | “Travelers can choose their companion, then learn Hanunó’o characters by tracing each shape.” |
+| 61–76 | “We can also type a word for character-by-character spelling practice. The app opens Android's share sheet for the saved tracing.” |
+| 76–90 | “This is the actual image exported by the app. We will now demonstrate the app live.” |
 
 ## Presentation record
 
