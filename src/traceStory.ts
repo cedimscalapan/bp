@@ -9,7 +9,7 @@ export async function traceStoryPng(d:Drawing):Promise<string>{
  await document.fonts.load('120px Hanunoo');await document.fonts.load('60px Fredoka');
  const canvas=document.createElement('canvas');canvas.width=W;canvas.height=H;const c=canvas.getContext('2d');if(!c)throw Error('Image creation is unavailable.');
  const bg=c.createLinearGradient(0,0,W,H);bg.addColorStop(0,'#123f50');bg.addColorStop(.55,'#226f67');bg.addColorStop(1,'#d7a65e');c.fillStyle=bg;c.fillRect(0,0,W,H);
- c.globalAlpha=.15;c.strokeStyle='#fff9dd';c.lineWidth=4;for(let i=-5;i<12;i++){c.beginPath();c.arc(900,330,100+i*80,0,Math.PI*2);c.stroke();}c.globalAlpha=1;
+ c.globalAlpha=.15;c.strokeStyle='#fff9dd';c.lineWidth=4;for(let i=0;i<12;i++){c.beginPath();c.arc(900,330,100+i*80,0,Math.PI*2);c.stroke();}c.globalAlpha=1;
  c.fillStyle='#ffe9a8';for(const [x,y,r] of [[100,270,13],[960,170,11],[90,1430,8],[995,1540,17],[190,1740,9],[905,1100,7]]){c.beginPath();c.arc(x,y,r,0,Math.PI*2);c.fill();}
  c.save();c.shadowColor='#092b33';c.shadowBlur=70;c.shadowOffsetY=30;c.fillStyle='#fffaf0';round(c,76,280,928,1320,48);c.fill();c.restore();
  c.fillStyle='#dcae57';round(c,116,320,848,13,7);c.fill();
