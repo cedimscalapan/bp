@@ -31,7 +31,7 @@ The converter renders a Latin spelling for script practice. It does not translat
 
 1. Switch from the primary connection to the backup hotspot and reopen the app.
 2. If the phone cannot connect, show the already installed app's offline screens and local save.
-3. Play the local `KaPamana_Feature_Video.mp4` from the laptop. The video lasts **72 seconds** and does not need internet.
+3. Play the local `KaPamana_Feature_Video_Motion.mp4` from the laptop. The video lasts **72 seconds** and does not need internet.
 4. Continue with the slide deck and answer questions using the printed documentation.
 
 ## Suggested 72-second video narration
