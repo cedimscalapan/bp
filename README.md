@@ -35,6 +35,8 @@ KaPamana is an Oriental Mindoro travel and heritage adventure built with Ionic R
 
 KaPamana includes introductions for all 15 Oriental Mindoro locations, 75 sourced post-run discoveries, themed keepsakes, visitor-care prompts and badges, optional recaps, and persistent heritage journals. See [implementation details](docs/HERITAGE-IMPLEMENTATION.md) and the original [culture plan](docs/CULTURE-INTEGRATION-PLAN.md). Existing package/save identifiers stay stable for upgrade compatibility.
 
+The traveler cover and every destination or festival passport page can be saved as a complete 1080 × 1920 PNG or shared through the phone's share sheet. Each page shows current mission progress and its earned stamp, if available. Save and Share actions appear in both Passport and Cards views. Android saves images under Documents/KaPamana/Passports; sharing uses the same native flow as tracing. The selected social app handles any final posting step.
+
 ## Version 1.10.0
 
 - Fifteen separate local tokens, passport stamps and fictional story sprites: 45 distinct image files.

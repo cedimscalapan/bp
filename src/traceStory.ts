@@ -1,7 +1,5 @@
-import { Capacitor } from '@capacitor/core';
-import { Directory, Filesystem } from '@capacitor/filesystem';
-import { Share } from '@capacitor/share';
 import type { Drawing } from './learning';
+import { saveStoryPng, shareStoryPng } from './storyExport';
 
 const W=1080,H=1920;
 function round(ctx:CanvasRenderingContext2D,x:number,y:number,w:number,h:number,r:number){ctx.beginPath();ctx.roundRect(x,y,w,h,r);}
@@ -26,5 +24,5 @@ export async function traceStoryPng(d:Drawing):Promise<string>{
  return canvas.toDataURL('image/png');
 }
 function filename(d:Drawing){return `kapamana-trace-${d.savedAt.slice(0,10)}-${d.id.replace(/[^a-z0-9-]/gi,'').slice(0,12)}.png`;}
-export async function saveTraceStory(d:Drawing){const data=await traceStoryPng(d);const name=filename(d);if(Capacitor.isNativePlatform()){await Filesystem.writeFile({path:`KaPamana/${name}`,data:data.split(',')[1],directory:Directory.Documents,recursive:true});return name;}const a=document.createElement('a');a.href=data;a.download=name;a.click();return name;}
-export async function shareTraceStory(d:Drawing){const data=await traceStoryPng(d);const name=filename(d);if(Capacitor.isNativePlatform()){const {uri}=await Filesystem.writeFile({path:name,data:data.split(',')[1],directory:Directory.Cache});await Share.share({title:'My KaPamana tracing',text:'My Hanunó’o tracing practice',files:[uri],dialogTitle:'Share your tracing'});return;}const file=new File([await (await fetch(data)).blob()],name,{type:'image/png'});if(navigator.share&&navigator.canShare?.({files:[file]})){await navigator.share({files:[file],title:'My KaPamana tracing'});return;}const a=document.createElement('a');a.href=data;a.download=name;a.click();}
+export async function saveTraceStory(d:Drawing){const data=await traceStoryPng(d);return saveStoryPng(data,filename(d),'');}
+export async function shareTraceStory(d:Drawing){const data=await traceStoryPng(d);await shareStoryPng(data,filename(d),{title:'My KaPamana tracing',text:'My Hanunó’o tracing practice',dialogTitle:'Share your tracing'});}
