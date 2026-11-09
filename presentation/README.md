@@ -19,3 +19,5 @@ The `output` folder contains:
 - `Screen_Recording_Shot_List.md` — optional shots to capture later if the team wants to expand the live-footage cut.
 
 Install the latest successful Android debug APK from [the build workflow](https://github.com/cedimscalapan/bp/actions/workflows/android-apk.yml) on a phone before the presentation. GitHub may require sign-in to download the artifact. Store the APK, MP4, and PPTX locally before the session.
+
+The tables in the complete manuscript use numbered APA-style labels, italic titles, horizontal rules, and explanatory notes where needed. The Word document can be regenerated from the Markdown source with `scripts/build_chapters_1_to_3.py` using Python and `python-docx`.

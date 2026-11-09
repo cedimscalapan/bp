@@ -38,6 +38,10 @@ The specific objectives are to:
 
 The system follows an input-process-output model with a feedback loop. Inputs include selected place and festival content, script references, artwork, player actions, and account data. The app transforms these through game rules, feedback, learning exercises, storage, and synchronization. Outputs include a completed mission, passport progress, saved practice, and a shareable tracing image. Test results and content review feed back into later revisions. This model describes the software workflow, not a proven causal relationship between gameplay and cultural knowledge.
 
+**Table 1**
+
+*Conceptual Framework*
+
 | Element | KaPamana implementation | Expected observable output |
 | --- | --- | --- |
 | Inputs | Catalog records, attributed heritage text, Unicode-based character rules, generated and recovered art, touch input, optional account session | Selected destination, mission, word, or tracing target |
@@ -103,6 +107,10 @@ ISO/IEC 25010:2023 provides a product-quality model that can guide requirements 
 
 ## Synthesis of the Reviewed Sources
 
+**Table 2**
+
+*Synthesis of Reviewed Sources*
+
 | Source | Contribution to the study | Design or evaluation implication |
 | --- | --- | --- |
 | PSA (2025) | Defines the province's city and municipalities | Use 15 local government units as the geographic frame; avoid claiming the catalog exhausts local culture |
@@ -111,6 +119,8 @@ ISO/IEC 25010:2023 provides a product-quality model that can guide requirements 
 | Sailer and Homner (2020) | Synthesizes effects and variation in gamified learning studies | Link play to learning tasks and measure comprehension separately from game score |
 | Ruiz-Calleja et al. (2023) | Demonstrates a studied mobile heritage-learning application | Evaluate KaPamana with observed users and explicit measures, rather than assuming impact |
 | ISO (2019, 2023) and Supabase (n.d.) | Provides design, product-quality, and access-control guidance | Test task flows, quality characteristics, and account-level data protection |
+
+*Note.* Implications are design guidance, not measured KaPamana outcomes.
 
 The reviewed work supports an interactive, place-based prototype but also exposes its central gap: KaPamana's implementation is documented, while its effect on learning, its usability across users and devices, and the cultural suitability of its representations remain to be established with direct evidence. The contribution of this study is a working, inspectable system and a clear evaluation protocol for those later claims. It does not assert that KaPamana is the first or only heritage application for Oriental Mindoro.
 
@@ -130,6 +140,10 @@ KaPamana is designed for Android-oriented mobile use, with a web build used for 
 
 Requirements were drawn from the app concept, the province-focused content plan, the available BuddyPort material, the team's requested features, and inspection of the current implementation. A requirement is treated as implemented only when there is corresponding code or catalog data; a desired educational result remains an evaluation question. The principal functional requirements are summarized below.
 
+**Table 3**
+
+*Functional Requirements*
+
 | ID | Functional requirement | Implementation evidence |
 | --- | --- | --- |
 | FR01 | Let a traveler create an account or sign in before first use on a configured build | Authentication gate and Supabase Auth integration |
@@ -148,6 +162,10 @@ Nonfunctional requirements include readable mobile controls, clear labels for cu
 ## System Architecture
 
 The implementation separates interaction, game and learning logic, content, persistence, and cloud services. The mobile app uses Ionic React and TypeScript; Capacitor supplies the Android shell and native plugins. Structured JSON provides a bundled catalog and fallback content. Supabase stores published content, authentication data, and account-linked player saves. On startup, the app attempts to prepare content and synchronize a newer save before loading the game interface, but those operations are time-limited so the app can fall back to local resources.
+
+**Table 4**
+
+*System Architecture*
 
 | Layer | Main components | Responsibility |
 | --- | --- | --- |
@@ -191,6 +209,10 @@ The production build command checks TypeScript, bundles the app, and verifies th
 ## Verification Results and Current Limits
 
 The following checks were executed against the repository snapshot on 9 November 2026. They establish the status of these particular checks, not universal correctness.
+
+**Table 5**
+
+*Verification Results*
 
 | Check | Observed result | Interpretation |
 | --- | --- | --- |
