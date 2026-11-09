@@ -34,16 +34,9 @@ The converter renders a Latin spelling for script practice. It does not translat
 3. Play the local `KaPamana_Actual_App_Demo.mp4` from the laptop. The video lasts **90 seconds** and does not need internet. The earlier `KaPamana_Feature_Video_Motion.mp4` remains a backup.
 4. Continue with the slide deck and answer questions using the printed documentation.
 
-## Suggested 90-second video narration
+## Narrated video
 
-| Seconds | Narration |
-| --- | --- |
-| 0–13 | “KaPamana brings Oriental Mindoro's culture and heritage into a mobile adventure. Here we open Calapan in the real app.” |
-| 13–28 | “Our chosen Buddy runs the mission. We collect keepsakes, avoid obstacles, and build a score.” |
-| 28–44 | “Every mission leads back to learning. We answer a heritage question and read more in the journal.” |
-| 44–61 | “Travelers can choose their companion, then learn Hanunó’o characters by tracing each shape.” |
-| 61–76 | “We can also type a word for character-by-character spelling practice. The app opens Android's share sheet for the saved tracing.” |
-| 76–90 | “This is the actual image exported by the app. We will now demonstrate the app live.” |
+The 90-second video has its own Filipino-English voiceover, music, and on-screen titles. Play it with the presentation laptop's sound enabled. The complete voiceover text is in `Video_Narration_Script.md`; presenters can introduce the video and then let it play without speaking over it.
 
 ## Presentation record
 
