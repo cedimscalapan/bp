@@ -6,7 +6,7 @@
 
 ## Before leaving for the presentation
 
-- Print the Chapters 1 and 3 document on **8.5 × 13 inch long bond paper**. Print the number of copies required for each subject.
+- Print `KaPamana_Chapters_1_to_3_Print.pdf` on **8.5 × 13 inch long bond paper**. Print the number of copies required for each subject.
 - Copy the PowerPoint and MP4 to the presentation laptop and a USB drive. Confirm that the MP4 plays **offline** from the local copy.
 - Download the latest successful **KaPamana-Android** artifact from [the Android build workflow](https://github.com/cedimscalapan/bp/actions/workflows/android-apk.yml). Unzip it and install `app-debug.apk` on the Android demo phone before presentation day.
 - Sign in with a dedicated test account. Avoid showing its password or personal email on the projector.

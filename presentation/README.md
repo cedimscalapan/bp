@@ -4,6 +4,9 @@ Prepared for Abao, Mathew Andrei F.; Araño, John Christopher C.; and Palpallato
 
 The `output` folder contains:
 
+- `KaPamana_Chapters_1_to_3_Print.pdf` — complete, print-ready Chapters 1–3 and references on 8.5 × 13 inch long bond paper. Review any school-specific formatting rule before printing copies for each subject.
+- `KaPamana_Chapters_1_to_3.docx` — editable copy of the complete manuscript.
+- `KaPamana_Chapters_1_to_3.md` — plain-text manuscript source for quick review and version comparison.
 - `KaPamana_Chapters_1_and_3_Print.pdf` — print-ready Chapters 1 and 3 on 8.5 × 13 inch long bond paper. Review any school-specific formatting rule before printing copies for each subject.
 - `KaPamana_Chapters_1_and_3.docx` — editable copy of the same documentation.
 - `KaPamana_Project_Presentation_Ready.pptx` — six-slide title and features presentation.
