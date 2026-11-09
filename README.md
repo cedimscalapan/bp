@@ -97,7 +97,7 @@ Latest builds: [GitHub Actions](https://github.com/cedimscalapan/bp/actions/work
 
 ## Presentation kit
 
-The [KA-PAMANA presentation kit](presentation/README.md) includes complete print-ready Chapters 1–3, an editable document, a six-slide deck, a 90-second narrated demo cut from the team's phone recording, a phone-recording shot list, and a live-demo runbook.
+The [KA-PAMANA presentation kit](presentation/README.md) includes complete print-ready Chapters 1–3, an editable document, a 20-slide presentation with speaker notes, a 90-second narrated demo cut from the team's phone recording, a phone-recording shot list, and a live-demo runbook.
 
 ## Included
 

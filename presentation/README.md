@@ -9,6 +9,7 @@ The `output` folder contains:
 - `KaPamana_Chapters_1_to_3.md` — plain-text manuscript source for quick review and version comparison.
 - `KaPamana_Chapters_1_and_3_Print.pdf` — print-ready Chapters 1 and 3 on 8.5 × 13 inch long bond paper. Review any school-specific formatting rule before printing copies for each subject.
 - `KaPamana_Chapters_1_and_3.docx` — editable copy of the same documentation.
+- `KaPamana_Complete_Project_Presentation.pptx` — complete 20-slide defense presentation covering Chapters 1–3, the implemented app, actual tracing and sharing evidence, verification, limitations, live demo, and references. Every slide includes presenter notes. Use `KaPamana_Actual_App_Demo.mp4` as the narrated video companion or demo backup.
 - `KaPamana_Project_Presentation_Ready.pptx` — six-slide title and features presentation.
 - `KaPamana_Actual_App_Demo.mp4` — the primary 90-second offline demo, cut from the team's actual Android screen recording. It now includes a narrated story explaining why the app was developed, the actual Android launcher icon, a full uncropped view of the team's saved tracing image, motion graphics, and music. The recording shows Facebook and Instagram in the Android share sheet.
 - `Video_Narration_Script.md` — the complete voiceover text and sharing-footage note.
